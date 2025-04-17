@@ -82,12 +82,17 @@ module.exports = (_env: any, options: WebpackOptionsNormalized): Configuration =
 		}),
 		new HtmlWebpackPlugin({
 			filename: "index.html",
-			template: path.join(srcDir, "index.html"),
+			template: path.join(srcDir, "index.html.ejs"),
+			inject: true,
 		}),
-		new HtmlInlineScriptPlugin({
-			scriptMatchPattern: [/index/],
-			assetPreservePattern: [/service-worker/],
-		}),
+		...(options.mode === "production"
+			? [
+					new HtmlInlineScriptPlugin({
+						scriptMatchPattern: [/index/],
+						assetPreservePattern: [/service-worker/],
+					}),
+				]
+			: []),
 		new CopyPlugin({
 			patterns: [
 				{ from: path.join(srcDir, "resources"), to: path.join(outputDir, "resources") },
