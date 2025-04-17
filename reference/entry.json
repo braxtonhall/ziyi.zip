@@ -1,0 +1,19 @@
+[
+	{
+		"url": "https://letterboxd.com/ziyiyan/film/m-butterfly/",
+		"review": "Love unconditionally",
+		"year": 2025,
+		"month": 4,
+		"day": 7,
+		"rewatch": false,
+		"rating": null,
+		"heart": true,
+		"tags": ["viff center"],
+		"movie": {
+			"title": "M. Butterfly",
+			"year": 1993,
+			"poster": "",
+			"backdrop": ""
+		}
+	}
+]

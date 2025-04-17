@@ -1,0 +1,33 @@
+SETTINGS
+- Poster
+  - Show
+  - Hide
+  - Show on mouse over
+- Movie details
+  - Show
+  - Hide
+  - Show on screen mouse over
+  - Show on poster mouse over
+- Options Overlay
+  - Show
+  - Show on mouse over
+- Spoilers
+  - Show
+  - Skip
+  - Show on click
+- Review Position
+  - Center
+  - Center left
+  - Top left
+  - Bottom left
+- Stars ON/OFF
+- Rewatch ON/OFF
+- Heart ON/OFF
+- Review change frequency
+  - Daily
+  - Every new tab
+
+FEATURES
+- Click a review to go to the review on letterboxd
+- Click a poster to go to the movie on letterboxd
+- Click a backdrop in the history bar to see it again

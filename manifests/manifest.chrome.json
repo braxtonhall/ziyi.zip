@@ -1,0 +1,6 @@
+{
+	"chrome_url_overrides": {
+		"newtab": "index.html"
+	},
+	"key": "TESTING <!-- TODO replace this -->"
+}
