@@ -15,9 +15,13 @@ main
 	background-color: black
 
 	#backdrop
+		top: -5px
+		left: -5px
+		position: absolute
 		object-fit: cover
-		width: 100%
-		height: 100%
+		width: calc(100% + 10px)
+		height: calc(100% + 10px)
+		filter: blur(5px) brightness(65%)
 
 	#movie-info-container
 		position: absolute
@@ -42,10 +46,11 @@ main
 			text-align: right
 
 			#movie-name
-				font-size: 1.5em
-				margin-bottom: 0.1em
-			#movie-year
 				font-size: 1em
+				margin-bottom: 0
+			#movie-year
+				font-size: .8125em
+				margin-top: 0.5em
 
 .loads
 	opacity: 1
