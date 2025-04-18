@@ -16,7 +16,8 @@ const toRatingString = (rating: number | null) => {
 
 export const setMovie = () => {
 	const elements = getElements();
-	const [[url, review]] = Object.entries(reviews);
+	const entries = Object.entries(reviews);
+	const [url, review] = entries[Math.floor(Math.random() * entries.length)];
 	elements.movieName.innerText = review.movie.title;
 	elements.movieYear.innerText = String(review.movie.year);
 
@@ -39,10 +40,13 @@ export const setMovie = () => {
 		elements.tags.append(element);
 	}
 
-	elements.backdropImage.src = review.movie.backdrop;
-	elements.backdropImage.alt = review.movie.title;
-
-	elements.backdropImage.onload = () => elements.backdrop.classList.remove("hidden");
+	if (review.movie.backdrop) {
+		elements.backdropImage.src = review.movie.backdrop;
+		elements.backdropImage.alt = review.movie.title;
+		elements.backdropImage.onload = () => elements.backdrop.classList.remove("hidden");
+	} else {
+		elements.backdrop.classList.remove("hidden");
+	}
 
 	elements.poster.src = review.movie.poster;
 	elements.poster.alt = review.movie.title;
