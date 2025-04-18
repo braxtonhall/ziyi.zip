@@ -48,10 +48,13 @@ export const setMovie = () => {
 		elements.backdrop.classList.remove("hidden");
 	}
 
-	elements.poster.src = review.movie.poster;
 	elements.poster.alt = review.movie.title;
-
-	elements.poster.onload = () => elements.movieInfoContainer.classList.remove("hidden");
+	if (review.movie.poster) {
+		elements.poster.src = review.movie.poster;
+		elements.poster.onload = () => elements.movieInfoContainer.classList.remove("hidden");
+	} else {
+		elements.movieInfoContainer.classList.remove("hidden");
+	}
 
 	elements.movieLink.href = review.movie.url;
 	elements.movieName.href = review.movie.url;
