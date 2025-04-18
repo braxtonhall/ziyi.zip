@@ -2,6 +2,7 @@ import { parse } from "node-html-parser";
 import AsyncPool from "./util/async-pool";
 import * as fs from "node:fs/promises";
 import path from "path";
+import * as JSON5 from "json5";
 
 const args = process.argv.slice(2);
 const username = args[0] ?? "ziyiyan";
@@ -93,12 +94,17 @@ const getImages = async (url: string, pool: AsyncPool): Promise<Images> => {
 		backdropElement?.getAttribute("data-backdrop") ??
 		backdropElement?.getAttribute("data-backdrop-mobile") ??
 		null;
-	const poster = document.querySelector("div.film-poster img")?.getAttribute("src") ?? null;
-	return { backdrop, poster };
+	const script = document.querySelector('script[type="application/ld+json"]');
+	try {
+		return { backdrop, poster: JSON5.parse(script.innerText)?.image ?? null };
+	} catch {
+		return { backdrop, poster: null };
+	}
 };
 
 const completeReview = async (entry: LetterboxdInfo, pool: AsyncPool): Promise<CompletedInfo> => {
 	const [completion, images] = await Promise.all([getReviewInfo(entry.url, pool), getImages(entry.movie.url, pool)]);
+	completed++;
 	return {
 		...entry,
 		...completion,
@@ -116,10 +122,13 @@ const scrapeReviewListPages = async (url: string, pool: AsyncPool): Promise<Comp
 	const [complete, remainder] = await Promise.all([futureCompleteReviews, futureRemainder]);
 	return [...complete, ...remainder];
 };
-
+let completed = 0;
 const fetchReviews = async () => {
-	const pool = new AsyncPool(10);
-	const interval = setInterval(() => console.log(`Executing: ${pool.executing}. Queued: ${pool.queued}`), 2000);
+	const pool = new AsyncPool(20);
+	const interval = setInterval(
+		() => console.log(`Executing: ${pool.executing}. Queued: ${pool.queued}. Completed: ${completed}`),
+		1500,
+	);
 	const reviews = await scrapeReviewListPages(url, pool);
 	clearInterval(interval);
 	const entries = Object.fromEntries(reviews.map((review) => [review.url, review]));
