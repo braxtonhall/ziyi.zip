@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Ziyi at the Cinema</title>
 </head>
-<body>
+<body style="background-color: black">
 <div class="main">
 	<div id="backdrop" class="border-shadow loads hidden">
 		<img id="backdrop-image" src="#" alt="backdrop">
@@ -27,7 +27,7 @@
 		</div>
 	</div>
 
-	<header id="header" class="show-on-hover">
+	<header id="header" class="show-on-hover" style="opacity: 0">
 		<nav id="menu">
 			<% if (process.env.BUILD_ENV === "chrome") { %>
 				<button>
