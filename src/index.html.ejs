@@ -34,6 +34,7 @@
 	<header id="header" class="show-on-hover" style="opacity: 0">
 		<nav id="menu">
 			<% if (process.env.BUILD_ENV === "chrome") { %>
+				<!-- chrome://newtab -->
 				<button>
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
 						 class="icon icon--tab">
@@ -43,6 +44,7 @@
 				</button>
 			<% } %>
 			<% if (process.env.BUILD_ENV === "firefox") { %>
+				<!-- about:newtab -->
 				<button>
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
 						 class="icon icon--tab">
