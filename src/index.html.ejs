@@ -2,7 +2,11 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<% if (process.env.BUILD_ENV === "web") { %>
 	<title>Ziyi at the Cinema</title>
+	<% } else { %>
+	<title>New Tab</title>
+	<% } %>
 </head>
 <body style="background-color: black">
 <div class="main">
