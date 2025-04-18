@@ -28,6 +28,4 @@ SETTINGS
   - Every new tab
 
 FEATURES
-- Click a review to go to the review on letterboxd
-- Click a poster to go to the movie on letterboxd
 - Click a backdrop in the history bar to see it again
