@@ -33,3 +33,5 @@ SETTINGS
 FEATURES
 - Click a backdrop in the history bar to see it again
 - Prefers reduced motion removes animations
+- On small screens small text is enlarged
+- On touch screens nav is ALWAYS visible
