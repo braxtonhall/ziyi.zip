@@ -1,0 +1,34 @@
+name: publish
+
+on:
+  push:
+    branches: ["main"]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [22.x]
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+
+      - name: install node ${{ matrix.node }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node }}
+
+      - name: install packages
+        run: yarn install
+
+      - name: build
+        run: yarn build:web
+
+      - name: deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: dist/web
