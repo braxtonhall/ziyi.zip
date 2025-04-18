@@ -1,17 +1,14 @@
-[
-	{
-		"review": {
-			"url": "https://letterboxd.com/ziyiyan/film/m-butterfly/",
-			"text": "Love unconditionally",
-			"year": 2025,
-			"month": 4,
-			"day": 7,
-			"rewatch": true,
-			"rating": 5,
-			"heart": true,
-			"tags": ["viff center"],
-			"spoiler": false
-		},
+{
+	"https://letterboxd.com/ziyiyan/film/m-butterfly/": {
+		"text": "Love unconditionally",
+		"year": 2025,
+		"month": 4,
+		"day": 7,
+		"rewatch": true,
+		"rating": 5,
+		"heart": true,
+		"tags": ["viff center"],
+		"spoiler": false,
 		"movie": {
 			"title": "M. Butterfly",
 			"year": 1993,
@@ -20,4 +17,4 @@
 			"url": "https://letterboxd.com/film/m-butterfly/"
 		}
 	}
-]
+}

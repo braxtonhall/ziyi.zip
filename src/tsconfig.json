@@ -3,6 +3,7 @@
 	"compilerOptions": {
 		"strict": false,
 		"target": "ES2015",
-		"lib": ["DOM"]
+		"types": [],
+		"lib": ["DOM", "ES2020"]
 	}
 }

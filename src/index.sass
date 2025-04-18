@@ -15,6 +15,30 @@ body
 	overflow: hidden
 	margin: 0
 
+	.show-on-hover
+		opacity: 0
+		transition: opacity .25s ease-in
+	&.ui-active .show-on-hover
+		opacity: 1
+		transition: opacity .25s ease-out
+
+
+#header
+	position: absolute
+	top: 0
+	width: 100%
+	left: 0
+
+	nav
+		float: right
+		margin-right: 1em
+		margin-top: 1em
+		button
+			filter: drop-shadow(5px 5px 5px #222)
+			background-color: transparent
+			outline: none
+			border: none
+
 .main
 	position: relative
 	width: 100%
@@ -96,6 +120,7 @@ body
 			#movie-name
 				font-size: 1em
 				margin-bottom: 0
+				color: white
 			#movie-year
 				font-size: .8125em
 				margin-top: 0.5em

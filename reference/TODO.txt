@@ -29,3 +29,4 @@ SETTINGS
 
 FEATURES
 - Click a backdrop in the history bar to see it again
+- Prefers reduced motion removes animations

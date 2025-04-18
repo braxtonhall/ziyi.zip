@@ -1,7 +1,7 @@
 import "./index.sass";
-import entries from "./entries.json";
+import reviews from "./reviews.json";
 
-const [entry] = entries;
+const [[url, review]] = Object.entries(reviews);
 
 const toRatingString = (rating: number | null) => {
 	if (rating === null) {
@@ -21,7 +21,7 @@ window.addEventListener("pageshow", () => {
 	const backdropImage = document.getElementById("backdrop-image") as HTMLImageElement;
 	const poster = document.getElementById("poster") as HTMLImageElement;
 	const movieInfoContainer = document.getElementById("movie-info-container") as HTMLDivElement;
-	const movieName = document.getElementById("movie-name") as HTMLParagraphElement;
+	const movieName = document.getElementById("movie-name") as HTMLAnchorElement;
 	const movieYear = document.getElementById("movie-year") as HTMLParagraphElement;
 	const movieLink = document.getElementById("movie-link") as HTMLAnchorElement;
 
@@ -33,40 +33,45 @@ window.addEventListener("pageshow", () => {
 	const reviewRewatch = document.getElementById("review-rewatch") as HTMLSpanElement;
 	const tags = document.getElementById("tags") as HTMLDivElement;
 
-	movieName.innerText = entry.movie.title;
-	movieYear.innerText = String(entry.movie.year);
+	movieName.innerText = review.movie.title;
+	movieYear.innerText = String(review.movie.year);
 
-	reviewText.innerText = entry.review.text;
-	reviewLink.href = entry.review.url;
-	reviewDate.innerText = new Date(entry.review.year, entry.review.month - 1, entry.review.day).toLocaleDateString(
-		undefined,
-		{
-			month: "long",
-			year: "numeric",
-			day: "numeric",
-		},
-	);
+	reviewText.innerText = review.text;
+	reviewLink.href = url;
+	reviewDate.innerText = new Date(review.year, review.month - 1, review.day).toLocaleDateString(undefined, {
+		month: "long",
+		year: "numeric",
+		day: "numeric",
+	});
 
-	reviewStars.innerText = toRatingString(entry.review.rating);
-	reviewHeart.innerText = entry.review.heart ? "♥" : "";
-	reviewRewatch.innerText = entry.review.rewatch ? "⟲" : "";
+	reviewStars.innerText = toRatingString(review.rating);
+	reviewHeart.innerText = review.heart ? "♥" : "";
+	reviewRewatch.innerText = review.rewatch ? "⟲" : "";
 
 	tags.innerHTML = "";
-	for (const tag of entry.review.tags) {
+	for (const tag of review.tags) {
 		const element = document.createElement("div");
 		element.innerText = tag;
 		tags.append(element);
 	}
 
-	backdropImage.src = entry.movie.backdrop;
-	backdropImage.alt = entry.movie.title;
+	backdropImage.src = review.movie.backdrop;
+	backdropImage.alt = review.movie.title;
 
 	backdropImage.onload = () => backdrop.classList.remove("hidden");
 
-	poster.src = entry.movie.poster;
-	poster.alt = entry.movie.title;
+	poster.src = review.movie.poster;
+	poster.alt = review.movie.title;
 
 	poster.onload = () => movieInfoContainer.classList.remove("hidden");
 
-	movieLink.href = entry.movie.url;
+	movieLink.href = review.movie.url;
+	movieName.href = review.movie.url;
+
+	let timeout: number;
+	document.body.addEventListener("mousemove", () => {
+		document.body.classList.add("ui-active");
+		clearTimeout(timeout);
+		timeout = setTimeout(() => document.body.classList.remove("ui-active"), 3000);
+	});
 });
