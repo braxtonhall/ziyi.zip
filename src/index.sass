@@ -1,20 +1,34 @@
 @font-face
 	font-family: Roboto
-	src: local(Roboto), url(resources/roboto-latin-400-normal.woff2) format("woff2")
+	src: local(Roboto), url(fonts/roboto-latin-400-normal.woff2) format("woff2")
 	font-weight: 400
 	font-style: normal
+
+@font-face
+	font-family: Merriweather
+	src: local(Merriweather), url(fonts/merriweather-latin-400-normal.woff2) format("woff2")
+	font-weight: 400
+	font-style: normal
+
+@keyframes fadein
+	0%
+		opacity: 0
+
+	to
+		opacity: 1
 
 body
 	overflow: hidden
 	margin: 0
 
-main
+.main
 	position: relative
 	width: 100%
 	height: 100%
 	background-color: black
+	overflow: hidden
 
-	#backdrop
+	#backdrop-image
 		top: -5px
 		left: -5px
 		position: absolute
@@ -22,6 +36,41 @@ main
 		width: calc(100% + 10px)
 		height: calc(100% + 10px)
 		filter: blur(5px) brightness(65%)
+
+	#review
+		position: absolute
+		width: 100%
+		height: 100%
+		display: flex
+		justify-content: safe center
+		align-items: safe center
+
+		#contents
+			font-family: Roboto, sans-serif
+			color: grey
+			#review-link
+				color: grey
+			max-width: 90%
+			#review-text
+				font-family: Merriweather, serif
+				color: white
+				font-size: 3em
+				margin-bottom: 0.1em
+			#review-metadata
+				font-size: 1em
+				margin-bottom: 0.2em
+				p
+					margin: 0
+			#tags
+				font-size: 0.8em
+				display: inline-block
+				div
+					padding-left: 0.2em
+					padding-right: 0.2em
+					border: 1px solid
+					white-space: nowrap
+
+					border-radius: 0.2em 0 0.2em 0.2em
 
 	#movie-info-container
 		position: absolute

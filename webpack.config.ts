@@ -44,6 +44,7 @@ module.exports = (_env: any, options: WebpackOptionsNormalized): Configuration =
 		...(buildEnv !== "web" && { "service-worker": getEntry("service-worker") }),
 	},
 	output: {
+		publicPath: "",
 		path: path.join(outputDir),
 		filename: "[name].js",
 	},
@@ -95,7 +96,7 @@ module.exports = (_env: any, options: WebpackOptionsNormalized): Configuration =
 			: []),
 		new CopyPlugin({
 			patterns: [
-				{ from: path.join(srcDir, "resources"), to: path.join(outputDir, "resources") },
+				{ from: path.join(srcDir, "public"), to: path.join(outputDir, "public") },
 				...(buildEnv === "web"
 					? []
 					: [

@@ -11,9 +11,9 @@
 	},
 	"description": "Experience Cinema with Ziyi every time you open a new tab.",
 	"icons": {
-		"128": "icons/icon-128.png",
-		"16": "icons/icon-16.png",
-		"48": "icons/icon-48.png"
+		"128": "public/icon-128.png",
+		"16": "public/icon-16.png",
+		"48": "public/icon-48.png"
 	},
 	"permissions": ["storage"]
 }

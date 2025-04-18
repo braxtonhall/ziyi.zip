@@ -2,12 +2,12 @@
 	{
 		"review": {
 			"url": "https://letterboxd.com/ziyiyan/film/m-butterfly/",
-			"review": "Love unconditionally",
+			"text": "Love unconditionally",
 			"year": 2025,
 			"month": 4,
 			"day": 7,
-			"rewatch": false,
-			"rating": null,
+			"rewatch": true,
+			"rating": 5,
 			"heart": true,
 			"tags": ["viff center"],
 			"spoiler": false
