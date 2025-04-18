@@ -49,6 +49,7 @@ body
 				color: white
 				font-size: 3em
 				margin-bottom: 0.1em
+				white-space: pre-wrap
 			#review-metadata
 				font-size: 1em
 				margin-bottom: 0.2em
@@ -56,14 +57,17 @@ body
 					margin: 0
 			#tags
 				font-size: 0.8em
-				display: inline-block
+				display: inline-flex
+				flex-wrap: wrap
 				div
 					padding-left: 0.2em
 					padding-right: 0.2em
 					border: 1px solid
 					white-space: nowrap
-
 					border-radius: 0.2em 0 0.2em 0.2em
+					margin-bottom: 0.3em
+				:not(:last-child)
+					margin-right: 0.4em
 
 	#movie-info-container
 		position: absolute
