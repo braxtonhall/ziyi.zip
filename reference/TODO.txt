@@ -11,6 +11,9 @@ SETTINGS
 - Options Overlay
   - Show
   - Show on mouse over
+- Background Blur
+  - On
+  - Off
 - Spoilers
   - Show
   - Skip

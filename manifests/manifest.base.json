@@ -10,5 +10,8 @@
 		"16": "public/icon-16.png",
 		"48": "public/icon-48.png"
 	},
-	"permissions": ["storage"]
+	"permissions": ["storage"],
+	"chrome_url_overrides": {
+		"newtab": "index.html"
+	}
 }
