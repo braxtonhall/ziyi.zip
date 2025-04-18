@@ -41,7 +41,6 @@ module.exports = (_env: any, options: WebpackOptionsNormalized): Configuration =
 	devtool: options.mode !== "production" ? "source-map" : undefined,
 	entry: {
 		index: getEntry("index"),
-		...(buildEnv !== "web" && { "service-worker": getEntry("service-worker") }),
 	},
 	output: {
 		publicPath: "",

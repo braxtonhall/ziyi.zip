@@ -2,10 +2,6 @@
 	"name": "Ziyi at the Cinema",
 	"host_permissions": ["https://www.TODO.com/TODO/*"],
 	"manifest_version": 3,
-	"background": {
-		"service_worker": "service-worker.js",
-		"type": "module"
-	},
 	"content_security_policy": {
 		"extension_pages": "script-src 'self'; object-src 'self'"
 	},
