@@ -1,6 +1,7 @@
 import { Review } from "./types";
 import { getElements } from "./elements";
 import storage from "./storage";
+import { setMovie } from "./setMovie";
 
 const HISTORY_KEY = "history";
 
@@ -18,6 +19,8 @@ export const addToHistory = async (review: Review) => {
 			if (review.movie.backdrop) {
 				image.src = review.movie.backdrop;
 			}
+			// TODO... not perfect!!!
+			element.addEventListener("click", () => setMovie(review));
 			// TODO handle when there is no backdrop
 			element.append(image);
 			element.classList.remove("history-placeholder");

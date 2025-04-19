@@ -9,7 +9,7 @@ window.addEventListener("pageshow", () => {
 	const entries = Object.entries(reviews);
 	const [_, review] = entries[Math.floor(Math.random() * entries.length)];
 	setMovie(review);
-	addToHistory(review);
+	void addToHistory(review);
 	showUI();
 
 	const { historyToggle } = getElements();

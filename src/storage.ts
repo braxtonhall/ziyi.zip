@@ -2,33 +2,31 @@ declare const process: { env: { BUILD_ENV: string } };
 
 export default (() => {
 	if (process.env.BUILD_ENV === "web") {
-		return {
-			set: async (key: string, value: unknown): Promise<unknown> => {
-				localStorage.setItem(key, JSON.stringify(value));
-				return value;
-			},
-			get: async (key: string, defaultValue?: unknown): Promise<unknown> => {
-				const value = localStorage.getItem(key);
-				if (value === null && defaultValue !== undefined) {
-					localStorage.setItem(key, JSON.stringify(defaultValue));
-				}
-				if (value === null) {
-					return defaultValue;
-				} else {
-					return JSON.parse(value);
-				}
-			},
+		const set = async (key: string, value: unknown): Promise<unknown> => {
+			const string = JSON.stringify(value);
+			if (string !== undefined) {
+				localStorage.setItem(key, string);
+			}
+			return value;
 		};
+		const get = async (key: string, defaultValue?: unknown): Promise<unknown> => {
+			const value = localStorage.getItem(key);
+			if (value === null) {
+				return set(key, defaultValue);
+			} else {
+				return JSON.parse(value);
+			}
+		};
+		return { set, get };
 	} else {
-		return {
-			set: async <T>(key: string, value: T): Promise<T> => {
-				await chrome.storage.sync.set({ [key]: value });
-				return value;
-			},
-			get: async <T>(key: string, defaultValue?: T): Promise<T> => {
-				const storage = await chrome.storage.sync.get({ [key]: defaultValue });
-				return storage[key];
-			},
+		const set = async (key: string, value: unknown): Promise<unknown> => {
+			await chrome.storage.sync.set({ [key]: value });
+			return value;
 		};
+		const get = async (key: string, defaultValue?: unknown): Promise<unknown> => {
+			const storage = await chrome.storage.sync.get({ [key]: defaultValue });
+			return storage[key];
+		};
+		return { set, get };
 	}
 })();
