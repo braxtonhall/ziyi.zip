@@ -35,8 +35,11 @@ export const setMovie = () => {
 
 	elements.tags.innerHTML = "";
 	for (const tag of review.tags) {
-		const element = document.createElement("div");
-		element.innerText = tag;
+		const element = document.createElement("a");
+		element.innerText = tag.text;
+		element.href = tag.url;
+		element.title = `${tag.text} on letterboxd`;
+		element.classList.add("tag");
 		elements.tags.append(element);
 	}
 
