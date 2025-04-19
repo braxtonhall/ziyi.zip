@@ -6,6 +6,7 @@ ziyi's reviews are just so precious that they must be cherished
 
 ## installation
 
+[//]: # 'TODO update these links that say "TODOziyi-zip"'
 [link-chrome]: https://chrome.google.com/webstore/detail/TODOziyi-zip/kgjlmncdpdpcmidkkalcdppigdocdnmf "Version published on Chrome Web Store"
 [link-firefox]: https://addons.mozilla.org/en-US/firefox/addon/TODOziyi-zip/ "Version published on Mozilla Add-ons"
 
@@ -59,8 +60,3 @@ ziyi's reviews are just so precious that they must be cherished
 ### HOUSEKEEPING
 
 - Add favicon/site.webmanifest for the web version
-
-### POST RELEASE
-
-- Add a download link with version badge for chrome in options
-- Add a download link with version badge for firefox in options
