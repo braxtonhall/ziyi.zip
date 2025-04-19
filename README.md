@@ -45,6 +45,10 @@ ziyi's reviews are just so precious that they must be cherished
   - Every new tab
 - Clear history
 
+### HOUSEKEEPING
+
+- Add favicon/site.webmanifest for the web version
+
 ### POST RELEASE
 
 - Add a download link with version badge for chrome in options
