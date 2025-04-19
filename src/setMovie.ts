@@ -59,7 +59,7 @@ export const setMovie = (review: Review) => {
 		});
 	} else {
 		// TODO this is probably the wrong size. need to fix this
-		elements.backdropImage.src =
+		elements.poster.src =
 			"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=";
 		elements.movieInfoContainer.classList.remove("hidden");
 	}

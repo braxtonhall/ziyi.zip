@@ -1,4 +1,8 @@
-# Ziyi at the Cinema
+# `ziyi.zip`
+
+this is a web extension and website that i made as an archive of ziyi's letterboxd reviews
+
+ziyi's reviews are just so precious that they must be cherished
 
 ## TODO
 
@@ -43,12 +47,6 @@
 
 ### FEATURES
 
-- Click a backdrop in the history bar to see it again
-- Prefers reduced motion removes animations
-- On small screens small text is enlarged
-- On touch screens nav is ALWAYS visible
-- On touch screens we SWIPE instead of SCROLL to access history
-- On mobile, history comes down lower
 - On mobile, fewer entries shown in history
 
 ### POST RELEASE

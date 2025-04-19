@@ -1,4 +1,5 @@
-$history-height: 8em
+$history-item-margin: 0.5rem
+$history-height: 8rem
 
 @font-face
 	font-family: Roboto
@@ -19,6 +20,10 @@ html, body
 	padding: 0
 	overflow: hidden
 
+html
+	@media (orientation: portrait)
+		font-size: x-large
+
 body
 	background-color: black
 
@@ -28,8 +33,7 @@ body
 		transition: opacity .25s ease-in
 	&.ui-active .show-on-hover
 		opacity: 1 !important
-		transition: opacity .25s ease-out !important
-
+		transition: opacity .25s ease-out
 
 #header
 	position: absolute
@@ -39,11 +43,11 @@ body
 
 	nav
 		float: right
-		margin-right: 1em
-		margin-top: 1em
+		margin-right: 1rem
+		margin-top: 1rem
 		display: flex
 		label:not(:last-child)
-			margin-right: 0.5em
+			margin-right: 0.5rem
 		label
 			filter: drop-shadow(5px 5px 5px #222)
 			background-color: transparent
@@ -54,7 +58,7 @@ body
 			align-items: center
 			svg
 				width: auto
-				height: 2em
+				height: 2rem
 
 label:has(.toggle)
 	&, *
@@ -107,61 +111,61 @@ body:has(#history-toggle:checked) #main
 			#review-text
 				font-family: Merriweather, serif
 				color: white
-				font-size: 3em
-				margin-bottom: 0.1em
+				font-size: 3rem
+				margin-bottom: 0.1rem
 				white-space: pre-wrap
 			#review-metadata
-				font-size: 1em
-				margin-bottom: 0.2em
+				font-size: 1rem
+				margin-bottom: 0.2rem
 				p
 					margin: 0
 				#review-heart
-					font-size: 0.9em
+					font-size: 0.9rem
 			#tags
-				font-size: 0.8em
+				font-size: 0.8rem
 				display: inline-flex
 				flex-wrap: wrap
 				.tag
-					padding-left: 0.2em
-					padding-right: 0.2em
+					padding-left: 0.2rem
+					padding-right: 0.2rem
 					border: 1px solid
 					white-space: nowrap
-					border-radius: 0.2em 0 0.2em 0.2em
-					margin-bottom: 0.3em
+					border-radius: 0.2rem 0 0.2rem 0.2rem
+					margin-bottom: 0.3rem
 					color: grey
 					text-decoration: none
 				:not(:last-child).tag
-					margin-right: 0.4em
+					margin-right: 0.4rem
 
 	#movie-info-container
 		position: absolute
 		bottom: 0
 		right: 0
-		margin-bottom: 1em
-		margin-right: 1em
+		margin-bottom: 1rem
+		margin-right: 1rem
 		display: flex
 		color: white
 
 		#poster
 			transition: height 0.2s cubic-bezier(.28,.83,.67,1)
-			height: 10em
+			height: 10rem
 			&:hover
-				height: 11em
+				height: 11rem
 
 		#movie-info
 			font-family: Roboto, sans-serif
 			align-self: flex-end
-			margin-right: 1em
+			margin-right: 1rem
 			bottom: 0
 			text-align: right
 
 			#movie-name
-				font-size: 1em
+				font-size: 1rem
 				margin-bottom: 0
 				color: white
 			#movie-year
-				font-size: .8125em
-				margin-top: 0.5em
+				font-size: .8125rem
+				margin-top: 0.5rem
 
 #history
 	top: 0
@@ -171,12 +175,15 @@ body:has(#history-toggle:checked) #main
 	height: $history-height
 	background-color: black
 	display: flex
+	@media (orientation: portrait)
+		.history-item:nth-child(n+8)
+			display: none
 	.history-item
 		background-color: #1a1a1a
 		flex: 1
-		margin-top: 0.5em
-		margin-bottom: 0.5em
-		margin-left: 0.5em
+		margin-top: $history-item-margin
+		margin-bottom: $history-item-margin
+		margin-right: $history-item-margin
 		display: flex
 		justify-content: center
 		align-items: center
@@ -201,17 +208,17 @@ body:has(#history-toggle:checked) #main
 			background-color: rgba(26, 26, 26, 0.6)
 			overflow: hidden
 			text-wrap: nowrap
-			padding: 0.3em
+			padding: 0.3rem 0 0.3rem 0.3rem
 			box-sizing: border-box
 			span
 				width: 100%
 				display: block
-				mask-image: linear-gradient(to right, black 90%, transparent 100%)
+				mask-image: linear-gradient(to right, black calc(100% - 1rem), transparent calc(100% - 0.1rem))
 
 		svg
 			fill: #313131
-	.history-item:last-child
-		margin-right: 0.5em
+	.history-item:first-child
+		margin-left: $history-item-margin
 
 .loads
 	opacity: 1
@@ -228,3 +235,8 @@ body:has(#history-toggle:checked) #main
 
 .text-shadow
 	text-shadow: 0 -1px 15px black,0 1px 50px black
+
+@media screen and (prefers-reduced-motion: reduce)
+	*
+		transition: none !important
+		animation: none !important
