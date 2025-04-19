@@ -16,13 +16,18 @@ export const addToHistory = async (review: Review) => {
 		const review: Review | undefined = updatedHistory[i];
 		if (review) {
 			const image = document.createElement("img");
-			if (review.movie.backdrop) {
-				image.src = review.movie.backdrop;
-			}
-			// TODO... not perfect!!!
+			image.src =
+				review.movie.backdrop ||
+				review.movie.poster ||
+				"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=";
+			image.title = review.movie.title;
+			const title = document.createElement("span");
+			title.innerText = review.movie.title;
+			const titleContainer = document.createElement("div");
+			titleContainer.append(title);
+			titleContainer.classList.add("title-container");
+			element.append(image, titleContainer);
 			element.addEventListener("click", () => setMovie(review));
-			// TODO handle when there is no backdrop
-			element.append(image);
 			element.classList.remove("history-placeholder");
 		} else {
 			element.classList.add("history-placeholder");

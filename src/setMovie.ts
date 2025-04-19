@@ -46,7 +46,8 @@ export const setMovie = (review: Review) => {
 		elements.backdropImage.alt = review.movie.title;
 		elements.backdropImage.addEventListener("load", () => elements.backdrop.classList.remove("hidden"), { once: true });
 	} else {
-		// TODO need to put a blank image in base64 in src
+		elements.backdropImage.src =
+			"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=";
 		elements.backdrop.classList.remove("hidden");
 	}
 
@@ -57,7 +58,9 @@ export const setMovie = (review: Review) => {
 			once: true,
 		});
 	} else {
-		// TODO need to put a blank image in base64 in src
+		// TODO this is probably the wrong size. need to fix this
+		elements.backdropImage.src =
+			"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=";
 		elements.movieInfoContainer.classList.remove("hidden");
 	}
 

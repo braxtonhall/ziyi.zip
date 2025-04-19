@@ -180,6 +180,7 @@ body:has(#history-toggle:checked) #main
 		display: flex
 		justify-content: center
 		align-items: center
+		position: relative
 		&:not(.history-placeholder)
 			svg
 				display: none
@@ -188,6 +189,24 @@ body:has(#history-toggle:checked) #main
 			object-fit: cover
 			width: 100%
 			height: 100%
+		&:not(:hover) .title-container
+			display: none
+		.title-container
+			font-family: Roboto, sans-serif
+			color: white
+			position: absolute
+			left: 0
+			bottom: 0
+			width: 100%
+			background-color: rgba(26, 26, 26, 0.6)
+			overflow: hidden
+			text-wrap: nowrap
+			padding: 0.3em
+			box-sizing: border-box
+			span
+				width: 100%
+				display: block
+				mask-image: linear-gradient(to right, black 90%, transparent 100%)
 
 		svg
 			fill: #313131
