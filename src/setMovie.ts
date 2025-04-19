@@ -48,6 +48,7 @@ export const setMovie = () => {
 		elements.backdropImage.alt = review.movie.title;
 		elements.backdropImage.addEventListener("load", () => elements.backdrop.classList.remove("hidden"), { once: true });
 	} else {
+		// TODO need to put a blank image in base64 in src
 		elements.backdrop.classList.remove("hidden");
 	}
 
@@ -58,6 +59,7 @@ export const setMovie = () => {
 			once: true,
 		});
 	} else {
+		// TODO need to put a blank image in base64 in src
 		elements.movieInfoContainer.classList.remove("hidden");
 	}
 
