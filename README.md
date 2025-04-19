@@ -45,10 +45,6 @@ ziyi's reviews are just so precious that they must be cherished
   - Every new tab
 - Clear history
 
-### FEATURES
-
-- On mobile, fewer entries shown in history
-
 ### POST RELEASE
 
 - Add a download link with version badge for chrome in options
