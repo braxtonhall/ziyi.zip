@@ -97,7 +97,12 @@ module.exports = (_env: any, options: WebpackOptionsNormalized): Configuration =
 			patterns: [
 				{ from: path.join(srcDir, "public"), to: path.join(outputDir, "public") },
 				...(buildEnv === "web"
-					? []
+					? [
+							{
+								from: path.join(__dirname, "CNAME"),
+								to: path.join(outputDir),
+							},
+						]
 					: [
 							{
 								from: path.join(manifestDir, "manifest.base.json"),
