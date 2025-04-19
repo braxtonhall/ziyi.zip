@@ -59,4 +59,5 @@ ziyi's reviews are just so precious that they must be cherished
 
 ### HOUSEKEEPING
 
+- Box/text shadow causing _extremely_ terrible animation performance on poster resize
 - Add favicon/site.webmanifest for the web version
