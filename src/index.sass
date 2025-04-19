@@ -42,7 +42,9 @@ body
 		margin-right: 1em
 		margin-top: 1em
 		display: flex
-		button, label
+		label:not(:last-child)
+			margin-right: 0.5em
+		label
 			filter: drop-shadow(5px 5px 5px #222)
 			background-color: transparent
 			outline: none
@@ -52,17 +54,19 @@ body
 			align-items: center
 			svg
 				width: auto
-				height: 3em
+				height: 2em
 
 label:has(.toggle)
 	&, *
 		cursor: pointer
-
-label .toggle
-	position: absolute
-	left: 0
-	opacity: 0
-
+	.toggle
+		position: absolute
+		left: 0
+		opacity: 0
+	&:has(.toggle:checked) .only-open
+		display: none
+	&:not(:has(.toggle:checked)) .only-closed
+		display: none
 
 body:has(#history-toggle:checked) #main
 	transform: translateY($history-height)
@@ -165,8 +169,30 @@ body:has(#history-toggle:checked) #main
 	position: fixed
 	width: 100%
 	height: $history-height
+	background-color: black
+	display: flex
+	.history-item
+		background-color: #1a1a1a
+		flex: 1
+		margin-top: 0.5em
+		margin-bottom: 0.5em
+		margin-left: 0.5em
+		display: flex
+		justify-content: center
+		align-items: center
+		&:not(.history-placeholder)
+			svg
+				display: none
+			cursor: pointer
+		img
+			object-fit: cover
+			width: 100%
+			height: 100%
 
-	background-color: green
+		svg
+			fill: #313131
+	.history-item:last-child
+		margin-right: 0.5em
 
 .loads
 	opacity: 1

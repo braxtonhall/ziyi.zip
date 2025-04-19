@@ -1,5 +1,5 @@
 import { getElements } from "./elements";
-import reviews from "./reviews.json";
+import { Review } from "./types";
 
 const toRatingString = (rating: number | null) => {
 	if (rating === null) {
@@ -14,15 +14,13 @@ const toRatingString = (rating: number | null) => {
 	}
 };
 
-export const setMovie = () => {
+export const setMovie = (review: Review) => {
 	const elements = getElements();
-	const entries = Object.entries(reviews);
-	const [url, review] = entries[Math.floor(Math.random() * entries.length)];
 	elements.movieName.innerText = review.movie.title;
 	elements.movieYear.innerText = String(review.movie.year);
 
 	elements.reviewText.innerText = review.text;
-	elements.reviewLink.href = url;
+	elements.reviewLink.href = review.url;
 	elements.reviewDate.innerText = new Date(review.year, review.month - 1, review.day).toLocaleDateString(undefined, {
 		month: "long",
 		year: "numeric",
