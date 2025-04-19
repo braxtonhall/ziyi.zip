@@ -14,6 +14,8 @@ const schema = {
 	reviewHeart: ["review-heart", HTMLSpanElement],
 	reviewRewatch: ["review-rewatch", HTMLSpanElement],
 	tags: ["tags", HTMLDivElement],
+
+	historyToggle: ["history-toggle", HTMLInputElement],
 } as const;
 
 type Elements = {

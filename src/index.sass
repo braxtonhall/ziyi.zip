@@ -1,3 +1,5 @@
+$history-height: 8em
+
 @font-face
 	font-family: Roboto
 	src: local(Roboto), url(fonts/roboto-latin-400-normal.woff2) format("woff2")
@@ -40,7 +42,7 @@ body
 		margin-right: 1em
 		margin-top: 1em
 		display: flex
-		button
+		button, label
 			filter: drop-shadow(5px 5px 5px #222)
 			background-color: transparent
 			outline: none
@@ -52,12 +54,27 @@ body
 				width: auto
 				height: 3em
 
+label:has(.toggle)
+	cursor: pointer
 
-.main
+label .toggle
+	position: absolute
+	left: 0
+	opacity: 0
+
+
+body:has(#history-toggle:checked) #main
+	transform: translateY($history-height)
+
+#main
 	position: relative
 	width: 100%
 	height: 100%
+	background-color: black
 	overflow: hidden
+	transition: transform .3s cubic-bezier(.28,.83,.67,1)
+	will-change: transform
+
 
 	#backdrop-image
 		top: -5px
@@ -81,7 +98,7 @@ body
 			color: grey
 			#review-link
 				color: grey
-			max-width: 90%
+			max-width: 60%
 			#review-text
 				font-family: Merriweather, serif
 				color: white
@@ -138,6 +155,15 @@ body
 			#movie-year
 				font-size: .8125em
 				margin-top: 0.5em
+
+#history
+	top: 0
+	left: 0
+	position: fixed
+	width: 100%
+	height: $history-height
+
+	background-color: green
 
 .loads
 	opacity: 1

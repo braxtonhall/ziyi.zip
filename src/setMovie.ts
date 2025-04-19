@@ -43,7 +43,7 @@ export const setMovie = () => {
 	if (review.movie.backdrop) {
 		elements.backdropImage.src = review.movie.backdrop;
 		elements.backdropImage.alt = review.movie.title;
-		elements.backdropImage.onload = () => elements.backdrop.classList.remove("hidden");
+		elements.backdropImage.addEventListener("load", () => elements.backdrop.classList.remove("hidden"), { once: true });
 	} else {
 		elements.backdrop.classList.remove("hidden");
 	}
@@ -51,11 +51,31 @@ export const setMovie = () => {
 	elements.poster.alt = review.movie.title;
 	if (review.movie.poster) {
 		elements.poster.src = review.movie.poster;
-		elements.poster.onload = () => elements.movieInfoContainer.classList.remove("hidden");
+		elements.poster.addEventListener("load", () => elements.movieInfoContainer.classList.remove("hidden"), {
+			once: true,
+		});
 	} else {
 		elements.movieInfoContainer.classList.remove("hidden");
 	}
 
 	elements.movieLink.href = review.movie.url;
 	elements.movieName.href = review.movie.url;
+};
+
+const sleepAndRemoveData = async (): Promise<void> => {
+	const elements = getElements();
+	if (!elements.backdrop.classList.contains("hidden")) {
+		elements.backdrop.classList.add("hidden");
+		elements.movieInfoContainer.classList.add("hidden");
+		await new Promise((resolve) => setTimeout(resolve, 1000));
+		// TODO maybe not needed, but delete all the text on the screen?
+	}
+};
+
+let task: Promise<void> | null = null;
+export const clearMovie = (): Promise<void> => {
+	if (task === null) {
+		task = sleepAndRemoveData().then(() => void (task = null));
+	}
+	return task;
 };
