@@ -48,3 +48,10 @@
 - On small screens small text is enlarged
 - On touch screens nav is ALWAYS visible
 - On touch screens we SWIPE instead of SCROLL to access history
+- On mobile, history comes down lower
+- On mobile, fewer entries shown in history
+
+### POST RELEASE
+
+- Add a download link with version badge for chrome in options
+- Add a download link with version badge for firefox in options
