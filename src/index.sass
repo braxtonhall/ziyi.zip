@@ -106,9 +106,11 @@ body:has(#history-toggle:checked) #main
 		#contents
 			font-family: Roboto, sans-serif
 			color: grey
+			max-width: 60%
+			@media (orientation: portrait)
+				max-width: 70%
 			#review-link
 				color: grey
-			max-width: 60%
 			#review-text
 				font-family: Merriweather, serif
 				color: white
@@ -181,7 +183,7 @@ body:has(#history-toggle:checked) #main
 	background-color: black
 	display: flex
 	@media (orientation: portrait)
-		.history-item:nth-child(n+8)
+		.history-item:nth-child(n + 7)
 			display: none
 	.history-item
 		background-color: #1a1a1a
