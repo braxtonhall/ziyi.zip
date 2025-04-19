@@ -11,10 +11,6 @@ const buildEnv = process.env.BUILD_ENV ?? "web";
 const srcDir = path.join(__dirname, "src");
 const manifestDir = path.join(__dirname, "manifests");
 const outputDir = path.join(__dirname, "dist", buildEnv);
-const getEntry = (name: string) => [
-	path.join(srcDir, name),
-	...(buildEnv !== "web" ? ["webextension-polyfill/dist/browser-polyfill.js"] : []),
-];
 
 const joinManifestFields = (base: Record<string, unknown>): Record<string, unknown> => {
 	if (buildEnv === "firefox") {
@@ -40,7 +36,7 @@ const transformManifest: TransformerFunction = async (input: Buffer) =>
 module.exports = (_env: any, options: WebpackOptionsNormalized): Configuration => ({
 	devtool: options.mode !== "production" ? "source-map" : undefined,
 	entry: {
-		index: getEntry("index"),
+		index: path.join(srcDir, "index"),
 	},
 	output: {
 		publicPath: "",

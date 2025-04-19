@@ -39,6 +39,7 @@
 - Review change frequency
   - Daily
   - Every new tab
+- Clear history
 
 ### FEATURES
 
@@ -46,3 +47,4 @@
 - Prefers reduced motion removes animations
 - On small screens small text is enlarged
 - On touch screens nav is ALWAYS visible
+- On touch screens we SWIPE instead of SCROLL to access history

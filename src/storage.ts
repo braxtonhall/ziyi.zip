@@ -1,4 +1,3 @@
-// TODO this needs to move somewhere else
 declare const process: { env: { BUILD_ENV: string } };
 
 export default (() => {
@@ -21,15 +20,15 @@ export default (() => {
 			},
 		};
 	} else {
-		throw new Error("NOT YET IMPLEMENTED");
-		// const set = async <T>(key: string, value: T): Promise<T> => {
-		// 	await browser.storage.sync.set({[key]: value});
-		// 	return value;
-		// };
-		//
-		// const get = async <T>(key: string, defaultValue?: T): Promise<T> => {
-		// 	const storage = await browser.storage.sync.get({[key]: defaultValue});
-		// 	return storage[key];
-		// };
+		return {
+			set: async <T>(key: string, value: T): Promise<T> => {
+				await chrome.storage.sync.set({ [key]: value });
+				return value;
+			},
+			get: async <T>(key: string, defaultValue?: T): Promise<T> => {
+				const storage = await chrome.storage.sync.get({ [key]: defaultValue });
+				return storage[key];
+			},
+		};
 	}
 })();
