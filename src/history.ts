@@ -36,11 +36,15 @@ export const addToHistory = async (review: Review) => {
 };
 
 export const addHistoryUIControl = () => {
-	const { historyToggle } = getElements();
+	const { historyToggle, reviewContainer } = getElements();
 
-	const toggleFromMovement = ({ deltaX, deltaY }: { deltaX: number; deltaY: number }) => {
-		if (Math.abs(deltaY) > Math.abs(deltaX)) {
-			if (deltaY < 0) {
+	let locked = false;
+	reviewContainer.addEventListener("scroll", () => (locked = true));
+	reviewContainer.addEventListener("scrollend", () => (locked = false));
+
+	const toggleFromMovement = ({ deltaX, deltaY }: { deltaX: number; deltaY: number }): void => {
+		if (!locked && Math.abs(deltaY) > Math.abs(deltaX)) {
+			if (deltaY < 0 && reviewContainer.scrollTop === 0) {
 				historyToggle.checked = true;
 			} else if (deltaY > 0) {
 				historyToggle.checked = false;

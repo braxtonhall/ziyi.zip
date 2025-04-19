@@ -13,6 +13,7 @@ const schema = {
 	reviewStars: ["review-stars", HTMLSpanElement],
 	reviewHeart: ["review-heart", HTMLSpanElement],
 	reviewRewatch: ["review-rewatch", HTMLSpanElement],
+	reviewContainer: ["review", HTMLDivElement],
 	tags: ["tags", HTMLDivElement],
 	history: ["history", HTMLDivElement],
 	historyToggle: ["history-toggle", HTMLInputElement],
