@@ -147,8 +147,12 @@ body:has(#history-toggle:checked) #main
 		color: white
 
 		#poster
+			will-change: height
 			transition: height 0.2s cubic-bezier(.28,.83,.67,1)
+			aspect-ratio : 2 / 3
+			object-fit: cover
 			height: 10rem
+			border-radius: .2rem
 			&:hover
 				height: 11rem
 
