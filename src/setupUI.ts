@@ -25,34 +25,38 @@ const addMenuHoverDisplay = () => {
 };
 
 const addUIControl = () => {
-	const { historyToggle, reviewContainer } = getElements();
+	const { historyToggle, reviewContainer, settingsContents } = getElements();
 
-	let lastScroll: number = reviewContainer.scrollTop;
 	let locked = false;
-	reviewContainer.addEventListener("scroll", () => {
-		if (reviewContainer.scrollTop !== lastScroll) {
-			locked = true;
-		}
-		lastScroll = reviewContainer.scrollTop;
-	});
-	reviewContainer.addEventListener("scrollend", () => {
-		lastScroll = reviewContainer.scrollTop;
-		locked = false;
-	});
+	const lock = () => (locked = true);
+	const unlock = () => (locked = false);
+	reviewContainer.addEventListener("scroll", lock);
+	settingsContents.addEventListener("scroll", lock);
+	reviewContainer.addEventListener("scrollend", unlock);
+	settingsContents.addEventListener("scrollend", unlock);
 
-	const toggleFromMovement = ({ deltaX, deltaY }: { deltaX: number; deltaY: number }): void => {
-		const absDeltaY = Math.abs(deltaY);
-		const absDeltaX = Math.abs(deltaX);
-		if (!locked && absDeltaY > absDeltaX && reviewContainer.scrollTop === 0) {
-			if (deltaY < 0) {
+	const scrollTop = (target: EventTarget) => {
+		if (target instanceof Element) {
+			const element = target.closest(".scrollable") ?? target;
+			return element.scrollTop;
+		} else {
+			return 0;
+		}
+	};
+
+	const toggleFromMovement = (event: { deltaX: number; deltaY: number; target: EventTarget }): void => {
+		const absDeltaY = Math.abs(event.deltaY);
+		const absDeltaX = Math.abs(event.deltaX);
+		if (!locked && absDeltaY > absDeltaX) {
+			if (event.deltaY < 0 && scrollTop(event.target) === 0) {
 				historyToggle.checked = true;
-			} else if (deltaY > 0) {
+			} else if (event.deltaY > 0) {
 				historyToggle.checked = false;
 			}
 		}
 	};
 
-	window.addEventListener("wheel", (event) => toggleFromMovement(event));
+	window.addEventListener("wheel", toggleFromMovement, { passive: true });
 
 	let lastTouch: { x: number; y: number } | null = null;
 	window.addEventListener("touchend", () => (lastTouch = null));
@@ -67,6 +71,7 @@ const addUIControl = () => {
 			toggleFromMovement({
 				deltaX: lastTouch.x - event.touches[0].clientX,
 				deltaY: lastTouch.y - event.touches[0].clientY,
+				target: event.target,
 			});
 		}
 		lastTouch = {

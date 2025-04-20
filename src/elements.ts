@@ -18,6 +18,7 @@ const schema = {
 	history: ["history", HTMLDivElement],
 	historyToggle: ["history-toggle", HTMLInputElement],
 	settingsToggle: ["settings-toggle", HTMLInputElement],
+	settingsContents: ["settings-contents", HTMLDivElement],
 } as const;
 
 type Elements = {

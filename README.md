@@ -44,11 +44,9 @@ ziyi's reviews are just so precious that they must be cherished
 - Rewatch ON/OFF
 - Heart ON/OFF
 
-Divide into the following sections
+### FEATURES
 
-- Movies
-- Appearance
-- About
+- Offline mode (for the extension, not the website)
 
 ### HOUSEKEEPING
 

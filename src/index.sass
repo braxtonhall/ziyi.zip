@@ -33,6 +33,8 @@ body
 
 	.show-on-hover
 		opacity: 0
+	&:not(.ui-active) .show-on-hover
+		pointer-events: none
 	&.ui-interacted .show-on-hover
 		transition: opacity .25s ease-in
 	&.ui-active .show-on-hover
@@ -84,7 +86,7 @@ nav
 
 body:has(#history-toggle:checked) #foreground
 	transform: translateY($history-height)
-	#review
+	.scrollable
 		overflow-y: hidden
 
 .slides
@@ -111,7 +113,6 @@ body:has(#history-toggle:checked) #foreground
 		display: flex
 		justify-content: safe center
 		align-items: safe center
-		overflow: scroll
 
 		#contents
 			margin: 4rem
@@ -263,7 +264,6 @@ body.ui-interacted #settings-container
 		max-height: 100%
 
 		#settings-contents
-			overflow: scroll
 			padding: 0 1rem 1rem 1rem
 			display: flex
 			flex-direction: column
@@ -289,6 +289,9 @@ body.ui-interacted #settings-container
 	transition: none
 	opacity: 0 !important
 	pointer-events: none
+
+.scrollable
+	overflow: scroll
 
 @media screen and (prefers-reduced-motion: reduce)
 	*
