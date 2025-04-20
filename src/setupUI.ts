@@ -19,46 +19,27 @@ const addMenuHoverDisplay = () => {
 const addUIControl = () => {
 	const { historyToggle, settingsToggle, reviewContainer } = getElements();
 
-	const lastScroll: { x: number; y: number } = {
-		x: reviewContainer.scrollLeft,
-		y: reviewContainer.scrollTop,
-	};
-	const locks = { x: false, y: false };
+	let lastScroll: number = reviewContainer.scrollTop;
+	let locked = false;
 	reviewContainer.addEventListener("scroll", () => {
-		if (reviewContainer.scrollLeft !== lastScroll.x) {
-			locks.x = true;
+		if (reviewContainer.scrollTop !== lastScroll) {
+			locked = true;
 		}
-		if (reviewContainer.scrollTop !== lastScroll.y) {
-			locks.y = true;
-		}
-		lastScroll.x = reviewContainer.scrollLeft;
-		lastScroll.y = reviewContainer.scrollTop;
+		lastScroll = reviewContainer.scrollTop;
 	});
 	reviewContainer.addEventListener("scrollend", () => {
-		locks.x = false;
-		locks.y = false;
-		lastScroll.x = reviewContainer.scrollLeft;
-		lastScroll.y = reviewContainer.scrollTop;
+		lastScroll = reviewContainer.scrollTop;
+		locked = false;
 	});
 
 	const toggleFromMovement = ({ deltaX, deltaY }: { deltaX: number; deltaY: number }): void => {
 		const absDeltaY = Math.abs(deltaY);
 		const absDeltaX = Math.abs(deltaX);
-		if (!locks.y && absDeltaY > absDeltaX && reviewContainer.scrollTop === 0) {
+		if (!locked && absDeltaY > absDeltaX && reviewContainer.scrollTop === 0) {
 			if (deltaY < 0) {
 				historyToggle.checked = true;
 			} else if (deltaY > 0) {
 				historyToggle.checked = false;
-			}
-		} else if (
-			!locks.x &&
-			absDeltaY < absDeltaX &&
-			reviewContainer.scrollLeft + reviewContainer.clientWidth >= reviewContainer.scrollWidth
-		) {
-			if (deltaX > 0) {
-				settingsToggle.checked = true;
-			} else if (deltaX < 0) {
-				settingsToggle.checked = false;
 			}
 		}
 	};

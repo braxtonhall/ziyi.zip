@@ -1,4 +1,4 @@
-$bg-element-margin: 0.5rem
+$history-item-margin: 0.2rem
 $history-height: 8rem
 $settings-width: 16rem
 
@@ -49,18 +49,25 @@ body
 		display: flex
 		label:not(:last-child)
 			margin-right: 0.5rem
-		label
-			background-color: transparent
-			outline: none
-			border: none
-			display: flex
-			justify-content: center
-			align-items: center
-			svg
-				width: auto
-				height: 2rem
 
-label:has(.toggle)
+#close-settings-label
+	float: right
+	margin-right: 1rem
+	margin-top: 1rem
+
+	height: 2rem
+	width: 2rem
+
+.toggle-label
+	background-color: transparent
+	outline: none
+	border: none
+	display: flex
+	justify-content: center
+	align-items: center
+	svg
+		width: auto
+		height: 2rem
 	&, *
 		cursor: pointer
 	.toggle
@@ -77,10 +84,8 @@ body:has(#history-toggle:checked) #foreground
 	#review
 		overflow-y: hidden
 
-body:has(#settings-toggle:checked) #history-and-background
+body:has(#settings-toggle:checked) #settings-container
 	transform: translateX(-$settings-width)
-	#review
-		overflow-x: hidden
 
 .slides
 	transition: transform 400ms cubic-bezier(.28,.83,.67,1)
@@ -194,7 +199,7 @@ body:has(#settings-toggle:checked) #history-and-background
 	.history-item
 		background-color: #1a1a1a
 		flex: 1
-		margin-bottom: $bg-element-margin
+		margin-bottom: $history-item-margin
 		display: flex
 		justify-content: center
 		align-items: center
@@ -228,7 +233,7 @@ body:has(#settings-toggle:checked) #history-and-background
 		svg
 			fill: #313131
 	.history-item:not(:first-child)
-		margin-left: $bg-element-margin
+		margin-left: $history-item-margin
 
 #settings-container
 	width: $settings-width
@@ -236,11 +241,12 @@ body:has(#settings-toggle:checked) #history-and-background
 	position: absolute
 	top: 0
 	right: 0
-	display: flex
+	display: none
+	//display: flex
+	overflow-x: hidden
 
 	#settings
-		margin-left: $bg-element-margin
-		background-color: #91bfff
+		background-color: #2d2d2d
 		flex: 1
 
 .loads

@@ -10,11 +10,7 @@
 </head>
 <body style="background-color: black" class="full-screen">
 
-<div id="settings-container">
-	<div id="settings"></div>
-</div>
-
-<div id="history-and-background" class="full-screen slides">
+<div id="history-and-background" class="full-screen">
 	<div id="history">
 		<% for (let i = 0; i < 10; i++) { %>
 			<div class="history-item history-placeholder">
@@ -70,6 +66,7 @@
 						id="history-label"
 						for="history-toggle"
 						title="history"
+						class="toggle-label"
 				>
 					<svg class="only-closed" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<path
@@ -96,8 +93,9 @@
 						id="settings-label"
 						for="settings-toggle"
 						title="settings"
+						class="toggle-label"
 				>
-					<svg class="only-closed" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
 						<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
 						<g id="SVGRepo_iconCarrier">
@@ -112,13 +110,6 @@
 								</g>
 							</g>
 						</g>
-					</svg>
-					<svg class="only-open" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-						<path
-								d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-								fill="white"
-						>
-						</path>
 					</svg>
 					<input
 							id="settings-toggle"
@@ -138,6 +129,26 @@
 				<img id="poster" src="#" alt="poster">
 			</a>
 		</div>
+	</div>
+</div>
+
+<div id="settings-container" class="slides">
+	<div id="settings">
+		<label
+				id="close-settings-label"
+				for="settings-toggle"
+				title="settings"
+				class="toggle-label"
+		>
+			<svg class="only-open" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+				<path
+						d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+						fill="white"
+				>
+				</path>
+			</svg>
+		</label>
+
 	</div>
 </div>
 </body>
