@@ -32,6 +32,7 @@ ziyi's reviews are just so precious that they must be cherished
 - Languages
   - en SKIP/SHOW
   - zh SKIP/SHOW
+  - `new Intl.DisplayNames(['en'], {type: 'language'}).of(code);`
 - Missing poster SKIP/SHOW
 - Missing backdrop SKIP/SHOW
 - Options Overlay
