@@ -1,4 +1,4 @@
-$history-item-margin: 0.5rem
+$bg-element-margin: 0.5rem
 $history-height: 8rem
 $settings-width: 16rem
 
@@ -50,7 +50,6 @@ body
 		label:not(:last-child)
 			margin-right: 0.5rem
 		label
-			filter: drop-shadow(5px 5px 5px #222)
 			background-color: transparent
 			outline: none
 			border: none
@@ -68,9 +67,9 @@ label:has(.toggle)
 		position: absolute
 		left: 0
 		opacity: 0
-	&:has(.toggle:checked) .only-open
+	&:has(.toggle:checked) .only-closed
 		display: none
-	&:not(:has(.toggle:checked)) .only-closed
+	&:not(:has(.toggle:checked)) .only-open
 		display: none
 
 body:has(#history-toggle:checked) #foreground
@@ -195,8 +194,7 @@ body:has(#settings-toggle:checked) #history-and-background
 	.history-item
 		background-color: #1a1a1a
 		flex: 1
-		margin-top: $history-item-margin
-		margin-bottom: $history-item-margin
+		margin-bottom: $bg-element-margin
 		display: flex
 		justify-content: center
 		align-items: center
@@ -227,11 +225,23 @@ body:has(#settings-toggle:checked) #history-and-background
 				width: 100%
 				display: block
 				mask-image: linear-gradient(to right, black calc(100% - 1rem), transparent calc(100% - 0.1rem))
-
 		svg
 			fill: #313131
 	.history-item:not(:first-child)
-		margin-left: $history-item-margin
+		margin-left: $bg-element-margin
+
+#settings-container
+	width: $settings-width
+	height: 100%
+	position: absolute
+	top: 0
+	right: 0
+	display: flex
+
+	#settings
+		margin-left: $bg-element-margin
+		background-color: #91bfff
+		flex: 1
 
 .loads
 	opacity: 1
