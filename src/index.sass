@@ -74,6 +74,8 @@ label:has(.toggle)
 
 body:has(#history-toggle:checked) #main
 	transform: translateY($history-height)
+	#review
+		overflow: hidden
 
 #main
 	position: relative
@@ -106,9 +108,9 @@ body:has(#history-toggle:checked) #main
 		#contents
 			font-family: Roboto, sans-serif
 			color: grey
-			max-width: 60%
-			@media (orientation: portrait)
-				max-width: 70%
+			margin: 4rem
+			@media (orientation: landscape)
+				max-width: 60%
 			#review-link
 				display: inline-block
 				color: grey
@@ -117,6 +119,7 @@ body:has(#history-toggle:checked) #main
 				color: white
 				font-size: 3rem
 				margin-bottom: 0.1rem
+				margin-top: 0
 				white-space: pre-wrap
 			#review-metadata
 				width: fit-content
