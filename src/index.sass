@@ -250,12 +250,27 @@ body.ui-interacted #settings-container
 	top: 0
 	right: 0
 	padding: 0.5rem
+	box-sizing: border-box
 
 	#settings
 		background-color: #2d2d2d
-
+		display: flex
+		flex-direction: column
 		border-radius: 0.2rem
 		width: 100%
+		max-height: 100%
+
+		#settings-contents
+			overflow: scroll
+			padding: 0 1rem 1rem 1rem
+			display: flex
+			flex-direction: column
+			.settings-section-title
+				margin: 0
+			.settings-section + .settings-section
+				margin-top: 0.5rem
+				padding-top: 0.5rem
+				border-top: 1px solid white
 
 .loads
 	opacity: 1

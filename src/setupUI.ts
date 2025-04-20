@@ -17,7 +17,7 @@ const addMenuHoverDisplay = () => {
 };
 
 const addUIControl = () => {
-	const { historyToggle, settingsToggle, reviewContainer } = getElements();
+	const { historyToggle, reviewContainer } = getElements();
 
 	let lastScroll: number = reviewContainer.scrollTop;
 	let locked = false;

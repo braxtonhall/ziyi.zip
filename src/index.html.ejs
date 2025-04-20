@@ -152,6 +152,58 @@
 						</label>
 					</nav>
 				</header>
+
+				<div id="settings-contents">
+					<div class="settings-section">
+						<h3 class="settings-section-title">filters</h3>
+						<span>show reviews with...</span>
+						<ul>
+							<li>spoilers</li>
+							<li>missing posters</li>
+							<li>missing backdrops</li>
+						</ul>
+					</div>
+					<div class="settings-section">
+						<h3 class="settings-section-title">background</h3>
+						<span>blur</span>
+					</div>
+					<div class="settings-section">
+						<h3 class="settings-section-title">spoilers</h3>
+						<ul>
+							<li>show review contents</li>
+							<li>hide review contents</li>
+							<li>show review contents when clicked</li>
+						</ul>
+					</div>
+					<div class="settings-section">
+						<h3 class="settings-section-title">update frequency</h3>
+						<ul>
+							<li>daily</li>
+							<% if (process.env.BUILD_ENV === 'web') { %>
+								<li>each new tab</li>
+							<% } else { %>
+								<li>each page load</li>
+							<% } %>
+						</ul>
+					</div>
+					<div class="settings-section">
+						<h3 class="settings-section-title">review metadata</h3>
+					</div>
+					<div class="settings-section">
+						<h3 class="settings-section-title">clear history</h3>
+					</div>
+					<% if (process.env.BUILD_ENV === 'web') { %>
+						<div class="settings-section">
+							<h3 class="settings-section-title">about</h3>
+							<p>reviews by ziyi</p>
+							<p>website by braxton</p>
+							<p>download here</p>
+						</div>
+						<div class="settings-section">
+							<h3 class="settings-section-title">bob's club</h3>
+						</div>
+					<% } %>
+				</div>
 			</div>
 		</div>
 	</div>

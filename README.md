@@ -27,24 +27,14 @@ ziyi's reviews are just so precious that they must be cherished
 - Movie details
   - Show
   - Hide
-  - Show on screen mouse over
-  - Show on poster mouse over
-- Languages
-  - en SKIP/SHOW
-  - zh SKIP/SHOW
-  - `new Intl.DisplayNames(['en'], {type: 'language'}).of(code);`
-- Missing poster SKIP/SHOW
-- Missing backdrop SKIP/SHOW
+  - Show on mouse over
+- Review Metadata
+  - Show
+  - Hide
+  - Show on mouse over
 - Options Overlay
   - Show
   - Show on mouse over
-- Background Blur
-  - On
-  - Off
-- Spoilers
-  - Show
-  - Skip
-  - Show on click
 - Review Position
   - Center
   - Center left
@@ -53,10 +43,12 @@ ziyi's reviews are just so precious that they must be cherished
 - Stars ON/OFF
 - Rewatch ON/OFF
 - Heart ON/OFF
-- Review change frequency
-  - Daily
-  - Every new tab
-- Clear history
+
+Divide into the following sections
+
+- Movies
+- Appearance
+- About
 
 ### HOUSEKEEPING
 

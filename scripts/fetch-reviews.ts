@@ -25,7 +25,7 @@ type LetterboxdInfo = {
 	};
 };
 
-type RemainingReviewInfo = { tags: { text: string; url: string }[]; text: string; language: string; spoiler: boolean };
+type RemainingReviewInfo = { tags: { text: string; url: string }[]; text: string; spoiler: boolean };
 
 type Images = { poster: string | null; backdrop: string | null };
 
@@ -74,7 +74,6 @@ const scrapeReviewListPage = async (
 
 const getReviewInfo = async (url: string, pool: AsyncPool): Promise<RemainingReviewInfo> => {
 	const document = await pool.run(getDocument, url);
-	const language = document.querySelector(".js-review-body").getAttribute("lang");
 	const paragraphs = document.querySelectorAll(".js-review-body p");
 	const review = paragraphs.map((paragraph) => paragraph.textContent).join("\n\n");
 	const spoiler = !!document.querySelector("div.contains-spoilers");
@@ -83,7 +82,6 @@ const getReviewInfo = async (url: string, pool: AsyncPool): Promise<RemainingRev
 			text: element.textContent,
 			url: `${baseUrl}${element.getAttribute("href")}`,
 		})),
-		language,
 		text: review,
 		spoiler,
 	};
