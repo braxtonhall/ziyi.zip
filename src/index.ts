@@ -7,7 +7,7 @@ import { addToHistory } from "./history";
 document.addEventListener(
 	"DOMContentLoaded",
 	() => {
-		const entries = Object.entries(reviews).filter(([url]) => url.includes("praise-of-"));
+		const entries = Object.entries(reviews);
 		const [_, review] = entries[Math.floor(Math.random() * entries.length)];
 		setMovie(review);
 		void addToHistory(review);
