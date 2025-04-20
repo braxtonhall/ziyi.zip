@@ -37,11 +37,14 @@ const addUIControl = () => {
 	reviewContainer.addEventListener("scrollend", () => {
 		locks.x = false;
 		locks.y = false;
+		lastScroll.x = reviewContainer.scrollLeft;
+		lastScroll.y = reviewContainer.scrollTop;
 	});
 
 	const toggleFromMovement = ({ deltaX, deltaY }: { deltaX: number; deltaY: number }): void => {
-		const vertical = Math.abs(deltaY) > Math.abs(deltaX);
-		if (!locks.y && vertical && reviewContainer.scrollTop === 0) {
+		const absDeltaY = Math.abs(deltaY);
+		const absDeltaX = Math.abs(deltaX);
+		if (!locks.y && absDeltaY > absDeltaX && reviewContainer.scrollTop === 0) {
 			if (deltaY < 0) {
 				historyToggle.checked = true;
 			} else if (deltaY > 0) {
@@ -49,7 +52,7 @@ const addUIControl = () => {
 			}
 		} else if (
 			!locks.x &&
-			!vertical &&
+			absDeltaY < absDeltaX &&
 			reviewContainer.scrollLeft + reviewContainer.clientWidth >= reviewContainer.scrollWidth
 		) {
 			if (deltaX > 0) {

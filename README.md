@@ -62,3 +62,6 @@ ziyi's reviews are just so precious that they must be cherished
 
 - Add favicon/site.webmanifest for the web version
 - Change history to be radios, and just make all the pages on top of each other instead of swapping them out
+- Make it so you can build the entire extension/website from a single command
+  - Parameterize name of extension, letterboxd user, description etc.
+  - Move code from this repo into a "base" repo that is called from here to build
