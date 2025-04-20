@@ -1,5 +1,6 @@
 $history-item-margin: 0.5rem
 $history-height: 8rem
+$settings-width: 16rem
 
 @font-face
 	font-family: Roboto
@@ -13,18 +14,18 @@ $history-height: 8rem
 	font-weight: 400
 	font-style: normal
 
-html, body
+.full-screen
 	width: 100%
 	height: 100%
 	margin: 0
 	padding: 0
+	overflow: hidden
 
 html
 	@media (orientation: portrait)
 		font-size: x-large
 
 body
-	overflow: hidden
 	background-color: black
 
 	.show-on-hover
@@ -72,20 +73,23 @@ label:has(.toggle)
 	&:not(:has(.toggle:checked)) .only-closed
 		display: none
 
-body:has(#history-toggle:checked) #main
+body:has(#history-toggle:checked) #foreground
 	transform: translateY($history-height)
 	#review
-		overflow: hidden
+		overflow-y: hidden
 
-#main
-	position: relative
-	width: 100%
-	height: 100%
-	background-color: black
-	overflow: hidden
-	transition: transform .3s cubic-bezier(.28,.83,.67,1)
+body:has(#settings-toggle:checked) #history-and-background
+	transform: translateX(-$settings-width)
+	#review
+		overflow-x: hidden
+
+.slides
+	transition: transform 400ms cubic-bezier(.28,.83,.67,1)
 	will-change: transform
 
+#foreground
+	position: relative
+	background-color: black
 
 	#backdrop-image
 		top: -5px
@@ -193,7 +197,6 @@ body:has(#history-toggle:checked) #main
 		flex: 1
 		margin-top: $history-item-margin
 		margin-bottom: $history-item-margin
-		margin-right: $history-item-margin
 		display: flex
 		justify-content: center
 		align-items: center
@@ -227,7 +230,7 @@ body:has(#history-toggle:checked) #main
 
 		svg
 			fill: #313131
-	.history-item:first-child
+	.history-item:not(:first-child)
 		margin-left: $history-item-margin
 
 .loads

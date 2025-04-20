@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="full-screen">
 <head>
 	<meta charset="UTF-8">
 	<% if (process.env.BUILD_ENV === "web") { %>
@@ -8,59 +8,62 @@
 	<title>New Tab</title>
 	<% } %>
 </head>
-<body style="background-color: black">
+<body style="background-color: black" class="full-screen">
 
-<div id="history">
-	<% for (let i = 0; i < 10; i++) { %>
-		<div class="history-item history-placeholder">
-			<svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 24 24"><path d="M23 18V6c0-1.1-.9-2-2-2H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2zM8.5 12.5l2.5 3.01L14.5 11l4.5 6H5l3.5-4.5z"></path></svg>
-		</div>
-	<% } %>
-</div>
+<div id="settings"></div>
 
-<div id="main" class="border-shadow">
-	<div id="backdrop" class="loads hidden">
-		<img id="backdrop-image" src="#" alt="backdrop">
+<div id="history-and-background" class="full-screen slides border-shadow">
+	<div id="history">
+		<% for (let i = 0; i < 10; i++) { %>
+			<div class="history-item history-placeholder">
+				<svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 24 24"><path d="M23 18V6c0-1.1-.9-2-2-2H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2zM8.5 12.5l2.5 3.01L14.5 11l4.5 6H5l3.5-4.5z"></path></svg>
+			</div>
+		<% } %>
+	</div>
 
-		<div id="review">
-			<div id="contents" class="text-shadow">
-				<p id="review-text"></p>
-				<div id="review-metadata">
-					<a id="review-link" href="#" title="review on letterboxd">
-						<span id="review-date"></span>
-					</a>
-					<p>
-						<span id="review-stars"></span>
-						<span id="review-heart"></span>
-						<span id="review-rewatch"></span>
-					</p>
-					<div id="tags"></div>
+	<div id="foreground" class="full-screen slides border-shadow">
+		<div id="backdrop" class="loads hidden">
+			<img id="backdrop-image" src="#" alt="backdrop">
+
+			<div id="review">
+				<div id="contents" class="text-shadow">
+					<p id="review-text"></p>
+					<div id="review-metadata">
+						<a id="review-link" href="#" title="review on letterboxd">
+							<span id="review-date"></span>
+						</a>
+						<p>
+							<span id="review-stars"></span>
+							<span id="review-heart"></span>
+							<span id="review-rewatch"></span>
+						</p>
+						<div id="tags"></div>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 
-	<header id="header" class="show-on-hover" style="opacity: 0">
-		<nav id="menu">
-			<% if (process.env.BUILD_ENV === "chrome") { %>
-				<a href="chrome://newtab" title="default new tab">
-					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-						 class="icon icon--tab">
-						<path d="M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H3V5h10v4h8v10z"
-							  fill="white"></path>
-					</svg>
-				</a>
-			<% } %>
-			<% if (process.env.BUILD_ENV === "firefox") { %>
-				<!-- about:newtab -->
-				<a href="about:newtab" title="default new tab">
-					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-						 class="icon icon--tab">
-						<path d="M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H3V5h10v4h8v10z"
-							  fill="white"></path>
-					</svg>
-				</a>
-			<% } %>
+		<header id="header" class="show-on-hover" style="opacity: 0">
+			<nav id="menu">
+				<% if (process.env.BUILD_ENV === "chrome") { %>
+					<a href="chrome://newtab" title="default new tab">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+							 class="icon icon--tab">
+							<path d="M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H3V5h10v4h8v10z"
+								  fill="white"></path>
+						</svg>
+					</a>
+				<% } %>
+				<% if (process.env.BUILD_ENV === "firefox") { %>
+					<!-- about:newtab -->
+					<a href="about:newtab" title="default new tab">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+							 class="icon icon--tab">
+							<path d="M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H3V5h10v4h8v10z"
+								  fill="white"></path>
+						</svg>
+					</a>
+				<% } %>
 				<label
 						id="history-label"
 						for="history-toggle"
@@ -114,17 +117,18 @@
 							class="toggle"
 					/>
 				</label>
-		</nav>
-	</header>
+			</nav>
+		</header>
 
-	<div id="movie-info-container" class="loads hidden text-shadow">
-		<div id="movie-info">
-			<a id="movie-name" href="#" title="movie on letterboxd"></a>
-			<p id="movie-year"></p>
+		<div id="movie-info-container" class="loads hidden text-shadow">
+			<div id="movie-info">
+				<a id="movie-name" href="#" title="movie on letterboxd"></a>
+				<p id="movie-year"></p>
+			</div>
+			<a id="movie-link" href="#" title="movie on letterboxd">
+				<img id="poster" class="border-shadow" src="#" alt="poster">
+			</a>
 		</div>
-		<a id="movie-link" href="#" title="movie on letterboxd">
-			<img id="poster" class="border-shadow" src="#" alt="poster">
-		</a>
 	</div>
 </div>
 </body>

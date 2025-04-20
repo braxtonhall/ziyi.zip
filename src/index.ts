@@ -1,18 +1,17 @@
 import "./index.sass";
 import { setMovie } from "./setMovie";
-import { showUI } from "./showUI";
+import { setupUI } from "./setupUI";
 import reviews from "./reviews.json";
-import { addHistoryUIControl, addToHistory } from "./history";
+import { addToHistory } from "./history";
 
 document.addEventListener(
 	"DOMContentLoaded",
 	() => {
-		const entries = Object.entries(reviews);
+		const entries = Object.entries(reviews).filter(([url]) => url.includes("praise-of-"));
 		const [_, review] = entries[Math.floor(Math.random() * entries.length)];
 		setMovie(review);
 		void addToHistory(review);
-		showUI();
-		addHistoryUIControl();
+		setupUI();
 	},
 	{ once: true },
 );
