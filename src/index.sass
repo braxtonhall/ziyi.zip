@@ -1,6 +1,7 @@
 $history-item-margin: 0.2rem
 $history-height: 8rem
-$settings-width: 16rem
+$icon-margin: 1rem
+$icon-size: 2rem
 
 @font-face
 	font-family: Roboto
@@ -27,6 +28,8 @@ html
 
 body
 	background-color: black
+	font-family: Roboto, sans-serif
+	color: white
 
 	.show-on-hover
 		opacity: 0
@@ -41,22 +44,21 @@ body
 	top: 0
 	width: 100%
 	left: 0
+header
+	box-sizing: border-box
+	width: 100%
+	padding: $icon-margin
+	display: flex
+	.header-title
+		margin-top: 0
+		margin-bottom: 0
+		flex: 1
+		font-size: 1.5rem
 
-	nav
-		float: right
-		margin-right: 1rem
-		margin-top: 1rem
-		display: flex
-		label:not(:last-child)
-			margin-right: 0.5rem
-
-#close-settings-label
-	float: right
-	margin-right: 1rem
-	margin-top: 1rem
-
-	height: 2rem
-	width: 2rem
+nav
+	display: flex
+	label:not(:last-child)
+		margin-right: 0.5rem
 
 .toggle-label
 	background-color: transparent
@@ -65,9 +67,10 @@ body
 	display: flex
 	justify-content: center
 	align-items: center
+	height: $icon-size
+	width: $icon-size
 	svg
 		width: auto
-		height: 2rem
 	&, *
 		cursor: pointer
 	.toggle
@@ -83,9 +86,6 @@ body:has(#history-toggle:checked) #foreground
 	transform: translateY($history-height)
 	#review
 		overflow-y: hidden
-
-body:has(#settings-toggle:checked) #settings-container
-	transform: translateX(-$settings-width)
 
 .slides
 	transition: transform 400ms cubic-bezier(.28,.83,.67,1)
@@ -114,22 +114,20 @@ body:has(#settings-toggle:checked) #settings-container
 		overflow: scroll
 
 		#contents
-			font-family: Roboto, sans-serif
-			color: grey
 			margin: 4rem
 			@media (orientation: landscape)
 				max-width: 60%
 			#review-link
-				display: inline-block
 				color: grey
+				display: inline-block
 			#review-text
 				font-family: Merriweather, serif
-				color: white
 				font-size: 3rem
 				margin-bottom: 0.1rem
 				margin-top: 0
 				white-space: pre-wrap
 			#review-metadata
+				color: grey
 				width: fit-content
 				font-size: 1rem
 				p
@@ -171,7 +169,6 @@ body:has(#settings-toggle:checked) #settings-container
 			border-radius: .2rem
 
 		#movie-info
-			font-family: Roboto, sans-serif
 			align-self: flex-end
 			margin-right: 1rem
 			bottom: 0
@@ -199,6 +196,7 @@ body:has(#settings-toggle:checked) #settings-container
 	.history-item
 		background-color: #1a1a1a
 		flex: 1
+		margin-top: $history-item-margin
 		margin-bottom: $history-item-margin
 		display: flex
 		justify-content: center
@@ -215,7 +213,6 @@ body:has(#settings-toggle:checked) #settings-container
 		&:not(:hover) .title-container
 			display: none
 		.title-container
-			font-family: Roboto, sans-serif
 			color: white
 			position: absolute
 			left: 0
@@ -235,19 +232,30 @@ body:has(#settings-toggle:checked) #settings-container
 	.history-item:not(:first-child)
 		margin-left: $history-item-margin
 
+body:has(#settings-toggle:checked) #settings-container
+	transform: none
+	opacity: 1
+
+body.ui-interacted #settings-container
+	transition: transform 250ms ease-in-out, opacity 200ms ease-in-out
+
 #settings-container
-	width: $settings-width
+	will-change: opacity, transform
+	transform-origin: calc(100% - $icon-size) $icon-size
+	transform: scale(0)
+	opacity: 0
+	width: 16rem
 	height: 100%
 	position: absolute
 	top: 0
 	right: 0
-	display: none
-	//display: flex
-	overflow-x: hidden
+	padding: 0.5rem
 
 	#settings
 		background-color: #2d2d2d
-		flex: 1
+
+		border-radius: 0.2rem
+		width: 100%
 
 .loads
 	opacity: 1
