@@ -5,6 +5,14 @@ let timeout: number;
 export const setupUI = () => {
 	addMenuHoverDisplay();
 	addUIControl();
+	watchOnlineStatus();
+};
+
+const watchOnlineStatus = () => {
+	const toggleOnlineStatus = () => document.body.classList.toggle("is-offline", !navigator.onLine);
+	window.addEventListener("online", toggleOnlineStatus);
+	window.addEventListener("offline", toggleOnlineStatus);
+	toggleOnlineStatus();
 };
 
 const addMenuHoverDisplay = () => {
