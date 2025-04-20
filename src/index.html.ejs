@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<% if (process.env.BUILD_ENV === "web") { %>
-	<title>Ziyi at the Cinema</title>
+	<title><%=process.env.SITE_TITLE%></title>
 	<% } else { %>
 	<title>New Tab</title>
 	<% } %>
@@ -155,52 +155,77 @@
 
 				<div id="settings-contents">
 					<div class="settings-section">
-						<h3 class="settings-section-title">filters</h3>
-						<span>show reviews with...</span>
-						<ul>
-							<li>spoilers</li>
-							<li>missing posters</li>
-							<li>missing backdrops</li>
-						</ul>
+						<details><summary><span class="settings-section-title">movies</span></summary></details>
+						<div class="details-contents">
+
+							<div>
+								<span>filters</span>
+								<span>show reviews with...</span>
+								<ul>
+									<li>spoilers</li>
+									<li>missing posters</li>
+									<li>missing backdrops</li>
+								</ul>
+							</div>
+
+							<div>
+								<span>update frequency</span>
+								<ul>
+									<li>daily</li>
+									<% if (process.env.BUILD_ENV === 'web') { %>
+										<li>each new tab</li>
+									<% } else { %>
+										<li>each page load</li>
+									<% } %>
+								</ul>
+							</div>
+
+							<div>
+								<span>clear history</span>
+							</div>
+
+						</div>
 					</div>
+
 					<div class="settings-section">
-						<h3 class="settings-section-title">background</h3>
-						<span>blur</span>
+						<details><summary><span class="settings-section-title">appearance</span></summary></details>
+						<div class="details-contents">
+
+							<div>
+								<span>background</span>
+								<span>blur</span>
+							</div>
+
+							<div>
+								<span>spoilers</span>
+								<ul>
+									<li>show review contents</li>
+									<li>hide review contents</li>
+									<li>show review contents when clicked</li>
+								</ul>
+							</div>
+
+							<div>
+								<span>review metadata</span>
+							</div>
+
+						</div>
 					</div>
-					<div class="settings-section">
-						<h3 class="settings-section-title">spoilers</h3>
-						<ul>
-							<li>show review contents</li>
-							<li>hide review contents</li>
-							<li>show review contents when clicked</li>
-						</ul>
-					</div>
-					<div class="settings-section">
-						<h3 class="settings-section-title">update frequency</h3>
-						<ul>
-							<li>daily</li>
-							<% if (process.env.BUILD_ENV === 'web') { %>
-								<li>each new tab</li>
-							<% } else { %>
-								<li>each page load</li>
-							<% } %>
-						</ul>
-					</div>
-					<div class="settings-section">
-						<h3 class="settings-section-title">review metadata</h3>
-					</div>
-					<div class="settings-section">
-						<h3 class="settings-section-title">clear history</h3>
-					</div>
+
 					<% if (process.env.BUILD_ENV === 'web') { %>
 						<div class="settings-section">
-							<h3 class="settings-section-title">about</h3>
-							<p>reviews by ziyi</p>
-							<p>website by braxton</p>
-							<p>download here</p>
+							<details open><summary><span class="settings-section-title">about</span></summary></details>
+							<div class="details-contents">
+								<div>
+									<p>reviews by <a href="https://letterboxd.com/<%=process.env.LETTERBOXD_ID%>" title="<%=process.env.LETTERBOXD_ID%> on letterboxd"><%=process.env.LETTERBOXD_ID%></a></p>
+									<p>website by <a href="https://letterboxd.com/braxtonhall" title="braxtonhall on letterboxd">braxtonhall</a></p>
+									<p>download here</p>
+								</div>
+							</div>
 						</div>
+
 						<div class="settings-section">
-							<h3 class="settings-section-title">bob's club</h3>
+							<span>bob's club</span>
 						</div>
 					<% } %>
 				</div>

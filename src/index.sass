@@ -253,6 +253,8 @@ body.ui-interacted #settings-container
 	box-sizing: border-box
 
 	#settings
+		a
+			color: white
 		background-color: #2d2d2d
 		display: flex
 		flex-direction: column
@@ -265,12 +267,18 @@ body.ui-interacted #settings-container
 			padding: 0 1rem 1rem 1rem
 			display: flex
 			flex-direction: column
-			.settings-section-title
-				margin: 0
 			.settings-section + .settings-section
 				margin-top: 0.5rem
 				padding-top: 0.5rem
 				border-top: 1px solid white
+			.details-contents
+				will-change: max-height
+				transition: max-height .25s cubic-bezier(.28,.83,.67,1)
+				max-height: 0
+				overflow: hidden
+				height: fit-content
+			details[open] + .details-contents
+				max-height: 10rem
 
 .loads
 	opacity: 1

@@ -75,6 +75,8 @@ module.exports = (_env: any, options: WebpackOptionsNormalized): Configuration =
 	plugins: [
 		new EnvironmentPlugin({
 			BUILD_ENV: buildEnv,
+			LETTERBOXD_ID: "ziyiyan", // TODO parameterize this
+			SITE_TITLE: "ziyi at the cinema",
 		}),
 		new HtmlWebpackPlugin({
 			filename: "index.html",
