@@ -16,25 +16,31 @@ type DecoratedHistory = (HistoryItem & { today: boolean })[];
 
 const today = new Date().toLocaleDateString(undefined, { month: "numeric", year: "numeric", day: "numeric" });
 
-const setHistoryItem = (element: Element, review: Review | null) => {
+const setHistoryItemDetails = (element: Element, review: Review | null) => {
 	if (review) {
-		const image = document.createElement("img");
-		image.src =
-			review.movie.backdrop ||
-			review.movie.poster ||
-			"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=";
-		image.title = review.movie.title;
-		const title = document.createElement("span");
-		title.innerText = review.movie.title;
-		const titleContainer = document.createElement("div");
-		titleContainer.append(title);
-		titleContainer.classList.add("title-container");
-		element.append(image, titleContainer);
+		const image = element.querySelector(".history-item-image") as HTMLImageElement | null;
+		if (image) {
+			image.src =
+				review.movie.backdrop ||
+				review.movie.poster ||
+				"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=";
+			image.alt = review.movie.title;
+		}
+		const title = element.querySelector(".history-title") as HTMLDivElement | null;
+		if (title) {
+			title.innerText = review.movie.title;
+		}
 		element.addEventListener("click", () => setMovie(review), { passive: true });
 		element.classList.remove("history-placeholder");
 	} else {
 		element.classList.add("history-placeholder");
 	}
+};
+
+const updateHistoryItem = (element: Element, review: Review | null) => {
+	const copy = element.cloneNode(true) as Element;
+	element.parentNode?.replaceChild(copy, element);
+	return setHistoryItemDetails(copy, review);
 };
 
 export const initHistory = async (review: Review) => {
@@ -56,7 +62,7 @@ const setHistoryElements = (history: History) => {
 		const element: Element | null = elements.history.children.item(i);
 		const item: HistoryItem | undefined = history[i];
 		if (element) {
-			setHistoryItem(element, item?.review ?? null);
+			updateHistoryItem(element, item?.review ?? null);
 		}
 	}
 };

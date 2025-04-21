@@ -208,6 +208,9 @@ body:has(#history-toggle:checked) #foreground
 		justify-content: center
 		align-items: center
 		position: relative
+		&.history-placeholder
+			.history-item-image, .history-title-container
+				display: none
 		&:not(.history-placeholder)
 			svg
 				display: none
@@ -216,9 +219,9 @@ body:has(#history-toggle:checked) #foreground
 			object-fit: cover
 			width: 100%
 			height: 100%
-		&:not(:hover) .title-container
+		&:not(:hover) .history-title-container
 			display: none
-		.title-container
+		.history-title-container
 			color: white
 			position: absolute
 			left: 0
