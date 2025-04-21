@@ -36,3 +36,4 @@ ziyi's reviews are just so precious that they must be cherished
 - Make it so you can build the entire extension/website from a single command
   - Parameterize name of extension, letterboxd user, description etc.
   - Move code from this repo into a "base" repo that is called from here to build
+- Add a bob's club link as always
