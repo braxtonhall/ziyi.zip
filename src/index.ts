@@ -3,12 +3,14 @@ import { setMovie } from "./setMovie";
 import { setupUI } from "./setupUI";
 import reviews from "./reviews.json";
 import { addToHistory } from "./history";
+import { initSettings } from "./settings";
+import { getReview } from "./getReview";
 
 document.addEventListener(
 	"DOMContentLoaded",
-	() => {
-		const entries = Object.entries(reviews);
-		const [_, review] = entries[Math.floor(Math.random() * entries.length)];
+	async () => {
+		const settings = await initSettings();
+		const review = getReview(settings);
 		setMovie(review);
 		void addToHistory(review);
 		setupUI();

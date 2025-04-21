@@ -19,11 +19,12 @@ const schema = {
 	historyToggle: ["history-toggle", HTMLInputElement],
 	settingsToggle: ["settings-toggle", HTMLInputElement],
 	settingsContents: ["settings-contents", HTMLDivElement],
+	clearHistory: ["clear-history", HTMLButtonElement],
 } as const;
 
 type Elements = {
 	[K in keyof typeof schema]: (typeof schema)[K][1]["prototype"];
-};
+} & { settings: Record<string, HTMLInputElement> };
 
 let elements: null | Elements;
 
@@ -31,7 +32,11 @@ export const getElements = () => {
 	if (!elements) {
 		const entries = Object.entries(schema);
 		const queried = entries.map(([key, [id]]) => [key, document.getElementById(id)]);
-		elements = Object.fromEntries(queried);
+		const settings = Array.from(document.querySelectorAll("#settings input"));
+		elements = {
+			...Object.fromEntries(queried),
+			settings: Object.fromEntries(settings.map((setting) => [setting.id, setting])),
+		};
 	}
 	return elements;
 };

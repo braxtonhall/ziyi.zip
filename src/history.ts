@@ -34,3 +34,8 @@ export const addToHistory = async (review: Review) => {
 		}
 	}
 };
+
+export const clearHistory = () => {
+	// TODO implement this for reach
+	alert("clear history");
+};
