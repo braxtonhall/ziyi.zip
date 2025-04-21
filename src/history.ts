@@ -27,7 +27,7 @@ export const addToHistory = async (review: Review) => {
 			titleContainer.append(title);
 			titleContainer.classList.add("title-container");
 			element.append(image, titleContainer);
-			element.addEventListener("click", () => setMovie(review));
+			element.addEventListener("click", () => setMovie(review), { passive: true });
 			element.classList.remove("history-placeholder");
 		} else {
 			element.classList.add("history-placeholder");

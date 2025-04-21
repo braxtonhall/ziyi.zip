@@ -62,6 +62,9 @@ nav
 	label:not(:last-child)
 		margin-right: 0.5rem
 
+label, input, details, button
+	cursor: pointer
+
 .toggle-label
 	background-color: transparent
 	outline: none
@@ -73,8 +76,6 @@ nav
 	width: $icon-size
 	svg
 		width: auto
-	&, *
-		cursor: pointer
 	.toggle
 		position: absolute
 		left: 0
@@ -267,10 +268,9 @@ body.ui-interacted #settings-container
 			padding: 0 1rem 1rem 1rem
 			display: flex
 			flex-direction: column
-			.settings-section + .settings-section
+
+			.settings-group + .settings-group
 				margin-top: 0.5rem
-				padding-top: 0.5rem
-				border-top: 1px solid white
 			.details-contents
 				will-change: max-height
 				transition: max-height .400s ease-in-out
@@ -279,6 +279,32 @@ body.ui-interacted #settings-container
 				height: fit-content
 			details[open] + .details-contents
 				max-height: 15rem
+			.settings-section
+				border-left: 1px solid #484848
+				margin-left: 0.3rem
+				padding-left: 0.5rem
+				border-bottom-left-radius: 0.15rem
+			li
+				display: flex
+				align-items: baseline
+				label
+					display: block
+			ul
+				list-style-type: none
+			ul, p
+				margin: 0
+			hr
+				width: 100%
+				border: .5px solid #484848
+			button
+				margin: 3px 3px 0 5px
+				display: inline
+				padding: 0
+				border: 0
+				font: inherit
+				background: transparent
+				color: currentColor
+				-webkit-appearance: none
 
 .loads
 	opacity: 1

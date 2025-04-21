@@ -154,56 +154,106 @@
 				</header>
 
 				<div id="settings-contents" class="scrollable">
-					<div class="settings-section">
+					<div class="settings-group">
 						<details><summary><span class="settings-section-title">movies</span></summary></details>
-						<div class="details-contents">
+						<div class="details-contents settings-section">
 
-							<div>
-								<span>filters</span>
-								<span>show reviews with...</span>
-								<ul>
-									<li>spoilers</li>
-									<li>missing posters</li>
-									<li>missing backdrops</li>
-								</ul>
-							</div>
+							<span>show reviews with</span>
+							<ul class="settings-section">
+								<li>
+									<input id="filter-movies-backdrop" type="checkbox" />
+									<label for="filter-movies-backdrop" title="click to show movies with missing backdrops">
+										missing backdrops
+									</label>
+								</li>
+								<li>
+									<input id="filter-movies-posters" type="checkbox" />
+									<label for="filter-movies-posters" title="click to show movies with missing posters">
+										missing posters
+									</label>
+								</li>
+								<li>
+									<input id="filter-movies-spoilers" type="checkbox" />
+									<label for="filter-movies-spoilers" title="click to show movies with spoilers">
+										spoilers
+									</label>
+								</li>
+							</ul>
 
-							<div>
-								<span>update frequency</span>
-								<ul>
-									<li>daily</li>
-									<% if (process.env.BUILD_ENV === 'web') { %>
-										<li>each new tab</li>
-									<% } else { %>
-										<li>each page load</li>
-									<% } %>
-								</ul>
-							</div>
+							<span>update frequency</span>
+							<ul class="settings-section">
+								<li>
+									<input id="frequency-daily" type="radio" name="frequency-control" />
+									<label for="frequency-daily" title="update daily">
+										daily
+									</label>
+								</li>
+								<% if (process.env.BUILD_ENV === 'web') { %>
+									<li>
+										<input id="frequency-refresh" type="radio" name="frequency-control" />
+										<label for="frequency-refresh" title="update each new tab">
+											each new tab
+										</label>
+									</li>
+								<% } else { %>
+									<li>
+										<input id="frequency-refresh" type="radio" name="frequency-control" />
+										<label for="frequency-refresh" title="update each page load">
+											each page load
+										</label>
+									</li>
+								<% } %>
+							</ul>
 
-							<div>
-								<span>clear history</span>
-							</div>
+							<span>history</span>
+							<ul class="settings-section">
+								<li>
+									<button id="clear-history" >🗑️</button>
+									<label for="clear-history" title="clear history">
+										clear history
+									</label>
+								</li>
+							</ul>
 
 						</div>
 					</div>
 
-					<div class="settings-section">
+					<div class="settings-group">
 						<details><summary><span class="settings-section-title">appearance</span></summary></details>
-						<div class="details-contents">
+						<div class="details-contents settings-section">
 
-							<div>
-								<span>background</span>
-								<span>blur</span>
-							</div>
+							<span>background</span>
+							<ul class="settings-section">
+								<li>
+									<input id="blur" type="checkbox" />
+									<label for="blur" title="blur background">
+										blur
+									</label>
+								</li>
+							</ul>
 
-							<div>
-								<span>spoilers</span>
-								<ul>
-									<li>show review contents</li>
-									<li>hide review contents</li>
-									<li>show review contents when clicked</li>
-								</ul>
-							</div>
+							<span>spoilers</span>
+							<ul class="settings-section">
+								<li>
+									<input id="spoiler-visibility-show" name="spoiler-visibility-control" type="radio" />
+									<label for="spoiler-visibility-show" title="show spoiler contents">
+										show spoiler contents
+									</label>
+								</li>
+								<li>
+									<input id="spoiler-visibility-hide" name="spoiler-visibility-control" type="radio" />
+									<label for="spoiler-visibility-hide" title="hide spoiler contents">
+										hide spoiler contents
+									</label>
+								</li>
+								<li>
+									<input id="spoiler-visibility-click" name="spoiler-visibility-control" type="radio" />
+									<label for="spoiler-visibility-click" title="click to show spoiler contents">
+										click to show spoiler contents
+									</label>
+								</li>
+							</ul>
+
 
 							<div>
 								<span>review metadata</span>
@@ -213,18 +263,17 @@
 					</div>
 
 					<% if (process.env.BUILD_ENV === 'web') { %>
-						<div class="settings-section">
-							<details open><summary><span class="settings-section-title">about</span></summary></details>
-							<div class="details-contents">
-								<div>
-									<p>reviews by <a href="https://letterboxd.com/<%=process.env.LETTERBOXD_ID%>" title="<%=process.env.LETTERBOXD_ID%> on letterboxd"><%=process.env.LETTERBOXD_ID%></a></p>
-									<p>website by <a href="https://letterboxd.com/braxtonhall" title="braxtonhall on letterboxd">braxtonhall</a></p>
-									<p>download here</p>
-								</div>
-							</div>
+						<hr>
+						<div>
+							<p>reviews by <a href="https://letterboxd.com/<%=process.env.LETTERBOXD_ID%>" title="<%=process.env.LETTERBOXD_ID%> on letterboxd"><%=process.env.LETTERBOXD_ID%></a>.</p>
+							<p>website by <a href="https://letterboxd.com/braxtonhall" title="braxtonhall on letterboxd">braxtonhall</a>.</p>
+							<br>
+							<p>download the extension to see a review in every new tab</p>
+							<!-- TODO -->
 						</div>
 
-						<div class="settings-section">
+						<hr>
+						<div class="settings-group">
 							<span>bob's club</span>
 						</div>
 					<% } %>

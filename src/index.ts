@@ -13,5 +13,5 @@ document.addEventListener(
 		void addToHistory(review);
 		setupUI();
 	},
-	{ once: true },
+	{ once: true, passive: true },
 );

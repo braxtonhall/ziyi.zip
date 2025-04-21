@@ -44,7 +44,10 @@ export const setMovie = (review: Review) => {
 	if (review.movie.backdrop) {
 		elements.backdropImage.src = review.movie.backdrop;
 		elements.backdropImage.alt = review.movie.title;
-		elements.backdropImage.addEventListener("load", () => elements.backdrop.classList.remove("hidden"), { once: true });
+		elements.backdropImage.addEventListener("load", () => elements.backdrop.classList.remove("hidden"), {
+			once: true,
+			passive: true,
+		});
 	} else {
 		elements.backdropImage.src =
 			"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=";
@@ -56,6 +59,7 @@ export const setMovie = (review: Review) => {
 		elements.poster.src = review.movie.poster;
 		elements.poster.addEventListener("load", () => elements.movieInfoContainer.classList.remove("hidden"), {
 			once: true,
+			passive: true,
 		});
 	} else {
 		// TODO this is probably the wrong size. need to fix this

@@ -10,18 +10,22 @@ export const setupUI = () => {
 
 const watchOnlineStatus = () => {
 	const toggleOnlineStatus = () => document.body.classList.toggle("is-offline", !navigator.onLine);
-	window.addEventListener("online", toggleOnlineStatus);
-	window.addEventListener("offline", toggleOnlineStatus);
+	window.addEventListener("online", toggleOnlineStatus, { passive: true });
+	window.addEventListener("offline", toggleOnlineStatus, { passive: true });
 	toggleOnlineStatus();
 };
 
 const addMenuHoverDisplay = () => {
-	document.body.addEventListener("mousemove", () => {
-		document.body.classList.add("ui-interacted");
-		document.body.classList.add("ui-active");
-		clearTimeout(timeout);
-		timeout = setTimeout(() => document.body.classList.remove("ui-active"), 3000);
-	});
+	document.body.addEventListener(
+		"mousemove",
+		() => {
+			document.body.classList.add("ui-interacted");
+			document.body.classList.add("ui-active");
+			clearTimeout(timeout);
+			timeout = setTimeout(() => document.body.classList.remove("ui-active"), 3000);
+		},
+		{ passive: true },
+	);
 };
 
 const addUIControl = () => {
@@ -30,10 +34,10 @@ const addUIControl = () => {
 	let locked = false;
 	const lock = () => (locked = true);
 	const unlock = () => (locked = false);
-	reviewContainer.addEventListener("scroll", lock);
-	settingsContents.addEventListener("scroll", lock);
-	reviewContainer.addEventListener("scrollend", unlock);
-	settingsContents.addEventListener("scrollend", unlock);
+	reviewContainer.addEventListener("scroll", lock, { passive: true });
+	settingsContents.addEventListener("scroll", lock, { passive: true });
+	reviewContainer.addEventListener("scrollend", unlock, { passive: true });
+	settingsContents.addEventListener("scrollend", unlock, { passive: true });
 
 	const scrollTop = (target: EventTarget) => {
 		if (target instanceof Element) {
@@ -59,24 +63,32 @@ const addUIControl = () => {
 	window.addEventListener("wheel", toggleFromMovement, { passive: true });
 
 	let lastTouch: { x: number; y: number } | null = null;
-	window.addEventListener("touchend", () => (lastTouch = null));
-	window.addEventListener("touchstart", (event) => {
-		lastTouch = {
-			x: event.touches[0].clientX,
-			y: event.touches[0].clientY,
-		};
-	});
-	window.addEventListener("touchmove", (event) => {
-		if (lastTouch) {
-			toggleFromMovement({
-				deltaX: lastTouch.x - event.touches[0].clientX,
-				deltaY: lastTouch.y - event.touches[0].clientY,
-				target: event.target,
-			});
-		}
-		lastTouch = {
-			x: event.touches[0].clientX,
-			y: event.touches[0].clientY,
-		};
-	});
+	window.addEventListener("touchend", () => (lastTouch = null), { passive: true });
+	window.addEventListener(
+		"touchstart",
+		(event) => {
+			lastTouch = {
+				x: event.touches[0].clientX,
+				y: event.touches[0].clientY,
+			};
+		},
+		{ passive: true },
+	);
+	window.addEventListener(
+		"touchmove",
+		(event) => {
+			if (lastTouch) {
+				toggleFromMovement({
+					deltaX: lastTouch.x - event.touches[0].clientX,
+					deltaY: lastTouch.y - event.touches[0].clientY,
+					target: event.target,
+				});
+			}
+			lastTouch = {
+				x: event.touches[0].clientX,
+				y: event.touches[0].clientY,
+			};
+		},
+		{ passive: true },
+	);
 };
