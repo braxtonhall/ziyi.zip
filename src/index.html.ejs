@@ -191,15 +191,15 @@
 								<% if (process.env.BUILD_ENV === 'web') { %>
 									<li>
 										<input id="frequency-refresh" type="radio" name="frequency-control" />
-										<label for="frequency-refresh" title="update each new tab">
-											each new tab
+										<label for="frequency-refresh" title="update each page load">
+											each page load
 										</label>
 									</li>
 								<% } else { %>
 									<li>
 										<input id="frequency-refresh" type="radio" name="frequency-control" />
-										<label for="frequency-refresh" title="update each page load">
-											each page load
+										<label for="frequency-refresh" title="update each new tab">
+											each new tab
 										</label>
 									</li>
 								<% } %>

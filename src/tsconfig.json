@@ -1,7 +1,6 @@
 {
 	"extends": "../tsconfig.json",
 	"compilerOptions": {
-		"strict": false,
 		"target": "ES2015",
 		"types": ["chrome"],
 		"lib": ["DOM", "ES2020"]

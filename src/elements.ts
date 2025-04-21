@@ -26,10 +26,10 @@ type Elements = {
 	[K in keyof typeof schema]: (typeof schema)[K][1]["prototype"];
 } & { settings: Record<string, HTMLInputElement> };
 
-let elements: null | Elements;
+let elements: Elements | null = null;
 
-export const getElements = () => {
-	if (!elements) {
+export const getElements = (): Elements => {
+	if (elements === null) {
 		const entries = Object.entries(schema);
 		const queried = entries.map(([key, [id]]) => [key, document.getElementById(id)]);
 		const settings = Array.from(document.querySelectorAll("#settings input"));
@@ -38,5 +38,5 @@ export const getElements = () => {
 			settings: Object.fromEntries(settings.map((setting) => [setting.id, setting])),
 		};
 	}
-	return elements;
+	return elements as Elements;
 };
