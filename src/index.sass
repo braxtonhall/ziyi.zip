@@ -256,79 +256,76 @@ body:has(#spoiler-visibility-click:checked) #review-text.contains-spoiler:not(.c
 	.history-item:not(:first-child)
 		margin-left: $history-item-margin
 
-body:has(#settings-toggle:checked) #settings-container
+body:has(#settings-toggle:checked) #settings
 	transform: none
 	opacity: 1
 
-body.ui-interacted #settings-container
+body.ui-interacted #settings
 	transition: transform 250ms ease-in-out, opacity 200ms ease-in-out
 
-#settings-container
+#settings
 	will-change: opacity, transform
 	transform-origin: calc(100% - $icon-size) $icon-size
 	transform: scale(0)
 	opacity: 0
 	width: 16rem
-	height: 100%
 	position: absolute
 	top: 0
 	right: 0
-	padding: 0.5rem
-	box-sizing: border-box
+	margin: 0.5rem
 
-	#settings
-		font-family: "Open Sans", sans-serif
-		a
-			color: white
-		background-color: #2d2d2d
+	font-family: "Open Sans", sans-serif
+	a
+		color: white
+	background-color: #2d2d2d
+	display: flex
+	flex-direction: column
+	border-radius: 0.2rem
+	max-height: calc(100% - 1rem)
+
+	#settings-contents
+		padding: 0 1rem 1rem 1rem
 		display: flex
 		flex-direction: column
-		border-radius: 0.2rem
-		width: 100%
-		max-height: 100%
 
-		#settings-contents
-			padding: 0 1rem 1rem 1rem
+		.settings-group + .settings-group
+			margin-top: 0.5rem
+		.details-contents
+			will-change: max-height
+			transition: max-height .400s ease-in-out
+			max-height: 0
+			overflow: hidden
+			height: fit-content
+		details[open] + .details-contents
+			// TODO need to set each one individually...
+			max-height: 100rem
+		.settings-section
+			border-left: 1px solid #484848
+			margin-left: 0.3rem
+			padding-left: 0.5rem
+			border-bottom-left-radius: 0.15rem
+		li
 			display: flex
-			flex-direction: column
-
-			.settings-group + .settings-group
-				margin-top: 0.5rem
-			.details-contents
-				will-change: max-height
-				transition: max-height .400s ease-in-out
-				max-height: 0
-				overflow: hidden
-				height: fit-content
-			details[open] + .details-contents
-				// TODO need to set each one individually...
-				max-height: 100rem
-			.settings-section
-				border-left: 1px solid #484848
-				margin-left: 0.3rem
-				padding-left: 0.5rem
-				border-bottom-left-radius: 0.15rem
-			li
-				display: flex
-				align-items: baseline
-				label
-					display: block
-			ul
-				list-style-type: none
-			ul, p
-				margin: 0
-			hr
-				width: 100%
-				border: .5px solid #484848
-			button
-				margin: 3px 3px 0 5px
-				display: inline
-				padding: 0
-				border: 0
-				font: inherit
-				background: transparent
-				color: currentColor
-				-webkit-appearance: none
+			align-items: baseline
+			label
+				display: block
+		ul
+			list-style-type: none
+		ul, p
+			margin: 0
+		hr
+			width: 100%
+			border-width: 0
+			border-top: 1px solid #484848
+		button
+			margin: 3px 3px 0 5px
+			display: inline
+			padding: 0
+			border: 0
+			font: inherit
+			background: transparent
+			color: currentColor
+			-webkit-appearance: none
 
 .loads
 	opacity: 1
