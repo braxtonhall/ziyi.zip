@@ -115,9 +115,9 @@ body:has(#blur:checked) #backdrop-image
 	filter: blur(5px)
 body:has(#darken:checked):has(#blur:checked) #backdrop-image
 	filter: blur(5px) brightness(65%)
-body:has(#spoiler-visibility-hide:checked) #review-text
+body:has(#spoiler-visibility-hide:checked) #review-text.contains-spoiler
 	display: none
-body:has(#spoiler-visibility-click:checked) #review-text:not(.clicked)
+body:has(#spoiler-visibility-click:checked) #review-text.contains-spoiler:not(.clicked)
 	cursor: pointer
 	filter: blur(10px)
 	position: relative
@@ -301,7 +301,8 @@ body.ui-interacted #settings-container
 				overflow: hidden
 				height: fit-content
 			details[open] + .details-contents
-				max-height: 15rem
+				// TODO need to set each one individually...
+				max-height: 100rem
 			.settings-section
 				border-left: 1px solid #484848
 				margin-left: 0.3rem

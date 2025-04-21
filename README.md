@@ -18,32 +18,6 @@ ziyi's reviews are just so precious that they must be cherished
 
 ## todo
 
-### SETTINGS
-
-- Poster
-  - Show
-  - Hide
-  - Show on mouse over
-- Movie details
-  - Show
-  - Hide
-  - Show on mouse over
-- Review Metadata
-  - Show
-  - Hide
-  - Show on mouse over
-- Options Overlay
-  - Show
-  - Show on mouse over
-- Review Position
-  - Center
-  - Center left
-  - Top left
-  - Bottom left
-- Stars ON/OFF
-- Rewatch ON/OFF
-- Heart ON/OFF
-
 ### FEATURES
 
 - Offline mode (for the extension, not the website)

@@ -226,6 +226,22 @@
 						<details><summary><span class="settings-section-title">appearance</span></summary></details>
 						<div class="details-contents settings-section">
 
+							<span>menu</span>
+							<ul class="settings-section">
+								<li>
+									<input id="menu-visibility-show" name="menu-visibility-control" type="radio" />
+									<label for="menu-visibility-show" title="show menu always">
+										show menu always
+									</label>
+								</li>
+								<li>
+									<input id="menu-visibility-hide" name="menu-visibility-control" type="radio" />
+									<label for="menu-visibility-hide" title="hide menu on hover">
+										show menu on interaction
+									</label>
+								</li>
+							</ul>
+
 							<span>background</span>
 							<ul class="settings-section">
 								<li>
@@ -242,33 +258,155 @@
 								</li>
 							</ul>
 
-							<span>spoilers</span>
-							<ul class="settings-section">
+							<details><summary><span class="settings-section-title">movie details</span></summary></details>
+							<ul class="settings-section details-contents">
 								<li>
-									<input id="spoiler-visibility-show" name="spoiler-visibility-control" type="radio" />
-									<label for="spoiler-visibility-show" title="show spoiler contents">
-										show spoiler contents
+									<div>
+										<span>visibility</span>
+										<ul class="settings-section">
+											<li>
+												<input id="movie-details-visibility-show" name="movie-details-visibility-control" type="radio" />
+												<label for="movie-details-visibility-show" title="show poster">
+													show details
+												</label>
+											</li>
+											<li>
+												<input id="movie-details-visibility-hide" name="movie-details-visibility-control" type="radio" />
+												<label for="movie-details-visibility-hide" title="hide poster">
+													hide details
+												</label>
+											</li>
+											<li>
+												<input id="movie-details-visibility-hover" name="movie-details-visibility-control" type="radio" />
+												<label for="movie-details-visibility-hover" title="show details on hover">
+													show details on interaction
+												</label>
+											</li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									<input id="show-movie-name" type="checkbox" />
+									<label for="show-movie-name" title="click to show movie name">
+										show movie name
 									</label>
 								</li>
 								<li>
-									<input id="spoiler-visibility-hide" name="spoiler-visibility-control" type="radio" />
-									<label for="spoiler-visibility-hide" title="hide spoiler contents">
-										hide spoiler contents
+									<input id="show-movie-release-year" type="checkbox" />
+									<label for="show-movie-release-year" title="click to show movie release year">
+										show movie year
 									</label>
 								</li>
 								<li>
-									<input id="spoiler-visibility-click" name="spoiler-visibility-control" type="radio" />
-									<label for="spoiler-visibility-click" title="click to show spoiler contents">
-										show spoiler contents when clicked
+									<input id="show-movie-poster" type="checkbox" />
+									<label for="show-movie-poster" title="click to show movie poster">
+										show movie poster
 									</label>
 								</li>
 							</ul>
 
-
-							<div>
-								<span>review metadata</span>
-							</div>
-
+							<details><summary><span class="settings-section-title">review</span></summary></details>
+							<ul class="settings-section details-contents">
+								<li>
+									<div>
+										<span>position</span>
+										<ul class="settings-section">
+											<li>center</li>
+											<li>center, left</li>
+											<li>top, left</li>
+											<li>bottom, left</li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									<div>
+										<span>spoilers</span>
+										<ul class="settings-section">
+											<li>
+												<input id="spoiler-visibility-show" name="spoiler-visibility-control" type="radio" />
+												<label for="spoiler-visibility-show" title="show spoiler contents">
+													show spoilers
+												</label>
+											</li>
+											<li>
+												<input id="spoiler-visibility-hide" name="spoiler-visibility-control" type="radio" />
+												<label for="spoiler-visibility-hide" title="hide spoiler contents">
+													hide spoilers
+												</label>
+											</li>
+											<li>
+												<input id="spoiler-visibility-click" name="spoiler-visibility-control" type="radio" />
+												<label for="spoiler-visibility-click" title="click to show spoiler contents">
+													show spoilers when clicked
+												</label>
+											</li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									<div>
+										<details><summary><span class="settings-section-title">details</span></summary></details>
+										<ul class="settings-section details-contents">
+											<li>
+												<div>
+													<span>visibility</span>
+													<ul class="settings-section">
+														<li>
+															<input id="review-details-visibility-show" name="review-details-visibility-control" type="radio" />
+															<label for="review-details-visibility-show" title="show review details">
+																show details
+															</label>
+														</li>
+														<li>
+															<input id="review-details-visibility-hide" name="review-details-visibility-control" type="radio" />
+															<label for="review-details-visibility-hide" title="hide review details">
+																hide details
+															</label>
+														</li>
+														<li>
+															<input id="review-details-visibility-hover" name="review-details-visibility-control" type="radio" />
+															<label for="review-details-visibility-hover" title="show review details on hover">
+																show details on interaction
+															</label>
+														</li>
+													</ul>
+												</div>
+											</li>
+											<li>
+												<input id="show-review-date" type="checkbox" />
+												<label for="show-review-date" title="click to show review date">
+													show date
+												</label>
+											</li>
+											<li>
+												<input id="show-review-stars" type="checkbox" />
+												<label for="show-review-stars" title="click to show review stars">
+													show stars
+												</label>
+											</li>
+											<li>
+												<input id="show-review-heart" type="checkbox" />
+												<label for="show-review-heart" title="click to show review heart">
+													show heart
+												</label>
+											</li>
+											<li>
+											<li>
+												<input id="show-review-rewatch" type="checkbox" />
+												<label for="show-review-rewatch" title="click to show review rewatch">
+													show rewatch
+												</label>
+											</li>
+											<li>
+												<input id="show-review-tags" type="checkbox" />
+												<label for="show-review-tags" title="click to show review tags">
+													show tags
+												</label>
+											</li>
+										</ul>
+									</div>
+								</li>
+							</ul>
 						</div>
 					</div>
 
