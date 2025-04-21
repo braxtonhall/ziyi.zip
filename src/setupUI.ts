@@ -6,6 +6,12 @@ export const setupUI = () => {
 	addMenuHoverDisplay();
 	addUIControl();
 	watchOnlineStatus();
+	addSpoilerClick();
+};
+
+const addSpoilerClick = () => {
+	const { reviewText } = getElements();
+	reviewText.addEventListener("click", () => reviewText.classList.add("clicked"));
 };
 
 const watchOnlineStatus = () => {
@@ -39,7 +45,7 @@ const addUIControl = () => {
 	reviewContainer.addEventListener("scrollend", unlock, { passive: true });
 	settingsContents.addEventListener("scrollend", unlock, { passive: true });
 
-	const scrollTop = (target: EventTarget) => {
+	const scrollTop = (target: EventTarget | null) => {
 		if (target instanceof Element) {
 			const element = target.closest(".scrollable") ?? target;
 			return element.scrollTop;
@@ -48,7 +54,7 @@ const addUIControl = () => {
 		}
 	};
 
-	const toggleFromMovement = (event: { deltaX: number; deltaY: number; target: EventTarget }): void => {
+	const toggleFromMovement = (event: { deltaX: number; deltaY: number; target: EventTarget | null }): void => {
 		const absDeltaY = Math.abs(event.deltaY);
 		const absDeltaX = Math.abs(event.deltaX);
 		if (!locked && absDeltaY > absDeltaX) {

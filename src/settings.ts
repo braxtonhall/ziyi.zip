@@ -12,6 +12,7 @@ const defaults = {
 	"frequency-daily": false,
 	"frequency-refresh": true,
 	blur: true,
+	darken: true,
 	"spoiler-visibility-click": true,
 } satisfies Record<string, boolean>;
 

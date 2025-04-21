@@ -18,7 +18,7 @@ export const setMovie = (review: Review) => {
 	const elements = getElements();
 	elements.movieName.innerText = review.movie.title;
 	elements.movieYear.innerText = String(review.movie.year);
-
+	elements.reviewText.classList.toggle("contains-spoiler", review.spoiler);
 	elements.reviewText.innerText = review.text;
 	elements.reviewLink.href = review.url;
 	elements.reviewDate.innerText = new Date(review.year, review.month - 1, review.day).toLocaleDateString(undefined, {
