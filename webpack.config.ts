@@ -12,26 +12,20 @@ const srcDir = path.join(__dirname, "src");
 const manifestDir = path.join(__dirname, "manifests");
 const outputDir = path.join(__dirname, "dist", buildEnv);
 
-const joinManifestFields = (base: Record<string, unknown>): Record<string, unknown> => {
+const joinManifests = (...manifests: Record<string, unknown>[]): Record<string, unknown> => {
 	if (buildEnv === "firefox") {
-		return {
-			...base,
-			...firefoxManifest,
-			version,
-		};
+		return manifests.reduce((a, b) => ({ ...a, ...b }), firefoxManifest);
 	} else if (buildEnv === "chrome") {
-		return {
-			...base,
-			...chromeManifest,
-			version,
-		};
+		return manifests.reduce((a, b) => ({ ...a, ...b }), chromeManifest);
 	} else {
 		throw new Error(`Unrecognized build env: ${buildEnv}`);
 	}
 };
 
-const transformManifest: TransformerFunction = async (input: Buffer) =>
-	JSON.stringify(joinManifestFields(JSON.parse(input.toString())), null, "\t");
+const transformManifest: (description: string) => TransformerFunction =
+	(description: string) => async (input: Buffer) =>
+		// TODO the version should come from the current day
+		JSON.stringify(joinManifests(JSON.parse(input.toString()), { description, version }), null, "\t");
 
 module.exports = (_env: any, options: WebpackOptionsNormalized): Configuration => ({
 	devtool: options.mode !== "production" ? "source-map" : undefined,
@@ -75,8 +69,11 @@ module.exports = (_env: any, options: WebpackOptionsNormalized): Configuration =
 	plugins: [
 		new EnvironmentPlugin({
 			BUILD_ENV: buildEnv,
-			LETTERBOXD_ID: "ziyiyan", // TODO parameterize this
+			// TODO parameterize this
+			LETTERBOXD_ID: "ziyiyan",
 			SITE_TITLE: "ziyi at the cinema",
+			SITE_HOST: "https://ziyi.zip",
+			SITE_DESCRIPTION: "Experience essential cinema with Ziyi in every visit.",
 		}),
 		new HtmlWebpackPlugin({
 			filename: "index.html",
@@ -93,19 +90,20 @@ module.exports = (_env: any, options: WebpackOptionsNormalized): Configuration =
 			: []),
 		new CopyPlugin({
 			patterns: [
-				{ from: path.join(srcDir, "public"), to: path.join(outputDir, "public") },
+				{ from: path.join(srcDir, "icons"), to: path.join(outputDir, "icons") },
 				...(buildEnv === "web"
 					? [
 							{
 								from: path.join(__dirname, "CNAME"),
 								to: path.join(outputDir),
 							},
+							{ from: path.join(srcDir, "web"), to: path.join(outputDir, "web") },
 						]
 					: [
 							{
 								from: path.join(manifestDir, "manifest.base.json"),
 								to: path.join(outputDir, "manifest.json"),
-								transform: transformManifest,
+								transform: transformManifest("Experience essential cinema in every new tab."),
 							},
 						]),
 			],

@@ -4,9 +4,20 @@
 	<meta charset="UTF-8">
 	<% if (process.env.BUILD_ENV === "web") { %>
 	<title><%=process.env.SITE_TITLE%></title>
+	<link rel="apple-touch-icon" sizes="180x180" href="web/apple-touch-icon.png" />
+	<link rel="manifest" href="web/site.webmanifest" />
+	<meta name="description" content="<%=process.env.SITE_DESCRIPTION%>" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="<%=process.env.SITE_HOST%>" />
+	<meta property="og:title" content="<%=process.env.SITE_TITLE%>" />
+	<meta property="og:description" content="<%=process.env.SITE_DESCRIPTION%>" />
+	<meta property="og:image" content="<%=process.env.SITE_HOST%>/web/preview.png" />
 	<% } else { %>
 	<title>New Tab</title>
 	<% } %>
+	<link rel="icon" type="image/png" sizes="32x32" href="icons/icon-16.png" />
+	<link rel="icon" type="image/png" sizes="48x48" href="icons/icon-48.png" />
+	<link rel="icon" type="image/png" sizes="128x128" href="icons/icon-128.png" />
 </head>
 <body style="background-color: black" class="full-screen">
 
@@ -449,8 +460,25 @@
 						</div>
 
 						<hr>
-						<div class="settings-group">
-							<span>bob's club</span>
+						<div class="settings-group bobs-club-group">
+							<a href="https://bobs-club.net/" title="bob's club web ring"><span>bob's club</span></a>
+							<div>
+								<a href="https://bobs-club.net/site/ziyidotzip/pred" title="previous website">
+								<span>
+									<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/></svg>
+								</span>
+								</a>
+								<a href="https://bobs-club.net/site/ziyidotzip/random" title="random website">
+								<span>
+									<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M300-240q25 0 42.5-17.5T360-300q0-25-17.5-42.5T300-360q-25 0-42.5 17.5T240-300q0 25 17.5 42.5T300-240Zm0-360q25 0 42.5-17.5T360-660q0-25-17.5-42.5T300-720q-25 0-42.5 17.5T240-660q0 25 17.5 42.5T300-600Zm180 180q25 0 42.5-17.5T540-480q0-25-17.5-42.5T480-540q-25 0-42.5 17.5T420-480q0 25 17.5 42.5T480-420Zm180 180q25 0 42.5-17.5T720-300q0-25-17.5-42.5T660-360q-25 0-42.5 17.5T600-300q0 25 17.5 42.5T660-240Zm0-360q25 0 42.5-17.5T720-660q0-25-17.5-42.5T660-720q-25 0-42.5 17.5T600-660q0 25 17.5 42.5T660-600ZM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"/></svg>
+								</span>
+								</a>
+								<a href="https://bobs-club.net/site/ziyidotzip/pred" title="next website">
+								<span>
+									<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg>
+								</span>
+								</a>
+							</div>
 						</div>
 					<% } %>
 				</div>
