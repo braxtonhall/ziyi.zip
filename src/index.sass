@@ -115,6 +115,12 @@ body:has(#blur:checked) #backdrop-image
 	filter: blur(5px)
 body:has(#darken:checked):has(#blur:checked) #backdrop-image
 	filter: blur(5px) brightness(65%)
+body:has(#spoiler-visibility-hide:checked) #review-text
+	display: none
+body:has(#spoiler-visibility-click:checked) #review-text:not(.clicked)
+	cursor: pointer
+	filter: blur(10px)
+	position: relative
 
 #foreground
 	position: relative
