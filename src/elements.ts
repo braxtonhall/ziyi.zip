@@ -6,7 +6,7 @@ const schema = {
 	movieName: ["movie-name", HTMLAnchorElement],
 	movieYear: ["movie-year", HTMLParagraphElement],
 	movieLink: ["movie-link", HTMLAnchorElement],
-
+	reviewContents: ["review-contents", HTMLDivElement],
 	reviewLink: ["review-link", HTMLAnchorElement],
 	reviewText: ["review-text", HTMLParagraphElement],
 	reviewDate: ["review-date", HTMLSpanElement],

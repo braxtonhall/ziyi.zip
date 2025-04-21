@@ -44,20 +44,21 @@ export const setMovie = (review: Review) => {
 	if (review.movie.backdrop) {
 		elements.backdropImage.src = review.movie.backdrop;
 		elements.backdropImage.alt = review.movie.title;
-		elements.backdropImage.addEventListener("load", () => elements.backdrop.classList.remove("hidden"), {
+		elements.backdropImage.addEventListener("load", () => elements.backdropImage.classList.add("ready"), {
 			once: true,
 			passive: true,
 		});
 	} else {
 		elements.backdropImage.src =
 			"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=";
-		elements.backdrop.classList.remove("hidden");
+		elements.backdropImage.classList.add("ready");
 	}
+	elements.reviewContents.classList.add("ready");
 
 	elements.poster.alt = review.movie.title;
 	if (review.movie.poster) {
 		elements.poster.src = review.movie.poster;
-		elements.poster.addEventListener("load", () => elements.movieInfoContainer.classList.remove("hidden"), {
+		elements.poster.addEventListener("load", () => elements.poster.classList.add("ready"), {
 			once: true,
 			passive: true,
 		});
@@ -65,27 +66,9 @@ export const setMovie = (review: Review) => {
 		// TODO this is probably the wrong size. need to fix this
 		elements.poster.src =
 			"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=";
-		elements.movieInfoContainer.classList.remove("hidden");
+		elements.poster.classList.add("ready");
 	}
-
 	elements.movieLink.href = review.movie.url;
 	elements.movieName.href = review.movie.url;
-};
-
-const sleepAndRemoveData = async (): Promise<void> => {
-	const elements = getElements();
-	if (!elements.backdrop.classList.contains("hidden")) {
-		elements.backdrop.classList.add("hidden");
-		elements.movieInfoContainer.classList.add("hidden");
-		await new Promise((resolve) => setTimeout(resolve, 1000));
-		// TODO maybe not needed, but delete all the text on the screen?
-	}
-};
-
-let task: Promise<void> | null = null;
-export const clearMovie = (): Promise<void> => {
-	if (task === null) {
-		task = sleepAndRemoveData().then(() => void (task = null));
-	}
-	return task;
+	elements.movieInfoContainer.classList.add("ready");
 };

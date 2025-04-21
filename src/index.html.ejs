@@ -24,11 +24,11 @@
 	</div>
 
 	<div id="foreground" class="full-screen slides">
-		<div id="backdrop" class="loads hidden">
-			<img id="backdrop-image" src="#" alt="backdrop">
+		<div id="backdrop">
+			<img id="backdrop-image" class="hidden-until-ready" src="#" alt="backdrop">
 
 			<div id="review" class="scrollable">
-				<div id="contents">
+				<div id="review-contents" class="hidden-until-ready">
 					<p id="review-text"></p>
 					<div id="review-metadata">
 						<a id="review-link" href="#" title="review on letterboxd">
@@ -125,13 +125,13 @@
 			</nav>
 		</header>
 
-		<div id="movie-info-container" class="loads hidden">
+		<div id="movie-info-container" class="hidden-until-ready">
 			<div id="movie-info">
 				<a id="movie-name" href="#" title="movie on letterboxd"></a>
 				<p id="movie-year"></p>
 			</div>
 			<a id="movie-link" href="#" title="movie on letterboxd">
-				<img id="poster" src="#" alt="poster">
+				<img class="hidden-until-ready" id="poster" src="#" alt="poster">
 			</a>
 		</div>
 
