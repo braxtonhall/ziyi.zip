@@ -25,10 +25,6 @@ ziyi's reviews are just so precious that they must be cherished
 - review details visibility
 - review position
 
-### unimplemented features
-
-- offline mode (for the extension, not the website)
-
 ### HOUSEKEEPING
 
 - Add favicon/site.webmanifest for the web version

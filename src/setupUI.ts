@@ -15,7 +15,7 @@ const addSpoilerClick = () => {
 };
 
 const watchOnlineStatus = () => {
-	const toggleOnlineStatus = () => document.body.classList.toggle("is-offline", !navigator.onLine);
+	const toggleOnlineStatus = () => document.body.classList.toggle("offline", !navigator.onLine);
 	window.addEventListener("online", toggleOnlineStatus, { passive: true });
 	window.addEventListener("offline", toggleOnlineStatus, { passive: true });
 	toggleOnlineStatus();

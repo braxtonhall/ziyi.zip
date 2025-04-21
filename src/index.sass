@@ -343,14 +343,17 @@ body.ui-interacted #settings
 	100%
 		opacity: 1
 
-.hidden-until-ready
-	opacity: 0
-	pointer-events: none
-	transition: opacity 1s cubic-bezier(.28,.83,.67,1)
-.hidden-until-ready.ready
-	pointer-events: unset
+.hidden-until-ready, .online-only
 	opacity: 1
 	animation: fadein 1s cubic-bezier(.28,.83,.67,1)
+	transition: opacity 1s cubic-bezier(.28,.83,.67,1)
+
+body.offline .online-only,
+.hidden-until-ready:not(.ready)
+	pointer-events: none
+	opacity: 0
+body.offline .online-only
+	display: none
 
 .scrollable
 	overflow: scroll
