@@ -115,12 +115,20 @@ body:has(#blur:checked) #backdrop-image
 	filter: blur(5px)
 body:has(#darken:checked):has(#blur:checked) #backdrop-image
 	filter: blur(5px) brightness(65%)
-body:has(#spoiler-visibility-hide:checked) #review-text.contains-spoiler
-	display: none
 body:has(#spoiler-visibility-click:checked) #review-text.contains-spoiler:not(.clicked)
 	cursor: pointer
 	filter: blur(10px)
 	position: relative
+body:has(#spoiler-visibility-hide:checked) #review-text.contains-spoiler,
+body:not(:has(#show-movie-name:checked)) #movie-name,
+body:not(:has(#show-movie-release-year:checked)) #movie-year,
+body:not(:has(#show-movie-poster:checked)) #movie-link,
+body:not(:has(#show-review-date:checked)) #review-link,
+body:not(:has(#show-review-stars:checked)) #review-stars,
+body:not(:has(#show-review-rewatch:checked)) #review-rewatch,
+body:not(:has(#show-review-heart:checked)) #review-heart,
+body:not(:has(#show-review-tags:checked)) #tags
+	display: none !important
 
 #foreground
 	position: relative
@@ -194,6 +202,7 @@ body:has(#spoiler-visibility-click:checked) #review-text.contains-spoiler:not(.c
 			margin-right: 1rem
 			bottom: 0
 			text-align: right
+			margin-bottom: 0.8rem
 
 			#movie-name
 				font-size: 1rem
@@ -202,6 +211,7 @@ body:has(#spoiler-visibility-click:checked) #review-text.contains-spoiler:not(.c
 			#movie-year
 				font-size: .8125rem
 				margin-top: 0.5rem
+				margin-bottom: 0
 
 #history
 	top: 0
@@ -339,6 +349,14 @@ body.ui-interacted #settings
 
 .scrollable
 	overflow: scroll
+
+.download-links
+	> *:not(:last-child)
+		margin-right: 1rem
+	margin: 0.5rem 0 0.5rem 0.5rem
+	display: flex
+	align-items: center
+	justify-items: center
 
 @media screen and (prefers-reduced-motion: reduce)
 	*

@@ -18,9 +18,16 @@ ziyi's reviews are just so precious that they must be cherished
 
 ## todo
 
-### FEATURES
+### unimplemented settings
 
-- Offline mode (for the extension, not the website)
+- menu visibility
+- movie details visibility
+- review details visibility
+- review position
+
+### unimplemented features
+
+- offline mode (for the extension, not the website)
 
 ### HOUSEKEEPING
 

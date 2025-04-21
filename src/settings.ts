@@ -17,15 +17,13 @@ const defaults = {
 	"show-movie-release-year": true,
 	"show-movie-poster": true,
 	"menu-visibility-hide": true,
-
 	"review-details-visibility-show": true,
 	"show-review-stars": true,
 	"show-review-heart": true,
 	"show-review-rewatch": true,
 	"show-review-tags": true,
 	"show-review-date": true,
-	// TODO
-	// position, , ,, , date
+	"review-position-center": true,
 } satisfies Record<string, boolean>;
 
 const saveSettings = (settings: Record<string, HTMLInputElement>) => {
