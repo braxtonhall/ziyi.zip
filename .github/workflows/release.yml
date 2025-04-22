@@ -46,6 +46,7 @@ jobs:
           add: "src/reviews.json"
           message: "sync reviews"
           tag: ${{ steps.vars.outputs.tag }}
+        continue-on-error: true
 
       - name: compile
         run: yarn build
