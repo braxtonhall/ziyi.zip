@@ -103,6 +103,8 @@ module.exports = (_env: any, options: WebpackOptionsNormalized): Configuration =
 								from: path.join(manifestDir, "manifest.base.json"),
 								to: path.join(outputDir, "manifest.json"),
 								transform: transformManifest({
+									// TODO parameterize this
+									name: "ziyi.zip",
 									description: "Experience essential cinema in every new tab.",
 									version,
 								}),

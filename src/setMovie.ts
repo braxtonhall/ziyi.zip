@@ -63,7 +63,6 @@ export const setMovie = (review: Review) => {
 			passive: true,
 		});
 	} else {
-		// TODO this is probably the wrong size. need to fix this
 		elements.poster.src =
 			"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=";
 		elements.poster.classList.add("ready");
