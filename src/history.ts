@@ -20,11 +20,15 @@ const setHistoryItemDetails = (element: Element, review: Review | null) => {
 	if (review) {
 		const image = element.querySelector(".history-item-image") as HTMLImageElement | null;
 		if (image) {
-			image.src =
-				review.movie.backdrop ||
-				review.movie.poster ||
-				"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=";
 			image.alt = review.movie.title;
+			if (review.movie.backdrop || review.movie.poster) {
+				image.src = review.movie.backdrop || review.movie.poster;
+				image.addEventListener("load", () => image.classList.add("ready"));
+			} else {
+				image.src =
+					"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=";
+				image.classList.add("ready");
+			}
 		}
 		const title = element.querySelector(".history-title") as HTMLDivElement | null;
 		if (title) {
