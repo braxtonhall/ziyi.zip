@@ -2,6 +2,7 @@ $history-item-margin: 0.2rem
 $history-height: 8rem
 $icon-margin: 1rem
 $icon-size: 2rem
+$metadata-colour: #989898
 
 @font-face
 	font-family: Roboto
@@ -34,16 +35,6 @@ body
 	background-color: black
 	font-family: Roboto, sans-serif
 	color: white
-
-	.show-on-hover
-		opacity: 0
-	&:not(.ui-active) .show-on-hover
-		pointer-events: none
-	&.ui-interacted .show-on-hover
-		transition: opacity .25s ease-in
-	&.ui-active .show-on-hover
-		opacity: 1 !important
-		transition: opacity .25s ease-out
 
 #header
 	position: absolute
@@ -97,6 +88,15 @@ body:has(#history-toggle:checked) #foreground
 	transition: transform 400ms cubic-bezier(.28,.83,.67,1)
 	will-change: transform
 
+@keyframes fadein
+	0%
+		opacity: 0
+	100%
+		opacity: 1
+
+#backdrop
+	animation: fadein 1s
+
 #backdrop-image
 	position: absolute
 	object-fit: cover
@@ -126,8 +126,35 @@ body:not(:has(#show-review-date:checked)) #review-link,
 body:not(:has(#show-review-stars:checked)) #review-stars,
 body:not(:has(#show-review-rewatch:checked)) #review-rewatch,
 body:not(:has(#show-review-heart:checked)) #review-heart,
-body:not(:has(#show-review-tags:checked)) #tags
+body:not(:has(#show-review-tags:checked)) #tags,
+body:has(#movie-details-visibility-hide:checked) #movie-info-container,
+body:has(#review-details-visibility-hide:checked) #review-metadata
 	display: none !important
+
+body
+	&:has(#menu-visibility-hide:checked) #header,
+	&:has(#review-details-visibility-hover:checked) #review-metadata,
+	&:has(#movie-details-visibility-hover:checked) #movie-info-container
+		opacity: 0
+
+body:not(.ui-active)
+	&:has(#menu-visibility-hide:checked) #header,
+	&:has(#review-details-visibility-hover:checked) #review-metadata,
+	&:has(#movie-details-visibility-hover:checked) #movie-info-container
+		pointer-events: none
+
+body.ui-interacted
+	&:has(#menu-visibility-hide:checked) #header,
+	&:has(#review-details-visibility-hover:checked) #review-metadata,
+	&:has(#movie-details-visibility-hover:checked) #movie-info-container
+		transition: opacity .25s ease-in
+
+body.ui-active
+	&:has(#menu-visibility-hide:checked) #header,
+	&:has(#review-details-visibility-hover:checked) #review-metadata,
+	&:has(#movie-details-visibility-hover:checked) #movie-info-container
+		opacity: 1
+		transition: opacity .25s ease-out
 
 #foreground
 	position: relative
@@ -146,7 +173,7 @@ body:not(:has(#show-review-tags:checked)) #tags
 			@media (orientation: landscape)
 				max-width: 60%
 			#review-link
-				color: grey
+				color: $metadata-colour
 				display: inline-block
 			#review-text
 				font-family: Merriweather, serif
@@ -155,7 +182,7 @@ body:not(:has(#show-review-tags:checked)) #tags
 				margin-top: 0
 				white-space: pre-wrap
 			#review-metadata
-				color: grey
+				color: $metadata-colour
 				width: fit-content
 				font-size: 1rem
 				p
@@ -176,7 +203,7 @@ body:not(:has(#show-review-tags:checked)) #tags
 					white-space: nowrap
 					border-radius: 0.2rem 0 0.2rem 0.2rem
 					margin-bottom: 0.3rem
-					color: grey
+					color: $metadata-colour
 					text-decoration: none
 				:not(:last-child).tag
 					margin-right: 0.4rem

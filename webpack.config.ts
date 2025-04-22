@@ -1,7 +1,6 @@
 import path from "path";
 import { Configuration, EnvironmentPlugin, WebpackOptionsNormalized } from "webpack";
 import CopyPlugin, { TransformerFunction } from "copy-webpack-plugin";
-import { version } from "./package.json";
 import firefoxManifest from "./manifests/manifest.firefox.json";
 import chromeManifest from "./manifests/manifest.chrome.json";
 import HtmlWebpackPlugin from "html-webpack-plugin";
@@ -11,6 +10,7 @@ const buildEnv = process.env.BUILD_ENV ?? "web";
 const srcDir = path.join(__dirname, "src");
 const manifestDir = path.join(__dirname, "manifests");
 const outputDir = path.join(__dirname, "dist", buildEnv);
+const version = process.env.BUILD_VERSION ?? "0.0.0";
 
 const joinManifests = (...manifests: Record<string, unknown>[]): Record<string, unknown> => {
 	if (buildEnv === "firefox") {
@@ -22,10 +22,9 @@ const joinManifests = (...manifests: Record<string, unknown>[]): Record<string, 
 	}
 };
 
-const transformManifest: (description: string) => TransformerFunction =
-	(description: string) => async (input: Buffer) =>
-		// TODO the version should come from the current day
-		JSON.stringify(joinManifests(JSON.parse(input.toString()), { description, version }), null, "\t");
+const transformManifest: (overrides: Record<string, unknown>) => TransformerFunction =
+	(overrides) => async (input: Buffer) =>
+		JSON.stringify(joinManifests(JSON.parse(input.toString()), overrides), null, "\t");
 
 module.exports = (_env: any, options: WebpackOptionsNormalized): Configuration => ({
 	devtool: options.mode !== "production" ? "source-map" : undefined,
@@ -103,7 +102,10 @@ module.exports = (_env: any, options: WebpackOptionsNormalized): Configuration =
 							{
 								from: path.join(manifestDir, "manifest.base.json"),
 								to: path.join(outputDir, "manifest.json"),
-								transform: transformManifest("Experience essential cinema in every new tab."),
+								transform: transformManifest({
+									description: "Experience essential cinema in every new tab.",
+									version,
+								}),
 							},
 						]),
 			],

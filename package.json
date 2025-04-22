@@ -1,6 +1,5 @@
 {
 	"name": "ziyi-at-the-cinema",
-	"version": "0.0.1",
 	"license": "MIT",
 	"devDependencies": {
 		"@types/chrome": "^0.0.315",
