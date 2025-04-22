@@ -79,7 +79,7 @@ module.exports = (_env: any, options: WebpackOptionsNormalized): Configuration =
 			template: path.join(srcDir, "index.html.ejs"),
 			inject: true,
 		}),
-		...(buildEnv === "web"
+		...(buildEnv === "web" && options.mode === "production"
 			? [
 					new HtmlInlineScriptPlugin({
 						scriptMatchPattern: [/index/],
