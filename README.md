@@ -4,6 +4,8 @@ this is a web extension and website that i made as an archive of ziyi's letterbo
 
 ziyi's reviews are just so precious that they must be cherished
 
+<p align="center"><img src="figures/preview.png" alt="screenshot of the website"></p>
+
 ## installation
 
 [//]: # 'TODO update these links that say "TODOziyi-zip"'
@@ -17,10 +19,6 @@ ziyi's reviews are just so precious that they must be cherished
 [<img valign="middle" src="https://img.shields.io/amo/v/TODOziyi-zip.svg?label=%20">][link-firefox]
 
 ## todo
-
-### unimplemented settings
-
-- review position
 
 ### unimplemented features
 
