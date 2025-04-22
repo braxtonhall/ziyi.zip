@@ -87,7 +87,7 @@ jobs:
           token: ${{ secrets.YOUR_GITHUB_TOKEN }}
           tag: ${{ steps.vars.outputs.tag }}
 
-      - name: publish firefox addon
+      - name: publish firefox add-on
         uses: browser-actions/release-firefox-addon@latest
         if: ${{ github.event_name == 'workflow_dispatch' || steps.sync.outputs.committed }}
         with:
@@ -103,13 +103,15 @@ jobs:
             2. yarn build:firefox
             The add-on code will be found in dist/firefox
         continue-on-error: true
-#      - name: publish chrome extension
-#        uses: browser-actions/release-chrome-extension@latest
-#        if: ${{ github.event_name == 'workflow_dispatch' || steps.sync.outputs.committed }}
-#        with:
-#          extension-id: kgjlmncdpdpcmidkkalcdppigdocdnmf
-#          extension-path: dist/chrome/chrome.zip
-#          oauth-client-id: ${{ secrets.OAUTH_CLIENT_ID }}
-#          oauth-client-secret: ${{ secrets.OAUTH_CLIENT_SECRET }}
-#          oauth-refresh-token: ${{ secrets.OAUTH_REFRESH_TOKEN }}
-#        continue-on-error: true
+
+      - name: publish chrome extension
+        uses: browser-actions/release-chrome-extension@latest
+        if: false
+        # if: ${{ github.event_name == 'workflow_dispatch' || steps.sync.outputs.committed }}
+        with:
+          extension-id: kgjlmncdpdpcmidkkalcdppigdocdnmf
+          extension-path: dist/chrome/chrome.zip
+          oauth-client-id: ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}
+          oauth-client-secret: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
+          oauth-refresh-token: ${{ secrets.GOOGLE_OAUTH_REFRESH_TOKEN }}
+        continue-on-error: true
