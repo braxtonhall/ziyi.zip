@@ -106,8 +106,7 @@ jobs:
 
       - name: publish chrome extension
         uses: browser-actions/release-chrome-extension@latest
-        if: false
-        # if: ${{ github.event_name == 'workflow_dispatch' || steps.sync.outputs.committed }}
+        if: ${{ github.event_name == 'workflow_dispatch' || steps.sync.outputs.committed }}
         with:
           extension-id: kgjlmncdpdpcmidkkalcdppigdocdnmf
           extension-path: dist/chrome/chrome.zip
