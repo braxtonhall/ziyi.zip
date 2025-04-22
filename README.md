@@ -15,7 +15,7 @@ ziyi's reviews are just so precious that they must be cherished
 [<img valign="middle" src="https://img.shields.io/chrome-web-store/v/kgjlmncdpdpcmidkkalcdppigdocdnmf.svg?label=%20">][link-chrome]
 
 [<img src="https://raw.githubusercontent.com/alrra/browser-logos/90fdf03c/src/firefox/firefox.svg" width="48" alt="Firefox" valign="middle">][link-firefox]
-[<img valign="middle" src="https://img.shields.io/amo/v/ziyizip.svg?label=%20">][link-firefox]
+[<img valign="middle" src="https://img.shields.io/amo/v/ziyi-zip.svg?label=%20">][link-firefox]
 
 ## todo
 
