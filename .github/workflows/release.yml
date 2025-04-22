@@ -102,7 +102,6 @@ jobs:
             1. yarn install
             2. yarn build:firefox
             The add-on code will be found in dist/firefox
-        continue-on-error: true
 
       - name: publish chrome extension
         uses: browser-actions/release-chrome-extension@latest
@@ -113,4 +112,3 @@ jobs:
           oauth-client-id: ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}
           oauth-client-secret: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
           oauth-refresh-token: ${{ secrets.GOOGLE_OAUTH_REFRESH_TOKEN }}
-        continue-on-error: true
