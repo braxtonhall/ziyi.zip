@@ -1,0 +1,60 @@
+name: release
+
+on:
+  push:
+    tags:
+      - "*.*.*"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node: [22.x]
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+
+      - name: set output
+        id: vars
+        run: echo ::set-output name=tag::${GITHUB_REF#refs/*/}
+
+      - name: install node ${{ matrix.node }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node }}
+
+      - name: install packages
+        run: yarn install
+
+      - name: compile
+        run: yarn build
+
+      - name: Check release version
+        run: yarn ts-node bin/checkRelease.ts ${{ steps.vars.outputs.tag }}
+
+      - name: archive chrome release
+        uses: thedoctor0/zip-release@main
+        with:
+          type: "zip"
+          filename: "chrome.zip"
+          directory: "dist/chrome"
+
+      - name: archive firefox release
+        uses: thedoctor0/zip-release@main
+        with:
+          type: "zip"
+          filename: "firefox.zip"
+          directory: "dist/firefox"
+
+      - name: create release
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: "dist/chrome/chrome.zip,dist/firefox/firefox.zip"
+          generateReleaseNotes: true
+          token: ${{ secrets.YOUR_GITHUB_TOKEN }}
