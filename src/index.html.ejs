@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="full-screen">
+<html lang="en" class="full-screen" style="background-color: black">
 <head>
 	<meta charset="UTF-8">
 	<% if (process.env.BUILD_ENV === "web") { %>
@@ -19,9 +19,9 @@
 	<link rel="icon" type="image/png" sizes="48x48" href="icons/icon-48.png" />
 	<link rel="icon" type="image/png" sizes="128x128" href="icons/icon-128.png" />
 </head>
-<body style="background-color: black" class="full-screen">
+<body class="full-screen">
 
-<div id="history-and-background" class="full-screen">
+<div id="main" style="display: none" class="full-screen">
 	<div id="history">
 		<% for (let i = 0; i < 10; i++) { %>
 			<div class="history-item history-placeholder">

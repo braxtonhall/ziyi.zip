@@ -20,6 +20,7 @@ const schema = {
 	settingsToggle: ["settings-toggle", HTMLInputElement],
 	settingsContents: ["settings-contents", HTMLDivElement],
 	clearHistory: ["clear-history", HTMLButtonElement],
+	main: ["main", HTMLDivElement],
 } as const;
 
 type Elements = {

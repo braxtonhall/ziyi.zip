@@ -8,6 +8,7 @@ export const setupUI = () => {
 	addUIControl();
 	watchOnlineStatus();
 	addSpoilerClick();
+	displayUI();
 
 	if (process.env.BUILD_ENV === "chrome") {
 		const link = document.getElementById("new-tab-link") as HTMLAnchorElement;
@@ -16,6 +17,11 @@ export const setupUI = () => {
 			return chrome.tabs.update({ url: link.href });
 		});
 	}
+};
+
+const displayUI = () => {
+	const { main } = getElements();
+	main.style.display = "unset";
 };
 
 const addSpoilerClick = () => {
