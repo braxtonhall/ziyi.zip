@@ -8,14 +8,14 @@ ziyi's reviews are just so precious that they must be cherished
 
 ## installation
 
-[link-chrome]: https://chrome.google.com/webstore/detail/kgjlmncdpdpcmidkkalcdppigdocdnmf "Version published on Chrome Web Store"
+[link-chrome]: https://chromewebstore.google.com/detail/ziyizip/kgjlmncdpdpcmidkkalcdppigdocdnmf "Version published on Chrome Web Store"
 [link-firefox]: https://addons.mozilla.org/en-US/firefox/addon/ziyi-zip/ "Version published on Mozilla Add-ons"
 
 [<img src="https://raw.githubusercontent.com/alrra/browser-logos/90fdf03c/src/chrome/chrome.svg" width="48" alt="Chrome" valign="middle">][link-chrome]
 [<img valign="middle" src="https://img.shields.io/chrome-web-store/v/kgjlmncdpdpcmidkkalcdppigdocdnmf.svg?label=%20">][link-chrome]
 
 [<img src="https://raw.githubusercontent.com/alrra/browser-logos/90fdf03c/src/firefox/firefox.svg" width="48" alt="Firefox" valign="middle">][link-firefox]
-[<img valign="middle" src="https://img.shields.io/amo/v/ziyizip.svg?label=%20">][link-firefox]
+[<img valign="middle" src="https://img.shields.io/amo/v/ziyi-zip.svg?label=%20">][link-firefox]
 
 ## todo
 
