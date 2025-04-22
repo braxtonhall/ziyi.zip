@@ -86,17 +86,23 @@ jobs:
           generateReleaseNotes: true
           token: ${{ secrets.YOUR_GITHUB_TOKEN }}
           tag: ${{ steps.vars.outputs.tag }}
-#      - name: publish firefox addon
-#        uses: browser-actions/release-firefox-addon@latest
-#        with:
-#        if: ${{ github.event_name == 'workflow_dispatch' || steps.sync.outputs.committed }}
-#          addon-id: ziyi-zip
-#          addon-path: dist/firefox/firefox.zip
-#          source-path: source.zip
-#          auth-api-issuer: ${{ secrets.AUTH_API_ISSUER }}
-#          auth-api-secret: ${{ secrets.AUTH_API_SECRET }}
-#        continue-on-error: true
-#
+
+      - name: publish firefox addon
+        uses: browser-actions/release-firefox-addon@latest
+        if: ${{ github.event_name == 'workflow_dispatch' || steps.sync.outputs.committed }}
+        with:
+          addon-id: ziyi-zip
+          addon-path: dist/firefox/firefox.zip
+          source-path: source.zip
+          auth-api-issuer: ${{ secrets.MOZILLA_AUTH_API_ISSUER }}
+          auth-api-secret: ${{ secrets.MOZILLA_AUTH_API_SECRET }}
+          approval-note: |
+            To build this add-on, Node.js and Yarn are required.
+            Run the following commands:
+            1. yarn install
+            2. yarn build:firefox
+            The add-on code will be found in dist/firefox
+        continue-on-error: true
 #      - name: publish chrome extension
 #        uses: browser-actions/release-chrome-extension@latest
 #        if: ${{ github.event_name == 'workflow_dispatch' || steps.sync.outputs.committed }}
