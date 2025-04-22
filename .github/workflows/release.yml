@@ -1,17 +1,13 @@
 name: release
 
 on:
-  push:
-    tags:
-      - "*.*.*"
+  workflow_dispatch:
+  schedule:
+    - cron: "20 4 * * 3"
 
 jobs:
   release:
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node: [22.x]
 
     permissions:
       contents: write
@@ -19,23 +15,43 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v2
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: "refs/heads/main"
 
       - name: set output
         id: vars
-        run: echo ::set-output name=tag::${GITHUB_REF#refs/*/}
+        run: echo "::set-output name=tag::$(date +'+%Y.%-m.%-d')"
 
-      - name: install node ${{ matrix.node }}
+      - name: install node
         uses: actions/setup-node@v1
         with:
-          node-version: ${{ matrix.node }}
+          node-version: 22.x
 
       - name: install packages
         run: yarn install
+
+      - name: update reviews
+        run: yarn run update-reviews
+
+      - name: commit reviews & tag
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: "src/reviews.json"
+          message: "sync reviews"
+          tag: ${{ steps.vars.outputs.tag }}
 
       - name: compile
         run: yarn build
         env:
           BUILD_VERSION: ${{ steps.vars.outputs.tag }}
+
+      - name: archive source
+        uses: thedoctor0/zip-release@main
+        with:
+          type: "zip"
+          filename: "source.zip"
+          exclusions: "*.git* /*node_modules/*"
 
       - name: archive chrome release
         uses: thedoctor0/zip-release@main
@@ -57,3 +73,23 @@ jobs:
           artifacts: "dist/chrome/chrome.zip,dist/firefox/firefox.zip"
           generateReleaseNotes: true
           token: ${{ secrets.YOUR_GITHUB_TOKEN }}
+          tag: ${{ steps.vars.outputs.tag }}
+
+      - name: publish firefox addon
+        uses: browser-actions/release-firefox-addon@latest
+        with:
+          addon-id: ziyi-zip
+          addon-path: dist/firefox/firefox.zip
+          source-path: source.zip
+          auth-api-issuer: ${{ secrets.AUTH_API_ISSUER }}
+          auth-api-secret: ${{ secrets.AUTH_API_SECRET }}
+        continue-on-error: true
+
+      - uses: browser-actions/release-chrome-extension@latest
+        with:
+          extension-id: kgjlmncdpdpcmidkkalcdppigdocdnmf
+          extension-path: dist/chrome/chrome.zip
+          oauth-client-id: ${{ secrets.OAUTH_CLIENT_ID }}
+          oauth-client-secret: ${{ secrets.OAUTH_CLIENT_SECRET }}
+          oauth-refresh-token: ${{ secrets.OAUTH_REFRESH_TOKEN }}
+        continue-on-error: true

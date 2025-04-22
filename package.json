@@ -43,7 +43,8 @@
 		"lint": "eslint .",
 		"fix": "yarn lint --fix",
 		"pretty": "yarn prettier --write .",
-		"prepare": "husky"
+		"prepare": "husky",
+		"update-reviews": "ts-node scripts/fetch-reviews.ts"
 	},
 	"lint-staged": {
 		"*.{yml,md,json,ts,js,html}": "prettier --write"
