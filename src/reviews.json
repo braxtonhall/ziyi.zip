@@ -1,29 +1,4 @@
 {
-	"https://letterboxd.com/ziyiyan/film/the-passenger/": {
-		"url": "https://letterboxd.com/ziyiyan/film/the-passenger/",
-		"heart": true,
-		"rating": null,
-		"rewatch": false,
-		"year": 2025,
-		"month": 4,
-		"day": 21,
-		"movie": {
-			"slug": "the-passenger",
-			"title": "The Passenger",
-			"year": 1975,
-			"url": "https://letterboxd.com/film/the-passenger/",
-			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/df/pz/qi/cx/the-passenger-1920-1920-1080-1080-crop-000000.jpg?v=1ec2871b92",
-			"poster": "https://a.ltrbxd.com/resized/film-poster/4/6/9/4/9/46949-the-passenger-0-230-0-345-crop.jpg?v=2a0bde5ca8"
-		},
-		"tags": [
-			{
-				"text": "the cinematheque ca",
-				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
-			}
-		],
-		"text": "Life doesn’t work that way. But life doesn’t work the other way either",
-		"spoiler": false
-	},
 	"https://letterboxd.com/ziyiyan/film/belfast-maine/": {
 		"url": "https://letterboxd.com/ziyiyan/film/belfast-maine/",
 		"heart": true,
