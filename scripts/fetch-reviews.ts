@@ -122,24 +122,33 @@ const completeReview = async (entry: LetterboxdInfo): Promise<CompletedInfo> => 
 	};
 };
 
-const scrapeReviewListPages = async (url: string): Promise<CompletedInfo[]> => {
+const scrapeReviewListPages = async (url: string, existing: Record<string, unknown>): Promise<CompletedInfo[]> => {
 	const { reviews, next } = await scrapeReviewListPage(url);
+	if (reviews.every((review) => review.url && existing.hasOwnProperty(review.url))) {
+		return [];
+	}
 	const futureCompleteReviews = Promise.all(reviews.map((entry) => completeReview(entry)));
-	const futureRemainder: Promise<CompletedInfo[]> = next ? scrapeReviewListPages(next) : Promise.resolve([]);
+	const futureRemainder: Promise<CompletedInfo[]> = next ? scrapeReviewListPages(next, existing) : Promise.resolve([]);
 	const [complete, remainder] = await Promise.all([futureCompleteReviews, futureRemainder]);
 	return [...complete, ...remainder];
 };
 
 let completed = 0;
 const fetchReviews = async () => {
+	const existing = JSON.parse(
+		await fs.readFile(path.join(__dirname, "..", "src", "reviews.json"), "utf-8").catch(() => "{}"),
+	);
 	const interval = setInterval(
 		() => console.log(`Executing: ${pool.executing}. Queued: ${pool.queued}. Completed: ${completed}`),
 		1500,
 	);
-	const reviews = await scrapeReviewListPages(url);
+	const reviews = await scrapeReviewListPages(url, existing);
 	clearInterval(interval);
-	const entries = Object.fromEntries(reviews.map((review) => [review.url, review]));
-	await fs.writeFile(path.join(__dirname, "entries.json"), JSON.stringify(entries, null, "\t"));
+	const updates = Object.fromEntries(reviews.map((review) => [review.url, review]));
+	await fs.writeFile(
+		path.join(__dirname, "..", "src", "reviews.json"),
+		JSON.stringify({ ...updates, ...existing }, null, "\t"),
+	);
 	console.log(`Done! Completed: ${completed}`);
 	process.exit(0);
 };
