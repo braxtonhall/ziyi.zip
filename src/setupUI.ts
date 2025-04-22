@@ -1,12 +1,21 @@
 import { getElements } from "./elements";
 
-let timeout: number;
+// TODO move this
+declare const process: { env: { BUILD_ENV: string } };
 
 export const setupUI = () => {
 	addMenuHoverDisplay();
 	addUIControl();
 	watchOnlineStatus();
 	addSpoilerClick();
+
+	if (process.env.BUILD_ENV === "chrome") {
+		const link = document.getElementById("new-tab-link") as HTMLAnchorElement;
+		link.addEventListener("click", (event) => {
+			event.preventDefault();
+			return chrome.tabs.update({ url: link.href });
+		});
+	}
 };
 
 const addSpoilerClick = () => {
@@ -21,6 +30,7 @@ const watchOnlineStatus = () => {
 	toggleOnlineStatus();
 };
 
+let timeout: number;
 const addMenuHoverDisplay = () => {
 	document.body.addEventListener(
 		"mousemove",

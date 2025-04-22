@@ -63,12 +63,13 @@ header
 
 nav
 	display: flex
-	label:not(:last-child)
+	> :not(:last-child)
 		margin-right: 0.5rem
 
 label, input, details, button
 	cursor: pointer
 
+#new-tab-link,
 .toggle-label
 	background-color: transparent
 	outline: none
@@ -78,8 +79,6 @@ label, input, details, button
 	align-items: center
 	height: $icon-size
 	width: $icon-size
-	svg
-		width: auto
 	.toggle
 		position: absolute
 		left: 0
