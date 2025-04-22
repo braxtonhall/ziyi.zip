@@ -156,6 +156,14 @@ body.ui-active
 		opacity: 1
 		transition: opacity .25s ease-out
 
+body:has(#review-position-center:checked) #review
+	justify-content: safe center
+	align-items: safe center
+body:has(#review-position-center-left:checked) #review
+	align-items: safe center
+body:has(#review-position-bottom-left:checked) #review
+	align-items: end
+
 #foreground
 	position: relative
 	background-color: black
@@ -165,8 +173,6 @@ body.ui-active
 		width: 100%
 		height: 100%
 		display: flex
-		justify-content: safe center
-		align-items: safe center
 
 		#review-contents
 			margin: 4rem
