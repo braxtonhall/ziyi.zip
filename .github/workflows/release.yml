@@ -34,6 +34,8 @@ jobs:
 
       - name: compile
         run: yarn build
+        env:
+          BUILD_VERSION: ${{ steps.vars.outputs.tag }}
 
       - name: Check release version
         run: yarn ts-node bin/checkRelease.ts ${{ steps.vars.outputs.tag }}
