@@ -2,6 +2,11 @@ name: release
 
 on:
   workflow_dispatch:
+    inputs:
+      micro:
+        type: number
+        description: "The last revision number of the release. Useful if there are multiple releases on the same day"
+        default: 0
   schedule:
     - cron: "20 4 * * 3"
 
@@ -21,7 +26,7 @@ jobs:
 
       - name: set output
         id: vars
-        run: echo "::set-output name=tag::$(date +'+%Y.%-m.%-d')"
+        run: echo "::set-output name=tag::$(date '+%Y.%-m.%-d').${{ inputs.micro || '0' }}"
 
       - name: install node
         uses: actions/setup-node@v1
