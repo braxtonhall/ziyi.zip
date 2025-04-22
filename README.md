@@ -8,7 +8,7 @@ ziyi's reviews are just so precious that they must be cherished
 
 ## installation
 
-[link-chrome]: https://chrome.google.com/webstore/detail/kgjlmncdpdpcmidkkalcdppigdocdnmf "Version published on Chrome Web Store"
+[link-chrome]: https://chromewebstore.google.com/detail/ziyizip/kgjlmncdpdpcmidkkalcdppigdocdnmf "Version published on Chrome Web Store"
 [link-firefox]: https://addons.mozilla.org/en-US/firefox/addon/ziyi-zip/ "Version published on Mozilla Add-ons"
 
 [<img src="https://raw.githubusercontent.com/alrra/browser-logos/90fdf03c/src/chrome/chrome.svg" width="48" alt="Chrome" valign="middle">][link-chrome]
