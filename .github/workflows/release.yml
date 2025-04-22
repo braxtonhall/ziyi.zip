@@ -8,8 +8,8 @@ on:
         description: "The last revision number of the release. Useful if there are multiple releases on the same day"
         default: 0
         required: false
-#  schedule:
-#    - cron: "20 4 * * 3"
+  schedule:
+    - cron: "20 4 * * 3"
 
 jobs:
   release:
@@ -22,12 +22,11 @@ jobs:
       - name: checkout
         uses: actions/checkout@v2
         with:
-          repository: ${{ github.event.pull_request.head.repo.full_name }}
           ref: "refs/heads/main"
 
       - name: set output
         id: vars
-        run: echo "::set-output name=tag::$(date '+%Y.%-m.%-d').${{ inputs.micro || '0' }}"
+        run: echo "tag=$(date '+%Y.%-m.%-d').${{ inputs.micro || '0' }}" >> $GITHUB_OUTPUT
 
       - name: install node
         uses: actions/setup-node@v1
@@ -42,6 +41,7 @@ jobs:
 
       - name: commit reviews & tag
         uses: EndBug/add-and-commit@v9
+        id: sync
         with:
           add: "src/reviews.json"
           message: "sync reviews"
@@ -49,42 +49,47 @@ jobs:
         continue-on-error: true
 
       - name: compile
+        if: ${{ github.event_name == 'workflow_dispatch' || steps.sync.outputs.committed }}
         run: yarn build
         env:
           BUILD_VERSION: ${{ steps.vars.outputs.tag }}
-#
-#      - name: archive source
-#        uses: thedoctor0/zip-release@main
-#        with:
-#          type: "zip"
-#          filename: "source.zip"
-#          exclusions: "*.git* /*node_modules/*"
-#
-#      - name: archive chrome release
-#        uses: thedoctor0/zip-release@main
-#        with:
-#          type: "zip"
-#          filename: "chrome.zip"
-#          directory: "dist/chrome"
-#
-#      - name: archive firefox release
-#        uses: thedoctor0/zip-release@main
-#        with:
-#          type: "zip"
-#          filename: "firefox.zip"
-#          directory: "dist/firefox"
-#
-#      - name: create release
-#        uses: ncipollo/release-action@v1
-#        with:
-#          artifacts: "dist/chrome/chrome.zip,dist/firefox/firefox.zip"
-#          generateReleaseNotes: true
-#          token: ${{ secrets.YOUR_GITHUB_TOKEN }}
-#          tag: ${{ steps.vars.outputs.tag }}
-#
+
+      - name: archive source
+        uses: thedoctor0/zip-release@main
+        if: ${{ github.event_name == 'workflow_dispatch' || steps.sync.outputs.committed }}
+        with:
+          type: "zip"
+          filename: "source.zip"
+          exclusions: "*.git* /*node_modules/* /*dist/*"
+
+      - name: archive chrome release
+        uses: thedoctor0/zip-release@main
+        if: ${{ github.event_name == 'workflow_dispatch' || steps.sync.outputs.committed }}
+        with:
+          type: "zip"
+          filename: "chrome.zip"
+          directory: "dist/chrome"
+
+      - name: archive firefox release
+        uses: thedoctor0/zip-release@main
+        if: ${{ github.event_name == 'workflow_dispatch' || steps.sync.outputs.committed }}
+        with:
+          type: "zip"
+          filename: "firefox.zip"
+          directory: "dist/firefox"
+
+      - name: create release
+        uses: ncipollo/release-action@v1
+        if: ${{ github.event_name == 'workflow_dispatch' || steps.sync.outputs.committed }}
+        with:
+          artifacts: "dist/chrome/chrome.zip,dist/firefox/firefox.zip"
+          generateReleaseNotes: true
+          token: ${{ secrets.YOUR_GITHUB_TOKEN }}
+          tag: ${{ steps.vars.outputs.tag }}
 #      - name: publish firefox addon
 #        uses: browser-actions/release-firefox-addon@latest
 #        with:
+#        if: ${{ github.event_name == 'workflow_dispatch' || steps.sync.outputs.committed }}
 #          addon-id: ziyi-zip
 #          addon-path: dist/firefox/firefox.zip
 #          source-path: source.zip
@@ -92,7 +97,9 @@ jobs:
 #          auth-api-secret: ${{ secrets.AUTH_API_SECRET }}
 #        continue-on-error: true
 #
-#      - uses: browser-actions/release-chrome-extension@latest
+#      - name: publish chrome extension
+#        uses: browser-actions/release-chrome-extension@latest
+#        if: ${{ github.event_name == 'workflow_dispatch' || steps.sync.outputs.committed }}
 #        with:
 #          extension-id: kgjlmncdpdpcmidkkalcdppigdocdnmf
 #          extension-path: dist/chrome/chrome.zip
