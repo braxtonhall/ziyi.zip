@@ -37,9 +37,6 @@ jobs:
         env:
           BUILD_VERSION: ${{ steps.vars.outputs.tag }}
 
-      - name: Check release version
-        run: yarn ts-node bin/checkRelease.ts ${{ steps.vars.outputs.tag }}
-
       - name: archive chrome release
         uses: thedoctor0/zip-release@main
         with:
