@@ -79,11 +79,10 @@ module.exports = (_env: any, options: WebpackOptionsNormalized): Configuration =
 			template: path.join(srcDir, "index.html.ejs"),
 			inject: true,
 		}),
-		...(options.mode === "production"
+		...(buildEnv === "web"
 			? [
 					new HtmlInlineScriptPlugin({
 						scriptMatchPattern: [/index/],
-						assetPreservePattern: [/service-worker/],
 					}),
 				]
 			: []),
@@ -113,7 +112,4 @@ module.exports = (_env: any, options: WebpackOptionsNormalized): Configuration =
 			],
 		}),
 	],
-	optimization: {
-		minimize: false,
-	},
 });
