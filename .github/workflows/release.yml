@@ -83,7 +83,7 @@ jobs:
         with:
           artifacts: "dist/chrome/chrome.zip,dist/firefox/firefox.zip"
           generateReleaseNotes: true
-          token: ${{ secrets.YOUR_GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           tag: ${{ steps.vars.outputs.tag }}
           commit: main
 
