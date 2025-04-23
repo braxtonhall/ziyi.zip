@@ -103,6 +103,7 @@ jobs:
             2. yarn build:firefox
             The add-on code will be found in dist/firefox
           release-note: Added new reviews from Ziyi's Letterboxd account up to ${{ steps.vars.outputs.tag }}
+          license: MIT
 
       - name: publish chrome extension
         uses: browser-actions/release-chrome-extension@latest
