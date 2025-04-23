@@ -1,4 +1,41 @@
 {
+	"https://letterboxd.com/ziyiyan/film/sinners-2025/": {
+		"url": "https://letterboxd.com/ziyiyan/film/sinners-2025/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 4,
+		"day": 22,
+		"movie": {
+			"slug": "sinners-2025",
+			"title": "Sinners",
+			"year": 2025,
+			"url": "https://letterboxd.com/film/sinners-2025/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/4p/a4/s1/8n/sinners-1920-1920-1080-1080-crop-000000.jpg?v=a69a00d122",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/1/1/1/6/6/0/0/1116600-sinners-2025-0-230-0-345-crop.jpg?v=00ce32e0ba"
+		},
+		"tags": [
+			{
+				"text": "landmarks new west",
+				"url": "https://letterboxd.com/ziyiyan/tag/landmarks-new-west/films/"
+			},
+			{
+				"text": "w/ ellenore",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-ellenore/films/"
+			},
+			{
+				"text": "w/ tanay",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-tanay/films/"
+			},
+			{
+				"text": "w/ rajat",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-rajat/films/"
+			}
+		],
+		"text": "Live as mortal human instead of nighttime vampire",
+		"spoiler": false
+	},
 	"https://letterboxd.com/ziyiyan/film/the-passenger/": {
 		"url": "https://letterboxd.com/ziyiyan/film/the-passenger/",
 		"heart": true,
