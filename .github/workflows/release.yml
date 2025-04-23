@@ -39,13 +39,12 @@ jobs:
       - name: update reviews
         run: yarn run update-reviews
 
-      - name: commit reviews & tag
+      - name: commit reviews
         uses: EndBug/add-and-commit@v9
         id: sync
         with:
           add: "src/reviews.json"
           message: "sync reviews"
-          tag: ${{ steps.vars.outputs.tag }}
         continue-on-error: true
 
       - name: compile
@@ -86,6 +85,7 @@ jobs:
           generateReleaseNotes: true
           token: ${{ secrets.YOUR_GITHUB_TOKEN }}
           tag: ${{ steps.vars.outputs.tag }}
+          commit: main
 
       - name: publish firefox add-on
         uses: browser-actions/release-firefox-addon@latest
@@ -102,6 +102,7 @@ jobs:
             1. yarn install
             2. yarn build:firefox
             The add-on code will be found in dist/firefox
+          release-note: Added new reviews from Ziyi's Letterboxd account up to ${{ steps.vars.outputs.tag }}
 
       - name: publish chrome extension
         uses: browser-actions/release-chrome-extension@latest
