@@ -48,14 +48,14 @@ jobs:
         continue-on-error: true
 
       - name: compile
-        if: ${{ github.event_name == 'workflow_dispatch' || steps.sync.outputs.committed }}
+        if: ${{ github.event_name == 'workflow_dispatch' || steps.sync.outputs.committed == 'true' }}
         run: yarn build
         env:
           BUILD_VERSION: ${{ steps.vars.outputs.tag }}
 
       - name: archive source
         uses: thedoctor0/zip-release@main
-        if: ${{ github.event_name == 'workflow_dispatch' || steps.sync.outputs.committed }}
+        if: ${{ github.event_name == 'workflow_dispatch' || steps.sync.outputs.committed == 'true' }}
         with:
           type: "zip"
           filename: "source.zip"
@@ -63,7 +63,7 @@ jobs:
 
       - name: archive chrome release
         uses: thedoctor0/zip-release@main
-        if: ${{ github.event_name == 'workflow_dispatch' || steps.sync.outputs.committed }}
+        if: ${{ github.event_name == 'workflow_dispatch' || steps.sync.outputs.committed == 'true' }}
         with:
           type: "zip"
           filename: "chrome.zip"
@@ -71,7 +71,7 @@ jobs:
 
       - name: archive firefox release
         uses: thedoctor0/zip-release@main
-        if: ${{ github.event_name == 'workflow_dispatch' || steps.sync.outputs.committed }}
+        if: ${{ github.event_name == 'workflow_dispatch' || steps.sync.outputs.committed == 'true' }}
         with:
           type: "zip"
           filename: "firefox.zip"
@@ -79,7 +79,7 @@ jobs:
 
       - name: create release
         uses: ncipollo/release-action@v1
-        if: ${{ github.event_name == 'workflow_dispatch' || steps.sync.outputs.committed }}
+        if: ${{ github.event_name == 'workflow_dispatch' || steps.sync.outputs.committed == 'true' }}
         with:
           artifacts: "dist/chrome/chrome.zip,dist/firefox/firefox.zip"
           generateReleaseNotes: true
@@ -89,7 +89,7 @@ jobs:
 
       - name: publish firefox add-on
         uses: browser-actions/release-firefox-addon@latest
-        if: ${{ github.event_name == 'workflow_dispatch' || steps.sync.outputs.committed }}
+        if: ${{ github.event_name == 'workflow_dispatch' || steps.sync.outputs.committed == 'true' }}
         with:
           addon-id: ziyi-zip
           addon-path: dist/firefox/firefox.zip
@@ -106,7 +106,7 @@ jobs:
 
       - name: publish chrome extension
         uses: browser-actions/release-chrome-extension@latest
-        if: ${{ github.event_name == 'workflow_dispatch' || steps.sync.outputs.committed }}
+        if: ${{ github.event_name == 'workflow_dispatch' || steps.sync.outputs.committed == 'true' }}
         with:
           extension-id: kgjlmncdpdpcmidkkalcdppigdocdnmf
           extension-path: dist/chrome/chrome.zip
