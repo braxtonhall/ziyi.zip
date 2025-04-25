@@ -5,8 +5,9 @@ import path from "path";
 import * as JSON5 from "json5";
 import { Review } from "../src/types";
 
-const args = process.argv.slice(2);
-const username = args[0] ?? "ziyiyan";
+const ENTRIES_PATH = path.join(__dirname, "..", "src", "reviews.json");
+
+const [username = "ziyiyan"] = process.argv.slice(2);
 const baseUrl = "https://letterboxd.com";
 const url = `${baseUrl}/${username}/films/reviews/`;
 
@@ -134,9 +135,7 @@ const scrapeReviewListPages = async (url: string, existing: Record<string, unkno
 
 let completed = 0;
 const fetchReviews = async () => {
-	const existing = JSON.parse(
-		await fs.readFile(path.join(__dirname, "..", "src", "reviews.json"), "utf-8").catch(() => "{}"),
-	);
+	const existing = JSON.parse(await fs.readFile(ENTRIES_PATH, "utf-8").catch(() => "{}"));
 	const interval = setInterval(
 		() => console.log(`Executing: ${pool.executing}. Queued: ${pool.queued}. Completed: ${completed}`),
 		1500,
@@ -144,10 +143,7 @@ const fetchReviews = async () => {
 	const reviews = await scrapeReviewListPages(url, existing);
 	clearInterval(interval);
 	const updates = Object.fromEntries(reviews.map((review) => [review.url, review]));
-	await fs.writeFile(
-		path.join(__dirname, "..", "src", "reviews.json"),
-		JSON.stringify({ ...updates, ...existing }, null, "\t"),
-	);
+	await fs.writeFile(ENTRIES_PATH, JSON.stringify({ ...updates, ...existing }, null, "\t"));
 	console.log(`Done! Completed: ${completed}`);
 	process.exit(0);
 };
