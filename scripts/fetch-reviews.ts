@@ -3,6 +3,7 @@ import AsyncPool from "./util/async-pool";
 import * as fs from "node:fs/promises";
 import path from "path";
 import * as JSON5 from "json5";
+import { Review } from "../src/types";
 
 const args = process.argv.slice(2);
 const username = args[0] ?? "ziyiyan";
@@ -28,8 +29,6 @@ type LetterboxdInfo = {
 type RemainingReviewInfo = { tags: { text: string; url: string }[]; text: string; spoiler: boolean };
 
 type Images = { poster: string | null; backdrop: string | null };
-
-type CompletedInfo = LetterboxdInfo & RemainingReviewInfo & { movie: Images };
 
 const pool = new AsyncPool(20);
 const getDocument = async (url: string) => {
@@ -109,7 +108,7 @@ const getImages = async (url: string | null): Promise<Images> => {
 	return { backdrop: null, poster: null };
 };
 
-const completeReview = async (entry: LetterboxdInfo): Promise<CompletedInfo> => {
+const completeReview = async (entry: LetterboxdInfo): Promise<Review> => {
 	const [completion, images] = await Promise.all([getReviewInfo(entry.url), getImages(entry.movie.url)]);
 	completed++;
 	return {
@@ -122,13 +121,13 @@ const completeReview = async (entry: LetterboxdInfo): Promise<CompletedInfo> => 
 	};
 };
 
-const scrapeReviewListPages = async (url: string, existing: Record<string, unknown>): Promise<CompletedInfo[]> => {
+const scrapeReviewListPages = async (url: string, existing: Record<string, unknown>): Promise<Review[]> => {
 	const { reviews, next } = await scrapeReviewListPage(url);
 	if (reviews.every((review) => review.url && existing.hasOwnProperty(review.url))) {
 		return [];
 	}
 	const futureCompleteReviews = Promise.all(reviews.map((entry) => completeReview(entry)));
-	const futureRemainder: Promise<CompletedInfo[]> = next ? scrapeReviewListPages(next, existing) : Promise.resolve([]);
+	const futureRemainder: Promise<Review[]> = next ? scrapeReviewListPages(next, existing) : Promise.resolve([]);
 	const [complete, remainder] = await Promise.all([futureCompleteReviews, futureRemainder]);
 	return [...complete, ...remainder];
 };

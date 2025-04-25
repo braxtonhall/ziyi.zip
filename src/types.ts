@@ -1,6 +1,28 @@
-import type reviews from "./reviews.json";
-
-export type Review = (typeof reviews)[keyof typeof reviews];
+export type Review = {
+	url: string;
+	heart: boolean;
+	rating: number | null;
+	rewatch: boolean;
+	year: number;
+	month: number;
+	day: number;
+	movie: {
+		slug: string;
+		title: string;
+		year: number;
+		url: string;
+		backdrop: string | null;
+		poster: string | null;
+	};
+	tags: [
+		{
+			text: string;
+			url: string;
+		},
+	];
+	text: string;
+	spoiler: boolean;
+};
 
 export type AppSettings = {
 	showSpoilers: boolean;
