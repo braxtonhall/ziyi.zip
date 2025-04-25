@@ -47,7 +47,7 @@
 		"update-reviews": "ts-node scripts/fetch-reviews.ts"
 	},
 	"lint-staged": {
-		"*.{yml,md,json,ts,js,html}": "prettier --write"
+		"*.{yml,md,json,ts,js,html,scss}": "prettier --write"
 	},
 	"prettier": {
 		"useTabs": true,
