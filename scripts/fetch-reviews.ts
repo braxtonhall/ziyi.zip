@@ -109,7 +109,7 @@ const getImages = async (url: string | null): Promise<Images> => {
 	return { backdrop: null, poster: null };
 };
 
-const completeReview = async (entry: LetterboxdInfo): Promise<Review> => {
+const completeReview = async (entry: LetterboxdInfo) => {
 	const [completion, images] = await Promise.all([getReviewInfo(entry.url), getImages(entry.movie.url)]);
 	completed++;
 	return {
@@ -127,11 +127,14 @@ const scrapeReviewListPages = async (url: string, existing: Record<string, unkno
 	if (reviews.every((review) => review.url && existing.hasOwnProperty(review.url))) {
 		return [];
 	}
-	const futureCompleteReviews = Promise.all(reviews.map((entry) => completeReview(entry)));
+	const futureCompleteReviews: Promise<Review[]> = Promise.all(reviews.map((entry) => completeReview(entry)))
+		.then((reviews) => reviews.filter((review): review is Review => review.url !== null && !!(review satisfies Review)));
 	const futureRemainder: Promise<Review[]> = next ? scrapeReviewListPages(next, existing) : Promise.resolve([]);
 	const [complete, remainder] = await Promise.all([futureCompleteReviews, futureRemainder]);
 	return [...complete, ...remainder];
 };
+
+// TODO also update reviews
 
 let completed = 0;
 const fetchReviews = async () => {
