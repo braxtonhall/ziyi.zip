@@ -224,6 +224,23 @@ body:has(#review-position-bottom-left:checked) #review {
 				margin-bottom: 0.1rem;
 				margin-top: 0;
 				white-space: pre-wrap;
+
+				* {
+					margin: 0;
+				}
+
+				a {
+					color: white;
+				}
+
+				blockquote {
+					padding-left: 1rem;
+					border-left: 1px solid white;
+				}
+
+				* + * {
+					margin-top: 1rem !important;
+				}
 			}
 			#review-metadata {
 				color: $metadata-colour;
