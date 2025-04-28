@@ -28,7 +28,6 @@ type LetterboxdInfo = {
 	month: number | null;
 	day: number | null;
 	movie: {
-		slug: string | null;
 		title: string | null;
 		year: number | null;
 		url: string | null;
@@ -50,7 +49,6 @@ const scrapeReviewListPage = async (url: string): Promise<{ reviews: LetterboxdI
 	const document = await getDocument(url);
 	const reviews = document.querySelectorAll("li.film-detail").map((element): LetterboxdInfo => {
 		const poster = element.querySelector("div.film-poster");
-		const slug = poster?.getAttribute("data-film-slug") ?? null;
 		const movieUrl = poster?.getAttribute("data-target-link") ?? null;
 		const anchor = element.querySelector(".headline-2 a");
 		const link = anchor?.getAttribute("href") ?? null;
@@ -68,7 +66,6 @@ const scrapeReviewListPage = async (url: string): Promise<{ reviews: LetterboxdI
 			month: date && date.getMonth() + 1,
 			day: date && date.getDate(),
 			movie: {
-				slug,
 				title: anchor?.textContent ?? null,
 				year: Number(element.querySelector(".headline-2 .metadata a")?.innerText) || null,
 				url: movieUrl && `${baseUrl}${movieUrl}`,

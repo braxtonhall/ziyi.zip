@@ -8,7 +8,6 @@
 		"month": 4,
 		"day": 22,
 		"movie": {
-			"slug": "sinners-2025",
 			"title": "Sinners",
 			"year": 2025,
 			"url": "https://letterboxd.com/film/sinners-2025/",
@@ -45,7 +44,6 @@
 		"month": 4,
 		"day": 21,
 		"movie": {
-			"slug": "the-passenger",
 			"title": "The Passenger",
 			"year": 1975,
 			"url": "https://letterboxd.com/film/the-passenger/",
@@ -70,7 +68,6 @@
 		"month": 4,
 		"day": 18,
 		"movie": {
-			"slug": "belfast-maine",
 			"title": "Belfast, Maine",
 			"year": 1999,
 			"url": "https://letterboxd.com/film/belfast-maine/",
@@ -99,7 +96,6 @@
 		"month": 4,
 		"day": 17,
 		"movie": {
-			"slug": "suzhou-river",
 			"title": "Suzhou River",
 			"year": 2000,
 			"url": "https://letterboxd.com/film/suzhou-river/",
@@ -125,7 +121,6 @@
 		"month": 4,
 		"day": 8,
 		"movie": {
-			"slug": "welfare",
 			"title": "Welfare",
 			"year": 1975,
 			"url": "https://letterboxd.com/film/welfare/",
@@ -154,7 +149,6 @@
 		"month": 4,
 		"day": 7,
 		"movie": {
-			"slug": "m-butterfly",
 			"title": "M. Butterfly",
 			"year": 1993,
 			"url": "https://letterboxd.com/film/m-butterfly/",
@@ -180,7 +174,6 @@
 		"month": 4,
 		"day": 4,
 		"movie": {
-			"slug": "the-brutalist",
 			"title": "The Brutalist",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/the-brutalist/",
@@ -213,7 +206,6 @@
 		"month": 4,
 		"day": 3,
 		"movie": {
-			"slug": "viet-and-nam",
 			"title": "Việt and Nam",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/viet-and-nam/",
@@ -242,7 +234,6 @@
 		"month": 4,
 		"day": 3,
 		"movie": {
-			"slug": "suzhou-river",
 			"title": "Suzhou River",
 			"year": 2000,
 			"url": "https://letterboxd.com/film/suzhou-river/",
@@ -268,7 +259,6 @@
 		"month": 3,
 		"day": 30,
 		"movie": {
-			"slug": "essene",
 			"title": "Essene",
 			"year": 1972,
 			"url": "https://letterboxd.com/film/essene/",
@@ -294,7 +284,6 @@
 		"month": 3,
 		"day": 28,
 		"movie": {
-			"slug": "an-unfinished-film-2024",
 			"title": "An Unfinished Film",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/an-unfinished-film-2024/",
@@ -320,7 +309,6 @@
 		"month": 3,
 		"day": 30,
 		"movie": {
-			"slug": "donnie-darko",
 			"title": "Donnie Darko",
 			"year": 2001,
 			"url": "https://letterboxd.com/film/donnie-darko/",
@@ -346,7 +334,6 @@
 		"month": 3,
 		"day": 25,
 		"movie": {
-			"slug": "capolavoro",
 			"title": "Capolavoro",
 			"year": 2013,
 			"url": "https://letterboxd.com/film/capolavoro/",
@@ -371,7 +358,6 @@
 		"month": 3,
 		"day": 22,
 		"movie": {
-			"slug": "the-good-the-bad-and-the-ugly",
 			"title": "The Good, the Bad and the Ugly",
 			"year": 1966,
 			"url": "https://letterboxd.com/film/the-good-the-bad-and-the-ugly/",
@@ -397,7 +383,6 @@
 		"month": 3,
 		"day": 20,
 		"movie": {
-			"slug": "7-beats-per-minute",
 			"title": "7 Beats Per Minute",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/7-beats-per-minute/",
@@ -423,7 +408,6 @@
 		"month": 3,
 		"day": 18,
 		"movie": {
-			"slug": "the-wild-bunch",
 			"title": "The Wild Bunch",
 			"year": 1969,
 			"url": "https://letterboxd.com/film/the-wild-bunch/",
@@ -448,7 +432,6 @@
 		"month": 3,
 		"day": 15,
 		"movie": {
-			"slug": "the-life-of-jesus",
 			"title": "The Life of Jesus",
 			"year": 1997,
 			"url": "https://letterboxd.com/film/the-life-of-jesus/",
@@ -482,7 +465,6 @@
 		"month": 3,
 		"day": 14,
 		"movie": {
-			"slug": "the-empire-2024",
 			"title": "The Empire",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/the-empire-2024/",
@@ -511,7 +493,6 @@
 		"month": 3,
 		"day": 13,
 		"movie": {
-			"slug": "boy-on-a-dolphin",
 			"title": "Boy on a Dolphin",
 			"year": 1957,
 			"url": "https://letterboxd.com/film/boy-on-a-dolphin/",
@@ -541,7 +522,6 @@
 		"month": 3,
 		"day": 8,
 		"movie": {
-			"slug": "high-school",
 			"title": "High School",
 			"year": 1968,
 			"url": "https://letterboxd.com/film/high-school/",
@@ -575,7 +555,6 @@
 		"month": 3,
 		"day": 7,
 		"movie": {
-			"slug": "picnic-at-hanging-rock",
 			"title": "Picnic at Hanging Rock",
 			"year": 1975,
 			"url": "https://letterboxd.com/film/picnic-at-hanging-rock/",
@@ -609,7 +588,6 @@
 		"month": 3,
 		"day": 6,
 		"movie": {
-			"slug": "central-park-1990",
 			"title": "Central Park",
 			"year": 1990,
 			"url": "https://letterboxd.com/film/central-park-1990/",
@@ -635,7 +613,6 @@
 		"month": 3,
 		"day": 1,
 		"movie": {
-			"slug": "wild-at-heart",
 			"title": "Wild at Heart",
 			"year": 1990,
 			"url": "https://letterboxd.com/film/wild-at-heart/",
@@ -665,7 +642,6 @@
 		"month": 2,
 		"day": 26,
 		"movie": {
-			"slug": "yokohama-bj-blues",
 			"title": "Yokohama BJ Blues",
 			"year": 1981,
 			"url": "https://letterboxd.com/film/yokohama-bj-blues/",
@@ -691,7 +667,6 @@
 		"month": 2,
 		"day": 23,
 		"movie": {
-			"slug": "abrahams-valley",
 			"title": "Abraham's Valley",
 			"year": 1993,
 			"url": "https://letterboxd.com/film/abrahams-valley/",
@@ -717,7 +692,6 @@
 		"month": 2,
 		"day": 21,
 		"movie": {
-			"slug": "two-english-girls",
 			"title": "Two English Girls",
 			"year": 1971,
 			"url": "https://letterboxd.com/film/two-english-girls/",
@@ -746,7 +720,6 @@
 		"month": 2,
 		"day": 20,
 		"movie": {
-			"slug": "wheel-of-fortune-and-fantasy",
 			"title": "Wheel of Fortune and Fantasy",
 			"year": 2021,
 			"url": "https://letterboxd.com/film/wheel-of-fortune-and-fantasy/",
@@ -772,7 +745,6 @@
 		"month": 2,
 		"day": 16,
 		"movie": {
-			"slug": "happyend",
 			"title": "Happyend",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/happyend/",
@@ -798,7 +770,6 @@
 		"month": 2,
 		"day": 15,
 		"movie": {
-			"slug": "in-the-mood-for-love",
 			"title": "In the Mood for Love",
 			"year": 2000,
 			"url": "https://letterboxd.com/film/in-the-mood-for-love/",
@@ -824,7 +795,6 @@
 		"month": 2,
 		"day": 9,
 		"movie": {
-			"slug": "universal-language",
 			"title": "Universal Language",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/universal-language/",
@@ -862,7 +832,6 @@
 		"month": 2,
 		"day": 8,
 		"movie": {
-			"slug": "no-other-land",
 			"title": "No Other Land",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/no-other-land/",
@@ -888,7 +857,6 @@
 		"month": 2,
 		"day": 5,
 		"movie": {
-			"slug": "universal-language",
 			"title": "Universal Language",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/universal-language/",
@@ -914,7 +882,6 @@
 		"month": 2,
 		"day": 3,
 		"movie": {
-			"slug": "in-another-country",
 			"title": "In Another Country",
 			"year": 2012,
 			"url": "https://letterboxd.com/film/in-another-country/",
@@ -944,7 +911,6 @@
 		"month": 2,
 		"day": 2,
 		"movie": {
-			"slug": "mermaid-legend",
 			"title": "Mermaid Legend",
 			"year": 1984,
 			"url": "https://letterboxd.com/film/mermaid-legend/",
@@ -974,7 +940,6 @@
 		"month": 2,
 		"day": 1,
 		"movie": {
-			"slug": "lost-highway",
 			"title": "Lost Highway",
 			"year": 1997,
 			"url": "https://letterboxd.com/film/lost-highway/",
@@ -1004,7 +969,6 @@
 		"month": 1,
 		"day": 30,
 		"movie": {
-			"slug": "the-wages-of-fear",
 			"title": "The Wages of Fear",
 			"year": 1953,
 			"url": "https://letterboxd.com/film/the-wages-of-fear/",
@@ -1034,7 +998,6 @@
 		"month": 1,
 		"day": 29,
 		"movie": {
-			"slug": "2046",
 			"title": "2046",
 			"year": 2004,
 			"url": "https://letterboxd.com/film/2046/",
@@ -1064,7 +1027,6 @@
 		"month": 1,
 		"day": 28,
 		"movie": {
-			"slug": "the-brutalist",
 			"title": "The Brutalist",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/the-brutalist/",
@@ -1094,7 +1056,6 @@
 		"month": 1,
 		"day": 26,
 		"movie": {
-			"slug": "autumn-moon",
 			"title": "Autumn Moon",
 			"year": 1992,
 			"url": "https://letterboxd.com/film/autumn-moon/",
@@ -1128,7 +1089,6 @@
 		"month": 1,
 		"day": 26,
 		"movie": {
-			"slug": "farewell-china",
 			"title": "Farewell China",
 			"year": 1990,
 			"url": "https://letterboxd.com/film/farewell-china/",
@@ -1162,7 +1122,6 @@
 		"month": 1,
 		"day": 23,
 		"movie": {
-			"slug": "the-host",
 			"title": "The Host",
 			"year": 2006,
 			"url": "https://letterboxd.com/film/the-host/",
@@ -1188,7 +1147,6 @@
 		"month": 1,
 		"day": 23,
 		"movie": {
-			"slug": "memories-of-murder",
 			"title": "Memories of Murder",
 			"year": 2003,
 			"url": "https://letterboxd.com/film/memories-of-murder/",
@@ -1214,7 +1172,6 @@
 		"month": 1,
 		"day": 24,
 		"movie": {
-			"slug": "floating-life",
 			"title": "Floating Life",
 			"year": 1996,
 			"url": "https://letterboxd.com/film/floating-life/",
@@ -1248,7 +1205,6 @@
 		"month": 1,
 		"day": 19,
 		"movie": {
-			"slug": "the-goddess-of-1967",
 			"title": "The Goddess of 1967",
 			"year": 2000,
 			"url": "https://letterboxd.com/film/the-goddess-of-1967/",
@@ -1290,7 +1246,6 @@
 		"month": 1,
 		"day": 18,
 		"movie": {
-			"slug": "farewell-china",
 			"title": "Farewell China",
 			"year": 1990,
 			"url": "https://letterboxd.com/film/farewell-china/",
@@ -1348,7 +1303,6 @@
 		"month": 1,
 		"day": 18,
 		"movie": {
-			"slug": "they-say-the-moon-is-fuller-here",
 			"title": "They Say the Moon Is Fuller Here",
 			"year": 1985,
 			"url": "https://letterboxd.com/film/they-say-the-moon-is-fuller-here/",
@@ -1374,7 +1328,6 @@
 		"month": 1,
 		"day": 17,
 		"movie": {
-			"slug": "gummo",
 			"title": "Gummo",
 			"year": 1997,
 			"url": "https://letterboxd.com/film/gummo/",
@@ -1408,7 +1361,6 @@
 		"month": 1,
 		"day": 16,
 		"movie": {
-			"slug": "autumn-moon",
 			"title": "Autumn Moon",
 			"year": 1992,
 			"url": "https://letterboxd.com/film/autumn-moon/",
@@ -1450,7 +1402,6 @@
 		"month": 1,
 		"day": 14,
 		"movie": {
-			"slug": "the-umbrellas-of-cherbourg",
 			"title": "The Umbrellas of Cherbourg",
 			"year": 1964,
 			"url": "https://letterboxd.com/film/the-umbrellas-of-cherbourg/",
@@ -1476,7 +1427,6 @@
 		"month": 1,
 		"day": 13,
 		"movie": {
-			"slug": "late-spring",
 			"title": "Late Spring",
 			"year": 1949,
 			"url": "https://letterboxd.com/film/late-spring/",
@@ -1506,7 +1456,6 @@
 		"month": 1,
 		"day": 12,
 		"movie": {
-			"slug": "youth-hard-times",
 			"title": "Youth (Hard Times)",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/youth-hard-times/",
@@ -1548,7 +1497,6 @@
 		"month": 1,
 		"day": 12,
 		"movie": {
-			"slug": "akira",
 			"title": "Akira",
 			"year": 1988,
 			"url": "https://letterboxd.com/film/akira/",
@@ -1578,7 +1526,6 @@
 		"month": 1,
 		"day": 10,
 		"movie": {
-			"slug": "the-sacrifice",
 			"title": "The Sacrifice",
 			"year": 1986,
 			"url": "https://letterboxd.com/film/the-sacrifice/",
@@ -1608,7 +1555,6 @@
 		"month": 1,
 		"day": 7,
 		"movie": {
-			"slug": "flow-2024",
 			"title": "Flow",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/flow-2024/",
@@ -1638,7 +1584,6 @@
 		"month": 1,
 		"day": 4,
 		"movie": {
-			"slug": "the-end-of-summer",
 			"title": "The End of Summer",
 			"year": 1961,
 			"url": "https://letterboxd.com/film/the-end-of-summer/",
@@ -1672,7 +1617,6 @@
 		"month": 1,
 		"day": 5,
 		"movie": {
-			"slug": "a-real-pain",
 			"title": "A Real Pain",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/a-real-pain/",
@@ -1706,7 +1650,6 @@
 		"month": 1,
 		"day": 5,
 		"movie": {
-			"slug": "three-wishes-for-cinderella",
 			"title": "Three Wishes for Cinderella",
 			"year": 1973,
 			"url": "https://letterboxd.com/film/three-wishes-for-cinderella/",
@@ -1736,7 +1679,6 @@
 		"month": 1,
 		"day": 2,
 		"movie": {
-			"slug": "floating-weeds",
 			"title": "Floating Weeds",
 			"year": 1959,
 			"url": "https://letterboxd.com/film/floating-weeds/",
@@ -1766,7 +1708,6 @@
 		"month": 12,
 		"day": 31,
 		"movie": {
-			"slug": "do-not-expect-too-much-from-the-end-of-the-world",
 			"title": "Do Not Expect Too Much from the End of the World",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/do-not-expect-too-much-from-the-end-of-the-world/",
@@ -1804,7 +1745,6 @@
 		"month": 12,
 		"day": 30,
 		"movie": {
-			"slug": "the-umbrellas-of-cherbourg",
 			"title": "The Umbrellas of Cherbourg",
 			"year": 1964,
 			"url": "https://letterboxd.com/film/the-umbrellas-of-cherbourg/",
@@ -1830,7 +1770,6 @@
 		"month": 12,
 		"day": 30,
 		"movie": {
-			"slug": "phantom-thread",
 			"title": "Phantom Thread",
 			"year": 2017,
 			"url": "https://letterboxd.com/film/phantom-thread/",
@@ -1856,7 +1795,6 @@
 		"month": 12,
 		"day": 29,
 		"movie": {
-			"slug": "equinox-flower",
 			"title": "Equinox Flower",
 			"year": 1958,
 			"url": "https://letterboxd.com/film/equinox-flower/",
@@ -1886,7 +1824,6 @@
 		"month": 12,
 		"day": 29,
 		"movie": {
-			"slug": "good-morning",
 			"title": "Good Morning",
 			"year": 1959,
 			"url": "https://letterboxd.com/film/good-morning/",
@@ -1916,7 +1853,6 @@
 		"month": 12,
 		"day": 27,
 		"movie": {
-			"slug": "thelma-louise",
 			"title": "Thelma & Louise",
 			"year": 1991,
 			"url": "https://letterboxd.com/film/thelma-louise/",
@@ -1946,7 +1882,6 @@
 		"month": 12,
 		"day": 28,
 		"movie": {
-			"slug": "shadows-of-forgotten-ancestors",
 			"title": "Shadows of Forgotten Ancestors",
 			"year": 1965,
 			"url": "https://letterboxd.com/film/shadows-of-forgotten-ancestors/",
@@ -1971,7 +1906,6 @@
 		"month": 12,
 		"day": 28,
 		"movie": {
-			"slug": "3-women",
 			"title": "3 Women",
 			"year": 1977,
 			"url": "https://letterboxd.com/film/3-women/",
@@ -1997,7 +1931,6 @@
 		"month": 12,
 		"day": 27,
 		"movie": {
-			"slug": "leningrad-cowboys-go-america",
 			"title": "Leningrad Cowboys Go America",
 			"year": 1989,
 			"url": "https://letterboxd.com/film/leningrad-cowboys-go-america/",
@@ -2022,7 +1955,6 @@
 		"month": 12,
 		"day": 26,
 		"movie": {
-			"slug": "b-for-busy",
 			"title": "B for Busy",
 			"year": 2021,
 			"url": "https://letterboxd.com/film/b-for-busy/",
@@ -2043,7 +1975,6 @@
 		"month": 12,
 		"day": 22,
 		"movie": {
-			"slug": "tangerine",
 			"title": "Tangerine",
 			"year": 2015,
 			"url": "https://letterboxd.com/film/tangerine/",
@@ -2069,7 +2000,6 @@
 		"month": 12,
 		"day": 22,
 		"movie": {
-			"slug": "the-munekata-sisters",
 			"title": "The Munekata Sisters",
 			"year": 1950,
 			"url": "https://letterboxd.com/film/the-munekata-sisters/",
@@ -2095,7 +2025,6 @@
 		"month": 12,
 		"day": 22,
 		"movie": {
-			"slug": "early-spring",
 			"title": "Early Spring",
 			"year": 1956,
 			"url": "https://letterboxd.com/film/early-spring/",
@@ -2121,7 +2050,6 @@
 		"month": 12,
 		"day": 21,
 		"movie": {
-			"slug": "totally-fed-up",
 			"title": "Totally F***ed Up",
 			"year": 1993,
 			"url": "https://letterboxd.com/film/totally-fed-up/",
@@ -2147,7 +2075,6 @@
 		"month": 12,
 		"day": 20,
 		"movie": {
-			"slug": "good-morning",
 			"title": "Good Morning",
 			"year": 1959,
 			"url": "https://letterboxd.com/film/good-morning/",
@@ -2173,7 +2100,6 @@
 		"month": 12,
 		"day": 15,
 		"movie": {
-			"slug": "tokyo-story",
 			"title": "Tokyo Story",
 			"year": 1953,
 			"url": "https://letterboxd.com/film/tokyo-story/",
@@ -2199,7 +2125,6 @@
 		"month": 12,
 		"day": 17,
 		"movie": {
-			"slug": "a-hen-in-the-wind",
 			"title": "A Hen in the Wind",
 			"year": 1948,
 			"url": "https://letterboxd.com/film/a-hen-in-the-wind/",
@@ -2225,7 +2150,6 @@
 		"month": 12,
 		"day": 15,
 		"movie": {
-			"slug": "late-spring",
 			"title": "Late Spring",
 			"year": 1949,
 			"url": "https://letterboxd.com/film/late-spring/",
@@ -2251,7 +2175,6 @@
 		"month": 12,
 		"day": 12,
 		"movie": {
-			"slug": "record-of-a-tenement-gentleman",
 			"title": "Record of a Tenement Gentleman",
 			"year": 1947,
 			"url": "https://letterboxd.com/film/record-of-a-tenement-gentleman/",
@@ -2277,7 +2200,6 @@
 		"month": 12,
 		"day": 8,
 		"movie": {
-			"slug": "far-from-home-1975",
 			"title": "Far from Home",
 			"year": 1975,
 			"url": "https://letterboxd.com/film/far-from-home-1975/",
@@ -2303,7 +2225,6 @@
 		"month": 12,
 		"day": 10,
 		"movie": {
-			"slug": "hours-for-jerome",
 			"title": "Hours for Jerome",
 			"year": 1982,
 			"url": "https://letterboxd.com/film/hours-for-jerome/",
@@ -2333,7 +2254,6 @@
 		"month": 12,
 		"day": 8,
 		"movie": {
-			"slug": "samsara-2023",
 			"title": "Samsara",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/samsara-2023/",
@@ -2359,7 +2279,6 @@
 		"month": 12,
 		"day": 7,
 		"movie": {
-			"slug": "every-man-for-himself",
 			"title": "Every Man for Himself",
 			"year": 1980,
 			"url": "https://letterboxd.com/film/every-man-for-himself/",
@@ -2389,7 +2308,6 @@
 		"month": 12,
 		"day": 7,
 		"movie": {
-			"slug": "weekend-1967",
 			"title": "Weekend",
 			"year": 1967,
 			"url": "https://letterboxd.com/film/weekend-1967/",
@@ -2415,7 +2333,6 @@
 		"month": 12,
 		"day": 2,
 		"movie": {
-			"slug": "moulin-rouge-2001",
 			"title": "Moulin Rouge!",
 			"year": 2001,
 			"url": "https://letterboxd.com/film/moulin-rouge-2001/",
@@ -2445,7 +2362,6 @@
 		"month": 12,
 		"day": 1,
 		"movie": {
-			"slug": "a-whole-night",
 			"title": "A Whole Night",
 			"year": 1982,
 			"url": "https://letterboxd.com/film/a-whole-night/",
@@ -2475,7 +2391,6 @@
 		"month": 11,
 		"day": 24,
 		"movie": {
-			"slug": "joker-folie-a-deux",
 			"title": "Joker: Folie à Deux",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/joker-folie-a-deux/",
@@ -2505,7 +2420,6 @@
 		"month": 11,
 		"day": 24,
 		"movie": {
-			"slug": "megalopolis-2024",
 			"title": "Megalopolis",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/megalopolis-2024/",
@@ -2535,7 +2449,6 @@
 		"month": 11,
 		"day": 22,
 		"movie": {
-			"slug": "the-invisible-fight",
 			"title": "The Invisible Fight",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/the-invisible-fight/",
@@ -2565,7 +2478,6 @@
 		"month": 11,
 		"day": 21,
 		"movie": {
-			"slug": "cats-of-malta",
 			"title": "Cats of Malta",
 			"year": 2022,
 			"url": "https://letterboxd.com/film/cats-of-malta/",
@@ -2595,7 +2507,6 @@
 		"month": 11,
 		"day": 18,
 		"movie": {
-			"slug": "bird-2024",
 			"title": "Bird",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/bird-2024/",
@@ -2621,7 +2532,6 @@
 		"month": 11,
 		"day": 13,
 		"movie": {
-			"slug": "come-and-see",
 			"title": "Come and See",
 			"year": 1985,
 			"url": "https://letterboxd.com/film/come-and-see/",
@@ -2646,7 +2556,6 @@
 		"month": 11,
 		"day": 12,
 		"movie": {
-			"slug": "a-page-of-madness",
 			"title": "A Page of Madness",
 			"year": 1926,
 			"url": "https://letterboxd.com/film/a-page-of-madness/",
@@ -2672,7 +2581,6 @@
 		"month": 11,
 		"day": 11,
 		"movie": {
-			"slug": "eureka-2023",
 			"title": "Eureka",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/eureka-2023/",
@@ -2702,7 +2610,6 @@
 		"month": 11,
 		"day": 9,
 		"movie": {
-			"slug": "anora",
 			"title": "Anora",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/anora/",
@@ -2732,7 +2639,6 @@
 		"month": 11,
 		"day": 3,
 		"movie": {
-			"slug": "the-straight-story",
 			"title": "The Straight Story",
 			"year": 1999,
 			"url": "https://letterboxd.com/film/the-straight-story/",
@@ -2762,7 +2668,6 @@
 		"month": 11,
 		"day": 3,
 		"movie": {
-			"slug": "la-chinoise",
 			"title": "La Chinoise",
 			"year": 1967,
 			"url": "https://letterboxd.com/film/la-chinoise/",
@@ -2792,7 +2697,6 @@
 		"month": 11,
 		"day": 2,
 		"movie": {
-			"slug": "matt-and-mara",
 			"title": "Matt and Mara",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/matt-and-mara/",
@@ -2818,7 +2722,6 @@
 		"month": 11,
 		"day": 2,
 		"movie": {
-			"slug": "anne-at-13000-ft",
 			"title": "Anne at 13,000 Ft.",
 			"year": 2019,
 			"url": "https://letterboxd.com/film/anne-at-13000-ft/",
@@ -2844,7 +2747,6 @@
 		"month": 10,
 		"day": 31,
 		"movie": {
-			"slug": "haxan",
 			"title": "Häxan",
 			"year": 1922,
 			"url": "https://letterboxd.com/film/haxan/",
@@ -2881,7 +2783,6 @@
 		"month": 10,
 		"day": 29,
 		"movie": {
-			"slug": "the-blair-witch-project",
 			"title": "The Blair Witch Project",
 			"year": 1999,
 			"url": "https://letterboxd.com/film/the-blair-witch-project/",
@@ -2907,7 +2808,6 @@
 		"month": 10,
 		"day": 28,
 		"movie": {
-			"slug": "i-married-a-witch",
 			"title": "I Married a Witch",
 			"year": 1942,
 			"url": "https://letterboxd.com/film/i-married-a-witch/",
@@ -2937,7 +2837,6 @@
 		"month": 10,
 		"day": 26,
 		"movie": {
-			"slug": "the-fall",
 			"title": "The Fall",
 			"year": 2006,
 			"url": "https://letterboxd.com/film/the-fall/",
@@ -2967,7 +2866,6 @@
 		"month": 10,
 		"day": 21,
 		"movie": {
-			"slug": "the-human-surge-3",
 			"title": "The Human Surge 3",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/the-human-surge-3/",
@@ -2992,7 +2890,6 @@
 		"month": 10,
 		"day": 19,
 		"movie": {
-			"slug": "one-hour-with-you",
 			"title": "One Hour with You",
 			"year": 1932,
 			"url": "https://letterboxd.com/film/one-hour-with-you/",
@@ -3022,7 +2919,6 @@
 		"month": 10,
 		"day": 17,
 		"movie": {
-			"slug": "sex-is-comedy",
 			"title": "Sex Is Comedy",
 			"year": 2002,
 			"url": "https://letterboxd.com/film/sex-is-comedy/",
@@ -3052,7 +2948,6 @@
 		"month": 10,
 		"day": 17,
 		"movie": {
-			"slug": "brief-crossing",
 			"title": "Brief Crossing",
 			"year": 2001,
 			"url": "https://letterboxd.com/film/brief-crossing/",
@@ -3082,7 +2977,6 @@
 		"month": 10,
 		"day": 16,
 		"movie": {
-			"slug": "after-work-2023",
 			"title": "After Work",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/after-work-2023/",
@@ -3108,7 +3002,6 @@
 		"month": 10,
 		"day": 15,
 		"movie": {
-			"slug": "angel",
 			"title": "Angel",
 			"year": 1937,
 			"url": "https://letterboxd.com/film/angel/",
@@ -3138,7 +3031,6 @@
 		"month": 10,
 		"day": 14,
 		"movie": {
-			"slug": "seven-samurai",
 			"title": "Seven Samurai",
 			"year": 1954,
 			"url": "https://letterboxd.com/film/seven-samurai/",
@@ -3163,7 +3055,6 @@
 		"month": 10,
 		"day": 13,
 		"movie": {
-			"slug": "burden-of-dreams",
 			"title": "Burden of Dreams",
 			"year": 1982,
 			"url": "https://letterboxd.com/film/burden-of-dreams/",
@@ -3188,7 +3079,6 @@
 		"month": 10,
 		"day": 13,
 		"movie": {
-			"slug": "santa-sangre",
 			"title": "Santa Sangre",
 			"year": 1989,
 			"url": "https://letterboxd.com/film/santa-sangre/",
@@ -3214,7 +3104,6 @@
 		"month": 10,
 		"day": 13,
 		"movie": {
-			"slug": "one-hour-with-you",
 			"title": "One Hour with You",
 			"year": 1932,
 			"url": "https://letterboxd.com/film/one-hour-with-you/",
@@ -3240,7 +3129,6 @@
 		"month": 10,
 		"day": 13,
 		"movie": {
-			"slug": "fitzcarraldo",
 			"title": "Fitzcarraldo",
 			"year": 1982,
 			"url": "https://letterboxd.com/film/fitzcarraldo/",
@@ -3266,7 +3154,6 @@
 		"month": 10,
 		"day": 12,
 		"movie": {
-			"slug": "i-dont-want-to-be-a-man",
 			"title": "I Don't Want to Be a Man",
 			"year": 1918,
 			"url": "https://letterboxd.com/film/i-dont-want-to-be-a-man/",
@@ -3295,7 +3182,6 @@
 		"month": 10,
 		"day": 12,
 		"movie": {
-			"slug": "lady-windermeres-fan",
 			"title": "Lady Windermere's Fan",
 			"year": 1925,
 			"url": "https://letterboxd.com/film/lady-windermeres-fan/",
@@ -3325,7 +3211,6 @@
 		"month": 10,
 		"day": 10,
 		"movie": {
-			"slug": "quod-erat-demonstrandum-2012",
 			"title": "Quod Erat Demonstrandum",
 			"year": 2012,
 			"url": "https://letterboxd.com/film/quod-erat-demonstrandum-2012/",
@@ -3351,7 +3236,6 @@
 		"month": 10,
 		"day": 1,
 		"movie": {
-			"slug": "at-averroes-rosa-parks",
 			"title": "At Averroès & Rosa Parks",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/at-averroes-rosa-parks/",
@@ -3381,7 +3265,6 @@
 		"month": 10,
 		"day": 7,
 		"movie": {
-			"slug": "first-name-carmen",
 			"title": "First Name: Carmen",
 			"year": 1983,
 			"url": "https://letterboxd.com/film/first-name-carmen/",
@@ -3411,7 +3294,6 @@
 		"month": 10,
 		"day": 7,
 		"movie": {
-			"slug": "2-or-3-things-i-know-about-her",
 			"title": "2 or 3 Things I Know About Her",
 			"year": 1967,
 			"url": "https://letterboxd.com/film/2-or-3-things-i-know-about-her/",
@@ -3441,7 +3323,6 @@
 		"month": 10,
 		"day": 6,
 		"movie": {
-			"slug": "blue-sun-palace",
 			"title": "Blue Sun Palace",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/blue-sun-palace/",
@@ -3475,7 +3356,6 @@
 		"month": 10,
 		"day": 6,
 		"movie": {
-			"slug": "its-not-me-2024",
 			"title": "It's Not Me",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/its-not-me-2024/",
@@ -3505,7 +3385,6 @@
 		"month": 10,
 		"day": 6,
 		"movie": {
-			"slug": "the-seed-of-the-sacred-fig",
 			"title": "The Seed of the Sacred Fig",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/the-seed-of-the-sacred-fig/",
@@ -3534,7 +3413,6 @@
 		"month": 10,
 		"day": 5,
 		"movie": {
-			"slug": "a-travelers-needs",
 			"title": "A Traveler's Needs",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/a-travelers-needs/",
@@ -3564,7 +3442,6 @@
 		"month": 10,
 		"day": 5,
 		"movie": {
-			"slug": "all-we-imagine-as-light",
 			"title": "All We Imagine as Light",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/all-we-imagine-as-light/",
@@ -3594,7 +3471,6 @@
 		"month": 10,
 		"day": 4,
 		"movie": {
-			"slug": "toxic-2024",
 			"title": "Toxic",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/toxic-2024/",
@@ -3624,7 +3500,6 @@
 		"month": 10,
 		"day": 4,
 		"movie": {
-			"slug": "rumours-2024",
 			"title": "Rumours",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/rumours-2024/",
@@ -3654,7 +3529,6 @@
 		"month": 10,
 		"day": 2,
 		"movie": {
-			"slug": "the-girl-with-the-needle",
 			"title": "The Girl with the Needle",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/the-girl-with-the-needle/",
@@ -3688,7 +3562,6 @@
 		"month": 9,
 		"day": 30,
 		"movie": {
-			"slug": "the-hands-of-ida",
 			"title": "The Hands of Ida",
 			"year": 1995,
 			"url": "https://letterboxd.com/film/the-hands-of-ida/",
@@ -3718,7 +3591,6 @@
 		"month": 9,
 		"day": 30,
 		"movie": {
-			"slug": "black-dog-2024",
 			"title": "Black Dog",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/black-dog-2024/",
@@ -3748,7 +3620,6 @@
 		"month": 9,
 		"day": 29,
 		"movie": {
-			"slug": "caught-by-the-tides",
 			"title": "Caught by the Tides",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/caught-by-the-tides/",
@@ -3778,7 +3649,6 @@
 		"month": 9,
 		"day": 28,
 		"movie": {
-			"slug": "investigation-of-a-citizen-above-suspicion",
 			"title": "Investigation of a Citizen Above Suspicion",
 			"year": 1970,
 			"url": "https://letterboxd.com/film/investigation-of-a-citizen-above-suspicion/",
@@ -3808,7 +3678,6 @@
 		"month": 9,
 		"day": 21,
 		"movie": {
-			"slug": "barton-fink",
 			"title": "Barton Fink",
 			"year": 1991,
 			"url": "https://letterboxd.com/film/barton-fink/",
@@ -3834,7 +3703,6 @@
 		"month": 9,
 		"day": 26,
 		"movie": {
-			"slug": "grand-tour-2024",
 			"title": "Grand Tour",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/grand-tour-2024/",
@@ -3864,7 +3732,6 @@
 		"month": 9,
 		"day": 25,
 		"movie": {
-			"slug": "masculin-feminin",
 			"title": "Masculin Féminin",
 			"year": 1966,
 			"url": "https://letterboxd.com/film/masculin-feminin/",
@@ -3890,7 +3757,6 @@
 		"month": 9,
 		"day": 22,
 		"movie": {
-			"slug": "the-substance",
 			"title": "The Substance",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/the-substance/",
@@ -3920,7 +3786,6 @@
 		"month": 9,
 		"day": 21,
 		"movie": {
-			"slug": "paris-texas",
 			"title": "Paris, Texas",
 			"year": 1984,
 			"url": "https://letterboxd.com/film/paris-texas/",
@@ -3946,7 +3811,6 @@
 		"month": 9,
 		"day": 21,
 		"movie": {
-			"slug": "la-confidential",
 			"title": "L.A. Confidential",
 			"year": 1997,
 			"url": "https://letterboxd.com/film/la-confidential/",
@@ -3972,7 +3836,6 @@
 		"month": 9,
 		"day": 20,
 		"movie": {
-			"slug": "suspiria",
 			"title": "Suspiria",
 			"year": 1977,
 			"url": "https://letterboxd.com/film/suspiria/",
@@ -3998,7 +3861,6 @@
 		"month": 9,
 		"day": 19,
 		"movie": {
-			"slug": "moving-1993",
 			"title": "Moving",
 			"year": 1993,
 			"url": "https://letterboxd.com/film/moving-1993/",
@@ -4024,7 +3886,6 @@
 		"month": 9,
 		"day": 17,
 		"movie": {
-			"slug": "the-old-oak",
 			"title": "The Old Oak",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/the-old-oak/",
@@ -4045,7 +3906,6 @@
 		"month": 9,
 		"day": 16,
 		"movie": {
-			"slug": "the-tree-of-life-2011",
 			"title": "The Tree of Life",
 			"year": 2011,
 			"url": "https://letterboxd.com/film/the-tree-of-life-2011/",
@@ -4071,7 +3931,6 @@
 		"month": 9,
 		"day": 11,
 		"movie": {
-			"slug": "national-theatre-live-fleabag",
 			"title": "National Theatre Live: Fleabag",
 			"year": 2019,
 			"url": "https://letterboxd.com/film/national-theatre-live-fleabag/",
@@ -4096,7 +3955,6 @@
 		"month": 9,
 		"day": 10,
 		"movie": {
-			"slug": "the-depths",
 			"title": "The Depths",
 			"year": 2010,
 			"url": "https://letterboxd.com/film/the-depths/",
@@ -4122,7 +3980,6 @@
 		"month": 9,
 		"day": 5,
 		"movie": {
-			"slug": "summer-palace",
 			"title": "Summer Palace",
 			"year": 2006,
 			"url": "https://letterboxd.com/film/summer-palace/",
@@ -4148,7 +4005,6 @@
 		"month": 9,
 		"day": 1,
 		"movie": {
-			"slug": "the-written-face",
 			"title": "The Written Face",
 			"year": 1995,
 			"url": "https://letterboxd.com/film/the-written-face/",
@@ -4174,7 +4030,6 @@
 		"month": 8,
 		"day": 26,
 		"movie": {
-			"slug": "lost-in-translation",
 			"title": "Lost in Translation",
 			"year": 2003,
 			"url": "https://letterboxd.com/film/lost-in-translation/",
@@ -4195,7 +4050,6 @@
 		"month": 8,
 		"day": 24,
 		"movie": {
-			"slug": "blade-runner",
 			"title": "Blade Runner",
 			"year": 1982,
 			"url": "https://letterboxd.com/film/blade-runner/",
@@ -4221,7 +4075,6 @@
 		"month": 8,
 		"day": 22,
 		"movie": {
-			"slug": "alphaville",
 			"title": "Alphaville",
 			"year": 1965,
 			"url": "https://letterboxd.com/film/alphaville/",
@@ -4247,7 +4100,6 @@
 		"month": 8,
 		"day": 21,
 		"movie": {
-			"slug": "there-will-be-blood",
 			"title": "There Will Be Blood",
 			"year": 2007,
 			"url": "https://letterboxd.com/film/there-will-be-blood/",
@@ -4273,7 +4125,6 @@
 		"month": 8,
 		"day": 20,
 		"movie": {
-			"slug": "lawrence-of-arabia",
 			"title": "Lawrence of Arabia",
 			"year": 1962,
 			"url": "https://letterboxd.com/film/lawrence-of-arabia/",
@@ -4299,7 +4150,6 @@
 		"month": 8,
 		"day": 20,
 		"movie": {
-			"slug": "le-samourai",
 			"title": "Le Samouraï",
 			"year": 1967,
 			"url": "https://letterboxd.com/film/le-samourai/",
@@ -4325,7 +4175,6 @@
 		"month": 8,
 		"day": 18,
 		"movie": {
-			"slug": "the-last-mistress",
 			"title": "The Last Mistress",
 			"year": 2007,
 			"url": "https://letterboxd.com/film/the-last-mistress/",
@@ -4351,7 +4200,6 @@
 		"month": 8,
 		"day": 16,
 		"movie": {
-			"slug": "hardcore",
 			"title": "Hardcore",
 			"year": 1979,
 			"url": "https://letterboxd.com/film/hardcore/",
@@ -4377,7 +4225,6 @@
 		"month": 8,
 		"day": 16,
 		"movie": {
-			"slug": "anatomy-of-hell",
 			"title": "Anatomy of Hell",
 			"year": 2004,
 			"url": "https://letterboxd.com/film/anatomy-of-hell/",
@@ -4403,7 +4250,6 @@
 		"month": 8,
 		"day": 5,
 		"movie": {
-			"slug": "blue-collar",
 			"title": "Blue Collar",
 			"year": 1978,
 			"url": "https://letterboxd.com/film/blue-collar/",
@@ -4429,7 +4275,6 @@
 		"month": 8,
 		"day": 6,
 		"movie": {
-			"slug": "victims-of-sin",
 			"title": "Victims of Sin",
 			"year": 1951,
 			"url": "https://letterboxd.com/film/victims-of-sin/",
@@ -4455,7 +4300,6 @@
 		"month": 8,
 		"day": 4,
 		"movie": {
-			"slug": "perfect-love",
 			"title": "Perfect Love",
 			"year": 1996,
 			"url": "https://letterboxd.com/film/perfect-love/",
@@ -4481,7 +4325,6 @@
 		"month": 8,
 		"day": 4,
 		"movie": {
-			"slug": "my-heart-is-that-eternal-rose",
 			"title": "My Heart Is That Eternal Rose",
 			"year": 1989,
 			"url": "https://letterboxd.com/film/my-heart-is-that-eternal-rose/",
@@ -4507,7 +4350,6 @@
 		"month": 8,
 		"day": 3,
 		"movie": {
-			"slug": "gilda",
 			"title": "Gilda",
 			"year": 1946,
 			"url": "https://letterboxd.com/film/gilda/",
@@ -4533,7 +4375,6 @@
 		"month": 8,
 		"day": 3,
 		"movie": {
-			"slug": "fat-girl",
 			"title": "Fat Girl",
 			"year": 2001,
 			"url": "https://letterboxd.com/film/fat-girl/",
@@ -4559,7 +4400,6 @@
 		"month": 7,
 		"day": 30,
 		"movie": {
-			"slug": "green-snake",
 			"title": "Green Snake",
 			"year": 1993,
 			"url": "https://letterboxd.com/film/green-snake/",
@@ -4589,7 +4429,6 @@
 		"month": 7,
 		"day": 20,
 		"movie": {
-			"slug": "36-fillette",
 			"title": "36 Fillette",
 			"year": 1988,
 			"url": "https://letterboxd.com/film/36-fillette/",
@@ -4615,7 +4454,6 @@
 		"month": 7,
 		"day": 20,
 		"movie": {
-			"slug": "pierrot-le-fou",
 			"title": "Pierrot le Fou",
 			"year": 1965,
 			"url": "https://letterboxd.com/film/pierrot-le-fou/",
@@ -4641,7 +4479,6 @@
 		"month": 7,
 		"day": 14,
 		"movie": {
-			"slug": "irreversible",
 			"title": "Irreversible",
 			"year": 2002,
 			"url": "https://letterboxd.com/film/irreversible/",
@@ -4667,7 +4504,6 @@
 		"month": 7,
 		"day": 14,
 		"movie": {
-			"slug": "irreversible",
 			"title": "Irreversible",
 			"year": 2002,
 			"url": "https://letterboxd.com/film/irreversible/",
@@ -4693,7 +4529,6 @@
 		"month": 7,
 		"day": 14,
 		"movie": {
-			"slug": "amelie",
 			"title": "Amélie",
 			"year": 2001,
 			"url": "https://letterboxd.com/film/amelie/",
@@ -4719,7 +4554,6 @@
 		"month": 7,
 		"day": 13,
 		"movie": {
-			"slug": "its-such-a-beautiful-day",
 			"title": "It's Such a Beautiful Day",
 			"year": 2012,
 			"url": "https://letterboxd.com/film/its-such-a-beautiful-day/",
@@ -4744,7 +4578,6 @@
 		"month": 7,
 		"day": 13,
 		"movie": {
-			"slug": "me-2024",
 			"title": "ME",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/me-2024/",
@@ -4770,7 +4603,6 @@
 		"month": 7,
 		"day": 13,
 		"movie": {
-			"slug": "music-2023",
 			"title": "Music",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/music-2023/",
@@ -4796,7 +4628,6 @@
 		"month": 7,
 		"day": 11,
 		"movie": {
-			"slug": "a-real-young-girl",
 			"title": "A Real Young Girl",
 			"year": 1975,
 			"url": "https://letterboxd.com/film/a-real-young-girl/",
@@ -4822,7 +4653,6 @@
 		"month": 7,
 		"day": 11,
 		"movie": {
-			"slug": "last-summer-2023",
 			"title": "Last Summer",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/last-summer-2023/",
@@ -4848,7 +4678,6 @@
 		"month": 7,
 		"day": 9,
 		"movie": {
-			"slug": "all-about-lily-chou-chou",
 			"title": "All About Lily Chou-Chou",
 			"year": 2001,
 			"url": "https://letterboxd.com/film/all-about-lily-chou-chou/",
@@ -4874,7 +4703,6 @@
 		"month": 7,
 		"day": 7,
 		"movie": {
-			"slug": "north-by-northwest",
 			"title": "North by Northwest",
 			"year": 1959,
 			"url": "https://letterboxd.com/film/north-by-northwest/",
@@ -4900,7 +4728,6 @@
 		"month": 7,
 		"day": 7,
 		"movie": {
-			"slug": "wood-and-water",
 			"title": "Wood and Water",
 			"year": 2021,
 			"url": "https://letterboxd.com/film/wood-and-water/",
@@ -4926,7 +4753,6 @@
 		"month": 7,
 		"day": 6,
 		"movie": {
-			"slug": "scarface-1983",
 			"title": "Scarface",
 			"year": 1983,
 			"url": "https://letterboxd.com/film/scarface-1983/",
@@ -4952,7 +4778,6 @@
 		"month": 7,
 		"day": 6,
 		"movie": {
-			"slug": "spellbound",
 			"title": "Spellbound",
 			"year": 1945,
 			"url": "https://letterboxd.com/film/spellbound/",
@@ -4978,7 +4803,6 @@
 		"month": 7,
 		"day": 6,
 		"movie": {
-			"slug": "robot-dreams",
 			"title": "Robot Dreams",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/robot-dreams/",
@@ -5004,7 +4828,6 @@
 		"month": 7,
 		"day": 3,
 		"movie": {
-			"slug": "maxxxine",
 			"title": "MaXXXine",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/maxxxine/",
@@ -5030,7 +4853,6 @@
 		"month": 7,
 		"day": 2,
 		"movie": {
-			"slug": "yi-yi",
 			"title": "Yi Yi",
 			"year": 2000,
 			"url": "https://letterboxd.com/film/yi-yi/",
@@ -5056,7 +4878,6 @@
 		"month": 7,
 		"day": 1,
 		"movie": {
-			"slug": "taipei-story",
 			"title": "Taipei Story",
 			"year": 1985,
 			"url": "https://letterboxd.com/film/taipei-story/",
@@ -5086,7 +4907,6 @@
 		"month": 6,
 		"day": 30,
 		"movie": {
-			"slug": "red-psalm",
 			"title": "Red Psalm",
 			"year": 1972,
 			"url": "https://letterboxd.com/film/red-psalm/",
@@ -5112,7 +4932,6 @@
 		"month": 6,
 		"day": 30,
 		"movie": {
-			"slug": "golden-eighties",
 			"title": "Golden Eighties",
 			"year": 1986,
 			"url": "https://letterboxd.com/film/golden-eighties/",
@@ -5138,7 +4957,6 @@
 		"month": 6,
 		"day": 29,
 		"movie": {
-			"slug": "night-and-the-city",
 			"title": "Night and the City",
 			"year": 1950,
 			"url": "https://letterboxd.com/film/night-and-the-city/",
@@ -5164,7 +4982,6 @@
 		"month": 6,
 		"day": 29,
 		"movie": {
-			"slug": "dazed-and-confused",
 			"title": "Dazed and Confused",
 			"year": 1993,
 			"url": "https://letterboxd.com/film/dazed-and-confused/",
@@ -5190,7 +5007,6 @@
 		"month": 6,
 		"day": 28,
 		"movie": {
-			"slug": "x-2022",
 			"title": "X",
 			"year": 2022,
 			"url": "https://letterboxd.com/film/x-2022/",
@@ -5216,7 +5032,6 @@
 		"month": 6,
 		"day": 28,
 		"movie": {
-			"slug": "pearl-2022",
 			"title": "Pearl",
 			"year": 2022,
 			"url": "https://letterboxd.com/film/pearl-2022/",
@@ -5242,7 +5057,6 @@
 		"month": 6,
 		"day": 28,
 		"movie": {
-			"slug": "kinds-of-kindness",
 			"title": "Kinds of Kindness",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/kinds-of-kindness/",
@@ -5272,7 +5086,6 @@
 		"month": 6,
 		"day": 27,
 		"movie": {
-			"slug": "nimic",
 			"title": "Nimic",
 			"year": 2019,
 			"url": "https://letterboxd.com/film/nimic/",
@@ -5298,7 +5111,6 @@
 		"month": 6,
 		"day": 27,
 		"movie": {
-			"slug": "animal-2023-3",
 			"title": "Animal",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/animal-2023-3/",
@@ -5324,7 +5136,6 @@
 		"month": 6,
 		"day": 27,
 		"movie": {
-			"slug": "the-lobster",
 			"title": "The Lobster",
 			"year": 2015,
 			"url": "https://letterboxd.com/film/the-lobster/",
@@ -5349,7 +5160,6 @@
 		"month": 6,
 		"day": 26,
 		"movie": {
-			"slug": "practice-2018",
 			"title": "Practice",
 			"year": 2018,
 			"url": "https://letterboxd.com/film/practice-2018/",
@@ -5375,7 +5185,6 @@
 		"month": 6,
 		"day": 25,
 		"movie": {
-			"slug": "gun-crazy",
 			"title": "Gun Crazy",
 			"year": 1950,
 			"url": "https://letterboxd.com/film/gun-crazy/",
@@ -5401,7 +5210,6 @@
 		"month": 6,
 		"day": 24,
 		"movie": {
-			"slug": "singapore-sling",
 			"title": "Singapore Sling",
 			"year": 1990,
 			"url": "https://letterboxd.com/film/singapore-sling/",
@@ -5427,7 +5235,6 @@
 		"month": 6,
 		"day": 23,
 		"movie": {
-			"slug": "the-killing-of-a-sacred-deer",
 			"title": "The Killing of a Sacred Deer",
 			"year": 2017,
 			"url": "https://letterboxd.com/film/the-killing-of-a-sacred-deer/",
@@ -5453,7 +5260,6 @@
 		"month": 6,
 		"day": 23,
 		"movie": {
-			"slug": "i-saw-the-tv-glow",
 			"title": "I Saw the TV Glow",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/i-saw-the-tv-glow/",
@@ -5479,7 +5285,6 @@
 		"month": 6,
 		"day": 22,
 		"movie": {
-			"slug": "a-trip-to-the-moon",
 			"title": "A Trip to the Moon",
 			"year": 1902,
 			"url": "https://letterboxd.com/film/a-trip-to-the-moon/",
@@ -5505,7 +5310,6 @@
 		"month": 6,
 		"day": 22,
 		"movie": {
-			"slug": "la-chinoise",
 			"title": "La Chinoise",
 			"year": 1967,
 			"url": "https://letterboxd.com/film/la-chinoise/",
@@ -5531,7 +5335,6 @@
 		"month": 6,
 		"day": 22,
 		"movie": {
-			"slug": "zea",
 			"title": "Zea",
 			"year": 1981,
 			"url": "https://letterboxd.com/film/zea/",
@@ -5561,7 +5364,6 @@
 		"month": 6,
 		"day": 21,
 		"movie": {
-			"slug": "the-doom-generation",
 			"title": "The Doom Generation",
 			"year": 1995,
 			"url": "https://letterboxd.com/film/the-doom-generation/",
@@ -5587,7 +5389,6 @@
 		"month": 6,
 		"day": 20,
 		"movie": {
-			"slug": "in-a-lonely-place",
 			"title": "In a Lonely Place",
 			"year": 1950,
 			"url": "https://letterboxd.com/film/in-a-lonely-place/",
@@ -5613,7 +5414,6 @@
 		"month": 6,
 		"day": 20,
 		"movie": {
-			"slug": "the-married-woman",
 			"title": "The Married Woman",
 			"year": 1964,
 			"url": "https://letterboxd.com/film/the-married-woman/",
@@ -5638,7 +5438,6 @@
 		"month": 6,
 		"day": 19,
 		"movie": {
-			"slug": "sunset-boulevard",
 			"title": "Sunset Boulevard",
 			"year": 1950,
 			"url": "https://letterboxd.com/film/sunset-boulevard/",
@@ -5664,7 +5463,6 @@
 		"month": 6,
 		"day": 19,
 		"movie": {
-			"slug": "on-the-adamant",
 			"title": "On the Adamant",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/on-the-adamant/",
@@ -5690,7 +5488,6 @@
 		"month": 6,
 		"day": 18,
 		"movie": {
-			"slug": "all-about-lily-chou-chou",
 			"title": "All About Lily Chou-Chou",
 			"year": 2001,
 			"url": "https://letterboxd.com/film/all-about-lily-chou-chou/",
@@ -5715,7 +5512,6 @@
 		"month": 6,
 		"day": 17,
 		"movie": {
-			"slug": "johns-gone",
 			"title": "John's Gone",
 			"year": 2010,
 			"url": "https://letterboxd.com/film/johns-gone/",
@@ -5741,7 +5537,6 @@
 		"month": 6,
 		"day": 17,
 		"movie": {
-			"slug": "sound-in-the-mist",
 			"title": "Sound in the Mist",
 			"year": 1956,
 			"url": "https://letterboxd.com/film/sound-in-the-mist/",
@@ -5767,7 +5562,6 @@
 		"month": 6,
 		"day": 16,
 		"movie": {
-			"slug": "face-to-face-1966",
 			"title": "Face to Face",
 			"year": 1966,
 			"url": "https://letterboxd.com/film/face-to-face-1966/",
@@ -5793,7 +5587,6 @@
 		"month": 6,
 		"day": 16,
 		"movie": {
-			"slug": "image-of-a-mother",
 			"title": "Image of a Mother",
 			"year": 1959,
 			"url": "https://letterboxd.com/film/image-of-a-mother/",
@@ -5819,7 +5612,6 @@
 		"month": 6,
 		"day": 16,
 		"movie": {
-			"slug": "the-discreet-charm-of-the-bourgeoisie",
 			"title": "The Discreet Charm of the Bourgeoisie",
 			"year": 1972,
 			"url": "https://letterboxd.com/film/the-discreet-charm-of-the-bourgeoisie/",
@@ -5849,7 +5641,6 @@
 		"month": 6,
 		"day": 15,
 		"movie": {
-			"slug": "z",
 			"title": "Z",
 			"year": 1969,
 			"url": "https://letterboxd.com/film/z/",
@@ -5875,7 +5666,6 @@
 		"month": 6,
 		"day": 14,
 		"movie": {
-			"slug": "mr-shosuke-ohara",
 			"title": "Mr. Shosuke Ohara",
 			"year": 1949,
 			"url": "https://letterboxd.com/film/mr-shosuke-ohara/",
@@ -5905,7 +5695,6 @@
 		"month": 6,
 		"day": 14,
 		"movie": {
-			"slug": "children-of-the-beehive",
 			"title": "Children of the Beehive",
 			"year": 1948,
 			"url": "https://letterboxd.com/film/children-of-the-beehive/",
@@ -5935,7 +5724,6 @@
 		"month": 6,
 		"day": 12,
 		"movie": {
-			"slug": "too-late-blues",
 			"title": "Too Late Blues",
 			"year": 1961,
 			"url": "https://letterboxd.com/film/too-late-blues/",
@@ -5965,7 +5753,6 @@
 		"month": 6,
 		"day": 12,
 		"movie": {
-			"slug": "i-used-to-be-funny",
 			"title": "I Used to Be Funny",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/i-used-to-be-funny/",
@@ -5991,7 +5778,6 @@
 		"month": 6,
 		"day": 11,
 		"movie": {
-			"slug": "sorcerer",
 			"title": "Sorcerer",
 			"year": 1977,
 			"url": "https://letterboxd.com/film/sorcerer/",
@@ -6016,7 +5802,6 @@
 		"month": 6,
 		"day": 10,
 		"movie": {
-			"slug": "eraserhead",
 			"title": "Eraserhead",
 			"year": 1977,
 			"url": "https://letterboxd.com/film/eraserhead/",
@@ -6042,7 +5827,6 @@
 		"month": 6,
 		"day": 9,
 		"movie": {
-			"slug": "dancer-in-the-dark",
 			"title": "Dancer in the Dark",
 			"year": 2000,
 			"url": "https://letterboxd.com/film/dancer-in-the-dark/",
@@ -6072,7 +5856,6 @@
 		"month": 6,
 		"day": 9,
 		"movie": {
-			"slug": "west-indies",
 			"title": "West Indies",
 			"year": 1979,
 			"url": "https://letterboxd.com/film/west-indies/",
@@ -6098,7 +5881,6 @@
 		"month": 6,
 		"day": 7,
 		"movie": {
-			"slug": "blood-and-black-lace",
 			"title": "Blood and Black Lace",
 			"year": 1964,
 			"url": "https://letterboxd.com/film/blood-and-black-lace/",
@@ -6124,7 +5906,6 @@
 		"month": 6,
 		"day": 7,
 		"movie": {
-			"slug": "hit-man-2023",
 			"title": "Hit Man",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/hit-man-2023/",
@@ -6150,7 +5931,6 @@
 		"month": 6,
 		"day": 6,
 		"movie": {
-			"slug": "z",
 			"title": "Z",
 			"year": 1969,
 			"url": "https://letterboxd.com/film/z/",
@@ -6176,7 +5956,6 @@
 		"month": 6,
 		"day": 5,
 		"movie": {
-			"slug": "the-apartment",
 			"title": "The Apartment",
 			"year": 1960,
 			"url": "https://letterboxd.com/film/the-apartment/",
@@ -6202,7 +5981,6 @@
 		"month": 6,
 		"day": 5,
 		"movie": {
-			"slug": "the-black-balloon-2012",
 			"title": "The Black Balloon",
 			"year": 2012,
 			"url": "https://letterboxd.com/film/the-black-balloon-2012/",
@@ -6228,7 +6006,6 @@
 		"month": 6,
 		"day": 4,
 		"movie": {
-			"slug": "songs-of-earth",
 			"title": "Songs of Earth",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/songs-of-earth/",
@@ -6254,7 +6031,6 @@
 		"month": 6,
 		"day": 3,
 		"movie": {
-			"slug": "daddy-longlegs",
 			"title": "Daddy Longlegs",
 			"year": 2009,
 			"url": "https://letterboxd.com/film/daddy-longlegs/",
@@ -6280,7 +6056,6 @@
 		"month": 6,
 		"day": 2,
 		"movie": {
-			"slug": "after-hours",
 			"title": "After Hours",
 			"year": 1985,
 			"url": "https://letterboxd.com/film/after-hours/",
@@ -6306,7 +6081,6 @@
 		"month": 6,
 		"day": 2,
 		"movie": {
-			"slug": "dogtooth",
 			"title": "Dogtooth",
 			"year": 2009,
 			"url": "https://letterboxd.com/film/dogtooth/",
@@ -6327,7 +6101,6 @@
 		"month": 6,
 		"day": 2,
 		"movie": {
-			"slug": "the-graduate",
 			"title": "The Graduate",
 			"year": 1967,
 			"url": "https://letterboxd.com/film/the-graduate/",
@@ -6353,7 +6126,6 @@
 		"month": 6,
 		"day": 1,
 		"movie": {
-			"slug": "kill-bill-vol-2",
 			"title": "Kill Bill: Vol. 2",
 			"year": 2004,
 			"url": "https://letterboxd.com/film/kill-bill-vol-2/",
@@ -6379,7 +6151,6 @@
 		"month": 6,
 		"day": 1,
 		"movie": {
-			"slug": "kill-bill-vol-1",
 			"title": "Kill Bill: Vol. 1",
 			"year": 2003,
 			"url": "https://letterboxd.com/film/kill-bill-vol-1/",
@@ -6405,7 +6176,6 @@
 		"month": 6,
 		"day": 1,
 		"movie": {
-			"slug": "midsommar",
 			"title": "Midsommar",
 			"year": 2019,
 			"url": "https://letterboxd.com/film/midsommar/",
@@ -6426,7 +6196,6 @@
 		"month": 5,
 		"day": 31,
 		"movie": {
-			"slug": "whos-afraid-of-virginia-woolf",
 			"title": "Who's Afraid of Virginia Woolf?",
 			"year": 1966,
 			"url": "https://letterboxd.com/film/whos-afraid-of-virginia-woolf/",
@@ -6452,7 +6221,6 @@
 		"month": 5,
 		"day": 31,
 		"movie": {
-			"slug": "the-hole",
 			"title": "The Hole",
 			"year": 1998,
 			"url": "https://letterboxd.com/film/the-hole/",
@@ -6478,7 +6246,6 @@
 		"month": 5,
 		"day": 30,
 		"movie": {
-			"slug": "band-of-outsiders",
 			"title": "Band of Outsiders",
 			"year": 1964,
 			"url": "https://letterboxd.com/film/band-of-outsiders/",
@@ -6504,7 +6271,6 @@
 		"month": 5,
 		"day": 30,
 		"movie": {
-			"slug": "in-praise-of-love",
 			"title": "In Praise of Love",
 			"year": 2001,
 			"url": "https://letterboxd.com/film/in-praise-of-love/",
@@ -6530,7 +6296,6 @@
 		"month": 5,
 		"day": 29,
 		"movie": {
-			"slug": "challengers",
 			"title": "Challengers",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/challengers/",
@@ -6551,7 +6316,6 @@
 		"month": 5,
 		"day": 28,
 		"movie": {
-			"slug": "julien-donkey-boy",
 			"title": "Julien Donkey-Boy",
 			"year": 1999,
 			"url": "https://letterboxd.com/film/julien-donkey-boy/",
@@ -6572,7 +6336,6 @@
 		"month": 5,
 		"day": 27,
 		"movie": {
-			"slug": "age-of-panic",
 			"title": "Age of Panic",
 			"year": 2013,
 			"url": "https://letterboxd.com/film/age-of-panic/",
@@ -6598,7 +6361,6 @@
 		"month": 5,
 		"day": 27,
 		"movie": {
-			"slug": "in-bed-with-victoria",
 			"title": "In Bed with Victoria",
 			"year": 2016,
 			"url": "https://letterboxd.com/film/in-bed-with-victoria/",
@@ -6624,7 +6386,6 @@
 		"month": 5,
 		"day": 27,
 		"movie": {
-			"slug": "a-story-of-water",
 			"title": "A Story of Water",
 			"year": 1961,
 			"url": "https://letterboxd.com/film/a-story-of-water/",
@@ -6650,7 +6411,6 @@
 		"month": 5,
 		"day": 26,
 		"movie": {
-			"slug": "band-of-outsiders",
 			"title": "Band of Outsiders",
 			"year": 1964,
 			"url": "https://letterboxd.com/film/band-of-outsiders/",
@@ -6676,7 +6436,6 @@
 		"month": 5,
 		"day": 26,
 		"movie": {
-			"slug": "gummo",
 			"title": "Gummo",
 			"year": 1997,
 			"url": "https://letterboxd.com/film/gummo/",
@@ -6697,7 +6456,6 @@
 		"month": 5,
 		"day": 26,
 		"movie": {
-			"slug": "whats-a-nice-girl-like-you-doing-in-a-place-like-this",
 			"title": "What's a Nice Girl Like You Doing in a Place Like This?",
 			"year": 1963,
 			"url": "https://letterboxd.com/film/whats-a-nice-girl-like-you-doing-in-a-place-like-this/",
@@ -6723,7 +6481,6 @@
 		"month": 5,
 		"day": 25,
 		"movie": {
-			"slug": "pig-2021",
 			"title": "Pig",
 			"year": 2021,
 			"url": "https://letterboxd.com/film/pig-2021/",
@@ -6749,7 +6506,6 @@
 		"month": 5,
 		"day": 25,
 		"movie": {
-			"slug": "paris-is-burning",
 			"title": "Paris Is Burning",
 			"year": 1990,
 			"url": "https://letterboxd.com/film/paris-is-burning/",
@@ -6775,7 +6531,6 @@
 		"month": 5,
 		"day": 24,
 		"movie": {
-			"slug": "mulholland-drive",
 			"title": "Mulholland Drive",
 			"year": 2001,
 			"url": "https://letterboxd.com/film/mulholland-drive/",
@@ -6805,7 +6560,6 @@
 		"month": 5,
 		"day": 23,
 		"movie": {
-			"slug": "a-room-in-town-1982",
 			"title": "A Room in Town",
 			"year": 1982,
 			"url": "https://letterboxd.com/film/a-room-in-town-1982/",
@@ -6831,7 +6585,6 @@
 		"month": 5,
 		"day": 23,
 		"movie": {
-			"slug": "the-hole",
 			"title": "The Hole",
 			"year": 1998,
 			"url": "https://letterboxd.com/film/the-hole/",
@@ -6857,7 +6610,6 @@
 		"month": 5,
 		"day": 22,
 		"movie": {
-			"slug": "perfect-days-2023",
 			"title": "Perfect Days",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/perfect-days-2023/",
@@ -6878,7 +6630,6 @@
 		"month": 5,
 		"day": 21,
 		"movie": {
-			"slug": "late-night-with-the-devil",
 			"title": "Late Night with the Devil",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/late-night-with-the-devil/",
@@ -6904,7 +6655,6 @@
 		"month": 5,
 		"day": 20,
 		"movie": {
-			"slug": "neon-genesis-evangelion-the-end-of-evangelion",
 			"title": "Neon Genesis Evangelion: The End of Evangelion",
 			"year": 1997,
 			"url": "https://letterboxd.com/film/neon-genesis-evangelion-the-end-of-evangelion/",
@@ -6930,7 +6680,6 @@
 		"month": 5,
 		"day": 20,
 		"movie": {
-			"slug": "the-florida-project",
 			"title": "The Florida Project",
 			"year": 2017,
 			"url": "https://letterboxd.com/film/the-florida-project/",
@@ -6964,7 +6713,6 @@
 		"month": 5,
 		"day": 19,
 		"movie": {
-			"slug": "the-bitter-ash",
 			"title": "The Bitter Ash",
 			"year": 1963,
 			"url": "https://letterboxd.com/film/the-bitter-ash/",
@@ -6990,7 +6738,6 @@
 		"month": 5,
 		"day": 19,
 		"movie": {
-			"slug": "when-tomorrow-dies",
 			"title": "When Tomorrow Dies",
 			"year": 1965,
 			"url": "https://letterboxd.com/film/when-tomorrow-dies/",
@@ -7016,7 +6763,6 @@
 		"month": 5,
 		"day": 18,
 		"movie": {
-			"slug": "gummo",
 			"title": "Gummo",
 			"year": 1997,
 			"url": "https://letterboxd.com/film/gummo/",
@@ -7046,7 +6792,6 @@
 		"month": 5,
 		"day": 18,
 		"movie": {
-			"slug": "snowpiercer",
 			"title": "Snowpiercer",
 			"year": 2013,
 			"url": "https://letterboxd.com/film/snowpiercer/",
@@ -7072,7 +6817,6 @@
 		"month": 5,
 		"day": 18,
 		"movie": {
-			"slug": "july-rhapsody",
 			"title": "July Rhapsody",
 			"year": 2002,
 			"url": "https://letterboxd.com/film/july-rhapsody/",
@@ -7098,7 +6842,6 @@
 		"month": 5,
 		"day": 17,
 		"movie": {
-			"slug": "kids",
 			"title": "Kids",
 			"year": 1995,
 			"url": "https://letterboxd.com/film/kids/",
@@ -7132,7 +6875,6 @@
 		"month": 5,
 		"day": 17,
 		"movie": {
-			"slug": "la-chimera",
 			"title": "La Chimera",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/la-chimera/",
@@ -7158,7 +6900,6 @@
 		"month": 5,
 		"day": 16,
 		"movie": {
-			"slug": "aggro-dr1ft",
 			"title": "AGGRO DR1FT",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/aggro-dr1ft/",
@@ -7184,7 +6925,6 @@
 		"month": 5,
 		"day": 16,
 		"movie": {
-			"slug": "spring-breakers",
 			"title": "Spring Breakers",
 			"year": 2012,
 			"url": "https://letterboxd.com/film/spring-breakers/",
@@ -7205,7 +6945,6 @@
 		"month": 5,
 		"day": 15,
 		"movie": {
-			"slug": "louis-ck-learns-about-the-catholic-church",
 			"title": "Louis C.K. Learns About the Catholic Church",
 			"year": 2007,
 			"url": "https://letterboxd.com/film/louis-ck-learns-about-the-catholic-church/",
@@ -7231,7 +6970,6 @@
 		"month": 5,
 		"day": 14,
 		"movie": {
-			"slug": "broken-english",
 			"title": "Broken English",
 			"year": 2007,
 			"url": "https://letterboxd.com/film/broken-english/",
@@ -7257,7 +6995,6 @@
 		"month": 5,
 		"day": 11,
 		"movie": {
-			"slug": "evil-does-not-exist",
 			"title": "Evil Does Not Exist",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/evil-does-not-exist/",
@@ -7283,7 +7020,6 @@
 		"month": 5,
 		"day": 11,
 		"movie": {
-			"slug": "adrianne-the-castle",
 			"title": "Adrianne & The Castle",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/adrianne-the-castle/",
@@ -7313,7 +7049,6 @@
 		"month": 5,
 		"day": 10,
 		"movie": {
-			"slug": "the-three-musketeers-milady",
 			"title": "The Three Musketeers: Milady",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/the-three-musketeers-milady/",
@@ -7339,7 +7074,6 @@
 		"month": 5,
 		"day": 8,
 		"movie": {
-			"slug": "im-not-everything-i-want-to-be",
 			"title": "I'm Not Everything I Want to Be",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/im-not-everything-i-want-to-be/",
@@ -7369,7 +7103,6 @@
 		"month": 5,
 		"day": 7,
 		"movie": {
-			"slug": "the-movie-man",
 			"title": "The Movie Man",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/the-movie-man/",
@@ -7399,7 +7132,6 @@
 		"month": 5,
 		"day": 6,
 		"movie": {
-			"slug": "black-box-diaries",
 			"title": "Black Box Diaries",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/black-box-diaries/",
@@ -7429,7 +7161,6 @@
 		"month": 5,
 		"day": 3,
 		"movie": {
-			"slug": "the-anarchist-lunch",
 			"title": "The Anarchist Lunch",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/the-anarchist-lunch/",
@@ -7458,7 +7189,6 @@
 		"month": 5,
 		"day": 4,
 		"movie": {
-			"slug": "anna-1975",
 			"title": "Anna",
 			"year": 1975,
 			"url": "https://letterboxd.com/film/anna-1975/",
@@ -7488,7 +7218,6 @@
 		"month": 5,
 		"day": 3,
 		"movie": {
-			"slug": "age-of-bloom",
 			"title": "Age of Bloom",
 			"year": 2001,
 			"url": "https://letterboxd.com/film/age-of-bloom/",
@@ -7513,7 +7242,6 @@
 		"month": 5,
 		"day": 2,
 		"movie": {
-			"slug": "alice-in-the-cities",
 			"title": "Alice in the Cities",
 			"year": 1974,
 			"url": "https://letterboxd.com/film/alice-in-the-cities/",
@@ -7539,7 +7267,6 @@
 		"month": 4,
 		"day": 30,
 		"movie": {
-			"slug": "an-autumns-tale",
 			"title": "An Autumn's Tale",
 			"year": 1987,
 			"url": "https://letterboxd.com/film/an-autumns-tale/",
@@ -7565,7 +7292,6 @@
 		"month": 4,
 		"day": 30,
 		"movie": {
-			"slug": "ryuichi-sakamoto-opus",
 			"title": "Ryuichi Sakamoto: Opus",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/ryuichi-sakamoto-opus/",
@@ -7591,7 +7317,6 @@
 		"month": 4,
 		"day": 29,
 		"movie": {
-			"slug": "with-love-and-a-major-organ",
 			"title": "With Love and a Major Organ",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/with-love-and-a-major-organ/",
@@ -7617,7 +7342,6 @@
 		"month": 4,
 		"day": 28,
 		"movie": {
-			"slug": "perfect-days-2023",
 			"title": "Perfect Days",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/perfect-days-2023/",
@@ -7643,7 +7367,6 @@
 		"month": 4,
 		"day": 25,
 		"movie": {
-			"slug": "the-zone-of-interest",
 			"title": "The Zone of Interest",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/the-zone-of-interest/",
@@ -7677,7 +7400,6 @@
 		"month": 4,
 		"day": 24,
 		"movie": {
-			"slug": "la-chimera",
 			"title": "La Chimera",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/la-chimera/",
@@ -7703,7 +7425,6 @@
 		"month": 4,
 		"day": 23,
 		"movie": {
-			"slug": "dogleg",
 			"title": "Dogleg",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/dogleg/",
@@ -7729,7 +7450,6 @@
 		"month": 4,
 		"day": 23,
 		"movie": {
-			"slug": "madame-butterfly-2009",
 			"title": "Madame Butterfly",
 			"year": 2009,
 			"url": "https://letterboxd.com/film/madame-butterfly-2009/",
@@ -7750,7 +7470,6 @@
 		"month": 4,
 		"day": 23,
 		"movie": {
-			"slug": "goodbye-dragon-inn",
 			"title": "Goodbye, Dragon Inn",
 			"year": 2003,
 			"url": "https://letterboxd.com/film/goodbye-dragon-inn/",
@@ -7771,7 +7490,6 @@
 		"month": 4,
 		"day": 21,
 		"movie": {
-			"slug": "barry-lyndon",
 			"title": "Barry Lyndon",
 			"year": 1975,
 			"url": "https://letterboxd.com/film/barry-lyndon/",
@@ -7797,7 +7515,6 @@
 		"month": 4,
 		"day": 21,
 		"movie": {
-			"slug": "vivre-sa-vie",
 			"title": "Vivre Sa Vie",
 			"year": 1962,
 			"url": "https://letterboxd.com/film/vivre-sa-vie/",
@@ -7823,7 +7540,6 @@
 		"month": 4,
 		"day": 20,
 		"movie": {
-			"slug": "notre-musique",
 			"title": "Notre Musique",
 			"year": 2004,
 			"url": "https://letterboxd.com/film/notre-musique/",
@@ -7849,7 +7565,6 @@
 		"month": 4,
 		"day": 19,
 		"movie": {
-			"slug": "the-beast-2023-1",
 			"title": "The Beast",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/the-beast-2023-1/",
@@ -7875,7 +7590,6 @@
 		"month": 4,
 		"day": 19,
 		"movie": {
-			"slug": "coma-2022",
 			"title": "Coma",
 			"year": 2022,
 			"url": "https://letterboxd.com/film/coma-2022/",
@@ -7901,7 +7615,6 @@
 		"month": 4,
 		"day": 18,
 		"movie": {
-			"slug": "blue-gate-crossing",
 			"title": "Blue Gate Crossing",
 			"year": 2002,
 			"url": "https://letterboxd.com/film/blue-gate-crossing/",
@@ -7927,7 +7640,6 @@
 		"month": 4,
 		"day": 16,
 		"movie": {
-			"slug": "a-confucian-confusion",
 			"title": "A Confucian Confusion",
 			"year": 1994,
 			"url": "https://letterboxd.com/film/a-confucian-confusion/",
@@ -7953,7 +7665,6 @@
 		"month": 4,
 		"day": 16,
 		"movie": {
-			"slug": "mahjong",
 			"title": "Mahjong",
 			"year": 1996,
 			"url": "https://letterboxd.com/film/mahjong/",
@@ -7979,7 +7690,6 @@
 		"month": 4,
 		"day": 15,
 		"movie": {
-			"slug": "a-brighter-summer-day",
 			"title": "A Brighter Summer Day",
 			"year": 1991,
 			"url": "https://letterboxd.com/film/a-brighter-summer-day/",
@@ -8005,7 +7715,6 @@
 		"month": 4,
 		"day": 14,
 		"movie": {
-			"slug": "kims-video",
 			"title": "Kim's Video",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/kims-video/",
@@ -8031,7 +7740,6 @@
 		"month": 4,
 		"day": 13,
 		"movie": {
-			"slug": "civil-war-2024",
 			"title": "Civil War",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/civil-war-2024/",
@@ -8057,7 +7765,6 @@
 		"month": 4,
 		"day": 13,
 		"movie": {
-			"slug": "totem-2023",
 			"title": "Tótem",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/totem-2023/",
@@ -8083,7 +7790,6 @@
 		"month": 3,
 		"day": 29,
 		"movie": {
-			"slug": "a-brighter-summer-day",
 			"title": "A Brighter Summer Day",
 			"year": 1991,
 			"url": "https://letterboxd.com/film/a-brighter-summer-day/",
@@ -8109,7 +7815,6 @@
 		"month": 4,
 		"day": 12,
 		"movie": {
-			"slug": "the-taste-of-things",
 			"title": "The Taste of Things",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/the-taste-of-things/",
@@ -8135,7 +7840,6 @@
 		"month": 4,
 		"day": 11,
 		"movie": {
-			"slug": "mahjong",
 			"title": "Mahjong",
 			"year": 1996,
 			"url": "https://letterboxd.com/film/mahjong/",
@@ -8161,7 +7865,6 @@
 		"month": 4,
 		"day": 10,
 		"movie": {
-			"slug": "parachute-2023",
 			"title": "Parachute",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/parachute-2023/",
@@ -8187,7 +7890,6 @@
 		"month": 4,
 		"day": 7,
 		"movie": {
-			"slug": "a-woman-is-a-woman",
 			"title": "A Woman Is a Woman",
 			"year": 1961,
 			"url": "https://letterboxd.com/film/a-woman-is-a-woman/",
@@ -8213,7 +7915,6 @@
 		"month": 4,
 		"day": 7,
 		"movie": {
-			"slug": "lolita",
 			"title": "Lolita",
 			"year": 1962,
 			"url": "https://letterboxd.com/film/lolita/",
@@ -8239,7 +7940,6 @@
 		"month": 4,
 		"day": 6,
 		"movie": {
-			"slug": "a-confucian-confusion",
 			"title": "A Confucian Confusion",
 			"year": 1994,
 			"url": "https://letterboxd.com/film/a-confucian-confusion/",
@@ -8265,7 +7965,6 @@
 		"month": 4,
 		"day": 5,
 		"movie": {
-			"slug": "terrorizers",
 			"title": "Terrorizers",
 			"year": 1986,
 			"url": "https://letterboxd.com/film/terrorizers/",
@@ -8291,7 +7990,6 @@
 		"month": 4,
 		"day": 5,
 		"movie": {
-			"slug": "taipei-story",
 			"title": "Taipei Story",
 			"year": 1985,
 			"url": "https://letterboxd.com/film/taipei-story/",
@@ -8317,7 +8015,6 @@
 		"month": 4,
 		"day": 2,
 		"movie": {
-			"slug": "bye-bye-tiberias",
 			"title": "Bye Bye Tiberias",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/bye-bye-tiberias/",
@@ -8343,7 +8040,6 @@
 		"month": 4,
 		"day": 4,
 		"movie": {
-			"slug": "under-the-skin-2013",
 			"title": "Under the Skin",
 			"year": 2013,
 			"url": "https://letterboxd.com/film/under-the-skin-2013/",
@@ -8369,7 +8065,6 @@
 		"month": 4,
 		"day": 4,
 		"movie": {
-			"slug": "birth-2004",
 			"title": "Birth",
 			"year": 2004,
 			"url": "https://letterboxd.com/film/birth-2004/",
@@ -8395,7 +8090,6 @@
 		"month": 3,
 		"day": 30,
 		"movie": {
-			"slug": "that-day-on-the-beach",
 			"title": "That Day, on the Beach",
 			"year": 1983,
 			"url": "https://letterboxd.com/film/that-day-on-the-beach/",
@@ -8421,7 +8115,6 @@
 		"month": 3,
 		"day": 24,
 		"movie": {
-			"slug": "when-the-cat-comes",
 			"title": "When the Cat Comes",
 			"year": 1963,
 			"url": "https://letterboxd.com/film/when-the-cat-comes/",
@@ -8447,7 +8140,6 @@
 		"month": 3,
 		"day": 24,
 		"movie": {
-			"slug": "spacked-out",
 			"title": "Spacked Out",
 			"year": 2000,
 			"url": "https://letterboxd.com/film/spacked-out/",
@@ -8473,7 +8165,6 @@
 		"month": 3,
 		"day": 23,
 		"movie": {
-			"slug": "nadja-in-paris",
 			"title": "Nadja in Paris",
 			"year": 1964,
 			"url": "https://letterboxd.com/film/nadja-in-paris/",
@@ -8498,7 +8189,6 @@
 		"month": 3,
 		"day": 23,
 		"movie": {
-			"slug": "suzannes-career",
 			"title": "Suzanne’s Career",
 			"year": 1963,
 			"url": "https://letterboxd.com/film/suzannes-career/",
@@ -8524,7 +8214,6 @@
 		"month": 3,
 		"day": 23,
 		"movie": {
-			"slug": "mademoiselle-kenopsia",
 			"title": "Mademoiselle Kenopsia",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/mademoiselle-kenopsia/",
@@ -8550,7 +8239,6 @@
 		"month": 3,
 		"day": 23,
 		"movie": {
-			"slug": "i-know-where-im-going",
 			"title": "I Know Where I'm Going!",
 			"year": 1945,
 			"url": "https://letterboxd.com/film/i-know-where-im-going/",
@@ -8576,7 +8264,6 @@
 		"month": 3,
 		"day": 22,
 		"movie": {
-			"slug": "my-night-at-mauds",
 			"title": "My Night at Maud's",
 			"year": 1969,
 			"url": "https://letterboxd.com/film/my-night-at-mauds/",
@@ -8601,7 +8288,6 @@
 		"month": 3,
 		"day": 22,
 		"movie": {
-			"slug": "a-woman-is-a-woman",
 			"title": "A Woman Is a Woman",
 			"year": 1961,
 			"url": "https://letterboxd.com/film/a-woman-is-a-woman/",
@@ -8627,7 +8313,6 @@
 		"month": 3,
 		"day": 21,
 		"movie": {
-			"slug": "hundreds-of-beavers",
 			"title": "Hundreds of Beavers",
 			"year": 2022,
 			"url": "https://letterboxd.com/film/hundreds-of-beavers/",
@@ -8653,7 +8338,6 @@
 		"month": 3,
 		"day": 19,
 		"movie": {
-			"slug": "saint-maud",
 			"title": "Saint Maud",
 			"year": 2019,
 			"url": "https://letterboxd.com/film/saint-maud/",
@@ -8674,7 +8358,6 @@
 		"month": 3,
 		"day": 18,
 		"movie": {
-			"slug": "le-pont-du-nord",
 			"title": "Le Pont du Nord",
 			"year": 1981,
 			"url": "https://letterboxd.com/film/le-pont-du-nord/",
@@ -8695,7 +8378,6 @@
 		"month": 3,
 		"day": 17,
 		"movie": {
-			"slug": "love-lies-bleeding-2024",
 			"title": "Love Lies Bleeding",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/love-lies-bleeding-2024/",
@@ -8721,7 +8403,6 @@
 		"month": 3,
 		"day": 15,
 		"movie": {
-			"slug": "celine-and-julie-go-boating",
 			"title": "Céline and Julie Go Boating",
 			"year": 1974,
 			"url": "https://letterboxd.com/film/celine-and-julie-go-boating/",
@@ -8747,7 +8428,6 @@
 		"month": 3,
 		"day": 8,
 		"movie": {
-			"slug": "gang-of-four",
 			"title": "Gang of Four",
 			"year": 1989,
 			"url": "https://letterboxd.com/film/gang-of-four/",
@@ -8773,7 +8453,6 @@
 		"month": 3,
 		"day": 5,
 		"movie": {
-			"slug": "the-sweet-east",
 			"title": "The Sweet East",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/the-sweet-east/",
@@ -8799,7 +8478,6 @@
 		"month": 3,
 		"day": 4,
 		"movie": {
-			"slug": "about-dry-grasses",
 			"title": "About Dry Grasses",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/about-dry-grasses/",
@@ -8824,7 +8502,6 @@
 		"month": 3,
 		"day": 1,
 		"movie": {
-			"slug": "about-dry-grasses",
 			"title": "About Dry Grasses",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/about-dry-grasses/",
@@ -8850,7 +8527,6 @@
 		"month": 2,
 		"day": 26,
 		"movie": {
-			"slug": "wild-tales",
 			"title": "Wild Tales",
 			"year": 2014,
 			"url": "https://letterboxd.com/film/wild-tales/",
@@ -8876,7 +8552,6 @@
 		"month": 2,
 		"day": 25,
 		"movie": {
-			"slug": "inside-the-yellow-cocoon-shell",
 			"title": "Inside the Yellow Cocoon Shell",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/inside-the-yellow-cocoon-shell/",
@@ -8902,7 +8577,6 @@
 		"month": 2,
 		"day": 23,
 		"movie": {
-			"slug": "inside-the-yellow-cocoon-shell",
 			"title": "Inside the Yellow Cocoon Shell",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/inside-the-yellow-cocoon-shell/",
@@ -8928,7 +8602,6 @@
 		"month": 2,
 		"day": 22,
 		"movie": {
-			"slug": "taxi-driver",
 			"title": "Taxi Driver",
 			"year": 1976,
 			"url": "https://letterboxd.com/film/taxi-driver/",
@@ -8949,7 +8622,6 @@
 		"month": 2,
 		"day": 20,
 		"movie": {
-			"slug": "our-time-our-story",
 			"title": "Our Time, Our Story",
 			"year": 2002,
 			"url": "https://letterboxd.com/film/our-time-our-story/",
@@ -8975,7 +8647,6 @@
 		"month": 2,
 		"day": 15,
 		"movie": {
-			"slug": "brief-encounters",
 			"title": "Brief Encounters",
 			"year": 1967,
 			"url": "https://letterboxd.com/film/brief-encounters/",
@@ -9001,7 +8672,6 @@
 		"month": 2,
 		"day": 15,
 		"movie": {
-			"slug": "enthusiasm-1930",
 			"title": "Enthusiasm",
 			"year": 1930,
 			"url": "https://letterboxd.com/film/enthusiasm-1930/",
@@ -9027,7 +8697,6 @@
 		"month": 2,
 		"day": 15,
 		"movie": {
-			"slug": "enter-through-the-balcony",
 			"title": "Enter Through The Balcony",
 			"year": 2020,
 			"url": "https://letterboxd.com/film/enter-through-the-balcony/",
@@ -9053,7 +8722,6 @@
 		"month": 10,
 		"day": 14,
 		"movie": {
-			"slug": "a-confucian-confusion",
 			"title": "A Confucian Confusion",
 			"year": 1994,
 			"url": "https://letterboxd.com/film/a-confucian-confusion/",
@@ -9079,7 +8747,6 @@
 		"month": 11,
 		"day": 19,
 		"movie": {
-			"slug": "histoires-du-cinema-4b-the-signs-among-us",
 			"title": "Histoire(s) du Cinéma 4b: The Signs Among Us",
 			"year": 1998,
 			"url": "https://letterboxd.com/film/histoires-du-cinema-4b-the-signs-among-us/",
@@ -9105,7 +8772,6 @@
 		"month": 2,
 		"day": 14,
 		"movie": {
-			"slug": "sometimes-i-think-about-dying-2023",
 			"title": "Sometimes I Think About Dying",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/sometimes-i-think-about-dying-2023/",
@@ -9131,7 +8797,6 @@
 		"month": 2,
 		"day": 13,
 		"movie": {
-			"slug": "eternal-sunshine-of-the-spotless-mind",
 			"title": "Eternal Sunshine of the Spotless Mind",
 			"year": 2004,
 			"url": "https://letterboxd.com/film/eternal-sunshine-of-the-spotless-mind/",
@@ -9157,7 +8822,6 @@
 		"month": 2,
 		"day": 13,
 		"movie": {
-			"slug": "happy-together-1997",
 			"title": "Happy Together",
 			"year": 1997,
 			"url": "https://letterboxd.com/film/happy-together-1997/",
@@ -9183,7 +8847,6 @@
 		"month": 2,
 		"day": 12,
 		"movie": {
-			"slug": "le-petit-soldat",
 			"title": "Le Petit Soldat",
 			"year": 1963,
 			"url": "https://letterboxd.com/film/le-petit-soldat/",
@@ -9209,7 +8872,6 @@
 		"month": 2,
 		"day": 11,
 		"movie": {
-			"slug": "the-long-farewell-1971",
 			"title": "The Long Farewell",
 			"year": 1971,
 			"url": "https://letterboxd.com/film/the-long-farewell-1971/",
@@ -9235,7 +8897,6 @@
 		"month": 2,
 		"day": 9,
 		"movie": {
-			"slug": "the-sweet-east",
 			"title": "The Sweet East",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/the-sweet-east/",
@@ -9261,7 +8922,6 @@
 		"month": 2,
 		"day": 6,
 		"movie": {
-			"slug": "judas-and-the-black-messiah",
 			"title": "Judas and the Black Messiah",
 			"year": 2021,
 			"url": "https://letterboxd.com/film/judas-and-the-black-messiah/",
@@ -9287,7 +8947,6 @@
 		"month": 2,
 		"day": 3,
 		"movie": {
-			"slug": "the-long-farewell-1971",
 			"title": "The Long Farewell",
 			"year": 1971,
 			"url": "https://letterboxd.com/film/the-long-farewell-1971/",
@@ -9313,7 +8972,6 @@
 		"month": 2,
 		"day": 3,
 		"movie": {
-			"slug": "brief-encounters",
 			"title": "Brief Encounters",
 			"year": 1967,
 			"url": "https://letterboxd.com/film/brief-encounters/",
@@ -9339,7 +8997,6 @@
 		"month": 1,
 		"day": 31,
 		"movie": {
-			"slug": "youth-spring",
 			"title": "Youth (Spring)",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/youth-spring/",
@@ -9365,7 +9022,6 @@
 		"month": 1,
 		"day": 30,
 		"movie": {
-			"slug": "israelism",
 			"title": "Israelism",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/israelism/",
@@ -9391,7 +9047,6 @@
 		"month": 1,
 		"day": 30,
 		"movie": {
-			"slug": "kung-fu-hustle",
 			"title": "Kung Fu Hustle",
 			"year": 2004,
 			"url": "https://letterboxd.com/film/kung-fu-hustle/",
@@ -9417,7 +9072,6 @@
 		"month": 1,
 		"day": 29,
 		"movie": {
-			"slug": "the-gods-of-times-square",
 			"title": "The Gods of Times Square",
 			"year": 1999,
 			"url": "https://letterboxd.com/film/the-gods-of-times-square/",
@@ -9443,7 +9097,6 @@
 		"month": 1,
 		"day": 29,
 		"movie": {
-			"slug": "breathless",
 			"title": "Breathless",
 			"year": 1960,
 			"url": "https://letterboxd.com/film/breathless/",
@@ -9469,7 +9122,6 @@
 		"month": 1,
 		"day": 27,
 		"movie": {
-			"slug": "about-dry-grasses",
 			"title": "About Dry Grasses",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/about-dry-grasses/",
@@ -9490,7 +9142,6 @@
 		"month": 1,
 		"day": 21,
 		"movie": {
-			"slug": "la-roue",
 			"title": "La Roue",
 			"year": 1923,
 			"url": "https://letterboxd.com/film/la-roue/",
@@ -9516,7 +9167,6 @@
 		"month": 1,
 		"day": 19,
 		"movie": {
-			"slug": "the-battle-of-algiers",
 			"title": "The Battle of Algiers",
 			"year": 1966,
 			"url": "https://letterboxd.com/film/the-battle-of-algiers/",
@@ -9542,7 +9192,6 @@
 		"month": 1,
 		"day": 16,
 		"movie": {
-			"slug": "solaris",
 			"title": "Solaris",
 			"year": 1972,
 			"url": "https://letterboxd.com/film/solaris/",
@@ -9568,7 +9217,6 @@
 		"month": 1,
 		"day": 12,
 		"movie": {
-			"slug": "serie-noire",
 			"title": "Serie Noire",
 			"year": 1979,
 			"url": "https://letterboxd.com/film/serie-noire/",
@@ -9594,7 +9242,6 @@
 		"month": 1,
 		"day": 8,
 		"movie": {
-			"slug": "hong-sangsoo-winner-of-the-silver-bear-for-best-screenplay",
 			"title": "Hong Sangsoo – Winner of the Silver Bear for Best Screenplay",
 			"year": 2021,
 			"url": "https://letterboxd.com/film/hong-sangsoo-winner-of-the-silver-bear-for-best-screenplay/",
@@ -9615,7 +9262,6 @@
 		"month": 1,
 		"day": 8,
 		"movie": {
-			"slug": "in-water",
 			"title": "In Water",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/in-water/",
@@ -9636,7 +9282,6 @@
 		"month": 1,
 		"day": 8,
 		"movie": {
-			"slug": "the-strangler-1970",
 			"title": "The Strangler",
 			"year": 1970,
 			"url": "https://letterboxd.com/film/the-strangler-1970/",
@@ -9657,7 +9302,6 @@
 		"month": 1,
 		"day": 6,
 		"movie": {
-			"slug": "close-your-eyes-2023",
 			"title": "Close Your Eyes",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/close-your-eyes-2023/",
@@ -9683,7 +9327,6 @@
 		"month": 1,
 		"day": 7,
 		"movie": {
-			"slug": "the-spirit-of-the-beehive",
 			"title": "The Spirit of the Beehive",
 			"year": 1973,
 			"url": "https://letterboxd.com/film/the-spirit-of-the-beehive/",
@@ -9709,7 +9352,6 @@
 		"month": 1,
 		"day": 6,
 		"movie": {
-			"slug": "lady-killer-1937",
 			"title": "Lady Killer",
 			"year": 1937,
 			"url": "https://letterboxd.com/film/lady-killer-1937/",
@@ -9730,7 +9372,6 @@
 		"month": 1,
 		"day": 5,
 		"movie": {
-			"slug": "monster-2023",
 			"title": "Monster",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/monster-2023/",
@@ -9756,7 +9397,6 @@
 		"month": 1,
 		"day": 1,
 		"movie": {
-			"slug": "the-shining",
 			"title": "The Shining",
 			"year": 1980,
 			"url": "https://letterboxd.com/film/the-shining/",
@@ -9782,7 +9422,6 @@
 		"month": 12,
 		"day": 29,
 		"movie": {
-			"slug": "stalker",
 			"title": "Stalker",
 			"year": 1979,
 			"url": "https://letterboxd.com/film/stalker/",
@@ -9808,7 +9447,6 @@
 		"month": 12,
 		"day": 28,
 		"movie": {
-			"slug": "carol-2015",
 			"title": "Carol",
 			"year": 2015,
 			"url": "https://letterboxd.com/film/carol-2015/",
@@ -9829,7 +9467,6 @@
 		"month": 12,
 		"day": 28,
 		"movie": {
-			"slug": "mirror",
 			"title": "Mirror",
 			"year": 1975,
 			"url": "https://letterboxd.com/film/mirror/",
@@ -9855,7 +9492,6 @@
 		"month": 12,
 		"day": 27,
 		"movie": {
-			"slug": "the-sacrifice",
 			"title": "The Sacrifice",
 			"year": 1986,
 			"url": "https://letterboxd.com/film/the-sacrifice/",
@@ -9881,7 +9517,6 @@
 		"month": 12,
 		"day": 26,
 		"movie": {
-			"slug": "fireworks-1997",
 			"title": "Fireworks",
 			"year": 1997,
 			"url": "https://letterboxd.com/film/fireworks-1997/",
@@ -9906,7 +9541,6 @@
 		"month": 12,
 		"day": 26,
 		"movie": {
-			"slug": "an-autumn-afternoon",
 			"title": "An Autumn Afternoon",
 			"year": 1962,
 			"url": "https://letterboxd.com/film/an-autumn-afternoon/",
@@ -9932,7 +9566,6 @@
 		"month": 12,
 		"day": 19,
 		"movie": {
-			"slug": "the-big-lebowski",
 			"title": "The Big Lebowski",
 			"year": 1998,
 			"url": "https://letterboxd.com/film/the-big-lebowski/",
@@ -9953,7 +9586,6 @@
 		"month": 12,
 		"day": 23,
 		"movie": {
-			"slug": "stalker",
 			"title": "Stalker",
 			"year": 1979,
 			"url": "https://letterboxd.com/film/stalker/",
@@ -9979,7 +9611,6 @@
 		"month": 12,
 		"day": 22,
 		"movie": {
-			"slug": "raining-in-the-mountain",
 			"title": "Raining in the Mountain",
 			"year": 1979,
 			"url": "https://letterboxd.com/film/raining-in-the-mountain/",
@@ -10005,7 +9636,6 @@
 		"month": 12,
 		"day": 21,
 		"movie": {
-			"slug": "solaris",
 			"title": "Solaris",
 			"year": 1972,
 			"url": "https://letterboxd.com/film/solaris/",
@@ -10030,7 +9660,6 @@
 		"month": 12,
 		"day": 18,
 		"movie": {
-			"slug": "corpus-callosum",
 			"title": "*Corpus Callosum",
 			"year": 2002,
 			"url": "https://letterboxd.com/film/corpus-callosum/",
@@ -10056,7 +9685,6 @@
 		"month": 12,
 		"day": 17,
 		"movie": {
-			"slug": "smoke-sauna-sisterhood",
 			"title": "Smoke Sauna Sisterhood",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/smoke-sauna-sisterhood/",
@@ -10082,7 +9710,6 @@
 		"month": 12,
 		"day": 16,
 		"movie": {
-			"slug": "black-christmas",
 			"title": "Black Christmas",
 			"year": 1974,
 			"url": "https://letterboxd.com/film/black-christmas/",
@@ -10108,7 +9735,6 @@
 		"month": 12,
 		"day": 11,
 		"movie": {
-			"slug": "the-wind-rises",
 			"title": "The Wind Rises",
 			"year": 2013,
 			"url": "https://letterboxd.com/film/the-wind-rises/",
@@ -10134,7 +9760,6 @@
 		"month": 12,
 		"day": 8,
 		"movie": {
-			"slug": "days-of-heaven",
 			"title": "Days of Heaven",
 			"year": 1978,
 			"url": "https://letterboxd.com/film/days-of-heaven/",
@@ -10160,7 +9785,6 @@
 		"month": 12,
 		"day": 8,
 		"movie": {
-			"slug": "fireworks-1997",
 			"title": "Fireworks",
 			"year": 1997,
 			"url": "https://letterboxd.com/film/fireworks-1997/",
@@ -10186,7 +9810,6 @@
 		"month": 12,
 		"day": 4,
 		"movie": {
-			"slug": "nostalgia-1983",
 			"title": "Nostalgia",
 			"year": 1983,
 			"url": "https://letterboxd.com/film/nostalgia-1983/",
@@ -10212,7 +9835,6 @@
 		"month": 11,
 		"day": 30,
 		"movie": {
-			"slug": "luxembourg-luxembourg",
 			"title": "Luxembourg, Luxembourg",
 			"year": 2022,
 			"url": "https://letterboxd.com/film/luxembourg-luxembourg/",
@@ -10238,7 +9860,6 @@
 		"month": 11,
 		"day": 29,
 		"movie": {
-			"slug": "saltburn",
 			"title": "Saltburn",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/saltburn/",
@@ -10259,7 +9880,6 @@
 		"month": 11,
 		"day": 24,
 		"movie": {
-			"slug": "fallen-leaves-2023",
 			"title": "Fallen Leaves",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/fallen-leaves-2023/",
@@ -10285,7 +9905,6 @@
 		"month": 11,
 		"day": 23,
 		"movie": {
-			"slug": "close-up",
 			"title": "Close-Up",
 			"year": 1990,
 			"url": "https://letterboxd.com/film/close-up/",
@@ -10311,7 +9930,6 @@
 		"month": 11,
 		"day": 22,
 		"movie": {
-			"slug": "the-man-with-the-answers",
 			"title": "The Man with the Answers",
 			"year": 2021,
 			"url": "https://letterboxd.com/film/the-man-with-the-answers/",
@@ -10340,7 +9958,6 @@
 		"month": 11,
 		"day": 21,
 		"movie": {
-			"slug": "remains-of-the-wind",
 			"title": "Remains of the Wind",
 			"year": 2022,
 			"url": "https://letterboxd.com/film/remains-of-the-wind/",
@@ -10370,7 +9987,6 @@
 		"month": 11,
 		"day": 18,
 		"movie": {
-			"slug": "house",
 			"title": "House",
 			"year": 1977,
 			"url": "https://letterboxd.com/film/house/",
@@ -10390,7 +10006,6 @@
 		"month": 11,
 		"day": 15,
 		"movie": {
-			"slug": "another-body",
 			"title": "Another Body",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/another-body/",
@@ -10416,7 +10031,6 @@
 		"month": 11,
 		"day": 13,
 		"movie": {
-			"slug": "nowhere",
 			"title": "Nowhere",
 			"year": 1997,
 			"url": "https://letterboxd.com/film/nowhere/",
@@ -10442,7 +10056,6 @@
 		"month": 11,
 		"day": 12,
 		"movie": {
-			"slug": "typhoon-club",
 			"title": "Typhoon Club",
 			"year": 1985,
 			"url": "https://letterboxd.com/film/typhoon-club/",
@@ -10468,7 +10081,6 @@
 		"month": 11,
 		"day": 12,
 		"movie": {
-			"slug": "p-p-rider",
 			"title": "P. P. Rider",
 			"year": 1983,
 			"url": "https://letterboxd.com/film/p-p-rider/",
@@ -10494,7 +10106,6 @@
 		"month": 11,
 		"day": 9,
 		"movie": {
-			"slug": "nowhere",
 			"title": "Nowhere",
 			"year": 1997,
 			"url": "https://letterboxd.com/film/nowhere/",
@@ -10520,7 +10131,6 @@
 		"month": 11,
 		"day": 5,
 		"movie": {
-			"slug": "sailor-suit-and-machine-gun",
 			"title": "Sailor Suit and Machine Gun",
 			"year": 1981,
 			"url": "https://letterboxd.com/film/sailor-suit-and-machine-gun/",
@@ -10545,7 +10155,6 @@
 		"month": 11,
 		"day": 5,
 		"movie": {
-			"slug": "anatomy-of-a-fall",
 			"title": "Anatomy of a Fall",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/anatomy-of-a-fall/",
@@ -10566,7 +10175,6 @@
 		"month": 11,
 		"day": 3,
 		"movie": {
-			"slug": "unrest-2022",
 			"title": "Unrest",
 			"year": 2022,
 			"url": "https://letterboxd.com/film/unrest-2022/",
@@ -10591,7 +10199,6 @@
 		"month": 11,
 		"day": 3,
 		"movie": {
-			"slug": "opera",
 			"title": "Opera",
 			"year": 1987,
 			"url": "https://letterboxd.com/film/opera/",
@@ -10617,7 +10224,6 @@
 		"month": 10,
 		"day": 29,
 		"movie": {
-			"slug": "destroy-all-monsters",
 			"title": "Destroy All Monsters",
 			"year": 1968,
 			"url": "https://letterboxd.com/film/destroy-all-monsters/",
@@ -10638,7 +10244,6 @@
 		"month": 10,
 		"day": 26,
 		"movie": {
-			"slug": "in-the-mood-for-love",
 			"title": "In the Mood for Love",
 			"year": 2000,
 			"url": "https://letterboxd.com/film/in-the-mood-for-love/",
@@ -10664,7 +10269,6 @@
 		"month": 10,
 		"day": 23,
 		"movie": {
-			"slug": "metropolis",
 			"title": "Metropolis",
 			"year": 1927,
 			"url": "https://letterboxd.com/film/metropolis/",
@@ -10690,7 +10294,6 @@
 		"month": 10,
 		"day": 19,
 		"movie": {
-			"slug": "the-elephant-man",
 			"title": "The Elephant Man",
 			"year": 1980,
 			"url": "https://letterboxd.com/film/the-elephant-man/",
@@ -10716,7 +10319,6 @@
 		"month": 10,
 		"day": 14,
 		"movie": {
-			"slug": "mandabi",
 			"title": "Mandabi",
 			"year": 1968,
 			"url": "https://letterboxd.com/film/mandabi/",
@@ -10737,7 +10339,6 @@
 		"month": 10,
 		"day": 13,
 		"movie": {
-			"slug": "farewell-my-concubine",
 			"title": "Farewell My Concubine",
 			"year": 1993,
 			"url": "https://letterboxd.com/film/farewell-my-concubine/",
@@ -10763,7 +10364,6 @@
 		"month": 10,
 		"day": 10,
 		"movie": {
-			"slug": "the-double-life-of-veronique",
 			"title": "The Double Life of Véronique",
 			"year": 1991,
 			"url": "https://letterboxd.com/film/the-double-life-of-veronique/",
@@ -10784,7 +10384,6 @@
 		"month": 9,
 		"day": 17,
 		"movie": {
-			"slug": "portrait-of-a-lady-on-fire",
 			"title": "Portrait of a Lady on Fire",
 			"year": 2019,
 			"url": "https://letterboxd.com/film/portrait-of-a-lady-on-fire/",
@@ -10804,7 +10403,6 @@
 		"month": 9,
 		"day": 10,
 		"movie": {
-			"slug": "yi-yi",
 			"title": "Yi Yi",
 			"year": 2000,
 			"url": "https://letterboxd.com/film/yi-yi/",
@@ -10834,7 +10432,6 @@
 		"month": 9,
 		"day": 5,
 		"movie": {
-			"slug": "the-strange-love-of-martha-ivers",
 			"title": "The Strange Love of Martha Ivers",
 			"year": 1946,
 			"url": "https://letterboxd.com/film/the-strange-love-of-martha-ivers/",
@@ -10860,7 +10457,6 @@
 		"month": 9,
 		"day": 4,
 		"movie": {
-			"slug": "nobodys-hero-2022",
 			"title": "Nobody's Hero",
 			"year": 2022,
 			"url": "https://letterboxd.com/film/nobodys-hero-2022/",
@@ -10886,7 +10482,6 @@
 		"month": 8,
 		"day": 25,
 		"movie": {
-			"slug": "the-incorrigible",
 			"title": "The Incorrigible",
 			"year": 1963,
 			"url": "https://letterboxd.com/film/the-incorrigible/",
@@ -10912,7 +10507,6 @@
 		"month": 8,
 		"day": 25,
 		"movie": {
-			"slug": "carmen-from-kawachi",
 			"title": "Carmen from Kawachi",
 			"year": 1966,
 			"url": "https://letterboxd.com/film/carmen-from-kawachi/",
@@ -10938,7 +10532,6 @@
 		"month": 8,
 		"day": 17,
 		"movie": {
-			"slug": "tokyo-drifter",
 			"title": "Tokyo Drifter",
 			"year": 1966,
 			"url": "https://letterboxd.com/film/tokyo-drifter/",
@@ -10964,7 +10557,6 @@
 		"month": 8,
 		"day": 16,
 		"movie": {
-			"slug": "the-room",
 			"title": "The Room",
 			"year": 2003,
 			"url": "https://letterboxd.com/film/the-room/",
@@ -10985,7 +10577,6 @@
 		"month": 8,
 		"day": 14,
 		"movie": {
-			"slug": "odds-against-tomorrow",
 			"title": "Odds Against Tomorrow",
 			"year": 1959,
 			"url": "https://letterboxd.com/film/odds-against-tomorrow/",
@@ -11011,7 +10602,6 @@
 		"month": 8,
 		"day": 10,
 		"movie": {
-			"slug": "lovers-rock-2020",
 			"title": "Lovers Rock",
 			"year": 2020,
 			"url": "https://letterboxd.com/film/lovers-rock-2020/",
@@ -11031,7 +10621,6 @@
 		"month": 8,
 		"day": 9,
 		"movie": {
-			"slug": "contempt",
 			"title": "Contempt",
 			"year": 1963,
 			"url": "https://letterboxd.com/film/contempt/",
@@ -11057,7 +10646,6 @@
 		"month": 8,
 		"day": 7,
 		"movie": {
-			"slug": "blue-velvet",
 			"title": "Blue Velvet",
 			"year": 1986,
 			"url": "https://letterboxd.com/film/blue-velvet/",
@@ -11083,7 +10671,6 @@
 		"month": 7,
 		"day": 14,
 		"movie": {
-			"slug": "la-haine",
 			"title": "La Haine",
 			"year": 1995,
 			"url": "https://letterboxd.com/film/la-haine/",
@@ -11109,7 +10696,6 @@
 		"month": 7,
 		"day": 14,
 		"movie": {
-			"slug": "pierrot-le-fou",
 			"title": "Pierrot le Fou",
 			"year": 1965,
 			"url": "https://letterboxd.com/film/pierrot-le-fou/",
@@ -11135,7 +10721,6 @@
 		"month": 7,
 		"day": 13,
 		"movie": {
-			"slug": "the-mother-and-the-whore",
 			"title": "The Mother and the Whore",
 			"year": 1973,
 			"url": "https://letterboxd.com/film/the-mother-and-the-whore/",
@@ -11160,7 +10745,6 @@
 		"month": 7,
 		"day": 10,
 		"movie": {
-			"slug": "contempt",
 			"title": "Contempt",
 			"year": 1963,
 			"url": "https://letterboxd.com/film/contempt/",
@@ -11186,7 +10770,6 @@
 		"month": 6,
 		"day": 18,
 		"movie": {
-			"slug": "tokyo-story",
 			"title": "Tokyo Story",
 			"year": 1953,
 			"url": "https://letterboxd.com/film/tokyo-story/",
@@ -11212,7 +10795,6 @@
 		"month": 5,
 		"day": 28,
 		"movie": {
-			"slug": "a-new-old-play",
 			"title": "A New Old Play",
 			"year": 2021,
 			"url": "https://letterboxd.com/film/a-new-old-play/",
@@ -11238,7 +10820,6 @@
 		"month": 5,
 		"day": 18,
 		"movie": {
-			"slug": "passion-2008",
 			"title": "Passion",
 			"year": 2008,
 			"url": "https://letterboxd.com/film/passion-2008/",
@@ -11264,7 +10845,6 @@
 		"month": 5,
 		"day": 15,
 		"movie": {
-			"slug": "walk-up",
 			"title": "Walk Up",
 			"year": 2022,
 			"url": "https://letterboxd.com/film/walk-up/",
@@ -11290,7 +10870,6 @@
 		"month": 5,
 		"day": 7,
 		"movie": {
-			"slug": "you-were-my-first-boyfriend",
 			"title": "You Were My First Boyfriend",
 			"year": 2023,
 			"url": "https://letterboxd.com/film/you-were-my-first-boyfriend/",
@@ -11316,7 +10895,6 @@
 		"month": 5,
 		"day": 2,
 		"movie": {
-			"slug": "on-the-beach-at-night-alone",
 			"title": "On the Beach at Night Alone",
 			"year": 2017,
 			"url": "https://letterboxd.com/film/on-the-beach-at-night-alone/",
@@ -11337,7 +10915,6 @@
 		"month": 5,
 		"day": 1,
 		"movie": {
-			"slug": "right-now-wrong-then",
 			"title": "Right Now, Wrong Then",
 			"year": 2015,
 			"url": "https://letterboxd.com/film/right-now-wrong-then/",
@@ -11358,7 +10935,6 @@
 		"month": 4,
 		"day": 28,
 		"movie": {
-			"slug": "spirited-away",
 			"title": "Spirited Away",
 			"year": 2001,
 			"url": "https://letterboxd.com/film/spirited-away/",
@@ -11384,7 +10960,6 @@
 		"month": 4,
 		"day": 19,
 		"movie": {
-			"slug": "jean-marc-vallee",
 			"title": "Jean-Marc Vallée",
 			"year": 2015,
 			"url": "https://letterboxd.com/film/jean-marc-vallee/",
@@ -11414,7 +10989,6 @@
 		"month": 3,
 		"day": 15,
 		"movie": {
-			"slug": "akira",
 			"title": "Akira",
 			"year": 1988,
 			"url": "https://letterboxd.com/film/akira/",
@@ -11440,7 +11014,6 @@
 		"month": 2,
 		"day": 22,
 		"movie": {
-			"slug": "crouching-tiger-hidden-dragon",
 			"title": "Crouching Tiger, Hidden Dragon",
 			"year": 2000,
 			"url": "https://letterboxd.com/film/crouching-tiger-hidden-dragon/",
@@ -11461,7 +11034,6 @@
 		"month": 2,
 		"day": 20,
 		"movie": {
-			"slug": "the-green-fog",
 			"title": "The Green Fog",
 			"year": 2017,
 			"url": "https://letterboxd.com/film/the-green-fog/",
@@ -11487,7 +11059,6 @@
 		"month": 2,
 		"day": 20,
 		"movie": {
-			"slug": "vertigo",
 			"title": "Vertigo",
 			"year": 1958,
 			"url": "https://letterboxd.com/film/vertigo/",
@@ -11513,7 +11084,6 @@
 		"month": 2,
 		"day": 19,
 		"movie": {
-			"slug": "millennium-mambo",
 			"title": "Millennium Mambo",
 			"year": 2001,
 			"url": "https://letterboxd.com/film/millennium-mambo/",
@@ -11538,7 +11108,6 @@
 		"month": 2,
 		"day": 2,
 		"movie": {
-			"slug": "groundhog-day",
 			"title": "Groundhog Day",
 			"year": 1993,
 			"url": "https://letterboxd.com/film/groundhog-day/",
@@ -11564,7 +11133,6 @@
 		"month": 1,
 		"day": 31,
 		"movie": {
-			"slug": "chungking-express",
 			"title": "Chungking Express",
 			"year": 1994,
 			"url": "https://letterboxd.com/film/chungking-express/",
@@ -11590,7 +11158,6 @@
 		"month": 1,
 		"day": 23,
 		"movie": {
-			"slug": "everything-everywhere-all-at-once",
 			"title": "Everything Everywhere All at Once",
 			"year": 2022,
 			"url": "https://letterboxd.com/film/everything-everywhere-all-at-once/",
@@ -11611,7 +11178,6 @@
 		"month": 1,
 		"day": 12,
 		"movie": {
-			"slug": "horace-and-pete",
 			"title": "Horace and Pete",
 			"year": 2016,
 			"url": "https://letterboxd.com/film/horace-and-pete/",
@@ -11632,7 +11198,6 @@
 		"month": 12,
 		"day": 25,
 		"movie": {
-			"slug": "eyes-wide-shut",
 			"title": "Eyes Wide Shut",
 			"year": 1999,
 			"url": "https://letterboxd.com/film/eyes-wide-shut/",
@@ -11653,7 +11218,6 @@
 		"month": 12,
 		"day": 7,
 		"movie": {
-			"slug": "the-curve-1999",
 			"title": "The Curve",
 			"year": 1999,
 			"url": "https://letterboxd.com/film/the-curve-1999/",
@@ -11674,7 +11238,6 @@
 		"month": 12,
 		"day": 6,
 		"movie": {
-			"slug": "claires-knee",
 			"title": "Claire's Knee",
 			"year": 1970,
 			"url": "https://letterboxd.com/film/claires-knee/",
@@ -11695,7 +11258,6 @@
 		"month": 11,
 		"day": 6,
 		"movie": {
-			"slug": "the-novelists-film",
 			"title": "The Novelist's Film",
 			"year": 2022,
 			"url": "https://letterboxd.com/film/the-novelists-film/",
@@ -11720,7 +11282,6 @@
 		"month": 11,
 		"day": 13,
 		"movie": {
-			"slug": "decision-to-leave",
 			"title": "Decision to Leave",
 			"year": 2022,
 			"url": "https://letterboxd.com/film/decision-to-leave/",
