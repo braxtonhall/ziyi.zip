@@ -21,8 +21,9 @@ const setHistoryItemDetails = (element: Element, review: Review | null) => {
 		const image = element.querySelector(".history-item-image") as HTMLImageElement | null;
 		if (image) {
 			image.alt = review.movie.title;
-			if (review.movie.backdrop || review.movie.poster) {
-				image.src = review.movie.backdrop || review.movie.poster;
+			const background = review.movie.backdrop || review.movie.poster;
+			if (background) {
+				image.src = background;
 				image.addEventListener("load", () => image.classList.add("ready"));
 			} else {
 				image.src =
