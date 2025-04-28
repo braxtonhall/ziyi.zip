@@ -33,7 +33,7 @@ export const getElements = (): Elements => {
 	if (elements === null) {
 		const entries = Object.entries(schema);
 		const queried = entries.map(([key, [id]]) => [key, document.getElementById(id)]);
-		const settings = Array.from(document.querySelectorAll("#settings input"));
+		const settings = Array.from(document.querySelectorAll("#settings-contents input"));
 		elements = {
 			...Object.fromEntries(queried),
 			settings: Object.fromEntries(settings.map((setting) => [setting.id, setting])),

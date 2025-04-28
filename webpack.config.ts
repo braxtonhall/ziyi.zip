@@ -30,6 +30,7 @@ module.exports = (_env: any, options: WebpackOptionsNormalized): Configuration =
 	devtool: options.mode !== "production" ? "source-map" : undefined,
 	entry: {
 		index: path.join(srcDir, "index"),
+		...(buildEnv !== "web" && { settings: path.join(srcDir, "settings", "index") }),
 	},
 	output: {
 		publicPath: "",
@@ -60,6 +61,10 @@ module.exports = (_env: any, options: WebpackOptionsNormalized): Configuration =
 				test: /\.s[ac]ss$/i,
 				use: ["style-loader", "css-loader", "sass-loader"],
 			},
+			{
+				test: /\.ejs$/i,
+				use: [{ loader: "ejs-easy-loader" }],
+			},
 		],
 	},
 	resolve: {
@@ -76,9 +81,18 @@ module.exports = (_env: any, options: WebpackOptionsNormalized): Configuration =
 		}),
 		new HtmlWebpackPlugin({
 			filename: "index.html",
-			template: path.join(srcDir, "index.html.ejs"),
-			inject: true,
+			template: "!!ejs-easy-loader!" + path.join(srcDir, "index.html.ejs"),
+			chunks: ["index"],
 		}),
+		...(buildEnv !== "web"
+			? [
+					new HtmlWebpackPlugin({
+						filename: "settings.html",
+						template: "!!ejs-easy-loader!" + path.join(srcDir, "settings/index.html.ejs"),
+						chunks: ["settings"],
+					}),
+				]
+			: []),
 		...(buildEnv === "web" && options.mode === "production"
 			? [
 					new HtmlInlineScriptPlugin({

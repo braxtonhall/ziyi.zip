@@ -74,14 +74,14 @@
 						title="history"
 						class="toggle-label"
 				>
-					<svg class="only-closed" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<svg width="100%" height="100%" class="only-closed" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<path
 								d="M13 3C8.03 3 4 7.03 4 12H1L4.89 15.89L4.96 16.03L9 12H6C6 8.13 9.13 5 13 5C16.87 5 20 8.13 20 12C20 15.87 16.87 19 13 19C11.07 19 9.32 18.21 8.06 16.94L6.64 18.36C8.27 19.99 10.51 21 13 21C17.97 21 22 16.97 22 12C22 7.03 17.97 3 13 3ZM12 8V13L16.28 15.54L17 14.33L13.5 12.25V8H12Z"
 								fill="white"
 						>
 						</path>
 					</svg>
-					<svg class="only-open" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+					<svg width="100%" height="100%" class="only-open" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 						<path
 								d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
 								fill="white"
@@ -101,7 +101,7 @@
 						title="settings"
 						class="toggle-label"
 				>
-					<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
 						<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
 						<g id="SVGRepo_iconCarrier">
@@ -136,343 +136,29 @@
 			</a>
 		</div>
 
-		<div id="settings">
-				<header id="settings-header">
-					<h1 class="header-title">settings</h1>
-					<nav>
-						<label
-								id="close-settings-label"
-								for="settings-toggle"
-								title="settings"
-								class="toggle-label"
-						>
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-								<path
-										d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-										fill="white"
-								>
-								</path>
-							</svg>
-						</label>
-					</nav>
-				</header>
+		<div id="exitable-settings-container" class="settings">
+			<header id="settings-header">
+				<h1 class="header-title">settings</h1>
+				<nav>
+					<label
+							id="close-settings-label"
+							for="settings-toggle"
+							title="settings"
+							class="toggle-label"
+					>
+						<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							<path
+									d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+									fill="white"
+							>
+							</path>
+						</svg>
+					</label>
+				</nav>
+			</header>
 
-				<div id="settings-contents" class="scrollable">
-					<div class="settings-group">
-						<details><summary><span class="settings-section-title">movies</span></summary></details>
-						<div class="details-contents settings-section">
-
-							<span>show reviews with</span>
-							<ul class="settings-section">
-								<li>
-									<input id="filter-movies-backdrop" type="checkbox" />
-									<label for="filter-movies-backdrop" title="click to show movies with missing backdrops">
-										missing backdrops
-									</label>
-								</li>
-								<li>
-									<input id="filter-movies-posters" type="checkbox" />
-									<label for="filter-movies-posters" title="click to show movies with missing posters">
-										missing posters
-									</label>
-								</li>
-								<li>
-									<input id="filter-movies-spoilers" type="checkbox" />
-									<label for="filter-movies-spoilers" title="click to show movies with spoilers">
-										spoilers
-									</label>
-								</li>
-							</ul>
-
-							<span>update frequency</span>
-							<ul class="settings-section">
-								<li>
-									<input id="frequency-daily" type="radio" name="frequency-control" />
-									<label for="frequency-daily" title="update daily">
-										daily
-									</label>
-								</li>
-								<% if (process.env.BUILD_ENV === 'web') { %>
-									<li>
-										<input id="frequency-refresh" type="radio" name="frequency-control" />
-										<label for="frequency-refresh" title="update each page load">
-											each page load
-										</label>
-									</li>
-								<% } else { %>
-									<li>
-										<input id="frequency-refresh" type="radio" name="frequency-control" />
-										<label for="frequency-refresh" title="update each new tab">
-											each new tab
-										</label>
-									</li>
-								<% } %>
-							</ul>
-
-							<span>history</span>
-							<ul class="settings-section">
-								<li>
-									<button id="clear-history" >🗑️</button>
-									<label for="clear-history" title="clear history">
-										clear history
-									</label>
-								</li>
-							</ul>
-
-						</div>
-					</div>
-
-					<div class="settings-group">
-						<details><summary><span class="settings-section-title">appearance</span></summary></details>
-						<div class="details-contents settings-section">
-
-							<span>menu</span>
-							<ul class="settings-section">
-								<li>
-									<input id="menu-visibility-show" name="menu-visibility-control" type="radio" />
-									<label for="menu-visibility-show" title="show menu always">
-										show menu always
-									</label>
-								</li>
-								<li>
-									<input id="menu-visibility-hide" name="menu-visibility-control" type="radio" />
-									<label for="menu-visibility-hide" title="hide menu on hover">
-										show menu on interaction
-									</label>
-								</li>
-							</ul>
-
-							<span>background</span>
-							<ul class="settings-section">
-								<li>
-									<input id="blur" type="checkbox" />
-									<label for="blur" title="blur background">
-										blur
-									</label>
-								</li>
-								<li>
-									<input id="darken" type="checkbox" />
-									<label for="darken" title="darken background">
-										darken
-									</label>
-								</li>
-							</ul>
-
-							<details><summary><span class="settings-section-title">review</span></summary></details>
-							<ul class="settings-section details-contents">
-								<li>
-									<div>
-										<span>position</span>
-										<ul class="settings-section">
-											<li>
-												<input id="review-position-center" name="review-position" type="radio" />
-												<label for="review-position-center" title="center, center">
-													center
-												</label>
-											</li>
-											<li>
-												<input id="review-position-center-left" name="review-position" type="radio" />
-												<label for="review-position-center-left" title="center, left">
-													center, left
-												</label>
-											</li>
-											<li>
-												<input id="review-position-top-left" name="review-position" type="radio" />
-												<label for="review-position-top-left" title="top, left">
-													top, left
-												</label>
-											</li>
-											<li>
-												<input id="review-position-bottom-left" name="review-position" type="radio" />
-												<label for="review-position-bottom-left" title="bottom, left">
-													bottom, left
-												</label>
-											</li>
-										</ul>
-									</div>
-								</li>
-								<li>
-									<div>
-										<span>spoilers</span>
-										<ul class="settings-section">
-											<li>
-												<input id="spoiler-visibility-show" name="spoiler-visibility-control" type="radio" />
-												<label for="spoiler-visibility-show" title="show spoiler contents">
-													show spoilers
-												</label>
-											</li>
-											<li>
-												<input id="spoiler-visibility-hide" name="spoiler-visibility-control" type="radio" />
-												<label for="spoiler-visibility-hide" title="hide spoiler contents">
-													hide spoilers
-												</label>
-											</li>
-											<li>
-												<input id="spoiler-visibility-click" name="spoiler-visibility-control" type="radio" />
-												<label for="spoiler-visibility-click" title="click to show spoiler contents">
-													blur spoilers until clicked
-												</label>
-											</li>
-										</ul>
-									</div>
-								</li>
-								<li>
-									<div>
-										<details><summary><span class="settings-section-title">details</span></summary></details>
-										<ul class="settings-section details-contents">
-											<li>
-												<div>
-													<span>visibility</span>
-													<ul class="settings-section">
-														<li>
-															<input id="review-details-visibility-show" name="review-details-visibility-control" type="radio" />
-															<label for="review-details-visibility-show" title="show review details">
-																show details
-															</label>
-														</li>
-														<li>
-															<input id="review-details-visibility-hide" name="review-details-visibility-control" type="radio" />
-															<label for="review-details-visibility-hide" title="hide review details">
-																hide details
-															</label>
-														</li>
-														<li>
-															<input id="review-details-visibility-hover" name="review-details-visibility-control" type="radio" />
-															<label for="review-details-visibility-hover" title="show review details on hover">
-																show details on interaction
-															</label>
-														</li>
-													</ul>
-												</div>
-											</li>
-											<li>
-												<input id="show-review-date" type="checkbox" />
-												<label for="show-review-date" title="click to show review date">
-													show date
-												</label>
-											</li>
-											<li>
-												<input id="show-review-stars" type="checkbox" />
-												<label for="show-review-stars" title="click to show review stars">
-													show stars
-												</label>
-											</li>
-											<li>
-												<input id="show-review-heart" type="checkbox" />
-												<label for="show-review-heart" title="click to show review heart">
-													show heart
-												</label>
-											</li>
-											<li>
-											<li>
-												<input id="show-review-rewatch" type="checkbox" />
-												<label for="show-review-rewatch" title="click to show review rewatch">
-													show rewatch
-												</label>
-											</li>
-											<li>
-												<input id="show-review-tags" type="checkbox" />
-												<label for="show-review-tags" title="click to show review tags">
-													show tags
-												</label>
-											</li>
-										</ul>
-									</div>
-								</li>
-							</ul>
-
-							<details><summary><span class="settings-section-title">movie details</span></summary></details>
-							<ul class="settings-section details-contents">
-								<li>
-									<div>
-										<span>visibility</span>
-										<ul class="settings-section">
-											<li>
-												<input id="movie-details-visibility-show" name="movie-details-visibility-control" type="radio" />
-												<label for="movie-details-visibility-show" title="show poster">
-													show details
-												</label>
-											</li>
-											<li>
-												<input id="movie-details-visibility-hide" name="movie-details-visibility-control" type="radio" />
-												<label for="movie-details-visibility-hide" title="hide poster">
-													hide details
-												</label>
-											</li>
-											<li>
-												<input id="movie-details-visibility-hover" name="movie-details-visibility-control" type="radio" />
-												<label for="movie-details-visibility-hover" title="show details on hover">
-													show details on interaction
-												</label>
-											</li>
-										</ul>
-									</div>
-								</li>
-								<li>
-									<input id="show-movie-name" type="checkbox" />
-									<label for="show-movie-name" title="click to show movie name">
-										show movie name
-									</label>
-								</li>
-								<li>
-									<input id="show-movie-release-year" type="checkbox" />
-									<label for="show-movie-release-year" title="click to show movie release year">
-										show movie year
-									</label>
-								</li>
-								<li>
-									<input id="show-movie-poster" type="checkbox" />
-									<label for="show-movie-poster" title="click to show movie poster">
-										show movie poster
-									</label>
-								</li>
-							</ul>
-						</div>
-					</div>
-
-					<% if (process.env.BUILD_ENV === 'web') { %>
-						<hr>
-						<div>
-							<p>reviews by <a href="https://letterboxd.com/<%=process.env.LETTERBOXD_ID%>" title="<%=process.env.LETTERBOXD_ID%> on letterboxd"><%=process.env.LETTERBOXD_ID%></a>.</p>
-							<p>website by <a href="https://letterboxd.com/braxtonhall" title="braxtonhall on letterboxd">braxtonhall</a>.</p>
-							<br>
-							<p>download the extension to see a review in every new tab</p>
-							<div>
-								<div class="download-links">
-									<a href="https://chromewebstore.google.com/detail/ziyizip/kgjlmncdpdpcmidkkalcdppigdocdnmf" title="chrome extension"><img src="https://raw.githubusercontent.com/alrra/browser-logos/90fdf03c/src/chrome/chrome.svg" width="48" alt="Chrome"></a>
-									<a href="https://chromewebstore.google.com/detail/ziyizip/kgjlmncdpdpcmidkkalcdppigdocdnmf" title="chrome extension"><img src="https://img.shields.io/chrome-web-store/v/kgjlmncdpdpcmidkkalcdppigdocdnmf.svg?label=%20" alt="latest version"></a>
-								</div>
-								<div class="download-links">
-									<a href="https://addons.mozilla.org/en-US/firefox/addon/ziyi-zip/" title="firefox add-on"><img src="https://raw.githubusercontent.com/alrra/browser-logos/90fdf03c/src/firefox/firefox.svg" width="48" alt="Firefox"></a>
-									<a href="https://addons.mozilla.org/en-US/firefox/addon/ziyi-zip/" title="firefox add-on"><img src="https://img.shields.io/amo/v/ziyi-zip.svg?label=%20" alt="latest version"></a>
-								</div>
-							</div>
-						</div>
-
-						<hr>
-						<div class="settings-group bobs-club-group">
-							<a href="https://bobs-club.net/" title="bob's club web ring"><span>bob's club</span></a>
-							<div>
-								<a href="https://bobs-club.net/site/ziyidotzip/pred" title="previous website">
-								<span>
-									<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/></svg>
-								</span>
-								</a>
-								<a href="https://bobs-club.net/site/ziyidotzip/random" title="random website">
-								<span>
-									<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M300-240q25 0 42.5-17.5T360-300q0-25-17.5-42.5T300-360q-25 0-42.5 17.5T240-300q0 25 17.5 42.5T300-240Zm0-360q25 0 42.5-17.5T360-660q0-25-17.5-42.5T300-720q-25 0-42.5 17.5T240-660q0 25 17.5 42.5T300-600Zm180 180q25 0 42.5-17.5T540-480q0-25-17.5-42.5T480-540q-25 0-42.5 17.5T420-480q0 25 17.5 42.5T480-420Zm180 180q25 0 42.5-17.5T720-300q0-25-17.5-42.5T660-360q-25 0-42.5 17.5T600-300q0 25 17.5 42.5T660-240Zm0-360q25 0 42.5-17.5T720-660q0-25-17.5-42.5T660-720q-25 0-42.5 17.5T600-660q0 25 17.5 42.5T660-600ZM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"/></svg>
-								</span>
-								</a>
-								<a href="https://bobs-club.net/site/ziyidotzip/succ" title="next website">
-								<span>
-									<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg>
-								</span>
-								</a>
-							</div>
-						</div>
-					<% } %>
-				</div>
-			</div>
+			<%- require('./settings/controls.html.ejs')() %>
+		</div>
 	</div>
 </div>
 </body>

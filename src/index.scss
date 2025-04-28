@@ -156,32 +156,33 @@ body:not(:has(#show-review-rewatch:checked)) #review-rewatch,
 body:not(:has(#show-review-heart:checked)) #review-heart,
 body:not(:has(#show-review-tags:checked)) #tags,
 body:has(#movie-details-visibility-hide:checked) #movie-info-container,
-body:has(#review-details-visibility-hide:checked) #review-metadata {
+body:has(#review-details-visibility-hide:checked) #review-metadata,
+body:has(#menu-visibility-hide:checked) #header {
 	display: none !important;
 }
 body {
-	&:has(#menu-visibility-hide:checked) #header,
+	&:has(#menu-visibility-hover:checked) #header,
 	&:has(#review-details-visibility-hover:checked) #review-metadata,
 	&:has(#movie-details-visibility-hover:checked) #movie-info-container {
 		opacity: 0;
 	}
 }
 body:not(.ui-active) {
-	&:has(#menu-visibility-hide:checked) #header,
+	&:has(#menu-visibility-hover:checked) #header,
 	&:has(#review-details-visibility-hover:checked) #review-metadata,
 	&:has(#movie-details-visibility-hover:checked) #movie-info-container {
 		pointer-events: none;
 	}
 }
 body.ui-interacted {
-	&:has(#menu-visibility-hide:checked) #header,
+	&:has(#menu-visibility-hover:checked) #header,
 	&:has(#review-details-visibility-hover:checked) #review-metadata,
 	&:has(#movie-details-visibility-hover:checked) #movie-info-container {
 		transition: opacity 0.25s ease-in;
 	}
 }
 body.ui-active {
-	&:has(#menu-visibility-hide:checked) #header,
+	&:has(#menu-visibility-hover:checked) #header,
 	&:has(#review-details-visibility-hover:checked) #review-metadata,
 	&:has(#movie-details-visibility-hover:checked) #movie-info-container {
 		opacity: 1;
@@ -360,16 +361,16 @@ body:has(#review-position-bottom-left:checked) #review {
 		margin-left: $history-item-margin;
 	}
 }
-body:has(#settings-toggle:checked) #settings {
+body:has(#settings-toggle:checked) #exitable-settings-container {
 	transform: none;
 	opacity: 1;
 }
-body.ui-interacted #settings {
+body.ui-interacted #exitable-settings-container {
 	transition:
 		transform 250ms ease-in-out,
 		opacity 200ms ease-in-out;
 }
-#settings {
+#exitable-settings-container {
 	will-change: opacity, transform;
 	transform-origin: calc(100% - $icon-size) $icon-size;
 	transform: scale(0);
@@ -379,7 +380,13 @@ body.ui-interacted #settings {
 	top: 0;
 	right: 0;
 	margin: 0.5rem;
-
+	max-height: calc(100% - 1rem);
+}
+.fixed-settings {
+	width: 16rem;
+	height: 16rem;
+}
+.settings {
 	font-family: "Open Sans", sans-serif;
 	a {
 		color: white;
@@ -388,7 +395,6 @@ body.ui-interacted #settings {
 	display: flex;
 	flex-direction: column;
 	border-radius: 0.2rem;
-	max-height: calc(100% - 1rem);
 
 	#settings-contents {
 		padding: 0 1rem 1rem 1rem;
