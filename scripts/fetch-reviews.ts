@@ -11,6 +11,14 @@ const [username = "ziyiyan"] = process.argv.slice(2);
 const baseUrl = "https://letterboxd.com";
 const url = `${baseUrl}/${username}/films/reviews/`;
 
+type FieldNullable<T extends Record<string, unknown>> = {
+	[K in keyof T]: T[K] extends Record<string, unknown>
+		? FieldNullable<T[K]>
+		: T[K] extends string | number
+			? T[K] | null
+			: T[K];
+};
+
 type LetterboxdInfo = {
 	url: string | null;
 	heart: boolean;
@@ -109,7 +117,7 @@ const getImages = async (url: string | null): Promise<Images> => {
 	return { backdrop: null, poster: null };
 };
 
-const completeReview = async (entry: LetterboxdInfo) => {
+const completeReview = async (entry: LetterboxdInfo): Promise<FieldNullable<Review>> => {
 	const [completion, images] = await Promise.all([getReviewInfo(entry.url), getImages(entry.movie.url)]);
 	completed++;
 	return {
@@ -122,32 +130,73 @@ const completeReview = async (entry: LetterboxdInfo) => {
 	};
 };
 
-const scrapeReviewListPages = async (url: string, existing: Record<string, unknown>): Promise<Review[]> => {
+const scrapeReviewListPages = async (
+	url: string,
+	existing: Record<string, unknown>,
+): Promise<FieldNullable<Review>[]> => {
 	const { reviews, next } = await scrapeReviewListPage(url);
 	if (reviews.every((review) => review.url && existing.hasOwnProperty(review.url))) {
 		return [];
 	}
-	const futureCompleteReviews: Promise<Review[]> = Promise.all(reviews.map((entry) => completeReview(entry)))
-		.then((reviews) => reviews.filter((review): review is Review => review.url !== null && !!(review satisfies Review)));
-	const futureRemainder: Promise<Review[]> = next ? scrapeReviewListPages(next, existing) : Promise.resolve([]);
+	const futureCompleteReviews: Promise<FieldNullable<Review>[]> = Promise.all(
+		reviews.map((entry) => completeReview(entry)),
+	);
+	const futureRemainder: Promise<FieldNullable<Review>[]> = next
+		? scrapeReviewListPages(next, existing)
+		: Promise.resolve([]);
 	const [complete, remainder] = await Promise.all([futureCompleteReviews, futureRemainder]);
 	return [...complete, ...remainder];
 };
 
-// TODO also update reviews
+const updateExistingReview = async (review: Review): Promise<Review> => {
+	if (review.movie.poster === null || review.movie.backdrop === null) {
+		const { poster, backdrop } = await getImages(review.movie.url);
+		if (poster !== review.movie.poster || backdrop !== review.movie.backdrop) {
+			updated++;
+			review.movie.poster = poster;
+			review.movie.backdrop = backdrop;
+		}
+	}
+	return review;
+};
+
+const updateExistingReviews = async (existing: Record<string, Review>): Promise<Record<string, Review>> => {
+	const futureEntries = Object.entries(existing).map(
+		async ([key, review]) => [key, await updateExistingReview(review)] as const,
+	);
+	const entries = await Promise.all(futureEntries);
+	return Object.fromEntries(entries);
+};
+
+const isReview = (review: FieldNullable<Review>): review is Review =>
+	!!review.url &&
+	!!review.year &&
+	!!review.month &&
+	!!review.day &&
+	!!review.movie.title &&
+	!!review.movie.year &&
+	!!review.movie.url &&
+	!!review.text &&
+	review.tags.every((tag) => tag.url && tag.text);
 
 let completed = 0;
+let updated = 0;
 const fetchReviews = async () => {
 	const existing = JSON.parse(await fs.readFile(ENTRIES_PATH, "utf-8").catch(() => "{}"));
 	const interval = setInterval(
 		() => console.log(`Executing: ${pool.executing}. Queued: ${pool.queued}. Completed: ${completed}`),
 		1500,
 	);
-	const reviews = await scrapeReviewListPages(url, existing);
+	const [updatedExisting, fetchedReviews] = await Promise.all([
+		updateExistingReviews(existing),
+		scrapeReviewListPages(url, existing),
+	]);
+	const reviews = fetchedReviews.filter(isReview);
+	const droppedReviews = fetchedReviews.length - reviews.length;
 	clearInterval(interval);
 	const updates = Object.fromEntries(reviews.map((review) => [review.url, review]));
-	await fs.writeFile(ENTRIES_PATH, JSON.stringify({ ...updates, ...existing }, null, "\t"));
-	console.log(`Done! Completed: ${completed}`);
+	await fs.writeFile(ENTRIES_PATH, JSON.stringify({ ...updates, ...updatedExisting }, null, "\t") + "\n");
+	console.log(`Done! Completed: ${completed}. Updated: ${updated}. Invalid: ${droppedReviews}`);
 	process.exit(0);
 };
 

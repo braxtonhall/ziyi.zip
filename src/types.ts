@@ -7,19 +7,13 @@ export type Review = {
 	month: number;
 	day: number;
 	movie: {
-		slug: string;
 		title: string;
 		year: number;
 		url: string;
 		backdrop: string | null;
 		poster: string | null;
 	};
-	tags: [
-		{
-			text: string;
-			url: string;
-		},
-	];
+	tags: { text: string; url: string }[];
 	text: string;
 	spoiler: boolean;
 };
