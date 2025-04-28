@@ -8,7 +8,7 @@ const schema = {
 	movieLink: ["movie-link", HTMLAnchorElement],
 	reviewContents: ["review-contents", HTMLDivElement],
 	reviewLink: ["review-link", HTMLAnchorElement],
-	reviewText: ["review-text", HTMLParagraphElement],
+	reviewText: ["review-text", HTMLDivElement],
 	reviewDate: ["review-date", HTMLSpanElement],
 	reviewStars: ["review-stars", HTMLSpanElement],
 	reviewHeart: ["review-heart", HTMLSpanElement],
