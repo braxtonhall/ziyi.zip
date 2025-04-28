@@ -14,7 +14,7 @@ export type Review = {
 		poster: string | null;
 	};
 	tags: { text: string; url: string }[];
-	text: string;
+	content: string;
 	spoiler: boolean;
 };
 

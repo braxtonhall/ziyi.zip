@@ -34,11 +34,11 @@ type LetterboxdInfo = {
 	};
 };
 
-type RemainingReviewInfo = { tags: { text: string; url: string }[]; text: string; spoiler: boolean };
+type RemainingReviewInfo = { tags: { text: string; url: string }[]; content: string | null; spoiler: boolean };
 
 type Images = { poster: string | null; backdrop: string | null };
 
-const pool = new AsyncPool(20);
+const pool = new AsyncPool(10);
 const getDocument = async (url: string) => {
 	const result = await pool.run(fetch, url);
 	const text = await result.text();
@@ -79,19 +79,18 @@ const scrapeReviewListPage = async (url: string): Promise<{ reviews: LetterboxdI
 const getReviewInfo = async (url: string | null): Promise<RemainingReviewInfo> => {
 	if (url) {
 		const document = await getDocument(url);
-		const paragraphs = document.querySelectorAll(".js-review-body p");
-		const review = paragraphs.map((paragraph) => paragraph.textContent).join("\n\n");
+		const review = document.querySelector(".js-review-body")?.innerHTML.trim() ?? null;
 		const spoiler = !!document.querySelector("div.contains-spoilers");
 		return {
 			tags: document.querySelectorAll("ul.tags li a").map((element) => ({
 				text: element.textContent,
 				url: `${baseUrl}${element.getAttribute("href")}`,
 			})),
-			text: review,
+			content: review,
 			spoiler,
 		};
 	} else {
-		return { tags: [], text: "", spoiler: false };
+		return { tags: [], content: "", spoiler: false };
 	}
 };
 
@@ -173,7 +172,7 @@ const isReview = (review: FieldNullable<Review>): review is Review =>
 	!!review.movie.title &&
 	!!review.movie.year &&
 	!!review.movie.url &&
-	!!review.text &&
+	!!review.content &&
 	review.tags.every((tag) => tag.url && tag.text);
 
 let completed = 0;

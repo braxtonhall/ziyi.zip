@@ -32,7 +32,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-rajat/films/"
 			}
 		],
-		"text": "Live as mortal human instead of nighttime vampire",
+		"content": "<p>Live as mortal human instead of nighttime vampire</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-passenger/": {
@@ -56,7 +56,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"text": "Life doesn’t work that way. But life doesn’t work the other way either",
+		"content": "<p>Life doesn’t work that way. But life doesn’t work the other way either</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/belfast-maine/": {
@@ -84,7 +84,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-clement/films/"
 			}
 		],
-		"text": "In between",
+		"content": "<p>In between</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/suzhou-river/1/": {
@@ -108,8 +108,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "zh",
-		"text": "来找我吧！\n\nAmazing soundtrack",
+		"content": "<p>来找我吧！</p><p>Amazing soundtrack</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/welfare/": {
@@ -137,7 +136,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-ben/films/"
 			}
 		],
-		"text": "Life remains uncertain",
+		"content": "<p>Life remains uncertain</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/m-butterfly/": {
@@ -161,8 +160,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "Love unconditionally",
+		"content": "<p>Love unconditionally</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-brutalist/1/": {
@@ -194,7 +192,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-clement/films/"
 			}
 		],
-		"text": "Be kind",
+		"content": "<p>Be kind</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/viet-and-nam/": {
@@ -222,7 +220,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-steff/films/"
 			}
 		],
-		"text": "Shining dark",
+		"content": "<p>Shining dark</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/suzhou-river/": {
@@ -246,8 +244,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "id",
-		"text": "The red, mudan red",
+		"content": "<p>The red, mudan red</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/essene/": {
@@ -271,8 +268,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Need a immediate rewatch",
+		"content": "<p>Need a immediate rewatch</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/an-unfinished-film-2024/": {
@@ -296,8 +292,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "laughters and tears",
+		"content": "<p>laughters and tears</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/donnie-darko/": {
@@ -321,8 +316,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/criterion-channel/films/"
 			}
 		],
-		"language": "en",
-		"text": "Kid you know too much",
+		"content": "<p>Kid you know too much</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/capolavoro/": {
@@ -346,7 +340,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/gta-v/films/"
 			}
 		],
-		"text": "Yes letterboxd",
+		"content": "<p>Yes letterboxd</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-good-the-bad-and-the-ugly/": {
@@ -370,8 +364,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "There are two kinds of men in the world",
+		"content": "<p>There are two kinds of men in the world</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/7-beats-per-minute/": {
@@ -395,8 +388,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "Battle within",
+		"content": "<p>Battle within</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-wild-bunch/": {
@@ -420,7 +412,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"text": "Need a western to get me 🫠",
+		"content": "<p>Need a western to get me 🫠</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-life-of-jesus/": {
@@ -452,8 +444,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-chuiwen/films/"
 			}
 		],
-		"language": "tl",
-		"text": "Jesus commit crime",
+		"content": "<p>Jesus commit crime</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-empire-2024/": {
@@ -481,7 +472,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-esther/films/"
 			}
 		],
-		"text": "vive l'humanité",
+		"content": "<p>vive l'humanité</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/boy-on-a-dolphin/": {
@@ -509,8 +500,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-jana/films/"
 			}
 		],
-		"language": "fr",
-		"text": "For the dance",
+		"content": "<p>For the dance</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/high-school/": {
@@ -542,8 +532,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-jana/films/"
 			}
 		],
-		"language": "en",
-		"text": "Generation",
+		"content": "<p>Generation</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/picnic-at-hanging-rock/": {
@@ -575,8 +564,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-jana/films/"
 			}
 		],
-		"language": "en",
-		"text": "Mysterious life incident you have to deal with",
+		"content": "<p>Mysterious life incident you have to deal with</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/central-park-1990/": {
@@ -600,8 +588,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "The ray of sunshine and greens",
+		"content": "<p>The ray of sunshine and greens</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/wild-at-heart/": {
@@ -629,8 +616,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-clement/films/"
 			}
 		],
-		"language": "en",
-		"text": "The world is wild at heart, weird on the top. (Pull out two cigarettes at once smoking",
+		"content": "<p>The world is wild at heart, weird on the top. (Pull out two cigarettes at once smoking</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/yokohama-bj-blues/": {
@@ -654,8 +640,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "st",
-		"text": "Mood. Tokyo feeling blue",
+		"content": "<p>Mood. Tokyo feeling blue</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/abrahams-valley/": {
@@ -679,8 +664,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/dufang/films/"
 			}
 		],
-		"language": "en",
-		"text": "Astonishing beauty",
+		"content": "<p>Astonishing beauty</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/two-english-girls/": {
@@ -708,7 +692,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-maoji/films/"
 			}
 		],
-		"text": "Solid two-hour of lovesick love",
+		"content": "<p>Solid two-hour of lovesick love</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/wheel-of-fortune-and-fantasy/": {
@@ -732,8 +716,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/tomorrow-homebar/films/"
 			}
 		],
-		"language": "zh",
-		"text": "小小的平凡生活的感动",
+		"content": "<p>小小的平凡生活的感动</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/happyend/": {
@@ -757,8 +740,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/broadway-cinematheque-hk/films/"
 			}
 		],
-		"language": "en",
-		"text": "World sucks but we live on",
+		"content": "<p>World sucks but we live on</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/in-the-mood-for-love/3/": {
@@ -782,8 +764,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/shenzhen-wanxiang-movie-city/films/"
 			}
 		],
-		"language": "zh",
-		"text": "25周年重映➕花样年华2001",
+		"content": "<p>25周年重映➕花样年华2001</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/universal-language/1/": {
@@ -819,8 +800,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-clement/films/"
 			}
 		],
-		"language": "en",
-		"text": "Life away from home becomes harsh reality and home is a vague dream",
+		"content": "<p>Life away from home becomes harsh reality and home is a vague dream</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/no-other-land/": {
@@ -844,8 +824,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/siff-film-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "Harsh truth of living under oppression",
+		"content": "<p>Harsh truth of living under oppression</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/universal-language/": {
@@ -869,8 +848,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "No surprise a Winnipeg experimental filmmaker can pull this",
+		"content": "<p>No surprise a Winnipeg experimental filmmaker can pull this</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/in-another-country/": {
@@ -898,8 +876,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-jana/films/"
 			}
 		],
-		"language": "en",
-		"text": "Life comedy",
+		"content": "<p>Life comedy</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/mermaid-legend/": {
@@ -927,8 +904,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-ellenore/films/"
 			}
 		],
-		"language": "en",
-		"text": "Blood storm is granted",
+		"content": "<p>Blood storm is granted</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/lost-highway/": {
@@ -956,8 +932,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-clement/films/"
 			}
 		],
-		"language": "en",
-		"text": "Lost for real",
+		"content": "<p>Lost for real</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-wages-of-fear/": {
@@ -985,8 +960,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-vincent/films/"
 			}
 		],
-		"language": "en",
-		"text": "The fear drives you, but to where",
+		"content": "<p>The fear drives you, but to where</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/2046/": {
@@ -1014,8 +988,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-zoe/films/"
 			}
 		],
-		"language": "en",
-		"text": "My movie-going pals",
+		"content": "<p>My movie-going pals</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-brutalist/": {
@@ -1043,8 +1016,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/70mm/films/"
 			}
 		],
-		"language": "en",
-		"text": "The story of us all",
+		"content": "<p>The story of us all</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/autumn-moon/1/": {
@@ -1076,8 +1048,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-esther/films/"
 			}
 		],
-		"language": "zh",
-		"text": "这个世界\n有什么值得\n我每三秒钟呼吸一次",
+		"content": "<p>这个世界<br>有什么值得<br>我每三秒钟呼吸一次</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/farewell-china/1/": {
@@ -1109,8 +1080,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-esther/films/"
 			}
 		],
-		"language": "zh",
-		"text": "我喝醉了，我穷，我也麻烦",
+		"content": "<p>我喝醉了，我穷，我也麻烦</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-host/": {
@@ -1134,8 +1104,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "Fight as a family",
+		"content": "<p>Fight as a family</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/memories-of-murder/": {
@@ -1159,8 +1128,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "He is a plain … ordinary man",
+		"content": "<p>He is a plain … ordinary man</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/floating-life/": {
@@ -1192,8 +1160,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-munan/films/"
 			}
 		],
-		"language": "id",
-		"text": "Ma 😭",
+		"content": "<p>Ma 😭</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-goddess-of-1967/": {
@@ -1233,8 +1200,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-munan/films/"
 			}
 		],
-		"language": "en",
-		"text": "Forgive yourself and live on",
+		"content": "<p>Forgive yourself and live on</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/farewell-china/": {
@@ -1290,8 +1256,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-vincent/films/"
 			}
 		],
-		"language": "en",
-		"text": "Love to a fearful home\n\nMusic brings back your memories and feelings deep in your heart",
+		"content": "<p>Love to a fearful home</p><p>Music brings back your memories and feelings deep in your heart</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/they-say-the-moon-is-fuller-here/": {
@@ -1315,8 +1280,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Conflicts of east and west, individualism and bourgeois\n梁祝 is definitely the most stereotypical but great Chinese music",
+		"content": "<p>Conflicts of east and west, individualism and bourgeois<br>梁祝 is definitely the most stereotypical but great Chinese music</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/gummo/2/": {
@@ -1348,8 +1312,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-jana/films/"
 			}
 		],
-		"language": "en",
-		"text": "Remedy for the great sorrow",
+		"content": "<p>Remedy for the great sorrow</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/autumn-moon/": {
@@ -1389,8 +1352,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-vincent/films/"
 			}
 		],
-		"language": "en",
-		"text": "Grandma 😭",
+		"content": "<p>Grandma 😭</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-umbrellas-of-cherbourg/1/": {
@@ -1414,8 +1376,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Happy family scene with that iconic sad tune hits so hard",
+		"content": "<p>Happy family scene with that iconic sad tune hits so hard</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/late-spring/1/": {
@@ -1443,8 +1404,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-boyan/films/"
 			}
 		],
-		"language": "en",
-		"text": "Who dares to make nori chan cry 😢",
+		"content": "<p>Who dares to make nori chan cry 😢</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/youth-hard-times/": {
@@ -1484,8 +1444,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-munan/films/"
 			}
 		],
-		"language": "en",
-		"text": "Tough life flies as fast as a 4-hour movie",
+		"content": "<p>Tough life flies as fast as a 4-hour movie</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/akira/1/": {
@@ -1513,8 +1472,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-esther/films/"
 			}
 		],
-		"language": "en",
-		"text": "When technology dies, life begins. (Amazing soundtrack",
+		"content": "<p>When technology dies, life begins. (Amazing soundtrack</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-sacrifice/1/": {
@@ -1542,8 +1500,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-esther/films/"
 			}
 		],
-		"language": "en",
-		"text": "Fear of the death trip you, and trip you hard",
+		"content": "<p>Fear of the death trip you, and trip you hard</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/flow-2024/": {
@@ -1571,8 +1528,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-tianming/films/"
 			}
 		],
-		"language": "en",
-		"text": "Capybara is in the zen mode",
+		"content": "<p>Capybara is in the zen mode</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-end-of-summer/": {
@@ -1604,8 +1560,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-boyan/films/"
 			}
 		],
-		"language": "en",
-		"text": "The aunt crying hits me so bad",
+		"content": "<p>The aunt crying hits me so bad</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/a-real-pain/": {
@@ -1637,8 +1592,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-clement/films/"
 			}
 		],
-		"language": "en",
-		"text": "Who is happy",
+		"content": "<p>Who is happy</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/three-wishes-for-cinderella/": {
@@ -1666,8 +1620,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-yiwei/films/"
 			}
 		],
-		"language": "en",
-		"text": "Filming with animals is always fascinating and cute",
+		"content": "<p>Filming with animals is always fascinating and cute</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/floating-weeds/": {
@@ -1695,8 +1648,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-tanay/films/"
 			}
 		],
-		"language": "en",
-		"text": "Life on the road floating",
+		"content": "<p>Life on the road floating</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/do-not-expect-too-much-from-the-end-of-the-world/": {
@@ -1732,8 +1684,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-yiwei/films/"
 			}
 		],
-		"language": "en",
-		"text": "The world is crazy and cute",
+		"content": "<p>The world is crazy and cute</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-umbrellas-of-cherbourg/": {
@@ -1757,8 +1708,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Beautiful it is",
+		"content": "<p>Beautiful it is</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/phantom-thread/": {
@@ -1782,8 +1732,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Tactical power play",
+		"content": "<p>Tactical power play</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/equinox-flower/": {
@@ -1811,8 +1760,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-tanay/films/"
 			}
 		],
-		"language": "en",
-		"text": "So wholesome to see everyone is helping out fighting for true love and your buddy knows what need to be done even if it goes against your will (happy tears bursting 🥹🥹🥹",
+		"content": "<p>So wholesome to see everyone is helping out fighting for true love and your buddy knows what need to be done even if it goes against your will (happy tears bursting 🥹🥹🥹</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/good-morning/1/": {
@@ -1840,8 +1788,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-tanay/films/"
 			}
 		],
-		"language": "en",
-		"text": "Small talk is important",
+		"content": "<p>Small talk is important</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/thelma-louise/": {
@@ -1869,8 +1816,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-zoe/films/"
 			}
 		],
-		"language": "en",
-		"text": "I feel so happy for them",
+		"content": "<p>I feel so happy for them</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/shadows-of-forgotten-ancestors/": {
@@ -1894,7 +1840,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"text": "Non-stoping insane camerawork",
+		"content": "<p>Non-stoping insane camerawork</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/3-women/": {
@@ -1918,8 +1864,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Nightmare inducing dream sequence",
+		"content": "<p>Nightmare inducing dream sequence</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/leningrad-cowboys-go-america/": {
@@ -1943,7 +1888,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/criterion-channel/films/"
 			}
 		],
-		"text": "Mexico rules",
+		"content": "<p>Mexico rules</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/b-for-busy/": {
@@ -1962,8 +1907,7 @@
 			"poster": "https://a.ltrbxd.com/resized/film-poster/8/1/1/8/8/2/811882-b-for-busy-0-230-0-345-crop.jpg?v=f6cd6f1955"
 		},
 		"tags": [],
-		"language": "zh",
-		"text": "爱情呐，神话呀",
+		"content": "<p>爱情呐，神话呀</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/tangerine/": {
@@ -1987,8 +1931,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/rio-theatre/films/"
 			}
 		],
-		"language": "en",
-		"text": "Be real and be the real one",
+		"content": "<p>Be real and be the real one</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-munekata-sisters/": {
@@ -2012,8 +1955,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Rather sad story but glad she made it through and landed well",
+		"content": "<p>Rather sad story but glad she made it through and landed well</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/early-spring/": {
@@ -2037,8 +1979,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Brave lads, cowardice men",
+		"content": "<p>Brave lads, cowardice men</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/totally-fed-up/": {
@@ -2062,8 +2003,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/criterion-channel/films/"
 			}
 		],
-		"language": "en",
-		"text": "Figure that out",
+		"content": "<p>Figure that out</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/good-morning/": {
@@ -2087,8 +2027,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "I love you 😘✌️👋",
+		"content": "<p>I love you 😘✌️👋</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/tokyo-story/1/": {
@@ -2112,8 +2051,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "All the complicated in life",
+		"content": "<p>All the complicated in life</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/a-hen-in-the-wind/": {
@@ -2137,8 +2075,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Moral story",
+		"content": "<p>Moral story</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/late-spring/": {
@@ -2162,8 +2099,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Family love is for parting",
+		"content": "<p>Family love is for parting</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/record-of-a-tenement-gentleman/": {
@@ -2187,8 +2123,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Kids teach you stuff",
+		"content": "<p>Kids teach you stuff</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/far-from-home-1975/": {
@@ -2212,8 +2147,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Misery\nLiving in another country \nFar from home",
+		"content": "<p>Misery<br>Living in another country <br>Far from home</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/hours-for-jerome/": {
@@ -2241,8 +2175,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/16mm/films/"
 			}
 		],
-		"language": "en",
-		"text": "Isn’t it beautiful",
+		"content": "<p>Isn’t it beautiful</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/samsara-2023/": {
@@ -2266,8 +2199,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "ga",
-		"text": "Dream",
+		"content": "<p>Dream</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/every-man-for-himself/": {
@@ -2295,8 +2227,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/35mm/films/"
 			}
 		],
-		"language": "en",
-		"text": "Beautiful backlighting scene",
+		"content": "<p>Beautiful backlighting scene</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/weekend-1967/": {
@@ -2320,8 +2251,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Are you in a film or in reality ",
+		"content": "<blockquote><p>Are you in a film or in reality </p></blockquote>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/moulin-rouge-2001/": {
@@ -2349,8 +2279,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-zoe/films/"
 			}
 		],
-		"language": "tn",
-		"text": "It’s okay",
+		"content": "<p>It’s okay</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/a-whole-night/": {
@@ -2378,8 +2307,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-tianming/films/"
 			}
 		],
-		"language": "en",
-		"text": "Lovely night. Let’s go out\n\nSo many walking and loving, longing and hugging",
+		"content": "<blockquote><p>Lovely night. Let’s go out</p></blockquote><p>So many walking and loving, longing and hugging</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/joker-folie-a-deux/": {
@@ -2407,8 +2335,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-rajat/films/"
 			}
 		],
-		"language": "en",
-		"text": "Everything is all there very awesome",
+		"content": "<p>Everything is all there very awesome</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/megalopolis-2024/": {
@@ -2436,8 +2363,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-jana/films/"
 			}
 		],
-		"language": "en",
-		"text": "What is it about the time pausing power",
+		"content": "<p>What is it about the time pausing power</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-invisible-fight/": {
@@ -2465,8 +2391,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/euff24/films/"
 			}
 		],
-		"language": "en",
-		"text": "Love, faith, grace",
+		"content": "<p>Love, faith, grace</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/cats-of-malta/": {
@@ -2494,8 +2419,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/euff24/films/"
 			}
 		],
-		"language": "en",
-		"text": "“The one that talks a lot” 😆",
+		"content": "<p>“The one that talks a lot” 😆</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/bird-2024/": {
@@ -2519,8 +2443,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "Growing up is overrated; do not recommend",
+		"content": "<p>Growing up is overrated; do not recommend</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/come-and-see/": {
@@ -2544,7 +2467,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"text": "Barbarian",
+		"content": "<p>Barbarian</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/a-page-of-madness/": {
@@ -2568,8 +2491,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "Noh mask is scary",
+		"content": "<p>Noh mask is scary</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/eureka-2023/": {
@@ -2597,8 +2519,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-tianming/films/"
 			}
 		],
-		"language": "en",
-		"text": "“Time is a fiction, invented by man”\n\n“The tourist attraction for the desperate”",
+		"content": "<p>“Time is a fiction, invented by man”</p><p>“The tourist attraction for the desperate”</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/anora/": {
@@ -2626,8 +2547,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-zoe/films/"
 			}
 		],
-		"language": "en",
-		"text": "Value yourself as a human being",
+		"content": "<p>Value yourself as a human being</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-straight-story/": {
@@ -2655,8 +2575,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-zoe/films/"
 			}
 		],
-		"language": "en",
-		"text": "Wholesome dream",
+		"content": "<p>Wholesome dream</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/la-chinoise/1/": {
@@ -2684,8 +2603,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-zoe/films/"
 			}
 		],
-		"language": "en",
-		"text": "Naivety",
+		"content": "<p>Naivety</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/matt-and-mara/": {
@@ -2709,8 +2627,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "So many things are not said",
+		"content": "<p>So many things are not said</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/anne-at-13000-ft/": {
@@ -2734,8 +2651,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Full of subtlety",
+		"content": "<p>Full of subtlety</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/haxan/": {
@@ -2771,7 +2687,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-abe/films/"
 			}
 		],
-		"text": "Educational",
+		"content": "<p>Educational</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-blair-witch-project/": {
@@ -2795,8 +2711,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Amazing acting for sure",
+		"content": "<p>Amazing acting for sure</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/i-married-a-witch/": {
@@ -2824,8 +2739,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-zoe/films/"
 			}
 		],
-		"language": "id",
-		"text": "Destiny",
+		"content": "<p>Destiny</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-fall/": {
@@ -2853,8 +2767,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-zoe/films/"
 			}
 		],
-		"language": "en",
-		"text": "Storytelling is essential",
+		"content": "<p>Storytelling is essential</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-human-surge-3/": {
@@ -2878,7 +2791,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"text": "Visual massage",
+		"content": "<p>Visual massage</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/one-hour-with-you/1/": {
@@ -2906,8 +2819,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-zoe/films/"
 			}
 		],
-		"language": "en",
-		"text": "「I like my woman wrong」 🤣🤣🤣",
+		"content": "<p>「I like my woman wrong」 🤣🤣🤣</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/sex-is-comedy/": {
@@ -2935,8 +2847,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/dvd/films/"
 			}
 		],
-		"language": "en",
-		"text": "Touching and hugging",
+		"content": "<p>Touching and hugging</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/brief-crossing/": {
@@ -2964,8 +2875,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/videocat/films/"
 			}
 		],
-		"language": "en",
-		"text": "Oh my boy is becoming “you all men”",
+		"content": "<p>Oh my boy is becoming “you all men”</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/after-work-2023/": {
@@ -2989,8 +2899,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Time for your purpose",
+		"content": "<p>Time for your purpose</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/angel/": {
@@ -3018,8 +2927,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-zoe/films/"
 			}
 		],
-		"language": "en",
-		"text": "Dream, let me just live in that dream",
+		"content": "<p>Dream, let me just live in that dream</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/seven-samurai/1/": {
@@ -3043,7 +2951,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"text": "Splendid",
+		"content": "<p>Splendid</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/burden-of-dreams/": {
@@ -3067,7 +2975,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"text": "Chaos",
+		"content": "<p>Chaos</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/santa-sangre/": {
@@ -3091,8 +2999,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "No way to anticipate what’s going next 🫡🫡🫡",
+		"content": "<p>No way to anticipate what’s going next 🫡🫡🫡</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/one-hour-with-you/": {
@@ -3116,8 +3023,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "What a great timing to see it tonight 😌",
+		"content": "<p>What a great timing to see it tonight 😌</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/fitzcarraldo/": {
@@ -3141,8 +3047,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "Why, why did they serve us like horses",
+		"content": "<p>Why, why did they serve us like horses</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/i-dont-want-to-be-a-man/": {
@@ -3170,7 +3075,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-clement/films/"
 			}
 		],
-		"text": "A fun watch!",
+		"content": "<p>A fun watch!</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/lady-windermeres-fan/": {
@@ -3198,8 +3103,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-clement/films/"
 			}
 		],
-		"language": "en",
-		"text": "Ending scene is fun and deep my man",
+		"content": "<p>Ending scene is fun and deep my man</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/quod-erat-demonstrandum-2012/": {
@@ -3223,8 +3127,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Wholesome cat and dog",
+		"content": "<p>Wholesome cat and dog</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/at-averroes-rosa-parks/": {
@@ -3252,8 +3155,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff24/films/"
 			}
 		],
-		"language": "en",
-		"text": "I see people live and love",
+		"content": "<p>I see people live and love</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/first-name-carmen/": {
@@ -3281,8 +3183,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-zoe/films/"
 			}
 		],
-		"language": "en",
-		"text": "You cant get over anything. Why does man exist ",
+		"content": "<blockquote><p>You cant get over anything. Why does man exist </p></blockquote>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/2-or-3-things-i-know-about-her/": {
@@ -3310,8 +3211,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-zoe/films/"
 			}
 		],
-		"language": "en",
-		"text": "Montage reveals all (color TV is LSD alternative ofc!",
+		"content": "<p>Montage reveals all (color TV is LSD alternative ofc!</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/blue-sun-palace/": {
@@ -3343,8 +3243,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-zoe/films/"
 			}
 		],
-		"language": "zh",
-		"text": "Life is real cinema\n\n「你快樂所以我快樂」",
+		"content": "<p>Life is real cinema</p><blockquote><p>「你快樂所以我快樂」</p></blockquote>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/its-not-me-2024/": {
@@ -3372,8 +3271,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "Yes, the guy in the line who wanna see Gordard, your wish was granted",
+		"content": "<p>Yes, the guy in the line who wanna see Gordard, your wish was granted</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-seed-of-the-sacred-fig/": {
@@ -3401,7 +3299,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff24/films/"
 			}
 		],
-		"text": "Domestic violence at its maximum",
+		"content": "<p>Domestic violence at its maximum</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/a-travelers-needs/": {
@@ -3429,8 +3327,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff24/films/"
 			}
 		],
-		"language": "en",
-		"text": "The crowd is great! That’s exactly the way to watch Hong Sangsoo: laugh your fucking ass off 😆",
+		"content": "<p>The crowd is great! That’s exactly the way to watch Hong Sangsoo: laugh your fucking ass off 😆</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/all-we-imagine-as-light/": {
@@ -3458,8 +3355,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff24/films/"
 			}
 		],
-		"language": "en",
-		"text": "Drowning night in the city and sunny nature in the village is saying everything. Love the cheerful minimalist piano melody. Finding a new family that understands and supports you is wholesome",
+		"content": "<p>Drowning night in the city and sunny nature in the village is saying everything. Love the cheerful minimalist piano melody. Finding a new family that understands and supports you is wholesome</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/toxic-2024/": {
@@ -3487,8 +3383,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "Industrial countryside blues",
+		"content": "<p>Industrial countryside blues</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/rumours-2024/": {
@@ -3516,8 +3411,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/rio-theatre/films/"
 			}
 		],
-		"language": "en",
-		"text": "Soup-opera music is killing me. So big a fun to watch this mix of weirdness (Glad to know Ari Aster have a share in this too",
+		"content": "<p>Soup-opera music is killing me. So big a fun to watch this mix of weirdness (Glad to know Ari Aster have a share in this too</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-girl-with-the-needle/": {
@@ -3549,8 +3443,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-zoe/films/"
 			}
 		],
-		"language": "en",
-		"text": "So many sorrows so concentrated",
+		"content": "<p>So many sorrows so concentrated</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-hands-of-ida/": {
@@ -3578,8 +3471,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff24/films/"
 			}
 		],
-		"language": "en",
-		"text": "Watching this film makes me more confused than just reading the synopsis",
+		"content": "<p>Watching this film makes me more confused than just reading the synopsis</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/black-dog-2024/": {
@@ -3607,8 +3499,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff24/films/"
 			}
 		],
-		"language": "it",
-		"text": "Nostalgic",
+		"content": "<p>Nostalgic</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/caught-by-the-tides/": {
@@ -3636,8 +3527,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff24/films/"
 			}
 		],
-		"language": "en",
-		"text": "Quite a chronology. Love the disco scene of millennial China. And using 杀死那个石家庄人 to trigger emotion is cheating 🥹",
+		"content": "<p>Quite a chronology. Love the disco scene of millennial China. And using 杀死那个石家庄人 to trigger emotion is cheating 🥹</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/investigation-of-a-citizen-above-suspicion/": {
@@ -3665,8 +3555,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff24/films/"
 			}
 		],
-		"language": "en",
-		"text": "Utterly satirical story, great something-big-is-happening score (and when can industrial subs makers be a bit better🙃",
+		"content": "<p>Utterly satirical story, great something-big-is-happening score (and when can industrial subs makers be a bit better🙃</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/barton-fink/": {
@@ -3690,8 +3579,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-alex/films/"
 			}
 		],
-		"language": "en",
-		"text": "Hilarious absurd reality",
+		"content": "<p>Hilarious absurd reality</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/grand-tour-2024/": {
@@ -3719,8 +3607,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff24/films/"
 			}
 		],
-		"language": "en",
-		"text": "confusing weird fun story of failure (or impossibility) of communication",
+		"content": "<p>confusing weird fun story of failure (or impossibility) of communication</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/masculin-feminin/": {
@@ -3744,8 +3631,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "The style starts converging from this month’s JLG Forever program",
+		"content": "<p>The style starts converging from this month’s JLG Forever program</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-substance/": {
@@ -3773,8 +3659,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-jana/films/"
 			}
 		],
-		"language": "en",
-		"text": "Great soundtrack, gripping plot with sharp editing. What a cautionary tale. Treat yourself well peeps",
+		"content": "<p>Great soundtrack, gripping plot with sharp editing. What a cautionary tale. Treat yourself well peeps</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/paris-texas/": {
@@ -3798,8 +3683,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/rio-theatre/films/"
 			}
 		],
-		"language": "en",
-		"text": "“This my dad and your grandfather.”",
+		"content": "<p>“This my dad and your grandfather.”</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/la-confidential/": {
@@ -3823,8 +3707,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/criterion-channel/films/"
 			}
 		],
-		"language": "en",
-		"text": "A great blast",
+		"content": "<p>A great blast</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/suspiria/": {
@@ -3848,8 +3731,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "If they can also hear the soundtrack…",
+		"content": "<p>If they can also hear the soundtrack…</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/moving-1993/": {
@@ -3873,8 +3755,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Have some free time, alone time, touching grass, let some good old memories afloat",
+		"content": "<p>Have some free time, alone time, touching grass, let some good old memories afloat</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-old-oak/": {
@@ -3893,8 +3774,7 @@
 			"poster": "https://a.ltrbxd.com/resized/film-poster/8/7/3/5/0/1/873501-the-old-oak-0-230-0-345-crop.jpg?v=7cce210cf8"
 		},
 		"tags": [],
-		"language": "en",
-		"text": "Heart to heart. Human to human",
+		"content": "<p>Heart to heart. Human to human</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-tree-of-life-2011/": {
@@ -3918,8 +3798,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "Unless you love",
+		"content": "<p>Unless you love</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/national-theatre-live-fleabag/": {
@@ -3943,7 +3822,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/morc-asagaya/films/"
 			}
 		],
-		"text": "Is it just me",
+		"content": "<p>Is it just me</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-depths/": {
@@ -3967,8 +3846,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/shimokita-ekimae-cinema-k2/films/"
 			}
 		],
-		"language": "en",
-		"text": "The tip of iceberg",
+		"content": "<p>The tip of iceberg</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/summer-palace/": {
@@ -3992,8 +3870,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/shimokita-ekimae-cinema-k2/films/"
 			}
 		],
-		"language": "en",
-		"text": "Summer love cruel story",
+		"content": "<p>Summer love cruel story</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-written-face/": {
@@ -4017,8 +3894,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/waseda-shochiku/films/"
 			}
 		],
-		"language": "en",
-		"text": "The act, the performance (need to re-watch with subs or with doraemon‘s translation gummy 🫠 (and the quietest audience during credit roll I’ve ever experienced 🫡🫡🫡",
+		"content": "<p>The act, the performance (need to re-watch with subs or with doraemon‘s translation gummy 🫠 (and the quietest audience during credit roll I’ve ever experienced 🫡🫡🫡</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/lost-in-translation/": {
@@ -4037,8 +3913,7 @@
 			"poster": "https://a.ltrbxd.com/resized/sm/upload/th/b5/6c/gl/5T8VvuFTdaawKLJk34i69Utaw7o-0-230-0-345-crop.jpg?v=ce6ae8e1b4"
 		},
 		"tags": [],
-		"language": "en",
-		"text": "Hug me goodbye",
+		"content": "<p>Hug me goodbye</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/blade-runner/": {
@@ -4062,8 +3937,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "Insane set design with tons of details 🤯 (humanity in question",
+		"content": "<p>Insane set design with tons of details 🤯 (humanity in question</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/alphaville/": {
@@ -4087,8 +3961,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "ga",
-		"text": "Heart for Anna ❤️",
+		"content": "<p>Heart for Anna ❤️</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/there-will-be-blood/": {
@@ -4112,8 +3985,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "Engaging is defined here (Amazing sound from newly renovated Vancity Theatre at VIFF Center 🫡",
+		"content": "<p>Engaging is defined here (Amazing sound from newly renovated Vancity Theatre at VIFF Center 🫡</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/lawrence-of-arabia/": {
@@ -4137,8 +4009,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "The nature of blood thirst (way better desert than Dune 🙄",
+		"content": "<p>The nature of blood thirst (way better desert than Dune 🙄</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/le-samourai/": {
@@ -4162,8 +4033,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "When the lone wolf decides to die",
+		"content": "<p>When the lone wolf decides to die</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-last-mistress/": {
@@ -4187,8 +4057,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "So modern as a period piece (I still don’t like upper class western period troupe",
+		"content": "<p>So modern as a period piece (I still don’t like upper class western period troupe</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/hardcore/": {
@@ -4212,8 +4081,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/criterion-channel/films/"
 			}
 		],
-		"language": "en",
-		"text": "Cinematic anthropology",
+		"content": "<p>Cinematic anthropology</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/anatomy-of-hell/": {
@@ -4237,8 +4105,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Hell in your mind",
+		"content": "<p>Hell in your mind</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/blue-collar/": {
@@ -4262,8 +4129,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/criterion-channel/films/"
 			}
 		],
-		"language": "en",
-		"text": "Spitting facts",
+		"content": "<p>Spitting facts</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/victims-of-sin/": {
@@ -4287,8 +4153,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Great fully filmed performance",
+		"content": "<p>Great fully filmed performance</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/perfect-love/": {
@@ -4312,8 +4177,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Real toxic relationship",
+		"content": "<p>Real toxic relationship</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/my-heart-is-that-eternal-rose/": {
@@ -4337,8 +4201,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Beautiful sinister night",
+		"content": "<p>Beautiful sinister night</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/gilda/": {
@@ -4362,8 +4225,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Drama and drama and drama, and beautiful singing",
+		"content": "<p>Drama and drama and drama, and beautiful singing</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/fat-girl/": {
@@ -4387,8 +4249,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "No mo bitches finally",
+		"content": "<p>No mo bitches finally</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/green-snake/": {
@@ -4416,8 +4277,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/mysterious-movie-night/films/"
 			}
 		],
-		"language": "en",
-		"text": "Peak peak peak cinema with such a great multilayered satirical retelling of the folklore",
+		"content": "<p>Peak peak peak cinema with such a great multilayered satirical retelling of the folklore</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/36-fillette/": {
@@ -4441,8 +4301,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "What a mosaic of stories around a girl rampant through her teenage years",
+		"content": "<p>What a mosaic of stories around a girl rampant through her teenage years</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/pierrot-le-fou/1/": {
@@ -4466,8 +4325,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "A fresh re-watch (cuz I just can’t summarized and remembered this movie in a few sentences). The crazy man’s monologue by the pier is the most funny bit ever.",
+		"content": "<p>A fresh re-watch (cuz I just can’t summarized and remembered this movie in a few sentences). The crazy man’s monologue by the pier is the most funny bit ever.</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/irreversible/1/": {
@@ -4491,8 +4349,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/rio-theatre/films/"
 			}
 		],
-		"language": "en",
-		"text": "Should’ve marked this because this is the Straight Cut version but anyway it’s insane (btw projectionist was seriously warning the audience and willing to give a voucher to walkouts",
+		"content": "<p>Should’ve marked this because this is the Straight Cut version but anyway it’s insane (btw projectionist was seriously warning the audience and willing to give a voucher to walkouts</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/irreversible/": {
@@ -4516,8 +4373,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/rio-theatre/films/"
 			}
 		],
-		"language": "en",
-		"text": "Time destroys everything\n\nAmazing camerawork and jaw-dropping violence (it’s gonna a scary night walking home…\n\nWatched Straight Cut version at the one and only Rio Theatre",
+		"content": "<blockquote><p>Time destroys everything</p></blockquote><p>Amazing camerawork and jaw-dropping violence (it’s gonna a scary night walking home…</p><p>Watched Straight Cut version at the one and only Rio Theatre</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/amelie/": {
@@ -4541,8 +4397,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/rio-theatre/films/"
 			}
 		],
-		"language": "en",
-		"text": "Guess I’m too old to be just simply cute",
+		"content": "<p>Guess I’m too old to be just simply cute</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/its-such-a-beautiful-day/": {
@@ -4566,7 +4421,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"text": "I’m in pain. ",
+		"content": "<blockquote><p>I’m in pain. </p></blockquote>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/me-2024/": {
@@ -4590,8 +4445,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Cutest (but also craziest) post-apocalyptic animation",
+		"content": "<p>Cutest (but also craziest) post-apocalyptic animation</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/music-2023/": {
@@ -4615,8 +4469,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Barely understand the story but who doesn’t enjoy beautiful scenery, beautiful people and beautiful music (so why best screenplay 🤣",
+		"content": "<p>Barely understand the story but who doesn’t enjoy beautiful scenery, beautiful people and beautiful music (so why best screenplay 🤣</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/a-real-young-girl/": {
@@ -4640,8 +4493,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "I prefer an evening. I’ll be sadder. \n\nBeautiful beautiful summer on films and that all I’d say 😌",
+		"content": "<blockquote><p>I prefer an evening. I’ll be sadder. </p></blockquote><p>Beautiful beautiful summer on films and that all I’d say 😌</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/last-summer-2023/": {
@@ -4665,8 +4517,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Full-on transgressive story of love and cruel fucking world",
+		"content": "<p>Full-on transgressive story of love and cruel fucking world</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/all-about-lily-chou-chou/1/": {
@@ -4690,8 +4541,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Oh my god the ending is SOOOOO GOOD!",
+		"content": "<p>Oh my god the ending is SOOOOO GOOD!</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/north-by-northwest/": {
@@ -4715,8 +4565,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Oh my god I just can’t take more tropes of “you have the most handsome face I’ve ever seen” 🙃",
+		"content": "<p>Oh my god I just can’t take more tropes of “you have the most handsome face I’ve ever seen” 🙃</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/wood-and-water/": {
@@ -4740,8 +4589,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/criterion-channel/films/"
 			}
 		],
-		"language": "en",
-		"text": "It’s funny how things coincide. How they’re all linked. \n\nFinding warmth of human interaction in struggles in the city",
+		"content": "<blockquote><p>It’s funny how things coincide. How they’re all linked. </p></blockquote><p>Finding warmth of human interaction in struggles in the city</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/scarface-1983/": {
@@ -4765,8 +4613,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/rio-theatre/films/"
 			}
 		],
-		"language": "en",
-		"text": "Papa drug dealer told baby drug dealers: don’t get high on your own supply. \nBaby drug dealer just got free from Communist Cuba: don’t tell me what to do. \n\nThe conflicts of communist values with the path to success of money, power and women.",
+		"content": "<p>Papa drug dealer told baby drug dealers: don’t get high on your own supply. <br>Baby drug dealer just got free from Communist Cuba: don’t tell me what to do. </p><p>The conflicts of communist values with the path to success of money, power and women.</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/spellbound/": {
@@ -4790,8 +4637,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Psychological detective\n\nLet’s go see some sane flowers, normal trees and clouds without any complex",
+		"content": "<p>Psychological detective</p><blockquote><p>Let’s go see some sane flowers, normal trees and clouds without any complex</p></blockquote>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/robot-dreams/": {
@@ -4815,8 +4661,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/rio-theatre/films/"
 			}
 		],
-		"language": "en",
-		"text": "Rom-com of the year 😭",
+		"content": "<p>Rom-com of the year 😭</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/maxxxine/": {
@@ -4840,8 +4685,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/cineplex-international-village-cinemas/films/"
 			}
 		],
-		"language": "en",
-		"text": "Never give up",
+		"content": "<p>Never give up</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/yi-yi/1/": {
@@ -4865,8 +4709,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Yi Yi is the definition of classic. You’ve seen it. You want to see it more. Every rewatch is full of new discoveries but not a lot of new opinions. I’m just happy to be here, again.",
+		"content": "<p>Yi Yi is the definition of classic. You’ve seen it. You want to see it more. Every rewatch is full of new discoveries but not a lot of new opinions. I’m just happy to be here, again.</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/taipei-story/1/": {
@@ -4894,8 +4737,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-tram/films/"
 			}
 		],
-		"language": "en",
-		"text": "Hard truth of life shouldn’t happened to me so fast  😢",
+		"content": "<p>Hard truth of life shouldn’t happened to me so fast  😢</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/red-psalm/": {
@@ -4919,8 +4761,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "A fine mix of Socialism and Christianity",
+		"content": "<p>A fine mix of Socialism and Christianity</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/golden-eighties/1/": {
@@ -4944,8 +4785,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "The undertone of consumerism is so fun (Giant Gun Crazy poster spotted!",
+		"content": "<p>The undertone of consumerism is so fun (Giant Gun Crazy poster spotted!</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/night-and-the-city/": {
@@ -4969,8 +4809,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/criterion-channel/films/"
 			}
 		],
-		"language": "en",
-		"text": "Do hustle but not at night",
+		"content": "<p>Do hustle but not at night</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/dazed-and-confused/": {
@@ -4994,8 +4833,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/rio-theatre/films/"
 			}
 		],
-		"language": "en",
-		"text": "A Linklater defeated me with no subs 😵",
+		"content": "<p>A Linklater defeated me with no subs 😵</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/x-2022/": {
@@ -5019,8 +4857,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/rio-theatre/films/"
 			}
 		],
-		"language": "en",
-		"text": "\"One goddamn fucked up horror picture\"",
+		"content": "<p>\"One goddamn fucked up horror picture\"</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/pearl-2022/": {
@@ -5044,8 +4881,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/rio-theatre/films/"
 			}
 		],
-		"language": "en",
-		"text": "Most touching movie oh my god",
+		"content": "<p>Most touching movie oh my god</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/kinds-of-kindness/": {
@@ -5073,8 +4909,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-tram/films/"
 			}
 		],
-		"language": "en",
-		"text": "Kinds of Madness",
+		"content": "<p>Kinds of Madness</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/nimic/": {
@@ -5098,8 +4933,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Mimicking seems working",
+		"content": "<p>Mimicking seems working</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/animal-2023-3/": {
@@ -5123,8 +4957,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Turmoil",
+		"content": "<p>Turmoil</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-lobster/": {
@@ -5148,7 +4981,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"text": "Best Lanthimos’s",
+		"content": "<p>Best Lanthimos’s</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/practice-2018/": {
@@ -5172,8 +5005,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/criterion-channel/films/"
 			}
 		],
-		"language": "is",
-		"text": "stunning",
+		"content": "<p>stunning</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/gun-crazy/": {
@@ -5197,8 +5029,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/criterion-channel/films/"
 			}
 		],
-		"language": "en",
-		"text": "Bros before hos. Good job Bart boi",
+		"content": "<p>Bros before hos. Good job Bart boi</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/singapore-sling/": {
@@ -5222,8 +5053,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "So fast to find another movie with crazy threesome🙃 and enough you weird Greek filmmakers",
+		"content": "<p>So fast to find another movie with crazy threesome🙃 and enough you weird Greek filmmakers</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-killing-of-a-sacred-deer/": {
@@ -5247,8 +5077,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Yeah, just another Lanthimos weird shit",
+		"content": "<p>Yeah, just another Lanthimos weird shit</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/i-saw-the-tv-glow/": {
@@ -5272,8 +5101,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/rio-theatre/films/"
 			}
 		],
-		"language": "en",
-		"text": "Melancholy",
+		"content": "<p>Melancholy</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/a-trip-to-the-moon/": {
@@ -5297,8 +5125,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/criterion-channel/films/"
 			}
 		],
-		"language": "en",
-		"text": "The just fell down from the moon and back happily",
+		"content": "<p>The just fell down from the moon and back happily</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/la-chinoise/": {
@@ -5322,8 +5149,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-internet-archive/films/"
 			}
 		],
-		"language": "en",
-		"text": "Real theatre",
+		"content": "<p>Real theatre</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/zea/": {
@@ -5351,8 +5177,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/35mm/films/"
 			}
 		],
-		"language": "en",
-		"text": "Corn-popping is true cinema",
+		"content": "<p>Corn-popping is true cinema</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-doom-generation/": {
@@ -5376,8 +5201,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/rio-theatre/films/"
 			}
 		],
-		"language": "en",
-		"text": "“Prepare for the Apocalypse”\nFrom first threesome to something way too extreme 😵",
+		"content": "<p>“Prepare for the Apocalypse”<br>From first threesome to something way too extreme 😵</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/in-a-lonely-place/": {
@@ -5401,8 +5225,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/criterion-channel/films/"
 			}
 		],
-		"language": "en",
-		"text": "Not so great an ending. Good story of rendering temperamental artistic pretentious guy",
+		"content": "<p>Not so great an ending. Good story of rendering temperamental artistic pretentious guy</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-married-woman/": {
@@ -5426,7 +5249,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"text": "The best posture for cinema-goers 😌",
+		"content": "<p>The best posture for cinema-goers 😌</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/sunset-boulevard/1/": {
@@ -5450,8 +5273,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/criterion-channel/films/"
 			}
 		],
-		"language": "en",
-		"text": "The queen of the silent pictures has arrived",
+		"content": "<p>The queen of the silent pictures has arrived</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/on-the-adamant/": {
@@ -5475,8 +5297,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "“For how long?” 🥲",
+		"content": "<p>“For how long?” 🥲</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/all-about-lily-chou-chou/": {
@@ -5500,7 +5321,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"text": "It’s all gonna be fine",
+		"content": "<p>It’s all gonna be fine</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/johns-gone/": {
@@ -5524,8 +5345,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/criterion-channel/films/"
 			}
 		],
-		"language": "en",
-		"text": "Urban Sadness from Good Ol' Brooklyn",
+		"content": "<p>Urban Sadness from Good Ol' Brooklyn</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/sound-in-the-mist/": {
@@ -5549,8 +5369,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "The up and down that is not showing",
+		"content": "<p>The up and down that is not showing</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/face-to-face-1966/": {
@@ -5574,8 +5393,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Mysterious dreamy montage (Another weird deep shit 🫠",
+		"content": "<p>Mysterious dreamy montage (Another weird deep shit 🫠</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/image-of-a-mother/": {
@@ -5599,8 +5417,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Touching family drama as the preserve of time and space. The human-devouring social construct",
+		"content": "<p>Touching family drama as the preserve of time and space. The human-devouring social construct</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-discreet-charm-of-the-bourgeoisie/": {
@@ -5628,8 +5445,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-alex/films/"
 			}
 		],
-		"language": "en",
-		"text": "Weird deep shit",
+		"content": "<p>Weird deep shit</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/z/1/": {
@@ -5653,8 +5469,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/criterion-channel/films/"
 			}
 		],
-		"language": "en",
-		"text": "“He is alive.”\n\nThis watch feels more like comedy than thriller, except the hard cold fact of the ending.",
+		"content": "<p>“He is alive.”</p><p>This watch feels more like comedy than thriller, except the hard cold fact of the ending.</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/mr-shosuke-ohara/": {
@@ -5682,8 +5497,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/16mm/films/"
 			}
 		],
-		"language": "en",
-		"text": "Modernization. Globalization. Culturalization. Capitalization. The story of Ohara Shosuke-san failed in the battle with the story of modern urban elegance. All the best to Mr Shosuke Ohara. (The movie literally ends with the beginning「始」",
+		"content": "<p>Modernization. Globalization. Culturalization. Capitalization. The story of Ohara Shosuke-san failed in the battle with the story of modern urban elegance. All the best to Mr Shosuke Ohara. (The movie literally ends with the beginning「始」</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/children-of-the-beehive/": {
@@ -5711,8 +5525,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/35mm/films/"
 			}
 		],
-		"language": "en",
-		"text": "So many things about post war modernization and the mix of forced-mature and romantic childhood",
+		"content": "<p>So many things about post war modernization and the mix of forced-mature and romantic childhood</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/too-late-blues/": {
@@ -5740,8 +5553,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/35mm/films/"
 			}
 		],
-		"language": "en",
-		"text": "Just as I start having a little hope, he just shows me what a bum he can be",
+		"content": "<p>Just as I start having a little hope, he just shows me what a bum he can be</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/i-used-to-be-funny/": {
@@ -5765,8 +5577,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "Love this! And especially when Jordan Peterson’s name is dropped 🤣",
+		"content": "<p>Love this! And especially when Jordan Peterson’s name is dropped 🤣</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/sorcerer/": {
@@ -5790,7 +5601,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/criterion-channel/films/"
 			}
 		],
-		"text": "What's it all for",
+		"content": "<p>What's it all for</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/eraserhead/": {
@@ -5814,8 +5625,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/criterion-channel/films/"
 			}
 		],
-		"language": "en",
-		"text": "A nightmare that just never ends. Seriously haunting oh my goodness (why is that lady is in the radiator?🙃",
+		"content": "<p>A nightmare that just never ends. Seriously haunting oh my goodness (why is that lady is in the radiator?🙃</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/dancer-in-the-dark/": {
@@ -5843,8 +5653,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/35mm/films/"
 			}
 		],
-		"language": "en",
-		"text": "American dream",
+		"content": "<p>American dream</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/west-indies/": {
@@ -5868,8 +5677,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Colonization is never really gone",
+		"content": "<p>Colonization is never really gone</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/blood-and-black-lace/": {
@@ -5893,8 +5701,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/rio-theatre/films/"
 			}
 		],
-		"language": "en",
-		"text": "Beautifully painted with colour and shadow. Cinematic horror is here.",
+		"content": "<p>Beautifully painted with colour and shadow. Cinematic horror is here.</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/hit-man-2023/": {
@@ -5918,8 +5725,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/scotiabank-theatre/films/"
 			}
 		],
-		"language": "en",
-		"text": "Yeah bro, fake it till you make it 🥷",
+		"content": "<p>Yeah bro, fake it till you make it 🥷</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/z/": {
@@ -5943,8 +5749,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "The great balance of drama and realism just in the right amount. (Yeah, and ”Z” is exactly how you pronounce Ziyi in English🫠)",
+		"content": "<p>The great balance of drama and realism just in the right amount. (Yeah, and ”Z” is exactly how you pronounce Ziyi in English🫠)</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-apartment/": {
@@ -5968,8 +5773,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/criterion-channel/films/"
 			}
 		],
-		"language": "en",
-		"text": "It’s a great film, everything-wise. Love every witty dialogue. Another great Christmas-New Year movie to you",
+		"content": "<p>It’s a great film, everything-wise. Love every witty dialogue. Another great Christmas-New Year movie to you</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-black-balloon-2012/": {
@@ -5993,8 +5797,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/criterion-channel/films/"
 			}
 		],
-		"language": "en",
-		"text": "Damn cool! How did they film this? So fun to see people talking to humanly balloon",
+		"content": "<p>Damn cool! How did they film this? So fun to see people talking to humanly balloon</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/songs-of-earth/": {
@@ -6018,8 +5821,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "Magical beauty of Mother Nature",
+		"content": "<p>Magical beauty of Mother Nature</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/daddy-longlegs/": {
@@ -6043,8 +5845,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/criterion-channel/films/"
 			}
 		],
-		"language": "en",
-		"text": "no perfect dad, just your dad (oh I missed my dad :.-(",
+		"content": "<p>no perfect dad, just your dad (oh I missed my dad :.-(</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/after-hours/": {
@@ -6068,8 +5869,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/criterion-channel/films/"
 			}
 		],
-		"language": "en",
-		"text": "Different rules apply at after hours. It ain’t less stressful than work. All is so well tailored. Amazing dialogue. It’s a real fun watch.\n\nUsually you may think you can do anything you want in your dreams. But this movie shows how I feel all the time in my dreams, which is everything is going against me.",
+		"content": "<p>Different rules apply at after hours. It ain’t less stressful than work. All is so well tailored. Amazing dialogue. It’s a real fun watch.</p><p>Usually you may think you can do anything you want in your dreams. But this movie shows how I feel all the time in my dreams, which is everything is going against me.</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/dogtooth/": {
@@ -6088,8 +5888,7 @@
 			"poster": "https://a.ltrbxd.com/resized/sm/upload/j6/sh/2m/01/xUnbL2Uoh4zoc1hJvIV6MDDJpka-0-230-0-345-crop.jpg?v=f876d41d35"
 		},
 		"tags": [],
-		"language": "en",
-		"text": "Is it just that family or the whole world is crazy",
+		"content": "<p>Is it just that family or the whole world is crazy</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-graduate/": {
@@ -6113,8 +5912,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/criterion-channel/films/"
 			}
 		],
-		"language": "en",
-		"text": "Plastics\nFighting with that cross is hilarious",
+		"content": "<p>Plastics<br>Fighting with that cross is hilarious</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/kill-bill-vol-2/": {
@@ -6138,8 +5936,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/rio-theatre/films/"
 			}
 		],
-		"language": "en",
-		"text": "Genre-bending everything",
+		"content": "<p>Genre-bending everything</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/kill-bill-vol-1/": {
@@ -6163,8 +5960,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/rio-theatre/films/"
 			}
 		],
-		"language": "en",
-		"text": "Western Duel with Japanese swords under snow is the best scene. Tarantino indeed knows how to film sailor suit girls. Super unexpected long anime sequences and it seeps into the whole movie. Oh yeah! That amazing girl band rocks!",
+		"content": "<p>Western Duel with Japanese swords under snow is the best scene. Tarantino indeed knows how to film sailor suit girls. Super unexpected long anime sequences and it seeps into the whole movie. Oh yeah! That amazing girl band rocks!</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/midsommar/": {
@@ -6183,8 +5979,7 @@
 			"poster": "https://a.ltrbxd.com/resized/film-poster/4/5/9/5/6/4/459564-midsommar-0-230-0-345-crop.jpg?v=ed7b8ded1f"
 		},
 		"tags": [],
-		"language": "en",
-		"text": "The sacrifice math I didn’t get it",
+		"content": "<p>The sacrifice math I didn’t get it</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/whos-afraid-of-virginia-woolf/": {
@@ -6208,8 +6003,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/criterion-channel/films/"
 			}
 		],
-		"language": "en",
-		"text": "A sad sad sad story. Let’s just hold hands before bed and no more games",
+		"content": "<p>A sad sad sad story. Let’s just hold hands before bed and no more games</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-hole/1/": {
@@ -6233,8 +6027,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "The unknown what’s-it-called disease in 21st century is isolation",
+		"content": "<p>The unknown what’s-it-called disease in 21st century is isolation</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/band-of-outsiders/1/": {
@@ -6258,8 +6051,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Goofy young criminal’s motto: “Just like in a movie” \n\nWhy you don’t love me?\n\nWhy people can’t form as a whole?\n\nOh Franz…",
+		"content": "<p>Goofy young criminal’s motto: “Just like in a movie” </p><blockquote><p>Why you don’t love me?</p></blockquote><blockquote><p>Why people can’t form as a whole?</p></blockquote><p>Oh Franz…</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/in-praise-of-love/": {
@@ -6283,8 +6075,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Saturated mosaics, Saturated emotions. \n\nWar is ended. Peace is not started. \n\nWhen I think about something, I think something else. You cannot think about something, without thinking about something else. \n\nWhy do we only talk about the content of things? We need to talk around things. We need to talk on the basis of things. \n\nTrying to know everything is cowardice. Just jump right in and live. ",
+		"content": "<p>Saturated mosaics, Saturated emotions. </p><blockquote><p>War is ended. Peace is not started. </p></blockquote><blockquote><p>When I think about something, I think something else. You cannot think about something, without thinking about something else. </p></blockquote><blockquote><p>Why do we only talk about the content of things? We need to talk around things. We need to talk on the basis of things. </p></blockquote><blockquote><p>Trying to know everything is cowardice. Just jump right in and live. </p></blockquote>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/challengers/": {
@@ -6303,8 +6094,7 @@
 			"poster": "https://a.ltrbxd.com/resized/film-poster/8/4/2/3/0/1/842301-challengers-0-230-0-345-crop.jpg?v=a7cd63cbef"
 		},
 		"tags": [],
-		"language": "en",
-		"text": "She just did everything other women wanted to do but didn’t do. And pick your character: a) Art; b) Patrick.",
+		"content": "<p>She just did everything other women wanted to do but didn’t do. And pick your character: a) Art; b) Patrick.</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/julien-donkey-boy/": {
@@ -6323,8 +6113,7 @@
 			"poster": "https://a.ltrbxd.com/resized/film-poster/2/2/2/1/9/22219-julien-donkey-boy-0-230-0-345-crop.jpg?v=8f0a39e10a"
 		},
 		"tags": [],
-		"language": "en",
-		"text": "\"Irrevocable\" fate\n\nThis got so many great scenes that instantly burned deep in your mind",
+		"content": "<p>\"Irrevocable\" fate</p><p>This got so many great scenes that instantly burned deep in your mind</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/age-of-panic/": {
@@ -6348,8 +6137,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Great realism work with unpredictable incidents and awkward conversations (what a chance that Hong’s new movie trailer was just playing before this film",
+		"content": "<p>Great realism work with unpredictable incidents and awkward conversations (what a chance that Hong’s new movie trailer was just playing before this film</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/in-bed-with-victoria/": {
@@ -6373,8 +6161,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "This filthy pragmatist capitalist world",
+		"content": "<p>This filthy pragmatist capitalist world</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/a-story-of-water/": {
@@ -6398,8 +6185,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/criterion-channel/films/"
 			}
 		],
-		"language": "en",
-		"text": "Girl got millions of things going on in her mind\n法国新浪潮快嘴",
+		"content": "<p>Girl got millions of things going on in her mind<br>法国新浪潮快嘴</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/band-of-outsiders/": {
@@ -6423,8 +6209,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "A fun early Godard's.\n\n\"No, he doesn't come to English class anymore. He says England is done for. He's learning Chinese.\"",
+		"content": "<p>A fun early Godard's.</p><p>\"No, he doesn't come to English class anymore. He says England is done for. He's learning Chinese.\"</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/gummo/1/": {
@@ -6443,8 +6228,7 @@
 			"poster": "https://a.ltrbxd.com/resized/sm/upload/ax/63/ma/r8/54rpZVaJ2PJ9SrqFAYqxY2YAdRB-0-230-0-345-crop.jpg?v=c3d50845ae"
 		},
 		"tags": [],
-		"language": "en",
-		"text": "So over the top and also so realistic. What a cinematic prose poetry",
+		"content": "<p>So over the top and also so realistic. What a cinematic prose poetry</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/whats-a-nice-girl-like-you-doing-in-a-place-like-this/": {
@@ -6468,8 +6252,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/criterion-channel/films/"
 			}
 		],
-		"language": "en",
-		"text": "“Life is fraught with peril.”",
+		"content": "<p>“Life is fraught with peril.”</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/pig-2021/": {
@@ -6493,8 +6276,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/hungryghostcinema/films/"
 			}
 		],
-		"language": "en",
-		"text": "Mystery plots turned out only because of people who don’t want to face themselves",
+		"content": "<p>Mystery plots turned out only because of people who don’t want to face themselves</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/paris-is-burning/": {
@@ -6518,8 +6300,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/criterion-channel/films/"
 			}
 		],
-		"language": "en",
-		"text": "The oppressed life teaches you all",
+		"content": "<p>The oppressed life teaches you all</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/mulholland-drive/": {
@@ -6547,8 +6328,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-alex/films/"
 			}
 		],
-		"language": "en",
-		"text": "Silencio \n\nFuck, what just happened (!)\n\nPS: just days ago I watched The Hole and someone told me it’s kinda like David Lynch. Now these two films are fused together",
+		"content": "<blockquote><p>Silencio </p></blockquote><p>Fuck, what just happened (!)</p><p>PS: just days ago I watched The Hole and someone told me it’s kinda like David Lynch. Now these two films are fused together</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/a-room-in-town-1982/": {
@@ -6572,8 +6352,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Musical as an ideal world we would never be able to reach",
+		"content": "<p>Musical as an ideal world we would never be able to reach</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-hole/": {
@@ -6597,8 +6376,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Longing for someone’s company",
+		"content": "<p>Longing for someone’s company</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/perfect-days-2023/1/": {
@@ -6617,8 +6395,7 @@
 			"poster": "https://a.ltrbxd.com/resized/film-poster/8/7/9/2/2/9/879229-perfect-days-0-230-0-345-crop.jpg?v=4ea80661fd"
 		},
 		"tags": [],
-		"language": "en",
-		"text": "I’m at this review text box for so long time. It’s so many and so little. It’s life happening there.",
+		"content": "<p>I’m at this review text box for so long time. It’s so many and so little. It’s life happening there.</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/late-night-with-the-devil/": {
@@ -6642,8 +6419,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/rio-theatre/films/"
 			}
 		],
-		"language": "en",
-		"text": "Live TV part is pretty haunting",
+		"content": "<p>Live TV part is pretty haunting</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/neon-genesis-evangelion-the-end-of-evangelion/": {
@@ -6667,8 +6443,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/rio-theatre/films/"
 			}
 		],
-		"language": "en",
-		"text": "It just brought back all the memories of why I love anime",
+		"content": "<p>It just brought back all the memories of why I love anime</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-florida-project/": {
@@ -6700,8 +6475,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-alex/films/"
 			}
 		],
-		"language": "en",
-		"text": "Florida, Disney World, Single moms with kids",
+		"content": "<p>Florida, Disney World, Single moms with kids</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-bitter-ash/": {
@@ -6725,8 +6499,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "I don’t know. I don’t know. ",
+		"content": "<blockquote><p>I don’t know. I don’t know. </p></blockquote>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/when-tomorrow-dies/": {
@@ -6750,8 +6523,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Hopeless domestic life",
+		"content": "<p>Hopeless domestic life</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/gummo/": {
@@ -6779,8 +6551,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-rajat/films/"
 			}
 		],
-		"language": "it",
-		"text": "Ghetto white epic",
+		"content": "<p>Ghetto white epic</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/snowpiercer/": {
@@ -6804,8 +6575,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Don’t play god no more human-beings",
+		"content": "<p>Don’t play god no more human-beings</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/july-rhapsody/": {
@@ -6829,8 +6599,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "Midlife crisis when pretty nice I guess? (Yeah that’s how low my expectation is for midlife (Anita Mui 梅艳芳💕",
+		"content": "<p>Midlife crisis when pretty nice I guess? (Yeah that’s how low my expectation is for midlife (Anita Mui 梅艳芳💕</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/kids/": {
@@ -6862,8 +6631,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-alex/films/"
 			}
 		],
-		"language": "en",
-		"text": "Fades of childhood (First movie from Video Cat is dope",
+		"content": "<p>Fades of childhood (First movie from Video Cat is dope</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/la-chimera/1/": {
@@ -6887,8 +6655,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "A curse or a gift: being trapped in the past",
+		"content": "<p>A curse or a gift: being trapped in the past</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/aggro-dr1ft/": {
@@ -6912,8 +6679,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/rio-theatre/films/"
 			}
 		],
-		"language": "zh",
-		"text": "Only love survives\n\nThe film of our era \n滤镜库限时免费hhhh",
+		"content": "<blockquote><p>Only love survives</p></blockquote><p>The film of our era <br>滤镜库限时免费hhhh</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/spring-breakers/": {
@@ -6932,8 +6698,7 @@
 			"poster": "https://a.ltrbxd.com/resized/film-poster/9/6/1/0/9/96109-spring-breakers-0-230-0-345-crop.jpg?v=419b8d6331"
 		},
 		"tags": [],
-		"language": "en",
-		"text": "Seems like a dream\n\nThug poem\n\nPS: someone next to me just said hey y'all",
+		"content": "<blockquote><p>Seems like a dream</p></blockquote><p>Thug poem</p><p>PS: someone next to me just said hey y'all</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/louis-ck-learns-about-the-catholic-church/": {
@@ -6957,8 +6722,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/youtube/films/"
 			}
 		],
-		"language": "en",
-		"text": "Funniest shit ever",
+		"content": "<p>Funniest shit ever</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/broken-english/": {
@@ -6982,8 +6746,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/criterion-channel/films/"
 			}
 		],
-		"language": "en",
-		"text": "Kind of cliche but don’t we just all need a reminder",
+		"content": "<p>Kind of cliche but don’t we just all need a reminder</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/evil-does-not-exist/": {
@@ -7007,8 +6770,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "The unspoken can only be told in action",
+		"content": "<p>The unspoken can only be told in action</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/adrianne-the-castle/": {
@@ -7036,8 +6798,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/doxa24/films/"
 			}
 		],
-		"language": "en",
-		"text": "Beautiful life long love story with unapologetic vision and amazing craftsmanship",
+		"content": "<p>Beautiful life long love story with unapologetic vision and amazing craftsmanship</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-three-musketeers-milady/": {
@@ -7061,8 +6822,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "I’m doomed long time ago. I believe in freedom ",
+		"content": "<blockquote><p>I’m doomed long time ago. I believe in freedom </p></blockquote>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/im-not-everything-i-want-to-be/": {
@@ -7090,8 +6850,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/doxa24/films/"
 			}
 		],
-		"language": "en",
-		"text": "WATCH OUT - it is not over\n\nBeautiful photographs (plog kind of?) capturing everything in her life and the world around her",
+		"content": "<blockquote><p>WATCH OUT - it is not over</p></blockquote><p>Beautiful photographs (plog kind of?) capturing everything in her life and the world around her</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-movie-man/": {
@@ -7119,8 +6878,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/doxa24/films/"
 			}
 		],
-		"language": "en",
-		"text": "Best popcorn raised the whole forest 🍿",
+		"content": "<p>Best popcorn raised the whole forest 🍿</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/black-box-diaries/": {
@@ -7148,8 +6906,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/doxa24/films/"
 			}
 		],
-		"language": "en",
-		"text": "The society is still far from ideal. Gather your comrades and be ready to fight",
+		"content": "<p>The society is still far from ideal. Gather your comrades and be ready to fight</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-anarchist-lunch/": {
@@ -7177,7 +6934,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/doxa24/films/"
 			}
 		],
-		"text": "Activist for life",
+		"content": "<p>Activist for life</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/anna-1975/": {
@@ -7205,8 +6962,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/doxa24/films/"
 			}
 		],
-		"language": "en",
-		"text": "“No” is something you say to the oppressor, not to your baby, your lover, your life\n\nA group of hippies talking on the street with class-awareness full on. Authentic, touching and cannot be more relevant today.\n\nPS: all the talkings happened in the public space reminded me of The Gods of Time Square",
+		"content": "<blockquote><p>“No” is something you say to the oppressor, not to your baby, your lover, your life</p></blockquote><p>A group of hippies talking on the street with class-awareness full on. Authentic, touching and cannot be more relevant today.</p><p>PS: all the talkings happened in the public space reminded me of <a href=\"https://boxd.it/3iU2\" rel=\"nofollow\">The Gods of Time Square</a></p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/age-of-bloom/": {
@@ -7230,7 +6986,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/criterion-channel/films/"
 			}
 		],
-		"text": "Old-timey life and love",
+		"content": "<p>Old-timey life and love</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/alice-in-the-cities/": {
@@ -7254,8 +7010,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/criterion-channel/films/"
 			}
 		],
-		"language": "en",
-		"text": "A cute girl in the shotgun seat cures whatever existential anxieties you have",
+		"content": "<p>A cute girl in the shotgun seat cures whatever existential anxieties you have</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/an-autumns-tale/": {
@@ -7279,8 +7034,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/criterion-channel/films/"
 			}
 		],
-		"language": "en",
-		"text": "New York. Autumn. Magic hours",
+		"content": "<p>New York. Autumn. Magic hours</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/ryuichi-sakamoto-opus/": {
@@ -7304,8 +7058,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "The smile when he played Tong Poo",
+		"content": "<p>The smile when he played Tong Poo</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/with-love-and-a-major-organ/": {
@@ -7329,8 +7082,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "Bring it on the dance floor therapy room",
+		"content": "<p>Bring it on the dance floor therapy room</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/perfect-days-2023/": {
@@ -7354,8 +7106,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/rio-theatre/films/"
 			}
 		],
-		"language": "en",
-		"text": "Next time is next time, now is now.",
+		"content": "<p>Next time is next time, now is now.</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-zone-of-interest/": {
@@ -7387,8 +7138,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/w-rajat/films/"
 			}
 		],
-		"language": "en",
-		"text": "How civilized people can be so much inhumane",
+		"content": "<p>How civilized people can be so much inhumane</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/la-chimera/": {
@@ -7412,8 +7162,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Longing for the long gone",
+		"content": "<p>Longing for the long gone</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/dogleg/": {
@@ -7437,8 +7186,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "So surprised that I actually recognized Nick just by his voice",
+		"content": "<p>So surprised that I actually recognized Nick just by his voice</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/madame-butterfly-2009/": {
@@ -7457,8 +7205,7 @@
 			"poster": "https://a.ltrbxd.com/resized/film-poster/1/5/7/0/0/3/157003-madame-butterfly-0-230-0-345-crop.jpg?v=fd85c7016f"
 		},
 		"tags": [],
-		"language": "en",
-		"text": "Love cut deep",
+		"content": "<p>Love cut deep</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/goodbye-dragon-inn/": {
@@ -7477,8 +7224,7 @@
 			"poster": "https://a.ltrbxd.com/resized/film-poster/9/4/8/4/9484-goodbye-dragon-inn-0-230-0-345-crop.jpg?v=5371fbcb8a"
 		},
 		"tags": [],
-		"language": "en",
-		"text": "Ghosts of cinema",
+		"content": "<p>Ghosts of cinema</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/barry-lyndon/": {
@@ -7502,8 +7248,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/cineplex-international-village-cinemas/films/"
 			}
 		],
-		"language": "fr",
-		"text": "me boi",
+		"content": "<p>me boi</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/vivre-sa-vie/": {
@@ -7527,8 +7272,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Talk to old fella. They know their shit",
+		"content": "<p>Talk to old fella. They know their shit</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/notre-musique/": {
@@ -7552,8 +7296,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Israeli fiction, Palestinian documentary",
+		"content": "<p>Israeli fiction, Palestinian documentary</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-beast-2023-1/": {
@@ -7577,8 +7320,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Humanity cannot be killed",
+		"content": "<p>Humanity cannot be killed</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/coma-2022/": {
@@ -7602,8 +7344,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Experimental everywhere",
+		"content": "<p>Experimental everywhere</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/blue-gate-crossing/": {
@@ -7627,8 +7368,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/dvd/films/"
 			}
 		],
-		"language": "en",
-		"text": "Summertime wasted on young kids is what we call youth",
+		"content": "<p>Summertime wasted on young kids is what we call youth</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/a-confucian-confusion/2/": {
@@ -7652,8 +7392,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Treat each other well and don’t forget yourself cuz the world is fucking cruel",
+		"content": "<p>Treat each other well and don’t forget yourself cuz the world is fucking cruel</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/mahjong/1/": {
@@ -7677,8 +7416,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Dope or Crook. Money come with expenses",
+		"content": "<p>Dope or Crook. Money come with expenses</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/a-brighter-summer-day/1/": {
@@ -7702,8 +7440,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Class, Power, Bureaucracy and a boy falling in love with his moral compass",
+		"content": "<p>Class, Power, Bureaucracy and a boy falling in love with his moral compass</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/kims-video/": {
@@ -7727,8 +7464,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/rio-theatre/films/"
 			}
 		],
-		"language": "en",
-		"text": "What you care is what matters",
+		"content": "<p>What you care is what matters</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/civil-war-2024/": {
@@ -7752,8 +7488,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/landmarks-new-west/films/"
 			}
 		],
-		"language": "en",
-		"text": "Recursive absurdity bounced back and forth between fiction and reality to a out of body experience transcending space and time",
+		"content": "<p>Recursive absurdity bounced back and forth between fiction and reality to a out of body experience transcending space and time</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/totem-2023/": {
@@ -7777,8 +7512,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "The suppressed sadness",
+		"content": "<p>The suppressed sadness</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/a-brighter-summer-day/": {
@@ -7802,8 +7536,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Adulting",
+		"content": "<p>Adulting</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-taste-of-things/": {
@@ -7827,8 +7560,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Beautiful old-timey art and love",
+		"content": "<p>Beautiful old-timey art and love</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/mahjong/": {
@@ -7852,8 +7584,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Spitting fact my Red Fish boi",
+		"content": "<p>Spitting fact my Red Fish boi</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/parachute-2023/": {
@@ -7877,8 +7608,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Don’t be no others’ saviour. Be your own saviour",
+		"content": "<p>Don’t be no others’ saviour. Be your own saviour</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/a-woman-is-a-woman/1/": {
@@ -7902,8 +7632,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Everyone wants to go to Mexico",
+		"content": "<p>Everyone wants to go to Mexico</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/lolita/": {
@@ -7927,8 +7656,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/cineplex-international-village-cinemas/films/"
 			}
 		],
-		"language": "en",
-		"text": "Yeah it’s a free country, but your desire confines you",
+		"content": "<p>Yeah it’s a free country, but your desire confines you</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/a-confucian-confusion/1/": {
@@ -7952,8 +7680,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "zh",
-		"text": "「你怎么能把这种事说的这么龌龊呢」",
+		"content": "<p>「你怎么能把这种事说的这么龌龊呢」</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/terrorizers/": {
@@ -7977,8 +7704,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Reasons behind human condition in modern urban life",
+		"content": "<p>Reasons behind human condition in modern urban life</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/taipei-story/": {
@@ -8002,8 +7728,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Wimpy grumpy man yelling at his wife",
+		"content": "<p>Wimpy grumpy man yelling at his wife</p>",
 		"spoiler": true
 	},
 	"https://letterboxd.com/ziyiyan/film/bye-bye-tiberias/": {
@@ -8027,8 +7752,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Looking back",
+		"content": "<p>Looking back</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/under-the-skin-2013/": {
@@ -8052,8 +7776,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "Let the snow falls on it",
+		"content": "<p>Let the snow falls on it</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/birth-2004/": {
@@ -8077,8 +7800,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "Plot is so good in a sense-making way. You can see love between everyone",
+		"content": "<p>Plot is so good in a sense-making way. You can see love between everyone</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/that-day-on-the-beach/": {
@@ -8102,8 +7824,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "The core story is touching everything in life",
+		"content": "<p>The core story is touching everything in life</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/when-the-cat-comes/": {
@@ -8127,8 +7848,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Who can resist a movie with music sequences and cute cats",
+		"content": "<p>Who can resist a movie with music sequences and cute cats</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/spacked-out/": {
@@ -8152,8 +7872,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "hard R abortion scene",
+		"content": "<p>hard R abortion scene</p>",
 		"spoiler": true
 	},
 	"https://letterboxd.com/ziyiyan/film/nadja-in-paris/": {
@@ -8177,7 +7896,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/dvd/films/"
 			}
 		],
-		"text": "Pivot",
+		"content": "<p>Pivot</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/suzannes-career/": {
@@ -8201,8 +7920,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/dvd/films/"
 			}
 		],
-		"language": "en",
-		"text": "Meat market 101",
+		"content": "<p>Meat market 101</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/mademoiselle-kenopsia/": {
@@ -8226,8 +7944,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "I like films that talk",
+		"content": "<p>I like films that talk</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/i-know-where-im-going/": {
@@ -8251,8 +7968,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Know that where you want to go as well (I’m so defeated by Scottish accent",
+		"content": "<p>Know that where you want to go as well (I’m so defeated by Scottish accent</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/my-night-at-mauds/": {
@@ -8276,7 +7992,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/dvd/films/"
 			}
 		],
-		"text": "Love the REAL secretive Françoise",
+		"content": "<p>Love the REAL secretive Françoise</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/a-woman-is-a-woman/": {
@@ -8300,8 +8016,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Joyful half-baked musical comedy",
+		"content": "<p>Joyful half-baked musical comedy</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/hundreds-of-beavers/": {
@@ -8325,8 +8040,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/rio-theatre/films/"
 			}
 		],
-		"language": "en",
-		"text": "Silly fun movie with action scenes and hundreds of beavers!",
+		"content": "<p>Silly fun movie with action scenes and hundreds of beavers!</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/saint-maud/": {
@@ -8345,8 +8059,7 @@
 			"poster": "https://a.ltrbxd.com/resized/sm/upload/8i/fl/ux/x4/uQjxpEYktu36ZiWKfn0t0FySmXl-0-230-0-345-crop.jpg?v=adf9e62e9b"
 		},
 		"tags": [],
-		"language": "en",
-		"text": "Comfort of belief",
+		"content": "<p>Comfort of belief</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/le-pont-du-nord/": {
@@ -8365,8 +8078,7 @@
 			"poster": "https://a.ltrbxd.com/resized/film-poster/6/9/0/5/6905-le-pont-du-nord-0-230-0-345-crop.jpg?v=e1da36175c"
 		},
 		"tags": [],
-		"language": "en",
-		"text": "Karate girl is wild (Rivette’s give me good sleep",
+		"content": "<p>Karate girl is wild (Rivette’s give me good sleep</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/love-lies-bleeding-2024/": {
@@ -8390,8 +8102,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/landmarks-new-west/films/"
 			}
 		],
-		"language": "en",
-		"text": "Giant girl is making sense",
+		"content": "<p>Giant girl is making sense</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/celine-and-julie-go-boating/": {
@@ -8415,8 +8126,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "You just can’t be serious with what it’s going on",
+		"content": "<p>You just can’t be serious with what it’s going on</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/gang-of-four/": {
@@ -8440,8 +8150,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "“It is not a jerk\nIt is a man that I love”",
+		"content": "<p>“It is not a jerk<br>It is a man that I love”</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-sweet-east/1/": {
@@ -8465,8 +8174,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/rio-theatre/films/"
 			}
 		],
-		"language": "en",
-		"text": "Beautiful blend of what you experienced and who you are, visually and narratively. Amazing music in so many scenes\n(Looking forward to the franchise",
+		"content": "<p>Beautiful blend of what you experienced and who you are, visually and narratively. Amazing music in so many scenes<br>(Looking forward to the franchise</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/about-dry-grasses/2/": {
@@ -8490,7 +8198,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"text": "Oblivion",
+		"content": "<p>Oblivion</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/about-dry-grasses/1/": {
@@ -8514,8 +8222,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "Came in to catch the awkward and then poetic ending. One lady went out for a walk and said: “they just talk and talk and talk ……”",
+		"content": "<p>Came in to catch the awkward and then poetic ending. One lady went out for a walk and said: “they just talk and talk and talk ……”</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/wild-tales/": {
@@ -8539,8 +8246,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "Wild for sure (shout out to all volunteers👏 (me included😉",
+		"content": "<p>Wild for sure (shout out to all volunteers👏 (me included😉</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/inside-the-yellow-cocoon-shell/1/": {
@@ -8564,8 +8270,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "How does it profit\nif you own the whole world\nbut lose your soul\n\nLove the nanny",
+		"content": "<blockquote><p>How does it profit<br>if you own the whole world<br>but lose your soul</p></blockquote><p>Love the nanny</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/inside-the-yellow-cocoon-shell/": {
@@ -8589,8 +8294,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Beautiful foggy landscape scenes. Mysterious ending hits well. Love the elders (story-telling grandpa and meta-concerning grandma)",
+		"content": "<p>Beautiful foggy landscape scenes. Mysterious ending hits well. Love the elders (story-telling grandpa and meta-concerning grandma)</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/taxi-driver/": {
@@ -8609,8 +8313,7 @@
 			"poster": "https://a.ltrbxd.com/resized/film-poster/5/1/9/4/7/51947-taxi-driver-0-230-0-345-crop.jpg?v=3ae07cca2d"
 		},
 		"tags": [],
-		"language": "en",
-		"text": "Heart to the melody",
+		"content": "<p>Heart to the melody</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/our-time-our-story/": {
@@ -8634,8 +8337,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/dvd/films/"
 			}
 		],
-		"language": "zh",
-		"text": "「大烂片」—— 侯孝贤看完悲情城市试映后评价",
+		"content": "<p>「大烂片」—— 侯孝贤看完悲情城市试映后评价</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/brief-encounters/1/": {
@@ -8659,8 +8361,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "“I live my life with eyes half-opened and I am fine.”",
+		"content": "<p>“I live my life with eyes half-opened and I am fine.”</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/enthusiasm-1930/": {
@@ -8684,8 +8385,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "zh",
-		"text": "全民大跃进和不可避免的饥荒\nVertov kept his conscience intact",
+		"content": "<p>全民大跃进和不可避免的饥荒<br>Vertov kept his conscience intact</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/enter-through-the-balcony/": {
@@ -8709,8 +8409,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "The apartment really looks alike to ours in China",
+		"content": "<p>The apartment really looks alike to ours in China</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/a-confucian-confusion/": {
@@ -8734,8 +8433,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/nyff60/films/"
 			}
 		],
-		"language": "zh",
-		"text": "“演的比真的还像”",
+		"content": "<p>“演的比真的还像”</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/histoires-du-cinema-4b-the-signs-among-us/": {
@@ -8759,8 +8457,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "“We can do everything, except the history of doing it.”",
+		"content": "<p>“We can do everything, except the history of doing it.”</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/sometimes-i-think-about-dying-2023/": {
@@ -8784,8 +8481,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "That seaside town is beautiful. The awkward conversations hit me so good that it reminds me of Hong Sang-soo. People are laughing so hard in the theatre 🤣",
+		"content": "<p>That seaside town is beautiful. The awkward conversations hit me so good that it reminds me of Hong Sang-soo. People are laughing so hard in the theatre 🤣</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/eternal-sunshine-of-the-spotless-mind/": {
@@ -8809,8 +8505,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/rio-theatre/films/"
 			}
 		],
-		"language": "en",
-		"text": "You deserve to have it if you can deal with losing it",
+		"content": "<p>You deserve to have it if you can deal with losing it</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/happy-together-1997/": {
@@ -8834,8 +8529,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/rio-theatre/films/"
 			}
 		],
-		"language": "en",
-		"text": "Face the past and move on",
+		"content": "<p>Face the past and move on</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/le-petit-soldat/": {
@@ -8859,8 +8553,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Freedom suffices/necessitates/equals happiness?",
+		"content": "<p>Freedom suffices/necessitates/equals happiness?</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-long-farewell-1971/1/": {
@@ -8884,8 +8577,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Scenes full of sensations",
+		"content": "<p>Scenes full of sensations</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-sweet-east/": {
@@ -8909,8 +8601,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-beacon-seattle/films/"
 			}
 		],
-		"language": "en",
-		"text": "“American cultural landscape “",
+		"content": "<p>“American cultural landscape “</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/judas-and-the-black-messiah/": {
@@ -8934,8 +8625,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/rio-theatre/films/"
 			}
 		],
-		"language": "da",
-		"text": "For Fred",
+		"content": "<p>For Fred</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-long-farewell-1971/": {
@@ -8959,8 +8649,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Beautiful ballad at the end\nEmotional silent scenes",
+		"content": "<p>Beautiful ballad at the end<br>Emotional silent scenes</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/brief-encounters/": {
@@ -8984,8 +8673,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "The attraction of careless free spirits",
+		"content": "<p>The attraction of careless free spirits</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/youth-spring/": {
@@ -9009,8 +8697,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "zh",
-		"text": "已逝去的青春",
+		"content": "<p>已逝去的青春</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/israelism/": {
@@ -9034,8 +8721,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/rio-theatre/films/"
 			}
 		],
-		"language": "en",
-		"text": "Need a rewatch tho",
+		"content": "<p>Need a rewatch tho</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/kung-fu-hustle/": {
@@ -9059,8 +8745,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Good cinema that you can just enjoy (Thanks to Mustafa!",
+		"content": "<p>Good cinema that you can just enjoy (Thanks to Mustafa!</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-gods-of-times-square/": {
@@ -9084,8 +8769,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Documentary matters so much",
+		"content": "<p>Documentary matters so much</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/breathless/1/": {
@@ -9109,8 +8793,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "I seem so into quarrel scenes",
+		"content": "<p>I seem so into quarrel scenes</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/about-dry-grasses/": {
@@ -9129,8 +8812,7 @@
 			"poster": "https://a.ltrbxd.com/resized/film-poster/5/9/0/8/9/6/590896-about-dry-grasses-0-230-0-345-crop.jpg?v=bf74b0ba6a"
 		},
 		"tags": [],
-		"language": "en",
-		"text": "Summer part is beautiful",
+		"content": "<p>Summer part is beautiful</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/la-roue/": {
@@ -9154,8 +8836,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Let the wheel turn for good",
+		"content": "<p>Let the wheel turn for good</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-battle-of-algiers/": {
@@ -9179,8 +8860,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/ycl/films/"
 			}
 		],
-		"language": "en",
-		"text": "Quite a place watch this and I definitely need to watch it again (you know why🥲",
+		"content": "<p>Quite a place watch this and I definitely need to watch it again (you know why🥲</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/solaris/1/": {
@@ -9204,8 +8884,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Facing the past",
+		"content": "<p>Facing the past</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/serie-noire/": {
@@ -9229,8 +8908,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "Nice funny guy\nBut why don’t just kill one more dude 😅",
+		"content": "<p>Nice funny guy<br>But why don’t just kill one more dude 😅</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/hong-sangsoo-winner-of-the-silver-bear-for-best-screenplay/": {
@@ -9249,8 +8927,7 @@
 			"poster": "https://a.ltrbxd.com/resized/film-poster/7/2/0/1/3/9/720139-hong-sangsoo-winner-of-the-silver-bear-for-best-screenpla-0-230-0-345-crop.jpg?v=2e61938940"
 		},
 		"tags": [],
-		"language": "en",
-		"text": "Unfortunately I am a bit scared of snails 🥲",
+		"content": "<p>Unfortunately I am a bit scared of snails 🥲</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/in-water/": {
@@ -9269,8 +8946,7 @@
 			"poster": "https://a.ltrbxd.com/resized/film-poster/9/7/1/3/7/2/971372-in-water-0-230-0-345-crop.jpg?v=c516f1f318"
 		},
 		"tags": [],
-		"language": "en",
-		"text": "Going far out to the sea",
+		"content": "<p>Going far out to the sea</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-strangler-1970/": {
@@ -9289,8 +8965,7 @@
 			"poster": "https://a.ltrbxd.com/resized/film-poster/1/3/4/3/4/1/134341-the-strangler-0-230-0-345-crop.jpg?v=324ed7e381"
 		},
 		"tags": [],
-		"language": "en",
-		"text": "Good looking French film with good looking people doing strange things",
+		"content": "<p>Good looking French film with good looking people doing strange things</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/close-your-eyes-2023/": {
@@ -9314,8 +8989,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "Present, past and future",
+		"content": "<p>Present, past and future</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-spirit-of-the-beehive/": {
@@ -9339,8 +9013,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "Slow cinema",
+		"content": "<p>Slow cinema</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/lady-killer-1937/": {
@@ -9359,8 +9032,7 @@
 			"poster": "https://a.ltrbxd.com/resized/film-poster/6/4/9/6/0/64960-lady-killer-0-230-0-345-crop.jpg?v=b4f3da8571"
 		},
 		"tags": [],
-		"language": "en",
-		"text": "Mouth of Love",
+		"content": "<p>Mouth of Love</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/monster-2023/2/": {
@@ -9384,8 +9056,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "The music spoiled it all",
+		"content": "<p>The music spoiled it all</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-shining/": {
@@ -9409,8 +9080,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/rio-theatre/films/"
 			}
 		],
-		"language": "en",
-		"text": "Watched it at Rio Theatre. Sound effects are so important to this film which made it one hundred times more scary than first watching",
+		"content": "<p>Watched it at Rio Theatre. Sound effects are so important to this film which made it one hundred times more scary than first watching</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/stalker/1/": {
@@ -9434,8 +9104,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Being faithful is painful",
+		"content": "<p>Being faithful is painful</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/carol-2015/": {
@@ -9454,8 +9123,7 @@
 			"poster": "https://a.ltrbxd.com/resized/film-poster/1/8/2/1/4/2/182142-carol-0-230-0-345-crop.jpg?v=41ac88b68e"
 		},
 		"tags": [],
-		"language": "en",
-		"text": "Lovely",
+		"content": "<p>Lovely</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/mirror/": {
@@ -9479,8 +9147,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "That hanging up",
+		"content": "<p>That hanging up</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-sacrifice/": {
@@ -9504,8 +9171,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Sacrifice to the quest for truth",
+		"content": "<p>Sacrifice to the quest for truth</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/fireworks-1997/1/": {
@@ -9529,7 +9195,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"text": "Amazing music/image composition",
+		"content": "<p>Amazing music/image composition</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/an-autumn-afternoon/": {
@@ -9553,8 +9219,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Lonesome",
+		"content": "<p>Lonesome</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-big-lebowski/": {
@@ -9573,8 +9238,7 @@
 			"poster": "https://a.ltrbxd.com/resized/film-poster/5/1/9/3/5/51935-the-big-lebowski-0-230-0-345-crop.jpg?v=5cd64defcf"
 		},
 		"tags": [],
-		"language": "en",
-		"text": "You’re just an asshole",
+		"content": "<p>You’re just an asshole</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/stalker/": {
@@ -9598,8 +9262,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Hopeless humanity",
+		"content": "<p>Hopeless humanity</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/raining-in-the-mountain/": {
@@ -9623,8 +9286,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Merciful punishment",
+		"content": "<p>Merciful punishment</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/solaris/": {
@@ -9648,7 +9310,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"text": "Science is inhumane \nHuman is insane",
+		"content": "<p>Science is inhumane <br>Human is insane</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/corpus-callosum/": {
@@ -9672,8 +9334,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Trying every feature of this visual effect software",
+		"content": "<p>Trying every feature of this visual effect software</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/smoke-sauna-sisterhood/": {
@@ -9697,8 +9358,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "Authenticity for real",
+		"content": "<p>Authenticity for real</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/black-christmas/": {
@@ -9722,8 +9382,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/rio-theatre/films/"
 			}
 		],
-		"language": "en",
-		"text": "Amazing terrifying camerawork",
+		"content": "<p>Amazing terrifying camerawork</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-wind-rises/": {
@@ -9747,8 +9406,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "Masterful epic",
+		"content": "<p>Masterful epic</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/days-of-heaven/": {
@@ -9772,8 +9430,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Unceasing magic hours",
+		"content": "<p>Unceasing magic hours</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/fireworks-1997/": {
@@ -9797,8 +9454,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "So less words. So strong emotions",
+		"content": "<p>So less words. So strong emotions</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/nostalgia-1983/1/": {
@@ -9822,8 +9478,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Beautiful mix of dream and reality, presents and past, and others and yourself",
+		"content": "<p>Beautiful mix of dream and reality, presents and past, and others and yourself</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/luxembourg-luxembourg/": {
@@ -9847,8 +9502,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Life doesn’t deserve to be treated so seriously",
+		"content": "<p>Life doesn’t deserve to be treated so seriously</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/saltburn/": {
@@ -9867,8 +9521,7 @@
 			"poster": "https://a.ltrbxd.com/resized/film-poster/8/3/5/7/7/4/835774-saltburn-0-230-0-345-crop.jpg?v=b58cbd3b08"
 		},
 		"tags": [],
-		"language": "en",
-		"text": "Disgusting for real",
+		"content": "<p>Disgusting for real</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/fallen-leaves-2023/": {
@@ -9892,8 +9545,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "Short and sweet love story from old times",
+		"content": "<p>Short and sweet love story from old times</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/close-up/": {
@@ -9917,8 +9569,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "zh",
-		"text": "话好密🗣️我好困🥱",
+		"content": "<p>话好密🗣️我好困🥱</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-man-with-the-answers/": {
@@ -9946,7 +9597,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/euff23/films/"
 			}
 		],
-		"text": "Charming Mathias. A fun movie",
+		"content": "<p>Charming Mathias. A fun movie</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/remains-of-the-wind/": {
@@ -9974,8 +9625,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/euff23/films/"
 			}
 		],
-		"language": "en",
-		"text": "Beautiful cruel life",
+		"content": "<p>Beautiful cruel life</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/house/": {
@@ -9994,7 +9644,7 @@
 			"poster": "https://a.ltrbxd.com/resized/sm/upload/7f/z3/ho/6j/6vblWscFAbIm9V5CwHC7IImgAq9-0-230-0-345-crop.jpg?v=b505ff45b0"
 		},
 		"tags": [],
-		"text": "Love. It’s love ❤️ 💕 💗",
+		"content": "<p>Love. It’s love ❤️ 💕 💗</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/another-body/": {
@@ -10018,8 +9668,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Brilliant move to really use deepfake to anonymize and protect the victims in a documentary",
+		"content": "<p>Brilliant move to really use deepfake to anonymize and protect the victims in a documentary</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/nowhere/1/": {
@@ -10043,8 +9692,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "I’m so doomed",
+		"content": "<p>I’m so doomed</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/typhoon-club/": {
@@ -10068,8 +9716,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Complexities of coming of age conveyed through cinema",
+		"content": "<p>Complexities of coming of age conveyed through cinema</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/p-p-rider/": {
@@ -10093,8 +9740,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Omnipotent high school kids in summer",
+		"content": "<p>Omnipotent high school kids in summer</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/nowhere/": {
@@ -10118,8 +9764,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Dumbest wildest teenage film with good looking people",
+		"content": "<p>Dumbest wildest teenage film with good looking people</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/sailor-suit-and-machine-gun/": {
@@ -10143,7 +9788,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"text": "Cutest badass",
+		"content": "<p>Cutest badass</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/anatomy-of-a-fall/": {
@@ -10162,8 +9807,7 @@
 			"poster": "https://a.ltrbxd.com/resized/film-poster/8/2/2/0/9/3/822093-anatomy-of-a-fall-0-230-0-345-crop.jpg?v=4efab8aedc"
 		},
 		"tags": [],
-		"language": "en",
-		"text": "Amazing realistic depictions of human interactions",
+		"content": "<p>Amazing realistic depictions of human interactions</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/unrest-2022/": {
@@ -10187,7 +9831,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"text": "Make me sleep like a snap🫠",
+		"content": "<p>Make me sleep like a snap🫠</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/opera/": {
@@ -10211,8 +9855,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "Amazing camera movement",
+		"content": "<p>Amazing camera movement</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/destroy-all-monsters/": {
@@ -10231,8 +9874,7 @@
 			"poster": "https://a.ltrbxd.com/resized/film-poster/4/9/8/6/5/49865-destroy-all-monsters-0-230-0-345-crop.jpg?v=6b6dff4188"
 		},
 		"tags": [],
-		"language": "zh",
-		"text": "连怪兽团也有可爱的团宠型角色🤣",
+		"content": "<p>连怪兽团也有可爱的团宠型角色🤣</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/in-the-mood-for-love/2/": {
@@ -10256,8 +9898,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "Time is gone. And they decide to not go back",
+		"content": "<p>Time is gone. And they decide to not go back</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/metropolis/": {
@@ -10281,8 +9922,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "Rework by VIFF",
+		"content": "<p>Rework by VIFF</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-elephant-man/1/": {
@@ -10306,8 +9946,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "I’m too sleepy to watch any late night movies these days 🙃",
+		"content": "<p>I’m too sleepy to watch any late night movies these days 🙃</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/mandabi/": {
@@ -10326,8 +9965,7 @@
 			"poster": "https://a.ltrbxd.com/resized/film-poster/8/1/2/2/0/81220-mandabi-0-230-0-345-crop.jpg?v=8c9fb4aeb6"
 		},
 		"tags": [],
-		"language": "en",
-		"text": "Decency is a sin",
+		"content": "<p>Decency is a sin</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/farewell-my-concubine/": {
@@ -10351,8 +9989,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "Old\nNew\nWho is more absurd?",
+		"content": "<p>Old<br>New<br>Who is more absurd?</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-double-life-of-veronique/": {
@@ -10371,8 +10008,7 @@
 			"poster": "https://a.ltrbxd.com/resized/film-poster/5/0/9/3/4/50934-the-double-life-of-veronique-0-230-0-345-crop.jpg?v=4728e7cc42"
 		},
 		"tags": [],
-		"language": "en",
-		"text": "How beautiful could a movie be",
+		"content": "<p>How beautiful could a movie be</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/portrait-of-a-lady-on-fire/1/": {
@@ -10391,7 +10027,7 @@
 			"poster": "https://a.ltrbxd.com/resized/film-poster/4/6/0/8/3/0/460830-portrait-of-a-lady-on-fire-0-230-0-345-crop.jpg?v=79b0f67aa9"
 		},
 		"tags": [],
-		"text": "Lit",
+		"content": "<p>Lit</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/yi-yi/": {
@@ -10419,8 +10055,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "zh",
-		"text": "做着不喜欢的事情，怎么会开心呢？",
+		"content": "<p>做着不喜欢的事情，怎么会开心呢？</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-strange-love-of-martha-ivers/": {
@@ -10444,8 +10079,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Don’t ever look back",
+		"content": "<p>Don’t ever look back</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/nobodys-hero-2022/": {
@@ -10469,8 +10103,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "Super weird. Big social disaster 🤣",
+		"content": "<p>Super weird. Big social disaster 🤣</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-incorrigible/": {
@@ -10494,8 +10127,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "His life is destined to be a steep climb",
+		"content": "<p>His life is destined to be a steep climb</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/carmen-from-kawachi/": {
@@ -10519,8 +10151,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Woman can always make a living",
+		"content": "<p>Woman can always make a living</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/tokyo-drifter/": {
@@ -10544,8 +10175,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Dammit! He is singing!",
+		"content": "<p>Dammit! He is singing!</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-room/1/": {
@@ -10564,8 +10194,7 @@
 			"poster": "https://a.ltrbxd.com/resized/sm/upload/qq/yi/i3/dk/aUC39cFC2KO8CJ0EV0ijIJRr3PT-0-230-0-345-crop.jpg?v=95164ef310"
 		},
 		"tags": [],
-		"language": "en",
-		"text": "MASTERPIECE",
+		"content": "<p>MASTERPIECE</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/odds-against-tomorrow/": {
@@ -10589,8 +10218,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "STOP\nDEAD END",
+		"content": "<p>STOP<br>DEAD END</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/lovers-rock-2020/": {
@@ -10609,7 +10237,7 @@
 			"poster": "https://a.ltrbxd.com/resized/film-poster/9/1/5/3/9/9/915399-lovers-rock-0-230-0-345-crop.jpg?v=6c32efec5b"
 		},
 		"tags": [],
-		"text": "Rock as fuck",
+		"content": "<p>Rock as fuck</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/contempt/1/": {
@@ -10633,8 +10261,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/rio-theatre/films/"
 			}
 		],
-		"language": "en",
-		"text": "Wimpy educated man and Alpha stupid man",
+		"content": "<p>Wimpy educated man and Alpha stupid man</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/blue-velvet/1/": {
@@ -10658,8 +10285,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "The filthy underneath sunny shiny middle-class life",
+		"content": "<p>The filthy underneath sunny shiny middle-class life</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/la-haine/": {
@@ -10683,8 +10309,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/rio-theatre/films/"
 			}
 		],
-		"language": "en",
-		"text": "Didn’t expect a movie tough like this have such a smooth cinematography",
+		"content": "<p>Didn’t expect a movie tough like this have such a smooth cinematography</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/pierrot-le-fou/": {
@@ -10708,8 +10333,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/rio-theatre/films/"
 			}
 		],
-		"language": "pl",
-		"text": "Crazy",
+		"content": "<p>Crazy</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-mother-and-the-whore/": {
@@ -10733,7 +10357,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"text": "Love, love and love",
+		"content": "<p>Love, love and love</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/contempt/": {
@@ -10757,8 +10381,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Beautiful landscape scene",
+		"content": "<p>Beautiful landscape scene</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/tokyo-story/": {
@@ -10782,8 +10405,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Cruelty",
+		"content": "<p>Cruelty</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/a-new-old-play/1/": {
@@ -10807,8 +10429,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "zh",
-		"text": "「新戏从来话旧事」",
+		"content": "<p>「新戏从来话旧事」</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/passion-2008/": {
@@ -10832,8 +10453,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "Love\nAnd meaningful life",
+		"content": "<p>Love<br>And meaningful life</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/walk-up/": {
@@ -10857,8 +10477,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Instants of mundane life",
+		"content": "<p>Instants of mundane life</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/you-were-my-first-boyfriend/": {
@@ -10882,8 +10501,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/doxa23/films/"
 			}
 		],
-		"language": "en",
-		"text": "Re-live your trauma",
+		"content": "<p>Re-live your trauma</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/on-the-beach-at-night-alone/": {
@@ -10902,8 +10520,7 @@
 			"poster": "https://a.ltrbxd.com/resized/film-poster/3/6/7/7/3/9/367739-on-the-beach-at-night-alone-0-230-0-345-crop.jpg?v=e6456121c4"
 		},
 		"tags": [],
-		"language": "zh",
-		"text": "该起来了\n在这样躺下去会出事的",
+		"content": "<p>该起来了<br>在这样躺下去会出事的</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/right-now-wrong-then/": {
@@ -10922,8 +10539,7 @@
 			"poster": "https://a.ltrbxd.com/resized/film-poster/2/8/4/6/3/0/284630-right-now-wrong-then-0-230-0-345-crop.jpg?v=ff36ab5977"
 		},
 		"tags": [],
-		"language": "en",
-		"text": "Honest or not\nGood or bad\nRight or wrong",
+		"content": "<p>Honest or not<br>Good or bad<br>Right or wrong</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/spirited-away/": {
@@ -10947,8 +10563,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "Ending song is so touching 😭",
+		"content": "<p>Ending song is so touching 😭</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/jean-marc-vallee/": {
@@ -10976,8 +10591,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/canfilmday23/films/"
 			}
 		],
-		"language": "en",
-		"text": "Weird mixture of down-to-earth Chinese northern city with Canadian national film day😆",
+		"content": "<p>Weird mixture of down-to-earth Chinese northern city with Canadian national film day😆</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/akira/": {
@@ -11001,8 +10615,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/rio-theatre/films/"
 			}
 		],
-		"language": "en",
-		"text": "Super interesting \nFull of details as all other good animations from that time",
+		"content": "<p>Super interesting <br>Full of details as all other good animations from that time</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/crouching-tiger-hidden-dragon/": {
@@ -11021,8 +10634,7 @@
 			"poster": "https://a.ltrbxd.com/resized/film-poster/5/1/9/0/5/51905-crouching-tiger-hidden-dragon-0-230-0-345-crop.jpg?v=6ce0305909"
 		},
 		"tags": [],
-		"language": "zh",
-		"text": "人心又何尝不是",
+		"content": "<p>人心又何尝不是</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-green-fog/": {
@@ -11046,8 +10658,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Most funny one",
+		"content": "<p>Most funny one</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/vertigo/1/": {
@@ -11071,8 +10682,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"language": "en",
-		"text": "Not very simple a story\nHow Midge is involved in this story is quite interesting\nStill not clear about ghost-like disappearance of Madeline and Judy’s misty appearance after make-over",
+		"content": "<p>Not very simple a story<br>How Midge is involved in this story is quite interesting<br>Still not clear about ghost-like disappearance of Madeline and Judy’s misty appearance after make-over</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/millennium-mambo/1/": {
@@ -11096,7 +10706,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"text": "Creative in-camera montage",
+		"content": "<p>Creative in-camera montage</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/groundhog-day/": {
@@ -11120,8 +10730,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/rio-theatre/films/"
 			}
 		],
-		"language": "en",
-		"text": "Day in and day out \nLive it and love it",
+		"content": "<p>Day in and day out <br>Live it and love it</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/chungking-express/": {
@@ -11145,8 +10754,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/rio-theatre/films/"
 			}
 		],
-		"language": "en",
-		"text": "People and the city they live in",
+		"content": "<p>People and the city they live in</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/everything-everywhere-all-at-once/": {
@@ -11165,8 +10773,7 @@
 			"poster": "https://a.ltrbxd.com/resized/film-poster/4/7/4/4/7/4/474474-everything-everywhere-all-at-once-0-230-0-345-crop.jpg?v=281f1a041e"
 		},
 		"tags": [],
-		"language": "en",
-		"text": "Fight, in a different way",
+		"content": "<p>Fight, in a different way</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/horace-and-pete/": {
@@ -11185,8 +10792,7 @@
 			"poster": "https://a.ltrbxd.com/resized/film-poster/3/4/3/7/8/3/343783-horace-and-pete-0-230-0-345-crop.jpg?v=8b380425a9"
 		},
 		"tags": [],
-		"language": "en",
-		"text": "You never know what is ahead of you\nIt might be good\nBut probably it’s just bad\nand sad",
+		"content": "<p>You never know what is ahead of you<br>It might be good<br>But probably it’s just bad<br>and sad</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/eyes-wide-shut/": {
@@ -11205,8 +10811,7 @@
 			"poster": "https://a.ltrbxd.com/resized/film-poster/5/1/7/1/7/51717-eyes-wide-shut-0-230-0-345-crop.jpg?v=7010402aeb"
 		},
 		"tags": [],
-		"language": "en",
-		"text": "Life of middle class",
+		"content": "<p>Life of middle class</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-curve-1999/": {
@@ -11225,8 +10830,7 @@
 			"poster": "https://a.ltrbxd.com/resized/film-poster/6/0/5/5/2/60552-the-curve-0-230-0-345-crop.jpg?v=46eb442163"
 		},
 		"tags": [],
-		"language": "en",
-		"text": "Watched from DVD of Claire’s Knee\nDesire Love\nBody Eyes",
+		"content": "<p>Watched from DVD of Claire’s Knee<br>Desire Love<br>Body Eyes</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/claires-knee/": {
@@ -11245,8 +10849,7 @@
 			"poster": "https://a.ltrbxd.com/resized/film-poster/5/0/0/3/9/50039-claire-s-knee-0-230-0-345-crop.jpg?v=02ebd85e37"
 		},
 		"tags": [],
-		"language": "en",
-		"text": "Love\nAuthentic\nRoyal\nMarriage",
+		"content": "<p>Love<br>Authentic<br>Royal<br>Marriage</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/the-novelists-film/": {
@@ -11270,7 +10873,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
 			}
 		],
-		"text": "Charisma",
+		"content": "<p>Charisma</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/decision-to-leave/1/": {
@@ -11294,8 +10897,7 @@
 				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
 			}
 		],
-		"language": "en",
-		"text": "The moment you said you love me",
+		"content": "<p>The moment you said you love me</p>",
 		"spoiler": false
 	}
 }
