@@ -36,11 +36,6 @@ $metadata-colour: #989898;
 	padding: 0;
 	overflow: hidden;
 }
-html {
-	@media (orientation: portrait) {
-		font-size: x-large;
-	}
-}
 body {
 	background-color: black;
 	font-family: Roboto, sans-serif;
