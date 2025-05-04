@@ -120,7 +120,7 @@ body:has(#history-toggle:checked) #foreground {
 	}
 }
 
-.movie {
+#movie-container {
 	animation: fadein 1s;
 }
 .backdrop {
@@ -517,11 +517,12 @@ body.offline .online-only {
 	}
 }
 .movie {
-	opacity: 1;
+	opacity: 0;
+	pointer-events: none;
 }
 @for $i from 0 through 10 {
-	body:not(:has(#selected-review-#{$i}:checked)) #movie-#{$i} {
-		opacity: 0;
-		pointer-events: none;
+	body:has(#selected-review-#{$i}:checked) #movie-#{$i} {
+		opacity: 1;
+		pointer-events: unset;
 	}
 }

@@ -45,7 +45,8 @@
 	</div>
 
 	<div id="foreground" class="full-screen slides">
-		<% for (let i = 0; i < HISTORY_COUNT; i++) { %>
+		<div id="movie-container">
+			<% for (let i = 0; i < HISTORY_COUNT; i++) { %>
 			<div id="movie-<%=i%>" class="movie" data-sort="<%=i%>">
 				<img id="backdrop-<%=i%>" class="hidden-until-ready online-only backdrop" src="#" alt="backdrop">
 				<div id="review-<%=i%>" class="scrollable review">
@@ -76,7 +77,8 @@
 					</a>
 				</div>
 			</div>
-		<% } %>
+			<% } %>
+		</div>
 
 		<header id="header">
 			<h1 class="header-title"></h1>
