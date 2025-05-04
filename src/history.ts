@@ -35,7 +35,6 @@ const setHistoryItemDetails = (element: Element, review: Review | null) => {
 		if (title) {
 			title.innerText = review.movie.title;
 		}
-		element.addEventListener("click", () => setMovie(review), { passive: true });
 		element.classList.remove("history-placeholder");
 	} else {
 		element.classList.add("history-placeholder");
@@ -68,6 +67,13 @@ const setHistoryElements = (history: History) => {
 		const item: HistoryItem | undefined = history[i];
 		if (element) {
 			updateHistoryItem(element, item?.review ?? null);
+			const control = document.getElementById(`selected-review-${i}`) as HTMLInputElement;
+			if (item?.review) {
+				setMovie(item.review, i);
+				control.disabled = false;
+			} else {
+				control.disabled = true;
+			}
 		}
 	}
 };

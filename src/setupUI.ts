@@ -25,8 +25,8 @@ const displayUI = () => {
 };
 
 const addSpoilerClick = () => {
-	const { reviewText } = getElements();
-	reviewText.addEventListener("click", () => reviewText.classList.add("clicked"));
+	const { movies } = getElements();
+	movies.forEach(({ reviewText }) => reviewText.addEventListener("click", () => reviewText.classList.add("clicked")));
 };
 
 const watchOnlineStatus = () => {
@@ -51,14 +51,17 @@ const addMenuHoverDisplay = () => {
 };
 
 const addUIControl = () => {
-	const { historyToggle, reviewContainer, settingsContents } = getElements();
+	const { historyToggle, movies, settingsContents } = getElements();
 
 	let locked = false;
 	const lock = () => (locked = true);
 	const unlock = () => (locked = false);
-	reviewContainer.addEventListener("scroll", lock, { passive: true });
+	movies.forEach(({ reviewContainer }) => {
+		reviewContainer.addEventListener("scroll", lock, { passive: true });
+		reviewContainer.addEventListener("scrollend", unlock, { passive: true });
+	});
 	settingsContents.addEventListener("scroll", lock, { passive: true });
-	reviewContainer.addEventListener("scrollend", unlock, { passive: true });
+
 	settingsContents.addEventListener("scrollend", unlock, { passive: true });
 
 	const scrollTop = (target: EventTarget | null) => {
