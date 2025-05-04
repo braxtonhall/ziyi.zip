@@ -37,7 +37,7 @@ export { externalSaveSettings as saveSettings };
 const getCurrentSettings = () =>
 	Object.fromEntries(Object.entries(getSettingsElements()).map(([id, setting]) => [id, setting.checked]));
 
-const getSettingsElements = () => getElements().settings;
+const getSettingsElements = () => getElements().toggles;
 
 const getSavedSettings = async (): Promise<Record<string, boolean>> => {
 	const saved = (await storage.get(STORAGE_KEY, defaults)) as Promise<Record<string, boolean>>;
@@ -55,14 +55,14 @@ const onSettingChange = () => {
 };
 
 export const initSettings = async (): Promise<AppSettings> => {
-	const { settings, clearHistory: clearHistoryButton } = getElements();
+	const { toggles, clearHistory: clearHistoryButton } = getElements();
 	clearHistoryButton.addEventListener("click", () => {
 		broadcast({ type: "clear" });
 		clearHistory();
 	});
 	const saved = await getSavedSettings();
 	void setCurrentSettings(saved);
-	Object.values(settings).forEach((setting) => setting.addEventListener("change", onSettingChange));
+	Object.values(toggles).forEach((setting) => setting.addEventListener("change", onSettingChange));
 	return {
 		showMissingBackdrops: saved["filter-movies-backdrop"],
 		showMissingPosters: saved["filter-movies-posters"],

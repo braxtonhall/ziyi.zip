@@ -31,7 +31,7 @@ type Movie = {
 
 type Elements = {
 	[K in keyof typeof schema]: (typeof schema)[K][1]["prototype"];
-} & { settings: Record<string, HTMLInputElement>; movies: Movie[] };
+} & { toggles: Record<string, HTMLInputElement>; movies: Movie[] };
 
 const getMovies = (): Movie[] => {
 	const movies = Array.from(document.getElementsByClassName("movie")) as HTMLDivElement[];
@@ -52,7 +52,7 @@ export const getElements = (): Elements => {
 		const settings = Array.from(document.querySelectorAll("#settings-contents input"));
 		elements = {
 			...Object.fromEntries(queried),
-			settings: Object.fromEntries(settings.map((setting) => [setting.id, setting])),
+			toggles: Object.fromEntries(settings.map((setting) => [setting.id, setting])),
 			movies: getMovies(),
 		};
 	}
