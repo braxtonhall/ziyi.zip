@@ -1,4 +1,4 @@
-const schema = {
+const globalElementsSchema = {
 	history: ["history", HTMLDivElement],
 	historyToggle: ["history-toggle", HTMLInputElement],
 	settingsToggle: ["settings-toggle", HTMLInputElement],
@@ -25,13 +25,13 @@ const movieSchema = {
 	tags: ["review-tags", HTMLDivElement],
 } as const;
 
-type Movie = {
-	[K in keyof typeof movieSchema]: (typeof movieSchema)[K][1]["prototype"];
+type Infer<S extends { [key: string]: readonly [string, { prototype: Element }] }> = {
+	[K in keyof S]: S[K][1]["prototype"];
 };
 
-type Elements = {
-	[K in keyof typeof schema]: (typeof schema)[K][1]["prototype"];
-} & { toggles: Record<string, HTMLInputElement>; movies: Movie[] };
+type Movie = Infer<typeof movieSchema>;
+
+type Elements = Infer<typeof globalElementsSchema> & { toggles: Record<string, HTMLInputElement>; movies: Movie[] };
 
 const getMovies = (): Movie[] => {
 	const movies = Array.from(document.getElementsByClassName("movie")) as HTMLDivElement[];
@@ -47,7 +47,7 @@ let elements: Elements | null = null;
 
 export const getElements = (): Elements => {
 	if (elements === null) {
-		const entries = Object.entries(schema);
+		const entries = Object.entries(globalElementsSchema);
 		const queried = entries.map(([key, [id]]) => [key, document.getElementById(id)]);
 		const settings = Array.from(document.querySelectorAll("#settings-contents input"));
 		elements = {
