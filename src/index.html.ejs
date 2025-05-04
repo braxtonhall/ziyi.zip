@@ -23,39 +23,60 @@
 <body class="full-screen">
 
 <div id="main" style="display: none" class="full-screen">
+	<% const HISTORY_COUNT = 10; %>
+
 	<div id="history">
-		<% for (let i = 0; i < 10; i++) { %>
-			<div class="history-item history-placeholder">
+		<% for (let i = 0; i < HISTORY_COUNT; i++) { %>
+			<label class="history-item history-placeholder" for="selected-review-<%=i%>">
 				<img class="history-item-image hidden-until-ready" src="#" title="history item" alt="history item">
-				<div class="history-title-container">
+				<span class="history-title-container">
 					<span class="history-title"></span>
-				</div>
+				</span>
 				<svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 24 24"><path d="M23 18V6c0-1.1-.9-2-2-2H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2zM8.5 12.5l2.5 3.01L14.5 11l4.5 6H5l3.5-4.5z"></path></svg>
-			</div>
+				<input
+					class="selected-review-input"
+					id="selected-review-<%=i%>"
+					type="radio"
+					name="selected-review"
+					<%= i === 0 ? 'checked' : '' %>
+				/>
+			</label>
 		<% } %>
 	</div>
 
 	<div id="foreground" class="full-screen slides">
-		<div id="backdrop">
-			<img id="backdrop-image" class="hidden-until-ready online-only" src="#" alt="backdrop">
-
-			<div id="review" class="scrollable">
-				<div id="review-contents" class="hidden-until-ready">
-					<div id="review-text"></div>
-					<div id="review-metadata">
-						<a id="review-link" href="#" title="review on letterboxd">
-							<span id="review-date"></span>
-						</a>
-						<p>
-							<span id="review-stars"></span>
-							<span id="review-heart"></span>
-							<span id="review-rewatch"></span>
-						</p>
-						<div id="tags"></div>
+		<% for (let i = 0; i < HISTORY_COUNT; i++) { %>
+			<div id="movie-<%=i%>" class="movie" data-sort="<%=i%>">
+				<img id="backdrop-<%=i%>" class="hidden-until-ready online-only backdrop" src="#" alt="backdrop">
+				<div id="review-<%=i%>" class="scrollable review">
+					<div id="review-contents-<%=i%>" class="hidden-until-ready review-contents">
+						<div id="review-text-<%=i%>" class="review-text"></div>
+						<div id="review-metadata-<%=i%>" class="review-metadata">
+							<a id="review-link-<%=i%>" class="review-link" href="#" title="review on letterboxd">
+								<span id="review-date-<%=i%>" class="review-date"></span>
+							</a>
+							<p>
+								<span id="review-stars-<%=i%>" class="review-stars"></span>
+								<span id="review-heart-<%=i%>" class="review-heart"></span>
+								<span id="review-rewatch-<%=i%>" class="review-rewatch"></span>
+							</p>
+							<div id="tags-<%=i%>" class="review-tags"></div>
+						</div>
 					</div>
 				</div>
+
+
+				<div id="movie-info-container-<%=i%>" class="hidden-until-ready movie-info-container">
+					<div id="movie-info-<%=i%>" class="movie-info">
+						<a id="movie-name-<%=i%>" class="movie-name" href="#" title="movie on letterboxd"></a>
+						<p id="movie-year-<%=i%>" class="movie-year"></p>
+					</div>
+					<a id="movie-link-<%=i%>" class="online-only movie-link" href="#" title="movie on letterboxd">
+						<img class="hidden-until-ready poster" id="poster-<%=i%>" src="#" alt="poster">
+					</a>
+				</div>
 			</div>
-		</div>
+		<% } %>
 
 		<header id="header">
 			<h1 class="header-title"></h1>
@@ -126,16 +147,6 @@
 				</label>
 			</nav>
 		</header>
-
-		<div id="movie-info-container" class="hidden-until-ready">
-			<div id="movie-info">
-				<a id="movie-name" href="#" title="movie on letterboxd"></a>
-				<p id="movie-year"></p>
-			</div>
-			<a id="movie-link" class="online-only" href="#" title="movie on letterboxd">
-				<img class="hidden-until-ready" id="poster" src="#" alt="poster">
-			</a>
-		</div>
 
 		<div id="exitable-settings-container" class="settings">
 			<header id="settings-header">

@@ -66,10 +66,18 @@ nav {
 	}
 }
 label,
-input,
+input:not(:disabled),
 details,
 button {
 	cursor: pointer;
+}
+.selected-review-input {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	opacity: 0;
 }
 #new-tab-link,
 .toggle-label {
@@ -112,10 +120,10 @@ body:has(#history-toggle:checked) #foreground {
 	}
 }
 
-#backdrop {
+.movie {
 	animation: fadein 1s;
 }
-#backdrop-image {
+.backdrop {
 	position: absolute;
 	object-fit: cover;
 	top: 0;
@@ -123,97 +131,97 @@ body:has(#history-toggle:checked) #foreground {
 	width: 100%;
 	height: 100%;
 }
-body:has(#darken:checked) #backdrop-image {
+body:has(#darken:checked) .backdrop {
 	filter: brightness(65%);
 }
-body:has(#blur:checked) #backdrop-image {
+body:has(#blur:checked) .backdrop {
 	top: -5px;
 	left: -5px;
 	width: calc(100% + 10px);
 	height: calc(100% + 10px);
 	filter: blur(5px);
 }
-body:has(#darken:checked):has(#blur:checked) #backdrop-image {
+body:has(#darken:checked):has(#blur:checked) .backdrop {
 	filter: blur(5px) brightness(65%);
 }
-body:has(#spoiler-visibility-click:checked) #review-text.contains-spoiler:not(.clicked) {
+body:has(#spoiler-visibility-click:checked) .review-text.contains-spoiler:not(.clicked) {
 	cursor: pointer;
 	filter: blur(10px);
 	position: relative;
 }
-body:has(#spoiler-visibility-hide:checked) #review-text.contains-spoiler,
-body:not(:has(#show-movie-name:checked)) #movie-name,
-body:not(:has(#show-movie-release-year:checked)) #movie-year,
-body:not(:has(#show-movie-poster:checked)) #movie-link,
-body:not(:has(#show-review-date:checked)) #review-link,
-body:not(:has(#show-review-stars:checked)) #review-stars,
-body:not(:has(#show-review-rewatch:checked)) #review-rewatch,
-body:not(:has(#show-review-heart:checked)) #review-heart,
-body:not(:has(#show-review-tags:checked)) #tags,
-body:has(#movie-details-visibility-hide:checked) #movie-info-container,
-body:has(#review-details-visibility-hide:checked) #review-metadata,
+body:has(#spoiler-visibility-hide:checked) .review-text.contains-spoiler,
+body:not(:has(#show-movie-name:checked)) .movie-name,
+body:not(:has(#show-movie-release-year:checked)) .movie-year,
+body:not(:has(#show-movie-poster:checked)) .movie-link,
+body:not(:has(#show-review-date:checked)) .review-link,
+body:not(:has(#show-review-stars:checked)) .review-stars,
+body:not(:has(#show-review-rewatch:checked)) .review-rewatch,
+body:not(:has(#show-review-heart:checked)) .review-heart,
+body:not(:has(#show-review-tags:checked)) .review-tags,
+body:has(#movie-details-visibility-hide:checked) .movie-info-container,
+body:has(#review-details-visibility-hide:checked) .review-metadata,
 body:has(#menu-visibility-hide:checked) #header {
 	display: none !important;
 }
 body {
 	&:has(#menu-visibility-hover:checked) #header,
-	&:has(#review-details-visibility-hover:checked) #review-metadata,
-	&:has(#movie-details-visibility-hover:checked) #movie-info-container {
+	&:has(#review-details-visibility-hover:checked) .review-metadata,
+	&:has(#movie-details-visibility-hover:checked) .movie-info-container {
 		opacity: 0;
 	}
 }
 body:not(.ui-active) {
 	&:has(#menu-visibility-hover:checked) #header,
-	&:has(#review-details-visibility-hover:checked) #review-metadata,
-	&:has(#movie-details-visibility-hover:checked) #movie-info-container {
+	&:has(#review-details-visibility-hover:checked) .review-metadata,
+	&:has(#movie-details-visibility-hover:checked) .movie-info-container {
 		pointer-events: none;
 	}
 }
 body.ui-interacted {
 	&:has(#menu-visibility-hover:checked) #header,
-	&:has(#review-details-visibility-hover:checked) #review-metadata,
-	&:has(#movie-details-visibility-hover:checked) #movie-info-container {
+	&:has(#review-details-visibility-hover:checked) .review-metadata,
+	&:has(#movie-details-visibility-hover:checked) .movie-info-container {
 		transition: opacity 0.25s ease-in;
 	}
 }
 body.ui-active {
 	&:has(#menu-visibility-hover:checked) #header,
-	&:has(#review-details-visibility-hover:checked) #review-metadata,
-	&:has(#movie-details-visibility-hover:checked) #movie-info-container {
+	&:has(#review-details-visibility-hover:checked) .review-metadata,
+	&:has(#movie-details-visibility-hover:checked) .movie-info-container {
 		opacity: 1;
 		transition: opacity 0.25s ease-out;
 	}
 }
-body:has(#review-position-center:checked) #review {
+body:has(#review-position-center:checked) .review {
 	justify-content: safe center;
 	align-items: safe center;
 }
-body:has(#review-position-center-left:checked) #review {
+body:has(#review-position-center-left:checked) .review {
 	align-items: safe center;
 }
-body:has(#review-position-bottom-left:checked) #review {
+body:has(#review-position-bottom-left:checked) .review {
 	align-items: end;
 }
 #foreground {
 	position: relative;
 	background-color: black;
 
-	#review {
+	.review {
 		position: absolute;
 		width: 100%;
 		height: 100%;
 		display: flex;
 
-		#review-contents {
+		.review-contents {
 			margin: 4rem;
 			@media (orientation: landscape) {
 				max-width: 60%;
 			}
-			#review-link {
+			.review-link {
 				color: $metadata-colour;
 				display: inline-block;
 			}
-			#review-text {
+			.review-text {
 				font-family: Merriweather, serif;
 				font-size: 3rem;
 				margin-bottom: 0.1rem;
@@ -237,18 +245,18 @@ body:has(#review-position-bottom-left:checked) #review {
 					margin-top: 1rem !important;
 				}
 			}
-			#review-metadata {
+			.review-metadata {
 				color: $metadata-colour;
 				width: fit-content;
 				font-size: 1rem;
 				p {
 					margin: 0;
 				}
-				#review-heart {
+				.review-heart {
 					font-size: 0.9rem;
 				}
 			}
-			#tags {
+			.review-tags {
 				&:not(:has(.tag)) {
 					display: none;
 				}
@@ -271,7 +279,7 @@ body:has(#review-position-bottom-left:checked) #review {
 			}
 		}
 	}
-	#movie-info-container {
+	.movie-info-container {
 		position: absolute;
 		bottom: 0;
 		right: 0;
@@ -280,25 +288,25 @@ body:has(#review-position-bottom-left:checked) #review {
 		display: flex;
 		color: white;
 
-		#poster {
+		.poster {
 			aspect-ratio: 2 / 3;
 			object-fit: cover;
 			height: 10rem;
 			border-radius: 0.2rem;
 		}
-		#movie-info {
+		.movie-info {
 			align-self: flex-end;
 			margin-right: 1rem;
 			bottom: 0;
 			text-align: right;
 			margin-bottom: 0.8rem;
 
-			#movie-name {
+			.movie-name {
 				font-size: 1rem;
 				margin-bottom: 0;
 				color: white;
 			}
-			#movie-year {
+			.movie-year {
 				font-size: 0.8125rem;
 				margin-top: 0.5rem;
 				margin-bottom: 0;

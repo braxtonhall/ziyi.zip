@@ -10,7 +10,6 @@ document.addEventListener(
 	async () => {
 		const settings = await initSettings();
 		const review = await getReview(settings);
-		setMovie(review);
 		void initHistory(review).catch(clearHistory);
 		setupUI();
 	},
