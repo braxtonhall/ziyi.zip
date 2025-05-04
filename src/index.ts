@@ -1,5 +1,4 @@
 import "./index.scss";
-import { setMovie } from "./setMovie";
 import { setupUI } from "./setupUI";
 import { clearHistory, initHistory } from "./history";
 import { initSettings } from "./settings";

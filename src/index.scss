@@ -473,7 +473,8 @@ body.ui-interacted #exitable-settings-container {
 	}
 }
 .hidden-until-ready,
-.online-only {
+.online-only,
+.movie {
 	opacity: 1;
 	transition: opacity 1s cubic-bezier(0.28, 0.83, 0.67, 1);
 }
@@ -513,5 +514,14 @@ body.offline .online-only {
 	* {
 		transition: none !important;
 		animation: none !important;
+	}
+}
+.movie {
+	opacity: 1;
+}
+@for $i from 0 through 10 {
+	body:not(:has(#selected-review-#{$i}:checked)) #movie-#{$i} {
+		opacity: 0;
+		pointer-events: none;
 	}
 }

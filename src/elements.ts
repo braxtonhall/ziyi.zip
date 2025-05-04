@@ -38,7 +38,7 @@ const getMovies = (): Movie[] => {
 	const sortedMovies = movies.sort((movieA, movieB) => Number(movieA.dataset["sort"]) - Number(movieB.dataset["sort"]));
 	const entries = Object.entries(movieSchema);
 	return sortedMovies.map((movie) => {
-		const queried = entries.map(([key, [className]]) => [key, document.getElementsByClassName(className)[0]]);
+		const queried = entries.map(([key, [className]]) => [key, movie.getElementsByClassName(className)[0]]);
 		return Object.fromEntries(queried);
 	});
 };
