@@ -11,6 +11,7 @@ const srcDir = path.join(__dirname, "src");
 const manifestDir = path.join(__dirname, "manifests");
 const outputDir = path.join(__dirname, "dist", buildEnv);
 const version = process.env.BUILD_VERSION ?? "0.0.0";
+const historyCount = 10;
 
 const joinManifests = (...manifests: Record<string, unknown>[]): Record<string, unknown> => {
 	if (buildEnv === "firefox") {
@@ -59,7 +60,14 @@ module.exports = (_env: any, options: WebpackOptionsNormalized): Configuration =
 			},
 			{
 				test: /\.s[ac]ss$/i,
-				use: ["style-loader", "css-loader", "sass-loader"],
+				use: [
+					"style-loader",
+					"css-loader",
+					{
+						loader: "sass-loader",
+						options: { additionalData: `$history-count: ${historyCount};` },
+					},
+				],
 			},
 			{
 				test: /\.ejs$/i,
@@ -78,6 +86,7 @@ module.exports = (_env: any, options: WebpackOptionsNormalized): Configuration =
 			SITE_TITLE: "ziyi at the cinema",
 			SITE_HOST: "https://ziyi.zip",
 			SITE_DESCRIPTION: "Experience essential cinema with Ziyi in every visit.",
+			HISTORY_COUNT: historyCount,
 		}),
 		new HtmlWebpackPlugin({
 			filename: "index.html",

@@ -520,7 +520,7 @@ body.offline .online-only {
 	pointer-events: none;
 	transition: opacity 500ms cubic-bezier(0.28, 0.83, 0.67, 1);
 }
-@for $i from 0 through 10 {
+@for $i from 0 through $history-count {
 	body:has(#selected-review-#{$i}:checked) #movie-#{$i} {
 		opacity: 1;
 		pointer-events: unset;
