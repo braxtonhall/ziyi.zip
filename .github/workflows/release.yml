@@ -24,8 +24,8 @@ jobs:
         with:
           ref: "refs/heads/main"
 
-      - name: set output
-        id: vars
+      - name: set constants
+        id: constants
         run: |
           echo "tag=$(date '+%Y.%-m.%-d').${{ inputs.micro || '0' }}" >> $GITHUB_OUTPUT
           echo "date=$(date '+%B %-d, %Y')" >> $GITHUB_OUTPUT
@@ -53,7 +53,7 @@ jobs:
         if: ${{ github.event_name == 'workflow_dispatch' || steps.sync.outputs.committed == 'true' }}
         run: yarn build
         env:
-          BUILD_VERSION: ${{ steps.vars.outputs.tag }}
+          BUILD_VERSION: ${{ steps.constants.outputs.tag }}
 
       - name: archive source
         uses: thedoctor0/zip-release@main
@@ -86,12 +86,13 @@ jobs:
           artifacts: "dist/chrome/chrome.zip,dist/firefox/firefox.zip"
           generateReleaseNotes: true
           token: ${{ secrets.GITHUB_TOKEN }}
-          tag: ${{ steps.vars.outputs.tag }}
+          tag: ${{ steps.constants.outputs.tag }}
           commit: main
 
       - name: publish firefox add-on
         uses: browser-actions/release-firefox-addon@latest
         if: ${{ github.event_name == 'workflow_dispatch' || steps.sync.outputs.committed == 'true' }}
+        id: firefox
         with:
           addon-id: ziyi-zip
           addon-path: dist/firefox/firefox.zip
@@ -104,15 +105,22 @@ jobs:
             1. yarn install
             2. yarn build:firefox
             The add-on code will be found in dist/firefox
-          release-note: Added new reviews from Ziyi's Letterboxd account up to ${{ steps.vars.outputs.date }}
+          release-note: Added new reviews from Ziyi's Letterboxd account up to ${{ steps.constants.outputs.date }}
           license: MIT
+        continue-on-error: true
 
       - name: publish chrome extension
         uses: browser-actions/release-chrome-extension@latest
         if: ${{ github.event_name == 'workflow_dispatch' || steps.sync.outputs.committed == 'true' }}
+        id: chrome
         with:
           extension-id: kgjlmncdpdpcmidkkalcdppigdocdnmf
           extension-path: dist/chrome/chrome.zip
           oauth-client-id: ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}
           oauth-client-secret: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
           oauth-refresh-token: ${{ secrets.GOOGLE_OAUTH_REFRESH_TOKEN }}
+        continue-on-error: true
+
+      - name: fail publishing
+        if: ${{ steps.chrome.outcome == 'failure' || steps.firefox.outcome == 'failure' }}
+        run: exit 1
