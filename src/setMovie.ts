@@ -20,7 +20,11 @@ export const setMovie = (review: Review, index: number) => {
 	movie.movieName.innerText = review.movie.title;
 	movie.movieYear.innerText = String(review.movie.year);
 	movie.reviewText.classList.toggle("contains-spoiler", review.spoiler);
-	movie.reviewText.innerHTML = review.content;
+	const document = new DOMParser().parseFromString(review.content, "text/html");
+	const parsedReview = document.getElementsByTagName("body")[0].firstChild;
+	if (parsedReview) {
+		movie.reviewText.append(parsedReview);
+	}
 	movie.reviewLink.href = review.url;
 	movie.reviewDate.innerText = new Date(review.year, review.month - 1, review.day).toLocaleDateString(undefined, {
 		month: "long",
@@ -32,7 +36,6 @@ export const setMovie = (review: Review, index: number) => {
 	movie.reviewHeart.innerText = review.heart ? "♥" : "";
 	movie.reviewRewatch.innerText = review.rewatch ? "⟲" : "";
 
-	movie.tags.innerHTML = "";
 	for (const tag of review.tags) {
 		const element = document.createElement("a");
 		element.innerText = tag.text;
