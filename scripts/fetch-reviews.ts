@@ -47,7 +47,7 @@ const getDocument = async (url: string) => {
 
 const scrapeReviewListPage = async (url: string): Promise<{ reviews: LetterboxdInfo[]; next?: string }> => {
 	const document = await getDocument(url);
-	const reviews = document.querySelectorAll("li.film-detail").map((element): LetterboxdInfo => {
+	const reviews = document.querySelectorAll('article[data-object-name="review"]').map((element): LetterboxdInfo => {
 		const poster = element.querySelector("div.film-poster");
 		const movieUrl = poster?.getAttribute("data-target-link") ?? null;
 		const anchor = element.querySelector(".headline-2 a");
@@ -55,7 +55,7 @@ const scrapeReviewListPage = async (url: string): Promise<{ reviews: LetterboxdI
 		const ratingElement = element.querySelector("span.rating");
 		const ratingClass =
 			ratingElement && Array.from(ratingElement.classList.values()).find((className) => className.startsWith("rated-"));
-		const dateString = element.querySelector(".content-metadata .date ._nobr")?.textContent.trim() ?? null;
+		const dateString = element.querySelector(".date time.timestamp")?.getAttribute("datetime") ?? null;
 		const date = dateString ? new Date(dateString) : null;
 		return {
 			url: link && `${baseUrl}${link}`,
