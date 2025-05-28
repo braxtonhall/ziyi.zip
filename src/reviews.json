@@ -1,4 +1,115 @@
 {
+	"https://letterboxd.com/ziyiyan/film/neon-genesis-evangelion/": {
+		"url": "https://letterboxd.com/ziyiyan/film/neon-genesis-evangelion/",
+		"heart": true,
+		"rating": 5,
+		"rewatch": false,
+		"year": 2025,
+		"month": 5,
+		"day": 27,
+		"movie": {
+			"title": "Neon Genesis Evangelion",
+			"year": 1995,
+			"url": "https://letterboxd.com/film/neon-genesis-evangelion/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/gs/71/j3/72/neon%20genesis-1920-1920-1080-1080-crop-000000.jpg?v=11b749e191",
+			"poster": "https://a.ltrbxd.com/resized/sm/upload/8k/dt/jf/zc/neon%20genesis-0-230-0-345-crop.jpg?v=f50ed67939"
+		},
+		"tags": [],
+		"content": "<p>伟大，无需多言。</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/nymphomaniac-volume-i/": {
+		"url": "https://letterboxd.com/ziyiyan/film/nymphomaniac-volume-i/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 5,
+		"day": 26,
+		"movie": {
+			"title": "Nymphomaniac: Vol. I",
+			"year": 2013,
+			"url": "https://letterboxd.com/film/nymphomaniac-volume-i/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/ya/v9/ee/vq/nympho-1920-1920-1080-1080-crop-000000.jpg?v=3849f37f0f",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/1/8/1/9/3/7/181937-nymphomaniac-vol-i-0-230-0-345-crop.jpg?v=3228eb869a"
+		},
+		"tags": [
+			{
+				"text": "ubc film society",
+				"url": "https://letterboxd.com/ziyiyan/tag/ubc-film-society/films/"
+			},
+			{
+				"text": "w/ yiwei",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-yiwei/films/"
+			},
+			{
+				"text": "w/ aliang",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-aliang/films/"
+			}
+		],
+		"content": "<p>The path to love</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/love-streams/": {
+		"url": "https://letterboxd.com/ziyiyan/film/love-streams/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 5,
+		"day": 25,
+		"movie": {
+			"title": "Love Streams",
+			"year": 1984,
+			"url": "https://letterboxd.com/film/love-streams/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/t3/mn/io/kx/love1-1920-1920-1080-1080-crop-000000.jpg?v=b51ad4f3f1",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/1/3/7/6/6/13766-love-streams-0-230-0-345-crop.jpg?v=944feb2e19"
+		},
+		"tags": [
+			{
+				"text": "viff center",
+				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
+			},
+			{
+				"text": "w/ saher",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-saher/films/"
+			}
+		],
+		"content": "<p>Don’t need to be so extreme guys</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/mind-game/1/": {
+		"url": "https://letterboxd.com/ziyiyan/film/mind-game/1/",
+		"heart": true,
+		"rating": 5,
+		"rewatch": false,
+		"year": 2025,
+		"month": 5,
+		"day": 21,
+		"movie": {
+			"title": "Mind Game",
+			"year": 2004,
+			"url": "https://letterboxd.com/film/mind-game/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/c9/9x/69/yc/mind%20game-1200-1200-675-675-crop-000000.jpg?v=f41a476585",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/3/8/2/4/8/38248-mind-game-0-230-0-345-crop.jpg?v=3e94750fec"
+		},
+		"tags": [
+			{
+				"text": "criterion channel",
+				"url": "https://letterboxd.com/ziyiyan/tag/criterion-channel/films/"
+			},
+			{
+				"text": "w/ esther",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-esther/films/"
+			},
+			{
+				"text": "w/ yiwei",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-yiwei/films/"
+			}
+		],
+		"content": "<p>Never give up 4L brothers</p>",
+		"spoiler": false
+	},
 	"https://letterboxd.com/ziyiyan/film/neon-genesis-evangelion-the-end-of-evangelion/1/": {
 		"url": "https://letterboxd.com/ziyiyan/film/neon-genesis-evangelion-the-end-of-evangelion/1/",
 		"heart": true,
@@ -211,8 +322,8 @@
 		"content": "<p>Up and on and on</p>",
 		"spoiler": false
 	},
-	"https://letterboxd.com/ziyiyan/film/conan-obrien-the-kennedy-center-mark-twain/": {
-		"url": "https://letterboxd.com/ziyiyan/film/conan-obrien-the-kennedy-center-mark-twain/",
+	"https://letterboxd.com/ziyiyan/film/conan-obrien-the-kennedy-center-mark-twain-2025/": {
+		"url": "https://letterboxd.com/ziyiyan/film/conan-obrien-the-kennedy-center-mark-twain-2025/",
 		"heart": true,
 		"rating": null,
 		"rewatch": false,
@@ -222,7 +333,7 @@
 		"movie": {
 			"title": "Conan O’Brien: The Kennedy Center Mark Twain Prize for American Humor",
 			"year": 2025,
-			"url": "https://letterboxd.com/film/conan-obrien-the-kennedy-center-mark-twain/",
+			"url": "https://letterboxd.com/film/conan-obrien-the-kennedy-center-mark-twain-2025/",
 			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/x9/yr/ul/mb/sonan-1920-1920-1080-1080-crop-000000.jpg?v=d4f1955daa",
 			"poster": "https://a.ltrbxd.com/resized/film-poster/1/3/4/6/9/1/8/1346918-conan-obrien-the-kennedy-center-mark-twain-0-230-0-345-crop.jpg?v=937e489835"
 		},
@@ -540,6 +651,25 @@
 			}
 		],
 		"content": "<p>Shining dark</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/conan-obrien-the-kennedy-center-mark-twain/": {
+		"url": "https://letterboxd.com/ziyiyan/film/conan-obrien-the-kennedy-center-mark-twain/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 5,
+		"day": 6,
+		"movie": {
+			"title": "Conan O’Brien: The Kennedy Center Mark Twain Prize for American Humor",
+			"year": 2025,
+			"url": "https://letterboxd.com/film/conan-obrien-the-kennedy-center-mark-twain/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/x9/yr/ul/mb/sonan-1920-1920-1080-1080-crop-000000.jpg?v=d4f1955daa",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/1/3/4/6/9/1/8/1346918-conan-obrien-the-kennedy-center-mark-twain-0-230-0-345-crop.jpg?v=937e489835"
+		},
+		"tags": [],
+		"content": "<p>Conan unhinged</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/suzhou-river/": {
@@ -3462,7 +3592,7 @@
 			"year": 2024,
 			"url": "https://letterboxd.com/film/at-averroes-rosa-parks/",
 			"backdrop": null,
-			"poster": "https://a.ltrbxd.com/resized/film-poster/1/0/8/8/8/8/8/1088888-at-averroes-rosa-parks-0-230-0-345-crop.jpg?v=b898fd72f1"
+			"poster": "https://a.ltrbxd.com/resized/film-poster/1/0/8/8/8/8/8/1088888-at-averroes-rosa-parks-0-230-0-345-crop.jpg?v=1ed986c33e"
 		},
 		"tags": [
 			{
