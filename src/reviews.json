@@ -1,4 +1,148 @@
 {
+	"https://letterboxd.com/ziyiyan/film/lust-caution/1/": {
+		"url": "https://letterboxd.com/ziyiyan/film/lust-caution/1/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 6,
+		"day": 3,
+		"movie": {
+			"title": "Lust, Caution",
+			"year": 2007,
+			"url": "https://letterboxd.com/film/lust-caution/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/9a/8u/b2/7d/lust%20cautio-1200-1200-675-675-crop-000000.jpg?v=c140f32395",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/4/9/2/3/0/49230-lust-caution-0-230-0-345-crop.jpg?v=19ed5e6058"
+		},
+		"tags": [
+			{
+				"text": "viff center",
+				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
+			}
+		],
+		"content": "<p>How do we live our life? Bourgeois or proletarian</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/blue-sun-palace/1/": {
+		"url": "https://letterboxd.com/ziyiyan/film/blue-sun-palace/1/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 5,
+		"day": 31,
+		"movie": {
+			"title": "Blue Sun Palace",
+			"year": 2024,
+			"url": "https://letterboxd.com/film/blue-sun-palace/",
+			"backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/5/8/0/4/1/tmdb/b6tF5ANm8lNzBsTGGFdCu28be9r-1920-1920-1080-1080-crop-000000.jpg?v=75bd16fb24",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/1/1/5/8/0/4/1/1158041-blue-sun-palace-0-230-0-345-crop.jpg?v=e6aff3651f"
+		},
+		"tags": [
+			{
+				"text": "the cinematheque ca",
+				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
+			}
+		],
+		"content": "<p>🥹 when watch it again will it be different?</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/a-man-escaped/": {
+		"url": "https://letterboxd.com/ziyiyan/film/a-man-escaped/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 5,
+		"day": 31,
+		"movie": {
+			"title": "A Man Escaped",
+			"year": 1956,
+			"url": "https://letterboxd.com/film/a-man-escaped/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/gr/f4/gb/wm/a-man-escaped-1920-1920-1080-1080-crop-000000.jpg?v=9735eca1bf",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/4/2/5/0/7/42507-a-man-escaped-0-230-0-345-crop.jpg?v=b622f0aca8"
+		},
+		"tags": [
+			{
+				"text": "the cinematheque ca",
+				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
+			}
+		],
+		"content": "<p>Keep your mind sharp</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/nymphomaniac-volume-ii/": {
+		"url": "https://letterboxd.com/ziyiyan/film/nymphomaniac-volume-ii/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 5,
+		"day": 29,
+		"movie": {
+			"title": "Nymphomaniac: Vol. II",
+			"year": 2013,
+			"url": "https://letterboxd.com/film/nymphomaniac-volume-ii/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/jz/n6/fe/sy/nymp%202-1200-1200-675-675-crop-000000.jpg?v=6ef1447439",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/1/7/4/1/9/5/174195-nymphomaniac-vol-ii-0-230-0-345-crop.jpg?v=67e977db79"
+		},
+		"tags": [
+			{
+				"text": "ubc film society",
+				"url": "https://letterboxd.com/ziyiyan/tag/ubc-film-society/films/"
+			}
+		],
+		"content": "<p>Be nympho and be proud</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/friendship-2024/": {
+		"url": "https://letterboxd.com/ziyiyan/film/friendship-2024/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 5,
+		"day": 28,
+		"movie": {
+			"title": "Friendship",
+			"year": 2024,
+			"url": "https://letterboxd.com/film/friendship-2024/",
+			"backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/1/2/2/6/9/1/tmdb/miayZ4OPpHgPATEqnWoLAvEKmxn-1920-1920-1080-1080-crop-000000.jpg?v=2a46626c37",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/1/1/2/2/6/9/1/1122691-friendship-2024-0-230-0-345-crop.jpg?v=9ea74152f4"
+		},
+		"tags": [
+			{
+				"text": "scotiabank theatre",
+				"url": "https://letterboxd.com/ziyiyan/tag/scotiabank-theatre/films/"
+			}
+		],
+		"content": "<p>Brobae is real</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/killer-of-sheep/": {
+		"url": "https://letterboxd.com/ziyiyan/film/killer-of-sheep/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 5,
+		"day": 27,
+		"movie": {
+			"title": "Killer of Sheep",
+			"year": 1978,
+			"url": "https://letterboxd.com/film/killer-of-sheep/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/jf/we/52/jn/killer%20of%20sheep-1200-1200-675-675-crop-000000.jpg?v=78c5e87502",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/3/4/5/2/9/34529-killer-of-sheep-0-230-0-345-crop.jpg?v=f589a84c3d"
+		},
+		"tags": [
+			{
+				"text": "the cinematheque ca",
+				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
+			}
+		],
+		"content": "<p>Poetic hardship</p>",
+		"spoiler": false
+	},
 	"https://letterboxd.com/ziyiyan/film/neon-genesis-evangelion/": {
 		"url": "https://letterboxd.com/ziyiyan/film/neon-genesis-evangelion/",
 		"heart": true,
