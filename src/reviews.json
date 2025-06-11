@@ -1,4 +1,52 @@
 {
+	"https://letterboxd.com/ziyiyan/film/mouchette/": {
+		"url": "https://letterboxd.com/ziyiyan/film/mouchette/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 6,
+		"day": 10,
+		"movie": {
+			"title": "Mouchette",
+			"year": 1967,
+			"url": "https://letterboxd.com/film/mouchette/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/w4/ay/yr/1n/mouchette-1200-1200-675-675-crop-000000.jpg?v=ae260ed122",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/5/0/9/7/3/50973-mouchette-0-230-0-345-crop.jpg?v=60e4c66e18"
+		},
+		"tags": [
+			{
+				"text": "the cinematheque ca",
+				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
+			}
+		],
+		"content": "<p>Ripples left</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/two-women-2025/": {
+		"url": "https://letterboxd.com/ziyiyan/film/two-women-2025/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 6,
+		"day": 6,
+		"movie": {
+			"title": "Two Women",
+			"year": 2025,
+			"url": "https://letterboxd.com/film/two-women-2025/",
+			"backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/9/6/7/9/5/8/tmdb/pSs96lMvG4vOfvACKRGkHZQ9O87-1920-1920-1080-1080-crop-000000.jpg?v=dab0608a38",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/9/6/7/9/5/8/967958-two-women-2025-0-230-0-345-crop.jpg?v=d9c04161e5"
+		},
+		"tags": [
+			{
+				"text": "viff center",
+				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
+			}
+		],
+		"content": "<p>Very fun watch</p>",
+		"spoiler": false
+	},
 	"https://letterboxd.com/ziyiyan/film/lust-caution/1/": {
 		"url": "https://letterboxd.com/ziyiyan/film/lust-caution/1/",
 		"heart": true,
@@ -314,8 +362,8 @@
 		"content": "<p>Yes, monogamy</p>",
 		"spoiler": false
 	},
-	"https://letterboxd.com/ziyiyan/film/west-side-avenue/": {
-		"url": "https://letterboxd.com/ziyiyan/film/west-side-avenue/",
+	"https://letterboxd.com/ziyiyan/film/batang-west-side/": {
+		"url": "https://letterboxd.com/ziyiyan/film/batang-west-side/",
 		"heart": true,
 		"rating": null,
 		"rewatch": false,
@@ -323,9 +371,9 @@
 		"month": 5,
 		"day": 18,
 		"movie": {
-			"title": "West Side Avenue",
+			"title": "Batang West Side",
 			"year": 2001,
-			"url": "https://letterboxd.com/film/west-side-avenue/",
+			"url": "https://letterboxd.com/film/batang-west-side/",
 			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/9e/hw/zu/q4/west%20side%20avenue-1920-1920-1080-1080-crop-000000.jpg?v=dcc2715356",
 			"poster": "https://a.ltrbxd.com/resized/film-poster/1/5/5/3/3/1/155331-west-side-avenue-0-230-0-345-crop.jpg?v=2c97829f1c"
 		},
@@ -571,6 +619,30 @@
 			}
 		],
 		"content": "<p>No way to escape</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/west-side-avenue/": {
+		"url": "https://letterboxd.com/ziyiyan/film/west-side-avenue/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 5,
+		"day": 18,
+		"movie": {
+			"title": "West Side Avenue",
+			"year": 2001,
+			"url": "https://letterboxd.com/film/west-side-avenue/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/9e/hw/zu/q4/west%20side%20avenue-1920-1920-1080-1080-crop-000000.jpg?v=dcc2715356",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/1/5/5/3/3/1/155331-west-side-avenue-0-230-0-345-crop.jpg?v=2c97829f1c"
+		},
+		"tags": [
+			{
+				"text": "the cinematheque ca",
+				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
+			}
+		],
+		"content": "<p>The epic (to be continued…</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/sinners-2025/": {
