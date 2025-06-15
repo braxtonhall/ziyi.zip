@@ -621,30 +621,6 @@
 		"content": "<p>No way to escape</p>",
 		"spoiler": false
 	},
-	"https://letterboxd.com/ziyiyan/film/west-side-avenue/": {
-		"url": "https://letterboxd.com/ziyiyan/film/west-side-avenue/",
-		"heart": true,
-		"rating": null,
-		"rewatch": false,
-		"year": 2025,
-		"month": 5,
-		"day": 18,
-		"movie": {
-			"title": "West Side Avenue",
-			"year": 2001,
-			"url": "https://letterboxd.com/film/west-side-avenue/",
-			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/9e/hw/zu/q4/west%20side%20avenue-1920-1920-1080-1080-crop-000000.jpg?v=dcc2715356",
-			"poster": "https://a.ltrbxd.com/resized/film-poster/1/5/5/3/3/1/155331-west-side-avenue-0-230-0-345-crop.jpg?v=2c97829f1c"
-		},
-		"tags": [
-			{
-				"text": "the cinematheque ca",
-				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
-			}
-		],
-		"content": "<p>The epic (to be continued…</p>",
-		"spoiler": false
-	},
 	"https://letterboxd.com/ziyiyan/film/sinners-2025/": {
 		"url": "https://letterboxd.com/ziyiyan/film/sinners-2025/",
 		"heart": true,
