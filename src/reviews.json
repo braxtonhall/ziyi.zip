@@ -1,4 +1,112 @@
 {
+	"https://letterboxd.com/ziyiyan/film/batang-west-side/1/": {
+		"url": "https://letterboxd.com/ziyiyan/film/batang-west-side/1/",
+		"heart": true,
+		"rating": null,
+		"rewatch": true,
+		"year": 2025,
+		"month": 6,
+		"day": 15,
+		"movie": {
+			"title": "Batang West Side",
+			"year": 2001,
+			"url": "https://letterboxd.com/film/batang-west-side/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/9e/hw/zu/q4/west%20side%20avenue-1920-1920-1080-1080-crop-000000.jpg?v=dcc2715356",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/1/5/5/3/3/1/155331-west-side-avenue-0-230-0-345-crop.jpg?v=2c97829f1c"
+		},
+		"tags": [
+			{
+				"text": "the cinematheque ca",
+				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
+			}
+		],
+		"content": "<p>It’s been cold</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/doctor-glas/": {
+		"url": "https://letterboxd.com/ziyiyan/film/doctor-glas/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 6,
+		"day": 14,
+		"movie": {
+			"title": "Doctor Glas",
+			"year": 1968,
+			"url": "https://letterboxd.com/film/doctor-glas/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/1m/f9/3v/74/15aEHidEdaoTILx1YU7BIYvXXOT-1200-1200-675-675-crop-000000.jpg?v=76f82c2ca9",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/1/4/2/5/9/4/142594-doctor-glas-0-230-0-345-crop.jpg?v=4cfcbb86e4"
+		},
+		"tags": [
+			{
+				"text": "the cinematheque ca",
+				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
+			}
+		],
+		"content": "<p>Great overexposure and out of focus shots</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/pickpocket/": {
+		"url": "https://letterboxd.com/ziyiyan/film/pickpocket/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 6,
+		"day": 13,
+		"movie": {
+			"title": "Pickpocket",
+			"year": 1959,
+			"url": "https://letterboxd.com/film/pickpocket/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/y9/fj/8i/yw/pickpocket-1200-1200-675-675-crop-000000.jpg?v=4ca9359176",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/5/1/4/3/6/51436-pickpocket-0-230-0-345-crop.jpg?v=4c798a0e55"
+		},
+		"tags": [
+			{
+				"text": "the cinematheque ca",
+				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
+			},
+			{
+				"text": "w/ yiwei",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-yiwei/films/"
+			},
+			{
+				"text": "w/ harry",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-harry/films/"
+			},
+			{
+				"text": "w/ rongrong",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-rongrong/films/"
+			}
+		],
+		"content": "<p>Craftsmanship fr</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/loving-couples/": {
+		"url": "https://letterboxd.com/ziyiyan/film/loving-couples/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 6,
+		"day": 12,
+		"movie": {
+			"title": "Loving Couples",
+			"year": 1964,
+			"url": "https://letterboxd.com/film/loving-couples/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/7k/15/zx/ij/rhFc6Mzk01NjOQhV3IfHdn5FScB-1200-1200-675-675-crop-000000.jpg?v=29c4e80d1d",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/1/3/1/5/3/3/131533-loving-couples-0-230-0-345-crop.jpg?v=c944898795"
+		},
+		"tags": [
+			{
+				"text": "the cinematheque ca",
+				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
+			}
+		],
+		"content": "<p>People been loving, complicated</p>",
+		"spoiler": false
+	},
 	"https://letterboxd.com/ziyiyan/film/mouchette/": {
 		"url": "https://letterboxd.com/ziyiyan/film/mouchette/",
 		"heart": true,
