@@ -50,7 +50,7 @@ const scrapeReviewListPage = async (url: string): Promise<{ reviews: LetterboxdI
 	const reviews = document.querySelectorAll('article[data-object-name="review"]').map((element): LetterboxdInfo => {
 		const poster = element.querySelector("div.film-poster");
 		const movieUrl = poster?.getAttribute("data-target-link") ?? null;
-		const anchor = element.querySelector(".headline-2 a");
+		const anchor = element.querySelector("h2.name a");
 		const link = anchor?.getAttribute("href") ?? null;
 		const ratingElement = element.querySelector("span.rating");
 		const ratingClass =
@@ -61,13 +61,13 @@ const scrapeReviewListPage = async (url: string): Promise<{ reviews: LetterboxdI
 			url: link && `${baseUrl}${link}`,
 			heart: !!element.querySelector(".icon-liked"),
 			rating: ratingClass ? Number(ratingClass.replace("rated-", "")) / 2 : null,
-			rewatch: !!element.querySelector(".content-metadata .date")?.text?.includes("Rewatched"),
+			rewatch: !!element.querySelector("span.attribution-detail")?.text?.includes("Rewatched"),
 			year: date && date.getFullYear(),
 			month: date && date.getMonth() + 1,
 			day: date && date.getDate(),
 			movie: {
 				title: anchor?.textContent ?? null,
-				year: Number(element.querySelector(".headline-2 .metadata a")?.innerText) || null,
+				year: Number(element.querySelector("span.releasedate")?.innerText) || null,
 				url: movieUrl && `${baseUrl}${movieUrl}`,
 			},
 		};
