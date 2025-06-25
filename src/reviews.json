@@ -1,4 +1,140 @@
 {
+	"https://letterboxd.com/ziyiyan/film/amorosa/": {
+		"url": "https://letterboxd.com/ziyiyan/film/amorosa/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 6,
+		"day": 22,
+		"movie": {
+			"title": "Amorosa",
+			"year": 1986,
+			"url": "https://letterboxd.com/film/amorosa/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/lz/m7/33/nn/yXTF05lGtRVm8OxZWwtTk0yEPSi-1920-1920-1080-1080-crop-000000.jpg?v=49a1b4c1f4",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/1/4/6/1/1/4/146114-amorosa-0-230-0-345-crop.jpg?v=abd13d03c1"
+		},
+		"tags": [
+			{
+				"text": "the cinematheque ca",
+				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
+			},
+			{
+				"text": "w/ tianming",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-tianming/films/"
+			}
+		],
+		"content": "<p>“Much pains, much tears, all circled in a ring.”<br>Must it be self-destructing to battle?</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/eat-drink-man-woman/": {
+		"url": "https://letterboxd.com/ziyiyan/film/eat-drink-man-woman/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 6,
+		"day": 21,
+		"movie": {
+			"title": "Eat Drink Man Woman",
+			"year": 1994,
+			"url": "https://letterboxd.com/film/eat-drink-man-woman/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/l7/qi/j4/i3/eat-drink-man-woman-1200-1200-675-675-crop-000000.jpg?v=eee039317f",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/4/6/2/1/7/46217-eat-drink-man-woman-0-230-0-345-crop.jpg?v=e5de4feefc"
+		},
+		"tags": [
+			{
+				"text": "rio theatre",
+				"url": "https://letterboxd.com/ziyiyan/tag/rio-theatre/films/"
+			},
+			{
+				"text": "amoment bookstore",
+				"url": "https://letterboxd.com/ziyiyan/tag/amoment-bookstore/films/"
+			},
+			{
+				"text": "w/ yiwei",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-yiwei/films/"
+			},
+			{
+				"text": "w/ boyan",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-boyan/films/"
+			}
+		],
+		"content": "<p>饮食男女一辈子</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/four-nights-of-a-dreamer/": {
+		"url": "https://letterboxd.com/ziyiyan/film/four-nights-of-a-dreamer/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 6,
+		"day": 20,
+		"movie": {
+			"title": "Four Nights of a Dreamer",
+			"year": 1971,
+			"url": "https://letterboxd.com/film/four-nights-of-a-dreamer/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/l9/f4/ww/er/four%20nights-1920-1920-1080-1080-crop-000000.jpg?v=a4eadecf0c",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/1/0/3/2/4/10324-four-nights-of-a-dreamer-0-230-0-345-crop.jpg?v=3d7cc8a4e4"
+		},
+		"tags": [
+			{
+				"text": "the cinematheque ca",
+				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
+			}
+		],
+		"content": "<p>I hope that will actually happen</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/night-games/": {
+		"url": "https://letterboxd.com/ziyiyan/film/night-games/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 6,
+		"day": 20,
+		"movie": {
+			"title": "Night Games",
+			"year": 1966,
+			"url": "https://letterboxd.com/film/night-games/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/ur/nu/po/i8/wn0xByUNtfGBgoEm9dbcH5gcNNj-1920-1920-1080-1080-crop-000000.jpg?v=f9ed877d6f",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/1/5/8/4/1/15841-night-games-0-230-0-345-crop.jpg?v=3cc6bd9eb0"
+		},
+		"tags": [
+			{
+				"text": "the cinematheque ca",
+				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
+			}
+		],
+		"content": "<p>Chinese decor and clothing = rich as fuck</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/a-gentle-woman/": {
+		"url": "https://letterboxd.com/ziyiyan/film/a-gentle-woman/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 6,
+		"day": 19,
+		"movie": {
+			"title": "A Gentle Woman",
+			"year": 1969,
+			"url": "https://letterboxd.com/film/a-gentle-woman/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/ed/zq/ho/gg/gentle%20women-1920-1920-1080-1080-crop-000000.jpg?v=f8c164406d",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/1/0/3/3/4/10334-a-gentle-woman-0-230-0-345-crop.jpg?v=c34542e2de"
+		},
+		"tags": [
+			{
+				"text": "the cinematheque ca",
+				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
+			}
+		],
+		"content": "<p>I love them clothes and decor so much 🥹</p>",
+		"spoiler": false
+	},
 	"https://letterboxd.com/ziyiyan/film/batang-west-side/1/": {
 		"url": "https://letterboxd.com/ziyiyan/film/batang-west-side/1/",
 		"heart": true,
