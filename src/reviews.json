@@ -1,4 +1,80 @@
 {
+	"https://letterboxd.com/ziyiyan/film/the-celebration/": {
+		"url": "https://letterboxd.com/ziyiyan/film/the-celebration/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 6,
+		"day": 26,
+		"movie": {
+			"title": "The Celebration",
+			"year": 1998,
+			"url": "https://letterboxd.com/film/the-celebration/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/po/dw/47/6o/the-celebration-1200-1200-675-675-crop-000000.jpg?v=e330244573",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/5/1/7/5/0/51750-the-celebration-0-230-0-345-crop.jpg?v=7eefb2e0b7"
+		},
+		"tags": [
+			{
+				"text": "criterion channel",
+				"url": "https://letterboxd.com/ziyiyan/tag/criterion-channel/films/"
+			}
+		],
+		"content": "<p>Oh my I love this cinematography. Found out the director did Another Round and Hunt and the cinematographer did Julien Donkey-boy. All the movies I love</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/largent-1983/": {
+		"url": "https://letterboxd.com/ziyiyan/film/largent-1983/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 6,
+		"day": 26,
+		"movie": {
+			"title": "L'Argent",
+			"year": 1983,
+			"url": "https://letterboxd.com/film/largent-1983/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/vi/11/03/u8/largent-1920-1920-1080-1080-crop-000000.jpg?v=4c87c5d9ff",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/2/2/9/5/4/22954-l-argent-0-230-0-345-crop.jpg?v=3d088030ca"
+		},
+		"tags": [
+			{
+				"text": "the cinematheque ca",
+				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
+			}
+		],
+		"content": "<p>Spiraling down</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/28-years-later/": {
+		"url": "https://letterboxd.com/ziyiyan/film/28-years-later/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 6,
+		"day": 25,
+		"movie": {
+			"title": "28 Years Later",
+			"year": 2025,
+			"url": "https://letterboxd.com/film/28-years-later/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/or/yw/kz/od/Iw9jQe-1920-1920-1080-1080-crop-000000.jpg?v=d8e760c72c",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/9/9/2/7/8/6/992786-28-years-later-0-230-0-345-crop.jpg?v=014e09c066"
+		},
+		"tags": [
+			{
+				"text": "scotiabank theatre",
+				"url": "https://letterboxd.com/ziyiyan/tag/scotiabank-theatre/films/"
+			},
+			{
+				"text": "w/ vincent",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-vincent/films/"
+			}
+		],
+		"content": "<p>Lesson learned the hard way</p>",
+		"spoiler": false
+	},
 	"https://letterboxd.com/ziyiyan/film/amorosa/": {
 		"url": "https://letterboxd.com/ziyiyan/film/amorosa/",
 		"heart": true,
