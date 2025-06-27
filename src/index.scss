@@ -487,6 +487,8 @@ body.offline .online-only {
 }
 .scrollable {
 	overflow: scroll;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
 }
 .download-links {
 	> *:not(:last-child) {
