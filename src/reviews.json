@@ -1,4 +1,140 @@
 {
+	"https://letterboxd.com/ziyiyan/film/barry-lyndon/1/": {
+		"url": "https://letterboxd.com/ziyiyan/film/barry-lyndon/1/",
+		"heart": true,
+		"rating": null,
+		"rewatch": true,
+		"year": 2025,
+		"month": 7,
+		"day": 3,
+		"movie": {
+			"title": "Barry Lyndon",
+			"year": 1975,
+			"url": "https://letterboxd.com/film/barry-lyndon/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/su/h6/e2/cr/barry-lyndon-1920-1920-1080-1080-crop-000000.jpg?v=b70b5426e8",
+			"poster": "https://a.ltrbxd.com/resized/sm/upload/0f/r6/bn/w7/x2JQCgLjieWOwvImeGtLmuNgsrq-0-230-0-345-crop.jpg?v=9c250ee969"
+		},
+		"tags": [
+			{
+				"text": "the cinematheque ca",
+				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
+			}
+		],
+		"content": "<p>Indeed beautiful</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/shall-we-dance-1996/": {
+		"url": "https://letterboxd.com/ziyiyan/film/shall-we-dance-1996/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 7,
+		"day": 5,
+		"movie": {
+			"title": "Shall We Dance?",
+			"year": 1996,
+			"url": "https://letterboxd.com/film/shall-we-dance-1996/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/5t/3s/vf/7d/shall%20we%20dance-1200-1200-675-675-crop-000000.jpg?v=8c4abcea62",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/4/5/4/7/0/45470-shall-we-dance--0-230-0-345-crop.jpg?v=2cf0d76400"
+		},
+		"tags": [
+			{
+				"text": "viff center",
+				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
+			},
+			{
+				"text": "w/ vincent",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-vincent/films/"
+			}
+		],
+		"content": "<p>Shall we?</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/the-devil-probably/": {
+		"url": "https://letterboxd.com/ziyiyan/film/the-devil-probably/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 7,
+		"day": 2,
+		"movie": {
+			"title": "The Devil, Probably",
+			"year": 1977,
+			"url": "https://letterboxd.com/film/the-devil-probably/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/6m/wi/ey/wa/devil-1920-1920-1080-1080-crop-000000.jpg?v=830d3af713",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/3/0/6/4/8/30648-the-devil-probably-0-230-0-345-crop.jpg?v=dd27279bd2"
+		},
+		"tags": [
+			{
+				"text": "the cinematheque ca",
+				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
+			},
+			{
+				"text": "w/ aliang",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-aliang/films/"
+			}
+		],
+		"content": "<p>Don’t let the devil win</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/night-games/1/": {
+		"url": "https://letterboxd.com/ziyiyan/film/night-games/1/",
+		"heart": true,
+		"rating": null,
+		"rewatch": true,
+		"year": 2025,
+		"month": 7,
+		"day": 1,
+		"movie": {
+			"title": "Night Games",
+			"year": 1966,
+			"url": "https://letterboxd.com/film/night-games/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/ur/nu/po/i8/wn0xByUNtfGBgoEm9dbcH5gcNNj-1920-1920-1080-1080-crop-000000.jpg?v=f9ed877d6f",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/1/5/8/4/1/15841-night-games-0-230-0-345-crop.jpg?v=3cc6bd9eb0"
+		},
+		"tags": [
+			{
+				"text": "the cinematheque ca",
+				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
+			},
+			{
+				"text": "w/ nannan",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-nannan/films/"
+			}
+		],
+		"content": "<p>Truth found in nothingness</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/the-rubber-gun/1/": {
+		"url": "https://letterboxd.com/ziyiyan/film/the-rubber-gun/1/",
+		"heart": true,
+		"rating": null,
+		"rewatch": true,
+		"year": 2025,
+		"month": 7,
+		"day": 1,
+		"movie": {
+			"title": "The Rubber Gun",
+			"year": 1977,
+			"url": "https://letterboxd.com/film/the-rubber-gun/",
+			"backdrop": null,
+			"poster": "https://a.ltrbxd.com/resized/film-poster/9/5/8/4/5/95845-the-rubber-gun-0-230-0-345-crop.jpg?v=7c1836c3ee"
+		},
+		"tags": [
+			{
+				"text": "the cinematheque ca",
+				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
+			},
+			{
+				"text": "w/ nannan",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-nannan/films/"
+			}
+		],
+		"content": "<p>Family needs to talk and that applies to chosen family also</p>",
+		"spoiler": false
+	},
 	"https://letterboxd.com/ziyiyan/film/maybe-i-really-am-a-sorceress/": {
 		"url": "https://letterboxd.com/ziyiyan/film/maybe-i-really-am-a-sorceress/",
 		"heart": true,
@@ -4296,7 +4432,7 @@
 			"title": "At Averroès & Rosa Parks",
 			"year": 2024,
 			"url": "https://letterboxd.com/film/at-averroes-rosa-parks/",
-			"backdrop": null,
+			"backdrop": "https://a.ltrbxd.com/resized/alternative-backdrop/1/0/8/8/8/8/8/tmdb/1XV5WQoJFYJIq1AsJ8mAz9GRkFh-1920-1920-1080-1080-crop-000000.jpg?v=00c8fc4443",
 			"poster": "https://a.ltrbxd.com/resized/film-poster/1/0/8/8/8/8/8/1088888-at-averroes-rosa-parks-0-230-0-345-crop.jpg?v=1ed986c33e"
 		},
 		"tags": [
