@@ -1,4 +1,92 @@
 {
+	"https://letterboxd.com/ziyiyan/film/happy-hour-2015-1/": {
+		"url": "https://letterboxd.com/ziyiyan/film/happy-hour-2015-1/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 7,
+		"day": 13,
+		"movie": {
+			"title": "Happy Hour",
+			"year": 2015,
+			"url": "https://letterboxd.com/film/happy-hour-2015-1/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/1c/mc/ou/8b/happy-hour-2015-1-1200-1200-675-675-crop-000000.jpg?v=bba0cdcf30",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/2/8/4/9/4/1/284941-happy-hour-0-230-0-345-crop.jpg?v=2cca97d145"
+		},
+		"tags": [
+			{
+				"text": "the cinematheque ca",
+				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
+			},
+			{
+				"text": "w/ esther",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-esther/films/"
+			}
+		],
+		"content": "<p>Never too late</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/in-the-mood-for-love/4/": {
+		"url": "https://letterboxd.com/ziyiyan/film/in-the-mood-for-love/4/",
+		"heart": true,
+		"rating": 5,
+		"rewatch": true,
+		"year": 2025,
+		"month": 7,
+		"day": 9,
+		"movie": {
+			"title": "In the Mood for Love",
+			"year": 2000,
+			"url": "https://letterboxd.com/film/in-the-mood-for-love/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/1a/ox/ht/6y/in-the-mood-for-love-1920-1920-1080-1080-crop-000000.jpg?v=1489906ac3",
+			"poster": "https://a.ltrbxd.com/resized/sm/upload/g1/7l/2j/qk/tSRdvZY1waXrTeMqeLBmq9IRs08-0-230-0-345-crop.jpg?v=938633fc19"
+		},
+		"tags": [
+			{
+				"text": "viff center",
+				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
+			},
+			{
+				"text": "w/ clement",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-clement/films/"
+			}
+		],
+		"content": "<p>Seeing it but not saying it</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/green-snake/1/": {
+		"url": "https://letterboxd.com/ziyiyan/film/green-snake/1/",
+		"heart": true,
+		"rating": null,
+		"rewatch": true,
+		"year": 2025,
+		"month": 7,
+		"day": 10,
+		"movie": {
+			"title": "Green Snake",
+			"year": 1993,
+			"url": "https://letterboxd.com/film/green-snake/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/47/dy/52/67/w3LFYTY1nfrmCqngbOREGNLzBbd-1200-1200-675-675-crop-000000.jpg?v=9ff106a5b3",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/2/4/9/5/7/24957-green-snake-0-230-0-345-crop.jpg?v=2977306e4a"
+		},
+		"tags": [
+			{
+				"text": "the cinematheque ca",
+				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
+			},
+			{
+				"text": "w/ mulan",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-mulan/films/"
+			},
+			{
+				"text": "w/ steve",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-steve/films/"
+			}
+		],
+		"content": "<p>All the effort in vain, is it worth it?</p>",
+		"spoiler": false
+	},
 	"https://letterboxd.com/ziyiyan/film/barry-lyndon/1/": {
 		"url": "https://letterboxd.com/ziyiyan/film/barry-lyndon/1/",
 		"heart": true,
@@ -557,6 +645,30 @@
 			}
 		],
 		"content": "<p>I love them clothes and decor so much 🥹</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/west-side-avenue/1/": {
+		"url": "https://letterboxd.com/ziyiyan/film/west-side-avenue/1/",
+		"heart": true,
+		"rating": null,
+		"rewatch": true,
+		"year": 2025,
+		"month": 6,
+		"day": 15,
+		"movie": {
+			"title": "West Side Avenue",
+			"year": 2001,
+			"url": "https://letterboxd.com/film/west-side-avenue/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/9e/hw/zu/q4/west%20side%20avenue-1920-1920-1080-1080-crop-000000.jpg?v=dcc2715356",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/1/5/5/3/3/1/155331-west-side-avenue-0-230-0-345-crop.jpg?v=2c97829f1c"
+		},
+		"tags": [
+			{
+				"text": "the cinematheque ca",
+				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
+			}
+		],
+		"content": "<p>It’s been cold</p>",
 		"spoiler": false
 	},
 	"https://letterboxd.com/ziyiyan/film/batang-west-side/1/": {
