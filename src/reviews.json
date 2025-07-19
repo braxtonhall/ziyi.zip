@@ -671,30 +671,6 @@
 		"content": "<p>It’s been cold</p>",
 		"spoiler": false
 	},
-	"https://letterboxd.com/ziyiyan/film/batang-west-side/1/": {
-		"url": "https://letterboxd.com/ziyiyan/film/batang-west-side/1/",
-		"heart": true,
-		"rating": null,
-		"rewatch": true,
-		"year": 2025,
-		"month": 6,
-		"day": 15,
-		"movie": {
-			"title": "Batang West Side",
-			"year": 2001,
-			"url": "https://letterboxd.com/film/batang-west-side/",
-			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/9e/hw/zu/q4/west%20side%20avenue-1920-1920-1080-1080-crop-000000.jpg?v=dcc2715356",
-			"poster": "https://a.ltrbxd.com/resized/film-poster/1/5/5/3/3/1/155331-west-side-avenue-0-230-0-345-crop.jpg?v=2c97829f1c"
-		},
-		"tags": [
-			{
-				"text": "the cinematheque ca",
-				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
-			}
-		],
-		"content": "<p>It’s been cold</p>",
-		"spoiler": false
-	},
 	"https://letterboxd.com/ziyiyan/film/doctor-glas/": {
 		"url": "https://letterboxd.com/ziyiyan/film/doctor-glas/",
 		"heart": true,
