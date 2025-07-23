@@ -1,4 +1,88 @@
 {
+	"https://letterboxd.com/ziyiyan/film/the-blade/": {
+		"url": "https://letterboxd.com/ziyiyan/film/the-blade/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 7,
+		"day": 19,
+		"movie": {
+			"title": "The Blade",
+			"year": 1995,
+			"url": "https://letterboxd.com/film/the-blade/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/mn/ci/mh/kd/92HhhtM2yT0ffV1kAkVDv16an9b-1920-1920-1080-1080-crop-000000.jpg?v=6cabd925f1",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/2/2/2/4/9/22249-the-blade-0-230-0-345-crop.jpg?v=c5b25657fb"
+		},
+		"tags": [
+			{
+				"text": "the cinematheque ca",
+				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
+			},
+			{
+				"text": "35mm",
+				"url": "https://letterboxd.com/ziyiyan/tag/35mm/films/"
+			}
+		],
+		"content": "<p>江湖无定</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/the-gleaners-and-i/": {
+		"url": "https://letterboxd.com/ziyiyan/film/the-gleaners-and-i/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 7,
+		"day": 16,
+		"movie": {
+			"title": "The Gleaners and I",
+			"year": 2000,
+			"url": "https://letterboxd.com/film/the-gleaners-and-i/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/mc/34/qa/38/gleaners-1920-1920-1080-1080-crop-000000.jpg?v=5ae6056b26",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/2/0/7/9/6/20796-the-gleaners-i-0-230-0-345-crop.jpg?v=2b4c871ed4"
+		},
+		"tags": [
+			{
+				"text": "viff center",
+				"url": "https://letterboxd.com/ziyiyan/tag/viff-center/films/"
+			},
+			{
+				"text": "w/ zoé",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-zoe/films/"
+			}
+		],
+		"content": "<p>When does play stop and art begin?</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/shanghai-blues/": {
+		"url": "https://letterboxd.com/ziyiyan/film/shanghai-blues/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 7,
+		"day": 16,
+		"movie": {
+			"title": "Shanghai Blues",
+			"year": 1984,
+			"url": "https://letterboxd.com/film/shanghai-blues/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/c7/be/km/0s/xQu5CyXb7MyL7jjXhr8TtTj0wkO-1200-1200-675-675-crop-000000.jpg?v=53f3e4bea1",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/1/0/9/0/8/7/109087-shanghai-blues-0-230-0-345-crop.jpg?v=fe5daec6dd"
+		},
+		"tags": [
+			{
+				"text": "the cinematheque ca",
+				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
+			},
+			{
+				"text": "w/ nannan",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-nannan/films/"
+			}
+		],
+		"content": "<p>The melting pot of languages</p>",
+		"spoiler": false
+	},
 	"https://letterboxd.com/ziyiyan/film/happy-hour-2015-1/": {
 		"url": "https://letterboxd.com/ziyiyan/film/happy-hour-2015-1/",
 		"heart": true,
@@ -4497,7 +4581,7 @@
 			"year": 2012,
 			"url": "https://letterboxd.com/film/quod-erat-demonstrandum-2012/",
 			"backdrop": null,
-			"poster": "https://a.ltrbxd.com/resized/film-poster/3/0/0/8/3/5/300835-quod-erat-demonstrandum-0-230-0-345-crop.jpg?v=9d777ee275"
+			"poster": "https://a.ltrbxd.com/resized/film-poster/3/0/0/8/3/5/300835-quod-erat-demonstrandum-2012-0-230-0-345-crop.jpg?v=c381658daa"
 		},
 		"tags": [
 			{
