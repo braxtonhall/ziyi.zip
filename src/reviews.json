@@ -1,4 +1,124 @@
 {
+	"https://letterboxd.com/ziyiyan/film/working-class/": {
+		"url": "https://letterboxd.com/ziyiyan/film/working-class/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 7,
+		"day": 27,
+		"movie": {
+			"title": "Working Class",
+			"year": 1985,
+			"url": "https://letterboxd.com/film/working-class/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/o8/uj/2t/uf/yPU0xheh6Xlxq3ceMZ7Zz99lg2Z-1200-1200-675-675-crop-000000.jpg?v=6d2c2a422b",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/1/2/4/4/0/6/124406-working-class-0-230-0-345-crop.jpg?v=edf4546c34"
+		},
+		"tags": [
+			{
+				"text": "the cinematheque ca",
+				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
+			},
+			{
+				"text": "w/ nannan",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-nannan/films/"
+			},
+			{
+				"text": "w/ vincent",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-vincent/films/"
+			}
+		],
+		"content": "<p>好厚米开趴啦</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/daisies/": {
+		"url": "https://letterboxd.com/ziyiyan/film/daisies/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 7,
+		"day": 28,
+		"movie": {
+			"title": "Daisies",
+			"year": 1966,
+			"url": "https://letterboxd.com/film/daisies/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/xs/iz/hc/ts/daisies-1200-1200-675-675-crop-000000.jpg?v=9631f107b0",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/1/8/4/4/7/18447-daisies-0-230-0-345-crop.jpg?v=4c08c58c03"
+		},
+		"tags": [
+			{
+				"text": "criterion channel",
+				"url": "https://letterboxd.com/ziyiyan/tag/criterion-channel/films/"
+			},
+			{
+				"text": "w/ tanay",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-tanay/films/"
+			}
+		],
+		"content": "<p>I care. Let me know if you care</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/the-way-we-talk-2024/": {
+		"url": "https://letterboxd.com/ziyiyan/film/the-way-we-talk-2024/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 7,
+		"day": 27,
+		"movie": {
+			"title": "The Way We Talk",
+			"year": 2024,
+			"url": "https://letterboxd.com/film/the-way-we-talk-2024/",
+			"backdrop": null,
+			"poster": "https://a.ltrbxd.com/resized/film-poster/1/1/2/2/4/3/6/1122436-the-way-we-talk-2024-0-230-0-345-crop.jpg?v=0acf34b197"
+		},
+		"tags": [
+			{
+				"text": "cineplex marine gateway",
+				"url": "https://letterboxd.com/ziyiyan/tag/cineplex-marine-gateway/films/"
+			},
+			{
+				"text": "w/ vincent",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-vincent/films/"
+			}
+		],
+		"content": "<p>Be you and don’t be normal</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/peking-opera-blues/": {
+		"url": "https://letterboxd.com/ziyiyan/film/peking-opera-blues/",
+		"heart": true,
+		"rating": 5,
+		"rewatch": false,
+		"year": 2025,
+		"month": 7,
+		"day": 26,
+		"movie": {
+			"title": "Peking Opera Blues",
+			"year": 1986,
+			"url": "https://letterboxd.com/film/peking-opera-blues/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/m4/p8/ac/tg/peking-1200-1200-675-675-crop-000000.jpg?v=dd550ad7d7",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/2/5/0/8/4/25084-peking-opera-blues-0-230-0-345-crop.jpg?v=e56d7db32d"
+		},
+		"tags": [
+			{
+				"text": "the cinematheque ca",
+				"url": "https://letterboxd.com/ziyiyan/tag/the-cinematheque-ca/films/"
+			},
+			{
+				"text": "w/ vincent",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-vincent/films/"
+			},
+			{
+				"text": "w/ nannan",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-nannan/films/"
+			}
+		],
+		"content": "<p>Masterful work of political, action, and screwball comedy drama</p>",
+		"spoiler": false
+	},
 	"https://letterboxd.com/ziyiyan/film/the-blade/": {
 		"url": "https://letterboxd.com/ziyiyan/film/the-blade/",
 		"heart": true,
