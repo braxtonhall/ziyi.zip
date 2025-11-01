@@ -48,17 +48,17 @@ const getDocument = async (url: string) => {
 const scrapeReviewListPage = async (url: string): Promise<{ reviews: LetterboxdInfo[]; next?: string }> => {
 	const document = await getDocument(url);
 	const reviews = document.querySelectorAll('article[data-object-name="review"]').map((element): LetterboxdInfo => {
-		const poster = element.querySelector("div.film-poster");
+		const poster = element.querySelector("div.figure[data-target-link]:has(.film-poster)");
 		const movieUrl = poster?.getAttribute("data-target-link") ?? null;
-		const anchor = element.querySelector("h2.name a");
-		const link = anchor?.getAttribute("href") ?? null;
+		const reviewAnchor = element.querySelector("h2.name a");
+		const reviewHref = reviewAnchor?.getAttribute("href") ?? null;
 		const ratingElement = element.querySelector("span.rating");
 		const ratingClass =
 			ratingElement && Array.from(ratingElement.classList.values()).find((className) => className.startsWith("rated-"));
 		const dateString = element.querySelector(".date time.timestamp")?.getAttribute("datetime") ?? null;
 		const date = dateString ? new Date(dateString) : null;
 		return {
-			url: link && `${baseUrl}${link}`,
+			url: reviewHref && `${baseUrl}${reviewHref}`,
 			heart: !!element.querySelector(".icon-liked"),
 			rating: ratingClass ? Number(ratingClass.replace("rated-", "")) / 2 : null,
 			rewatch: !!element.querySelector("span.attribution-detail")?.text?.includes("Rewatched"),
@@ -66,7 +66,7 @@ const scrapeReviewListPage = async (url: string): Promise<{ reviews: LetterboxdI
 			month: date && date.getMonth() + 1,
 			day: date && date.getDate(),
 			movie: {
-				title: anchor?.textContent ?? null,
+				title: reviewAnchor?.textContent ?? null,
 				year: Number(element.querySelector("span.releasedate")?.innerText) || null,
 				url: movieUrl && `${baseUrl}${movieUrl}`,
 			},
@@ -80,7 +80,7 @@ const getReviewInfo = async (url: string | null): Promise<RemainingReviewInfo> =
 	if (url) {
 		const document = await getDocument(url);
 		const review = document.querySelector(".js-review-body")?.innerHTML.trim() ?? null;
-		const spoiler = !!document.querySelector("div.contains-spoilers");
+		const spoiler = !!document.querySelector("div.has-spoilers");
 		return {
 			tags: document.querySelectorAll("ul.tags li a").map((element) => ({
 				text: element.textContent,
