@@ -65,7 +65,7 @@ nav {
 		margin-right: 0.5rem;
 	}
 }
-label,
+label:not(.history-placeholder),
 input:not(:disabled),
 details,
 button {
