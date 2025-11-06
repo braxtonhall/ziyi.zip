@@ -1,5 +1,6 @@
 import { getElements } from "./elements";
 import { Review } from "./types";
+import { setImage } from "./setImage";
 
 const toRatingString = (rating: number | null) => {
 	if (rating === null) {
@@ -44,33 +45,9 @@ export const setMovie = (review: Review, index: number) => {
 		element.classList.add("tag");
 		movie.tags.append(element);
 	}
-
-	if (review.movie.backdrop) {
-		movie.backdrop.src = review.movie.backdrop;
-		movie.backdrop.alt = review.movie.title;
-		movie.backdrop.addEventListener("load", () => movie.backdrop.classList.add("ready"), {
-			once: true,
-			passive: true,
-		});
-	} else {
-		movie.backdrop.src =
-			"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=";
-		movie.backdrop.classList.add("ready");
-	}
+	setImage({ element: movie.backdrop, src: review.movie.backdrop });
 	movie.reviewContents.classList.add("ready");
-
-	movie.poster.alt = review.movie.title;
-	if (review.movie.poster) {
-		movie.poster.src = review.movie.poster;
-		movie.poster.addEventListener("load", () => movie.poster.classList.add("ready"), {
-			once: true,
-			passive: true,
-		});
-	} else {
-		movie.poster.src =
-			"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=";
-		movie.poster.classList.add("ready");
-	}
+	setImage({ element: movie.poster, src: review.movie.poster, alt: review.movie.title });
 	movie.movieLink.href = review.movie.url;
 	movie.movieName.href = review.movie.url;
 	movie.movieInfoContainer.classList.add("ready");

@@ -2,6 +2,7 @@ import { Review } from "./types";
 import { getElements } from "./elements";
 import storage from "./storage";
 import { setMovie } from "./setMovie";
+import { setImage } from "./setImage";
 
 const HISTORY_KEY = "history";
 
@@ -20,16 +21,7 @@ const setHistoryItemDetails = (element: Element, review: Review | null) => {
 	if (review) {
 		const image = element.querySelector(".history-item-image") as HTMLImageElement | null;
 		if (image) {
-			image.alt = review.movie.title;
-			const background = review.movie.backdrop || review.movie.poster;
-			if (background) {
-				image.src = background;
-				image.addEventListener("load", () => image.classList.add("ready"));
-			} else {
-				image.src =
-					"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=";
-				image.classList.add("ready");
-			}
+			setImage({ element: image, src: review.movie.backdrop || review.movie.poster, alt: review.movie.title });
 		}
 		const title = element.querySelector(".history-title") as HTMLDivElement | null;
 		if (title) {
