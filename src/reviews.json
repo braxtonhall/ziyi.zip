@@ -1,4 +1,92 @@
 {
+	"https://letterboxd.com/ziyiyan/film/the-asthenic-syndrome/": {
+		"url": "https://letterboxd.com/ziyiyan/film/the-asthenic-syndrome/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 11,
+		"day": 7,
+		"movie": {
+			"title": "The Asthenic Syndrome",
+			"year": 1989,
+			"url": "https://letterboxd.com/film/the-asthenic-syndrome/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/br/ge/di/is/asthenic-1920-1920-1080-1080-crop-000000.jpg?v=a536b853fb",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/7/9/9/7/0/79970-the-asthenic-syndrome-0-230-0-345-crop.jpg?v=5db30c6732"
+		},
+		"tags": [
+			{
+				"text": "cinematheque ca",
+				"url": "https://letterboxd.com/ziyiyan/tag/cinematheque-ca/films/"
+			},
+			{
+				"text": "w/ yimai",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-yimai/films/"
+			}
+		],
+		"content": "<p>Sadness, loneliness and craziness prevail</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/the-killer/": {
+		"url": "https://letterboxd.com/ziyiyan/film/the-killer/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 11,
+		"day": 6,
+		"movie": {
+			"title": "The Killer",
+			"year": 1989,
+			"url": "https://letterboxd.com/film/the-killer/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/2p/an/is/43/killer-1200-1200-675-675-crop-000000.jpg?v=1566bac3e9",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/4/5/8/5/0/45850-the-killer-0-230-0-345-crop.jpg?v=d65baa059e"
+		},
+		"tags": [
+			{
+				"text": "cinematheque ca",
+				"url": "https://letterboxd.com/ziyiyan/tag/cinematheque-ca/films/"
+			},
+			{
+				"text": "w/ saher",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-saher/films/"
+			}
+		],
+		"content": "<p>If it’s not destined 😭😭😭</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/eve-and-the-fire-horse/": {
+		"url": "https://letterboxd.com/ziyiyan/film/eve-and-the-fire-horse/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 11,
+		"day": 4,
+		"movie": {
+			"title": "Eve and the Fire Horse",
+			"year": 2005,
+			"url": "https://letterboxd.com/film/eve-and-the-fire-horse/",
+			"backdrop": null,
+			"poster": "https://a.ltrbxd.com/resized/film-poster/1/8/4/9/4/18494-eve-and-the-fire-horse-0-230-0-345-crop.jpg?v=7bb52155e1"
+		},
+		"tags": [
+			{
+				"text": "cinematheque ca",
+				"url": "https://letterboxd.com/ziyiyan/tag/cinematheque-ca/films/"
+			},
+			{
+				"text": "w/ debby",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-debby/films/"
+			},
+			{
+				"text": "w/ zoé",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-zoe/films/"
+			}
+		],
+		"content": "<p>Buddha and Jesus definitely hang out</p>",
+		"spoiler": false
+	},
 	"https://letterboxd.com/ziyiyan/film/tampopo/": {
 		"url": "https://letterboxd.com/ziyiyan/film/tampopo/",
 		"heart": true,
