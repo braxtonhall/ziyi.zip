@@ -1,4 +1,32 @@
 {
+	"https://letterboxd.com/ziyiyan/film/bugonia/": {
+		"url": "https://letterboxd.com/ziyiyan/film/bugonia/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 11,
+		"day": 12,
+		"movie": {
+			"title": "Bugonia",
+			"year": 2025,
+			"url": "https://letterboxd.com/film/bugonia/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/jf/rv/eq/r2/bug-1200-1200-675-675-crop-000000.jpg?v=9227b4cd8a",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/6/2/5/4/0/0/625400-bugonia-0-230-0-345-crop.jpg?v=4c6649150e"
+		},
+		"tags": [
+			{
+				"text": "landmark cinemas new west",
+				"url": "https://letterboxd.com/ziyiyan/tag/landmark-cinemas-new-west/films/"
+			},
+			{
+				"text": "w/ tanay",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-tanay/films/"
+			}
+		],
+		"content": "<p>最低配的一集 type shii🫡🫡</p>",
+		"spoiler": false
+	},
 	"https://letterboxd.com/ziyiyan/film/the-asthenic-syndrome/": {
 		"url": "https://letterboxd.com/ziyiyan/film/the-asthenic-syndrome/",
 		"heart": true,
