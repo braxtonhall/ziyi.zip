@@ -1,4 +1,44 @@
 {
+	"https://letterboxd.com/ziyiyan/film/angels-egg/": {
+		"url": "https://letterboxd.com/ziyiyan/film/angels-egg/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 12,
+		"day": 6,
+		"movie": {
+			"title": "Angel's Egg",
+			"year": 1985,
+			"url": "https://letterboxd.com/film/angels-egg/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/ov/mc/od/m9/angels-egg-1920-1920-1080-1080-crop-000000.jpg?v=2667ebdb48",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/4/1/9/9/0/41990-angel-s-egg-0-230-0-345-crop.jpg?v=98f9bf2def"
+		},
+		"tags": [
+			{
+				"text": "rio theatre",
+				"url": "https://letterboxd.com/ziyiyan/tag/rio-theatre/films/"
+			},
+			{
+				"text": "w/ saher",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-saher/films/"
+			},
+			{
+				"text": "w/ allison",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-allison/films/"
+			},
+			{
+				"text": "w/ cam",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-cam/films/"
+			},
+			{
+				"text": "w/ lars",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-lars/films/"
+			}
+		],
+		"content": "<p>Keep important things close</p>",
+		"spoiler": false
+	},
 	"https://letterboxd.com/ziyiyan/film/left-handed-girl/1/": {
 		"url": "https://letterboxd.com/ziyiyan/film/left-handed-girl/1/",
 		"heart": true,
