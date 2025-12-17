@@ -1,4 +1,96 @@
 {
+	"https://letterboxd.com/ziyiyan/film/die-my-love/": {
+		"url": "https://letterboxd.com/ziyiyan/film/die-my-love/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 12,
+		"day": 15,
+		"movie": {
+			"title": "Die My Love",
+			"year": 2025,
+			"url": "https://letterboxd.com/film/die-my-love/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/6o/nd/ed/js/die%20my%20love-1920-1920-1080-1080-crop-000000.jpg?v=912e75aa28",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/9/3/1/4/8/0/931480-die-my-love-0-230-0-345-crop.jpg?v=0aac5c73bb"
+		},
+		"tags": [
+			{
+				"text": "rio theatre",
+				"url": "https://letterboxd.com/ziyiyan/tag/rio-theatre/films/"
+			},
+			{
+				"text": "w/ erin",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-erin/films/"
+			},
+			{
+				"text": "w/ tanay",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-tanay/films/"
+			}
+		],
+		"content": "<p>Abstract crazy type shit</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/a-better-tomorrow-ii/": {
+		"url": "https://letterboxd.com/ziyiyan/film/a-better-tomorrow-ii/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 12,
+		"day": 12,
+		"movie": {
+			"title": "A Better Tomorrow II",
+			"year": 1987,
+			"url": "https://letterboxd.com/film/a-better-tomorrow-ii/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/ly/sn/3b/16/7JcVhqZbFWMLEAmQrSfNx2xh2Y6-1200-1200-675-675-crop-000000.jpg?v=d69839a091",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/4/0/4/3/6/40436-a-better-tomorrow-ii-0-230-0-345-crop.jpg?v=f77c59605b"
+		},
+		"tags": [
+			{
+				"text": "cinematheque ca",
+				"url": "https://letterboxd.com/ziyiyan/tag/cinematheque-ca/films/"
+			},
+			{
+				"text": "w/ lars",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-lars/films/"
+			},
+			{
+				"text": "w/ saher",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-saher/films/"
+			}
+		],
+		"content": "<p>Walking charisma</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/a-better-tomorrow/": {
+		"url": "https://letterboxd.com/ziyiyan/film/a-better-tomorrow/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 12,
+		"day": 12,
+		"movie": {
+			"title": "A Better Tomorrow",
+			"year": 1986,
+			"url": "https://letterboxd.com/film/a-better-tomorrow/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/66/9v/c1/1r/better%20tomorrow-1920-1920-1080-1080-crop-000000.jpg?v=bb73b68ce4",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/4/5/2/7/2/45272-a-better-tomorrow-0-230-0-345-crop.jpg?v=80d99553ef"
+		},
+		"tags": [
+			{
+				"text": "cinematheque ca",
+				"url": "https://letterboxd.com/ziyiyan/tag/cinematheque-ca/films/"
+			},
+			{
+				"text": "w/ saher",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-saher/films/"
+			}
+		],
+		"content": "<p>No tolerance to rats 🤬🤬</p>",
+		"spoiler": false
+	},
 	"https://letterboxd.com/ziyiyan/film/angels-egg/": {
 		"url": "https://letterboxd.com/ziyiyan/film/angels-egg/",
 		"heart": true,
