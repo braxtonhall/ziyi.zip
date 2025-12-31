@@ -1,4 +1,244 @@
 {
+	"https://letterboxd.com/ziyiyan/film/dune/": {
+		"url": "https://letterboxd.com/ziyiyan/film/dune/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 12,
+		"day": 27,
+		"movie": {
+			"title": "Dune",
+			"year": 1984,
+			"url": "https://letterboxd.com/film/dune/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/yr/85/5l/zp/dune-1920-1920-1080-1080-crop-000000.jpg?v=1998773db9",
+			"poster": "https://a.ltrbxd.com/resized/sm/upload/e9/3l/l6/pt/dune-0-230-0-345-crop.jpg?v=a79bf8b4f6"
+		},
+		"tags": [
+			{
+				"text": "cinematheque ca",
+				"url": "https://letterboxd.com/ziyiyan/tag/cinematheque-ca/films/"
+			}
+		],
+		"content": "<p>Better Arrakis</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/inland-empire/": {
+		"url": "https://letterboxd.com/ziyiyan/film/inland-empire/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 12,
+		"day": 29,
+		"movie": {
+			"title": "Inland Empire",
+			"year": 2006,
+			"url": "https://letterboxd.com/film/inland-empire/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/ym/uu/vo/23/inland-empire-1920-1920-1080-1080-crop-000000.jpg?v=110ca7d11b",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/5/0/8/2/2/50822-inland-empire-0-230-0-345-crop.jpg?v=b4bd226d73"
+		},
+		"tags": [
+			{
+				"text": "cinematheque ca",
+				"url": "https://letterboxd.com/ziyiyan/tag/cinematheque-ca/films/"
+			},
+			{
+				"text": "w/ saher",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-saher/films/"
+			},
+			{
+				"text": "w/ allison",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-allison/films/"
+			}
+		],
+		"content": "<p>Nina Simone is the best</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/fargo/": {
+		"url": "https://letterboxd.com/ziyiyan/film/fargo/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 12,
+		"day": 28,
+		"movie": {
+			"title": "Fargo",
+			"year": 1996,
+			"url": "https://letterboxd.com/film/fargo/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/ww/kz/nd/19/fargo-1920-1920-1080-1080-crop-000000.jpg?v=683482948f",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/5/1/7/8/1/51781-fargo-0-230-0-345-crop.jpg?v=44835e3b35"
+		},
+		"tags": [
+			{
+				"text": "park theatre",
+				"url": "https://letterboxd.com/ziyiyan/tag/park-theatre/films/"
+			},
+			{
+				"text": "w/ saher",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-saher/films/"
+			},
+			{
+				"text": "w/ tanay",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-tanay/films/"
+			}
+		],
+		"content": "<p>Their accent is so good</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/mulholland-drive/1/": {
+		"url": "https://letterboxd.com/ziyiyan/film/mulholland-drive/1/",
+		"heart": true,
+		"rating": null,
+		"rewatch": true,
+		"year": 2025,
+		"month": 12,
+		"day": 27,
+		"movie": {
+			"title": "Mulholland Drive",
+			"year": 2001,
+			"url": "https://letterboxd.com/film/mulholland-drive/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/h2/6c/u6/vy/mulholland-drive-60-1920-1920-1080-1080-crop-000000.jpg?v=39351034b2",
+			"poster": "https://a.ltrbxd.com/resized/sm/upload/kv/7n/p8/tv/fMC8JBWx2VjsJ53JopAcFjqmlYv-0-230-0-345-crop.jpg?v=3d69c00608"
+		},
+		"tags": [
+			{
+				"text": "cinematheque ca",
+				"url": "https://letterboxd.com/ziyiyan/tag/cinematheque-ca/films/"
+			},
+			{
+				"text": "w/ tanay",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-tanay/films/"
+			},
+			{
+				"text": "w/ alex",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-alex/films/"
+			},
+			{
+				"text": "w/ yimai",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-yimai/films/"
+			}
+		],
+		"content": "<p>It is all illusion</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/bullet-in-the-head/": {
+		"url": "https://letterboxd.com/ziyiyan/film/bullet-in-the-head/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 12,
+		"day": 27,
+		"movie": {
+			"title": "Bullet in the Head",
+			"year": 1990,
+			"url": "https://letterboxd.com/film/bullet-in-the-head/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/gd/bd/5w/0f/yTpw2k0BV4hhTR2OABrSzEtBWGN-1920-1920-1080-1080-crop-000000.jpg?v=433cb37f95",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/4/4/8/9/7/44897-bullet-in-the-head-0-230-0-345-crop.jpg?v=7c8ab2f3de"
+		},
+		"tags": [
+			{
+				"text": "cinematheque ca",
+				"url": "https://letterboxd.com/ziyiyan/tag/cinematheque-ca/films/"
+			},
+			{
+				"text": "w/ saher",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-saher/films/"
+			},
+			{
+				"text": "w/ simon",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-simon/films/"
+			}
+		],
+		"content": "<p>It’s massive</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/marty-supreme/": {
+		"url": "https://letterboxd.com/ziyiyan/film/marty-supreme/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 12,
+		"day": 25,
+		"movie": {
+			"title": "Marty Supreme",
+			"year": 2025,
+			"url": "https://letterboxd.com/film/marty-supreme/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/9v/j7/mm/yn/marty-sup-1920-1920-1080-1080-crop-000000.jpg?v=4c4675acde",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/1/1/9/7/4/9/9/1197499-marty-supreme-0-230-0-345-crop.jpg?v=b14a26bb43"
+		},
+		"tags": [
+			{
+				"text": "cineplex international village cinemas",
+				"url": "https://letterboxd.com/ziyiyan/tag/cineplex-international-village-cinemas/films/"
+			},
+			{
+				"text": "w/ cindy",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-cindy/films/"
+			}
+		],
+		"content": "<p>Greatness (?) at what costs</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/rush-hour/": {
+		"url": "https://letterboxd.com/ziyiyan/film/rush-hour/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2025,
+		"month": 12,
+		"day": 25,
+		"movie": {
+			"title": "Rush Hour",
+			"year": 1998,
+			"url": "https://letterboxd.com/film/rush-hour/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/3l/4l/vq/9m/rush-hour-1920-1920-1080-1080-crop-000000.jpg?v=4c01ebcb4c",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/5/0/5/1/7/50517-rush-hour-0-230-0-345-crop.jpg?v=43dae7f97d"
+		},
+		"tags": [
+			{
+				"text": "w/ tanay",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-tanay/films/"
+			}
+		],
+		"content": "<p>Black and yellow</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/hundreds-of-beavers/1/": {
+		"url": "https://letterboxd.com/ziyiyan/film/hundreds-of-beavers/1/",
+		"heart": true,
+		"rating": 5,
+		"rewatch": true,
+		"year": 2025,
+		"month": 12,
+		"day": 23,
+		"movie": {
+			"title": "Hundreds of Beavers",
+			"year": 2022,
+			"url": "https://letterboxd.com/film/hundreds-of-beavers/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/43/iv/r5/4g/hundreds-1200-1200-675-675-crop-000000.jpg?v=15f9aa37e6",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/9/1/9/0/6/8/919068-hundreds-of-beavers-0-230-0-345-crop.jpg?v=374498b1c0"
+		},
+		"tags": [
+			{
+				"text": "rio theatre",
+				"url": "https://letterboxd.com/ziyiyan/tag/rio-theatre/films/"
+			},
+			{
+				"text": "w/ saher",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-saher/films/"
+			},
+			{
+				"text": "w/ yiwei",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-yiwei/films/"
+			}
+		],
+		"content": "<p>All time banger</p>",
+		"spoiler": false
+	},
 	"https://letterboxd.com/ziyiyan/film/tokyo-godfathers/": {
 		"url": "https://letterboxd.com/ziyiyan/film/tokyo-godfathers/",
 		"heart": true,
