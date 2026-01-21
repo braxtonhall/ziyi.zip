@@ -149,8 +149,8 @@ const updateExistingReview = async (review: Review): Promise<Review> => {
 		const { poster, backdrop } = await getImages(review.movie.url);
 		if (poster !== review.movie.poster || backdrop !== review.movie.backdrop) {
 			updated++;
-			review.movie.poster = poster;
-			review.movie.backdrop = backdrop;
+			review.movie.poster = poster || review.movie.poster;
+			review.movie.backdrop = backdrop || review.movie.backdrop;
 		}
 	}
 	return review;
