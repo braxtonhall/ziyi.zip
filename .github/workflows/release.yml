@@ -8,7 +8,7 @@ on:
         description: "The last revision number of the release. Useful if there are multiple releases on the same day"
         default: 0
         required: false
-      skip_update:
+      skip_sync:
         type: boolean
         description: "Skip the review sync"
         default: false
@@ -44,7 +44,7 @@ jobs:
 
       - name: update reviews
         run: yarn run update-reviews
-        continue-on-error: true
+        if: inputs.skip_sync != 'true'
 
       - name: commit reviews
         uses: EndBug/add-and-commit@v9
