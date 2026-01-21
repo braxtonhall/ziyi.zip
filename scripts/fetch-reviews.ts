@@ -4,6 +4,11 @@ import * as fs from "node:fs/promises";
 import path from "path";
 import * as JSON5 from "json5";
 import { Review } from "../src/types";
+import puppeteer from "puppeteer-extra";
+import StealthPlugin from "puppeteer-extra-plugin-stealth";
+import { executablePath } from "puppeteer";
+
+puppeteer.use(StealthPlugin());
 
 const ENTRIES_PATH = path.join(__dirname, "..", "src", "reviews.json");
 
@@ -38,11 +43,20 @@ type RemainingReviewInfo = { tags: { text: string; url: string }[]; content: str
 
 type Images = { poster: string | null; backdrop: string | null };
 
+const futureBrowser = puppeteer.launch({ executablePath: executablePath() });
+
 const pool = new AsyncPool(10);
 const getDocument = async (url: string) => {
-	const result = await pool.run(fetch, url);
-	const text = await result.text();
-	return parse(text);
+	const browser = await futureBrowser;
+	const content = await pool.run(async () => {
+		const page = await browser.newPage();
+		await page.setViewport({ width: 1280, height: 720 });
+		await page.goto(url);
+		const content = await page.content();
+		await page.close();
+		return content;
+	});
+	return parse(content);
 };
 
 const scrapeReviewListPage = async (url: string): Promise<{ reviews: LetterboxdInfo[]; next?: string }> => {
