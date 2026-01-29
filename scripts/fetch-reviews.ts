@@ -50,16 +50,21 @@ const futureBrowser = puppeteer.launch({
 
 const pool = new AsyncPool(10);
 const getDocument = async (url: string) => {
-	const browser = await futureBrowser;
-	const content = await pool.run(async () => {
-		const page = await browser.newPage();
-		await page.setViewport({ width: 1280, height: 720 });
-		await page.goto(url);
-		const content = await page.content();
-		await page.close();
-		return content;
-	});
-	return parse(content);
+	try {
+		const browser = await futureBrowser;
+		const content = await pool.run(async () => {
+			const page = await browser.newPage();
+			await page.setViewport({ width: 1280, height: 720 });
+			await page.goto(url);
+			const content = await page.content();
+			await page.close();
+			return content;
+		});
+		return parse(content);
+	} catch (error) {
+		console.error(`Cannot GET "${url}"; Cause:`, error);
+		throw error;
+	}
 };
 
 const scrapeReviewListPage = async (url: string): Promise<{ reviews: LetterboxdInfo[]; next?: string }> => {
