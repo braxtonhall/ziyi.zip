@@ -46,6 +46,7 @@ type Images = { poster: string | null; backdrop: string | null };
 const futureBrowser = puppeteer.launch({
 	executablePath: executablePath(),
 	args: ["--no-sandbox", "--disable-setuid-sandbox"],
+	timeout: 60_000,
 });
 
 const pool = new AsyncPool(10);
