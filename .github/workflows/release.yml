@@ -8,6 +8,10 @@ on:
         description: "The last revision number of the release. Useful if there are multiple releases on the same day"
         default: 0
         required: false
+      skip-update:
+        type: boolean
+        description: "Skip the review sync"
+        default: false
   schedule:
     - cron: "20 4 * * 3"
 
@@ -39,25 +43,27 @@ jobs:
         run: yarn install
 
       - name: update reviews
+        if: ${{ !inputs.skip-update }}
         run: yarn run update-reviews
 
       - name: commit reviews
         uses: EndBug/add-and-commit@v9
         id: sync
+        if: ${{ !inputs.skip-update }}
         with:
           add: "src/reviews.json"
           message: "sync reviews"
         continue-on-error: true
 
       - name: compile
-        if: ${{ github.event_name == 'workflow_dispatch' || steps.sync.outputs.committed == 'true' }}
+        if: ${{ inputs.skip-update || steps.sync.outputs.committed == 'true' }}
         run: yarn build
         env:
           BUILD_VERSION: ${{ steps.constants.outputs.tag }}
 
       - name: archive source
         uses: thedoctor0/zip-release@main
-        if: ${{ github.event_name == 'workflow_dispatch' || steps.sync.outputs.committed == 'true' }}
+        if: ${{ inputs.skip-update || steps.sync.outputs.committed == 'true' }}
         with:
           type: "zip"
           filename: "source.zip"
@@ -65,7 +71,7 @@ jobs:
 
       - name: archive chrome release
         uses: thedoctor0/zip-release@main
-        if: ${{ github.event_name == 'workflow_dispatch' || steps.sync.outputs.committed == 'true' }}
+        if: ${{ inputs.skip-update || steps.sync.outputs.committed == 'true' }}
         with:
           type: "zip"
           filename: "chrome.zip"
@@ -73,7 +79,7 @@ jobs:
 
       - name: archive firefox release
         uses: thedoctor0/zip-release@main
-        if: ${{ github.event_name == 'workflow_dispatch' || steps.sync.outputs.committed == 'true' }}
+        if: ${{ inputs.skip-update || steps.sync.outputs.committed == 'true' }}
         with:
           type: "zip"
           filename: "firefox.zip"
@@ -81,7 +87,7 @@ jobs:
 
       - name: create release
         uses: ncipollo/release-action@v1
-        if: ${{ github.event_name == 'workflow_dispatch' || steps.sync.outputs.committed == 'true' }}
+        if: ${{ inputs.skip-update || steps.sync.outputs.committed == 'true' }}
         with:
           artifacts: "dist/chrome/chrome.zip,dist/firefox/firefox.zip"
           generateReleaseNotes: true
@@ -91,7 +97,7 @@ jobs:
 
       - name: publish firefox add-on
         uses: browser-actions/release-firefox-addon@latest
-        if: ${{ github.event_name == 'workflow_dispatch' || steps.sync.outputs.committed == 'true' }}
+        if: ${{ inputs.skip-update || steps.sync.outputs.committed == 'true' }}
         id: firefox
         with:
           addon-id: ziyi-zip
@@ -111,7 +117,7 @@ jobs:
 
       - name: publish chrome extension
         uses: browser-actions/release-chrome-extension@latest
-        if: ${{ github.event_name == 'workflow_dispatch' || steps.sync.outputs.committed == 'true' }}
+        if: ${{ inputs.skip-update || steps.sync.outputs.committed == 'true' }}
         id: chrome
         with:
           extension-id: kgjlmncdpdpcmidkkalcdppigdocdnmf
