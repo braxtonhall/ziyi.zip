@@ -72,17 +72,16 @@ const scrapeReviewListPage = async (url: string): Promise<{ reviews: LetterboxdI
 	const reviews = document.querySelectorAll('article[data-object-name="review"]').map((element): LetterboxdInfo => {
 		const poster = element.querySelector("div.figure[data-target-link]:has(.film-poster)");
 		const movieUrl = poster?.getAttribute("data-target-link") ?? null;
-		const reviewAnchor = element.querySelector("h2.name a");
+		const reviewAnchor = element.querySelector("h2.primaryname a");
 		const reviewHref = reviewAnchor?.getAttribute("href") ?? null;
-		const ratingElement = element.querySelector("span.rating");
-		const ratingClass =
-			ratingElement && Array.from(ratingElement.classList.values()).find((className) => className.startsWith("rated-"));
+		const stars = element.querySelector("span.inline-rating title")?.textContent.trim() ?? "";
+		const rating = stars.length - (stars.includes("½") ? 0.5 : 0);
 		const dateString = element.querySelector(".date time.timestamp")?.getAttribute("datetime") ?? null;
 		const date = dateString ? new Date(dateString) : null;
 		return {
 			url: reviewHref && `${baseUrl}${reviewHref}`,
-			heart: !!element.querySelector(".icon-liked"),
-			rating: ratingClass ? Number(ratingClass.replace("rated-", "")) / 2 : null,
+			heart: !!element.querySelector(".inline-liked"),
+			rating: rating || null,
 			rewatch: !!element.querySelector("span.attribution-detail")?.text?.includes("Rewatched"),
 			year: date && date.getFullYear(),
 			month: date && date.getMonth() + 1,
