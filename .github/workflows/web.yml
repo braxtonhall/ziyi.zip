@@ -3,9 +3,10 @@ name: publish
 on:
   push:
     branches: [main]
-  workflow_run:
-    workflows: [release]
-    types: [completed]
+  workflow_call:
+    inputs:
+      ref:
+        type: string
 
 permissions:
   contents: write
@@ -19,6 +20,8 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.ref }}
 
       - name: install node ${{ matrix.node }}
         uses: actions/setup-node@v4

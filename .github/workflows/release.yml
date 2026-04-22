@@ -127,6 +127,12 @@ jobs:
           oauth-refresh-token: ${{ secrets.GOOGLE_OAUTH_REFRESH_TOKEN }}
         continue-on-error: true
 
+      - name: build web version
+        uses: ./.github/workflows/web.yml
+        if: ${{ steps.sync.outputs.committed == 'true' }}
+        with:
+          ref: ${{ steps.sync.outputs.commit_sha }}
+
       - name: fail publishing
         if: ${{ steps.chrome.outcome == 'failure' || steps.firefox.outcome == 'failure' }}
         run: exit 1
