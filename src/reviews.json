@@ -1,4 +1,92 @@
 {
+	"https://letterboxd.com/ziyiyan/film/naked-childhood/": {
+		"url": "https://letterboxd.com/ziyiyan/film/naked-childhood/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2026,
+		"month": 7,
+		"day": 10,
+		"movie": {
+			"title": "Naked Childhood",
+			"year": 1968,
+			"url": "https://letterboxd.com/film/naked-childhood/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/ru/gk/e6/8a/nakedchildhood-1200-1200-675-675-crop-000000.jpg?v=4b766d81bf",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/3/1/2/5/5/31255-naked-childhood-0-600-0-900-crop.jpg?v=69212d38d5"
+		},
+		"tags": [
+			{
+				"text": "cinematheque ca",
+				"url": "https://letterboxd.com/ziyiyan/tag/cinematheque-ca/films/"
+			},
+			{
+				"text": "w/ yiwei",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-yiwei/films/"
+			},
+			{
+				"text": "w/ yuduan",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-yuduan/films/"
+			}
+		],
+		"content": "<p>How does French films always manage to have a brush of saturated beautiful red&nbsp;♥️♥️</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/prince-sign-o-the-times/": {
+		"url": "https://letterboxd.com/ziyiyan/film/prince-sign-o-the-times/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2026,
+		"month": 7,
+		"day": 9,
+		"movie": {
+			"title": "Prince: Sign ‘o’ the Times",
+			"year": 1987,
+			"url": "https://letterboxd.com/film/prince-sign-o-the-times/",
+			"backdrop": "https://a.ltrbxd.com/resized/sm/upload/2h/bl/0l/30/sign-o-the-times-1920-1920-1080-1080-crop-000000.jpg?v=a3b2576f2d",
+			"poster": "https://a.ltrbxd.com/resized/film-poster/2/6/3/6/6/26366-sign-o-the-times-0-600-0-900-crop.jpg?v=5fe90b23fe"
+		},
+		"tags": [
+			{
+				"text": "deckchair cinema",
+				"url": "https://letterboxd.com/ziyiyan/tag/deckchair-cinema/films/"
+			},
+			{
+				"text": "w/ alex",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-alex/films/"
+			}
+		],
+		"content": "<p>I’m&nbsp;obsessed</p>",
+		"spoiler": false
+	},
+	"https://letterboxd.com/ziyiyan/film/in-hell-with-ivo/": {
+		"url": "https://letterboxd.com/ziyiyan/film/in-hell-with-ivo/",
+		"heart": true,
+		"rating": null,
+		"rewatch": false,
+		"year": 2026,
+		"month": 7,
+		"day": 7,
+		"movie": {
+			"title": "In Hell with Ivo",
+			"year": 2025,
+			"url": "https://letterboxd.com/film/in-hell-with-ivo/",
+			"backdrop": null,
+			"poster": "https://a.ltrbxd.com/resized/film-poster/1/3/5/7/4/7/9/1357479-in-hell-with-ivo-0-600-0-900-crop.jpg?v=af69fd6a8e"
+		},
+		"tags": [
+			{
+				"text": "cinematheque ca",
+				"url": "https://letterboxd.com/ziyiyan/tag/cinematheque-ca/films/"
+			},
+			{
+				"text": "w/ zoé",
+				"url": "https://letterboxd.com/ziyiyan/tag/w-zoe/films/"
+			}
+		],
+		"content": "<p>At Cinematheque with Jana&nbsp;🔥🔥</p>",
+		"spoiler": false
+	},
 	"https://letterboxd.com/ziyiyan/film/all-about-lily-chou-chou/2/": {
 		"url": "https://letterboxd.com/ziyiyan/film/all-about-lily-chou-chou/2/",
 		"heart": true,
