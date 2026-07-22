@@ -11,6 +11,8 @@ import { executablePath } from "puppeteer";
 puppeteer.use(StealthPlugin());
 
 const ENTRIES_PATH = path.join(__dirname, "..", "src", "reviews.json");
+const INCOMPLETE_PATH = path.join(__dirname, "..", "incomplete.json");
+const SIX_MONTHS_MS = 6 * 30 * 24 * 60 * 60 * 1000;
 
 const [username = "ziyiyan"] = process.argv.slice(2);
 const baseUrl = "https://letterboxd.com";
@@ -42,6 +44,8 @@ type LetterboxdInfo = {
 type RemainingReviewInfo = { tags: { text: string; url: string }[]; content: string | null; spoiler: boolean };
 
 type Images = { poster: string | null; backdrop: string | null };
+
+type IncompleteFile = Record<string, { scrapedAt: string }>;
 
 type CompactReview = {
 	url: string;
@@ -190,24 +194,55 @@ const scrapeReviewListPages = async (
 	return [...complete, ...remainder];
 };
 
-const updateExistingReview = async (review: Review): Promise<Review> => {
+const shouldScrape = (movieUrl: string, incomplete: IncompleteFile): boolean => {
+	const entry = incomplete[movieUrl];
+	if (!entry) return true;
+	const elapsed = Date.now() - new Date(entry.scrapedAt).getTime();
+	return elapsed > SIX_MONTHS_MS;
+};
+
+const updateExistingReview = async (
+	review: Review,
+	incomplete: IncompleteFile,
+): Promise<{ review: Review; incomplete: IncompleteFile }> => {
+	const movieUrl = review.movie.url;
 	if (review.movie.poster === null || review.movie.backdrop === null) {
-		const { poster, backdrop } = await getImages(review.movie.url);
+		if (!shouldScrape(movieUrl, incomplete)) {
+			return { review, incomplete };
+		}
+		const { poster, backdrop } = await getImages(movieUrl);
 		if (poster !== review.movie.poster || backdrop !== review.movie.backdrop) {
 			updated++;
 			review.movie.poster = poster || review.movie.poster;
 			review.movie.backdrop = backdrop || review.movie.backdrop;
 		}
+		if (review.movie.poster === null || review.movie.backdrop === null) {
+			incomplete[movieUrl] = { scrapedAt: new Date().toISOString() };
+		} else {
+			delete incomplete[movieUrl];
+		}
+	} else {
+		delete incomplete[movieUrl];
 	}
-	return review;
+	return { review, incomplete };
 };
 
-const updateExistingReviews = async (existing: Record<string, Review>): Promise<Record<string, Review>> => {
-	const futureEntries = Object.entries(existing).map(
-		async ([key, review]) => [key, await updateExistingReview(review)] as const,
-	);
+const updateExistingReviews = async (
+	existing: Record<string, Review>,
+	incomplete: IncompleteFile,
+): Promise<{ reviews: Record<string, Review>; incomplete: IncompleteFile }> => {
+	const futureEntries = Object.entries(existing).map(async ([key, review]) => {
+		const result = await updateExistingReview(review, { ...incomplete });
+		return [key, result.review, result.incomplete] as const;
+	});
 	const entries = await Promise.all(futureEntries);
-	return Object.fromEntries(entries);
+	const mergedIncomplete: IncompleteFile = { ...incomplete };
+	const mergedReviews: Record<string, Review> = {};
+	for (const [key, review, inc] of entries) {
+		mergedReviews[key] = review;
+		Object.assign(mergedIncomplete, inc);
+	}
+	return { reviews: mergedReviews, incomplete: mergedIncomplete };
 };
 
 const isReview = (review: FieldNullable<Review>): review is Review =>
@@ -270,21 +305,25 @@ const fetchReviews = async () => {
 			tags: review.tags.map(hydrateTag),
 		};
 	}
+	const incomplete = JSON.parse(await fs.readFile(INCOMPLETE_PATH, "utf-8").catch(() => "{}")) as IncompleteFile;
 	const interval = setInterval(
 		() => console.log(`Executing: ${pool.executing}. Queued: ${pool.queued}. Completed: ${completed}`),
 		1500,
 	);
-	const [updatedExisting, fetchedReviews] = await Promise.all([
-		updateExistingReviews(existingReviews),
+	const [updatedResult, fetchedReviews] = await Promise.all([
+		updateExistingReviews(existingReviews, incomplete),
 		scrapeReviewListPages(url, existingReviews),
 	]);
 	const reviews = fetchedReviews.filter(isReview);
 	const droppedReviews = fetchedReviews.length - reviews.length;
 	clearInterval(interval);
 	const updates = Object.fromEntries(reviews.map((review) => [review.url, review]));
-	const merged = { ...updates, ...updatedExisting };
+	const merged = { ...updates, ...updatedResult.reviews };
 	const compact = toCompactFile(merged, existingTags);
-	await fs.writeFile(ENTRIES_PATH, JSON.stringify(compact, null, "\t") + "\n");
+	await Promise.all([
+		fs.writeFile(ENTRIES_PATH, JSON.stringify(compact, null, "\t") + "\n"),
+		fs.writeFile(INCOMPLETE_PATH, JSON.stringify(updatedResult.incomplete, null, "\t") + "\n"),
+	]);
 	console.log(`Done! Completed: ${completed}. Updated: ${updated}. Invalid: ${droppedReviews}`);
 	process.exit(0);
 };
