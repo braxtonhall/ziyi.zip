@@ -22,6 +22,11 @@ jobs:
     permissions:
       contents: write
 
+    outputs:
+      committed: ${{ steps.sync.outputs.committed }}
+      commit_sha: ${{ steps.sync.outputs.commit_sha }}
+      failed: ${{ steps.fail.outputs.failed }}
+
     steps:
       - name: checkout
         uses: actions/checkout@v4
@@ -127,12 +132,25 @@ jobs:
           oauth-refresh-token: ${{ secrets.GOOGLE_OAUTH_REFRESH_TOKEN }}
         continue-on-error: true
 
-      - name: build web version
-        uses: ./.github/workflows/web.yml
-        if: ${{ steps.sync.outputs.committed == 'true' }}
-        with:
-          ref: ${{ steps.sync.outputs.commit_sha }}
-
       - name: fail publishing
+        id: fail
         if: ${{ steps.chrome.outcome == 'failure' || steps.firefox.outcome == 'failure' }}
-        run: exit 1
+        run: echo "failed=true" >> $GITHUB_OUTPUT
+        continue-on-error: true
+
+  web:
+    needs: release
+    if: ${{ !cancelled() && needs.release.outputs.committed == 'true' }}
+    uses: braxtonhall/ziyi.zip/.github/workflows/web.yml@main
+    with:
+      ref: ${{ needs.release.outputs.commit_sha }}
+
+  final:
+    needs: [release, web]
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          if [ "${{ needs.release.outputs.failed }}" = "true" ] || [ "${{ needs.web.result }}" = "failure" ]; then
+            exit 1
+          fi
