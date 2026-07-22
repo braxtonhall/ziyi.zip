@@ -257,16 +257,13 @@ const isReview = (review: FieldNullable<Review>): review is Review =>
 	!!review.content &&
 	review.tags.every((tag) => tag.url && tag.text);
 
-const hydrateTag = (t: { text: string; url: string } | string): { text: string; url: string } =>
-	typeof t === "string" ? { text: t, url: "" } : t;
-
 const toCompact = (review: Review): CompactReview => {
 	const entry: CompactReview = {
 		year: review.year,
 		month: review.month,
 		day: review.day,
 		movie: review.movie,
-		tags: review.tags.filter((t) => t != null).map((t) => hydrateTag(t).text),
+		tags: review.tags.map((t) => t.text),
 		content: review.content,
 	};
 	if (review.heart) entry.heart = 1;
@@ -300,10 +297,7 @@ const fetchReviews = async () => {
 	const hydrated = parseReviews(raw);
 	const existingReviews: Record<string, Review> = {};
 	for (const [url, review] of Object.entries(hydrated)) {
-		existingReviews[url] = {
-			...review,
-			tags: review.tags.map(hydrateTag),
-		};
+		existingReviews[url] = review;
 	}
 	const incomplete = JSON.parse(await fs.readFile(INCOMPLETE_PATH, "utf-8").catch(() => "{}")) as IncompleteFile;
 	const interval = setInterval(
