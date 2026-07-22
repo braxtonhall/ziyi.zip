@@ -3,7 +3,7 @@ import AsyncPool from "./util/async-pool";
 import * as fs from "node:fs/promises";
 import path from "path";
 import * as JSON5 from "json5";
-import { Review } from "../src/types";
+import { parseReviews, Review } from "../src/types";
 import puppeteer from "puppeteer-extra";
 import StealthPlugin from "puppeteer-extra-plugin-stealth";
 import { executablePath } from "puppeteer";
@@ -221,6 +221,9 @@ const isReview = (review: FieldNullable<Review>): review is Review =>
 	!!review.content &&
 	review.tags.every((tag) => tag.url && tag.text);
 
+const hydrateTag = (t: { text: string; url: string } | string): { text: string; url: string } =>
+	typeof t === "string" ? { text: t, url: "" } : t;
+
 const toCompact = (review: Review): CompactReview => {
 	const entry: CompactReview = {
 		url: review.url,
@@ -228,7 +231,7 @@ const toCompact = (review: Review): CompactReview => {
 		month: review.month,
 		day: review.day,
 		movie: review.movie,
-		tags: review.tags.map((t) => t.text),
+		tags: review.tags.filter((t) => t != null).map((t) => hydrateTag(t).text),
 		content: review.content,
 	};
 	if (review.heart) entry.heart = 1;
@@ -244,7 +247,9 @@ const toCompactFile = (reviews: Record<string, Review>, existingTags: Record<str
 	for (const [url, review] of Object.entries(reviews)) {
 		compactReviews[url] = toCompact(review);
 		for (const tag of review.tags) {
-			tags[tag.text] = tag.url;
+			if (tag != null && tag.text && tag.url) {
+				tags[tag.text] = tag.url;
+			}
 		}
 	}
 	return { reviews: compactReviews, tags };
@@ -252,10 +257,19 @@ const toCompactFile = (reviews: Record<string, Review>, existingTags: Record<str
 
 let completed = 0;
 let updated = 0;
+
 const fetchReviews = async () => {
-	const raw = JSON.parse(await fs.readFile(ENTRIES_PATH, "utf-8").catch(() => "{}"));
-	const existingReviews = (raw.reviews ?? {}) as Record<string, Review>;
+	const defaults = { reviews: {}, tags: {} };
+	const raw = JSON.parse(await fs.readFile(ENTRIES_PATH, "utf-8").catch(() => JSON.stringify(defaults)));
 	const existingTags = (raw.tags ?? {}) as Record<string, string>;
+	const hydrated = parseReviews(raw);
+	const existingReviews: Record<string, Review> = {};
+	for (const [url, review] of Object.entries(hydrated)) {
+		existingReviews[url] = {
+			...review,
+			tags: review.tags.map(hydrateTag),
+		};
+	}
 	const interval = setInterval(
 		() => console.log(`Executing: ${pool.executing}. Queued: ${pool.queued}. Completed: ${completed}`),
 		1500,

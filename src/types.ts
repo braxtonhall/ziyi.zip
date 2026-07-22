@@ -52,7 +52,7 @@ const hydrateReview = (raw: RawReview, tags: Record<string, string>): Review => 
 	month: raw.month,
 	day: raw.day,
 	movie: raw.movie,
-	tags: raw.tags.map((text) => ({ text, url: tags[text] ?? "" })),
+	tags: raw.tags.filter((text): text is string => text != null).map((text) => ({ text, url: tags[text] ?? "" })),
 	content: raw.content,
 	spoiler: raw.spoiler === 1,
 });
