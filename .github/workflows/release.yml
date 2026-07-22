@@ -56,7 +56,7 @@ jobs:
         id: sync
         if: ${{ !inputs.skip-update }}
         with:
-          add: "src/reviews.json"
+          add: "src/reviews.json incomplete.json"
           message: "sync reviews"
         continue-on-error: true
 
