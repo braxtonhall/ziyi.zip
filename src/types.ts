@@ -24,7 +24,7 @@ type RawFile = {
 };
 
 type RawReview = {
-	url: string;
+	url?: string;
 	heart?: number;
 	rating?: number | null;
 	rewatch?: number;
@@ -43,8 +43,8 @@ type RawReview = {
 	spoiler?: number;
 };
 
-const hydrateReview = (raw: RawReview, tags: Record<string, string>): Review => ({
-	url: raw.url,
+const hydrateReview = (key: string, raw: RawReview, tags: Record<string, string>): Review => ({
+	url: raw.url ?? key,
 	heart: raw.heart === 1,
 	rating: raw.rating ?? null,
 	rewatch: raw.rewatch === 1,
@@ -64,7 +64,7 @@ export const parseReviews = (data: unknown): Record<string, Review> => {
 	if (!file.tags || typeof file.tags !== "object") throw new Error("Missing tags");
 	const result: Record<string, Review> = {};
 	for (const [key, raw] of Object.entries(file.reviews)) {
-		result[key] = hydrateReview(raw, file.tags);
+		result[key] = hydrateReview(key, raw, file.tags);
 	}
 	return result;
 };

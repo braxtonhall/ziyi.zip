@@ -48,7 +48,7 @@ type Images = { poster: string | null; backdrop: string | null };
 type IncompleteFile = Record<string, { scrapedAt: string }>;
 
 type CompactReview = {
-	url: string;
+	url?: string;
 	heart?: 1;
 	rating?: number;
 	rewatch?: 1;
@@ -194,8 +194,8 @@ const scrapeReviewListPages = async (
 	return [...complete, ...remainder];
 };
 
-const shouldScrape = (movieUrl: string, incomplete: IncompleteFile): boolean => {
-	const entry = incomplete[movieUrl];
+const shouldScrape = (reviewUrl: string, incomplete: IncompleteFile): boolean => {
+	const entry = incomplete[reviewUrl];
 	if (!entry) return true;
 	const elapsed = Date.now() - new Date(entry.scrapedAt).getTime();
 	return elapsed > SIX_MONTHS_MS;
@@ -203,11 +203,12 @@ const shouldScrape = (movieUrl: string, incomplete: IncompleteFile): boolean => 
 
 const updateExistingReview = async (
 	review: Review,
+	reviewUrl: string,
 	incomplete: IncompleteFile,
 ): Promise<{ review: Review; incomplete: IncompleteFile }> => {
 	const movieUrl = review.movie.url;
 	if (review.movie.poster === null || review.movie.backdrop === null) {
-		if (!shouldScrape(movieUrl, incomplete)) {
+		if (!shouldScrape(reviewUrl, incomplete)) {
 			return { review, incomplete };
 		}
 		const { poster, backdrop } = await getImages(movieUrl);
@@ -217,12 +218,12 @@ const updateExistingReview = async (
 			review.movie.backdrop = backdrop || review.movie.backdrop;
 		}
 		if (review.movie.poster === null || review.movie.backdrop === null) {
-			incomplete[movieUrl] = { scrapedAt: new Date().toISOString() };
+			incomplete[reviewUrl] = { scrapedAt: new Date().toISOString() };
 		} else {
-			delete incomplete[movieUrl];
+			delete incomplete[reviewUrl];
 		}
 	} else {
-		delete incomplete[movieUrl];
+		delete incomplete[reviewUrl];
 	}
 	return { review, incomplete };
 };
@@ -232,7 +233,7 @@ const updateExistingReviews = async (
 	incomplete: IncompleteFile,
 ): Promise<{ reviews: Record<string, Review>; incomplete: IncompleteFile }> => {
 	const futureEntries = Object.entries(existing).map(async ([key, review]) => {
-		const result = await updateExistingReview(review, { ...incomplete });
+		const result = await updateExistingReview(review, key, { ...incomplete });
 		return [key, result.review, result.incomplete] as const;
 	});
 	const entries = await Promise.all(futureEntries);
@@ -261,7 +262,6 @@ const hydrateTag = (t: { text: string; url: string } | string): { text: string; 
 
 const toCompact = (review: Review): CompactReview => {
 	const entry: CompactReview = {
-		url: review.url,
 		year: review.year,
 		month: review.month,
 		day: review.day,
