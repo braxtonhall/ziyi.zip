@@ -43,6 +43,31 @@ type RemainingReviewInfo = { tags: { text: string; url: string }[]; content: str
 
 type Images = { poster: string | null; backdrop: string | null };
 
+type CompactReview = {
+	url: string;
+	heart?: 1;
+	rating?: number;
+	rewatch?: 1;
+	year: number;
+	month: number;
+	day: number;
+	movie: {
+		title: string;
+		year: number;
+		url: string;
+		backdrop: string | null;
+		poster: string | null;
+	};
+	tags: string[];
+	content: string;
+	spoiler?: 1;
+};
+
+type CompactReviewsFile = {
+	reviews: Record<string, CompactReview>;
+	tags: Record<string, string>;
+};
+
 const futureBrowser = puppeteer.launch({
 	executablePath: executablePath(),
 	args: ["--no-sandbox", "--disable-setuid-sandbox"],
@@ -196,23 +221,56 @@ const isReview = (review: FieldNullable<Review>): review is Review =>
 	!!review.content &&
 	review.tags.every((tag) => tag.url && tag.text);
 
+const toCompact = (review: Review): CompactReview => {
+	const entry: CompactReview = {
+		url: review.url,
+		year: review.year,
+		month: review.month,
+		day: review.day,
+		movie: review.movie,
+		tags: review.tags.map((t) => t.text),
+		content: review.content,
+	};
+	if (review.heart) entry.heart = 1;
+	if (review.rating !== null) entry.rating = review.rating;
+	if (review.rewatch) entry.rewatch = 1;
+	if (review.spoiler) entry.spoiler = 1;
+	return entry;
+};
+
+const toCompactFile = (reviews: Record<string, Review>, existingTags: Record<string, string>): CompactReviewsFile => {
+	const tags = { ...existingTags };
+	const compactReviews: Record<string, CompactReview> = {};
+	for (const [url, review] of Object.entries(reviews)) {
+		compactReviews[url] = toCompact(review);
+		for (const tag of review.tags) {
+			tags[tag.text] = tag.url;
+		}
+	}
+	return { reviews: compactReviews, tags };
+};
+
 let completed = 0;
 let updated = 0;
 const fetchReviews = async () => {
-	const existing = JSON.parse(await fs.readFile(ENTRIES_PATH, "utf-8").catch(() => "{}"));
+	const raw = JSON.parse(await fs.readFile(ENTRIES_PATH, "utf-8").catch(() => "{}"));
+	const existingReviews = (raw.reviews ?? {}) as Record<string, Review>;
+	const existingTags = (raw.tags ?? {}) as Record<string, string>;
 	const interval = setInterval(
 		() => console.log(`Executing: ${pool.executing}. Queued: ${pool.queued}. Completed: ${completed}`),
 		1500,
 	);
 	const [updatedExisting, fetchedReviews] = await Promise.all([
-		updateExistingReviews(existing),
-		scrapeReviewListPages(url, existing),
+		updateExistingReviews(existingReviews),
+		scrapeReviewListPages(url, existingReviews),
 	]);
 	const reviews = fetchedReviews.filter(isReview);
 	const droppedReviews = fetchedReviews.length - reviews.length;
 	clearInterval(interval);
 	const updates = Object.fromEntries(reviews.map((review) => [review.url, review]));
-	await fs.writeFile(ENTRIES_PATH, JSON.stringify({ ...updates, ...updatedExisting }, null, "\t") + "\n");
+	const merged = { ...updates, ...updatedExisting };
+	const compact = toCompactFile(merged, existingTags);
+	await fs.writeFile(ENTRIES_PATH, JSON.stringify(compact, null, "\t") + "\n");
 	console.log(`Done! Completed: ${completed}. Updated: ${updated}. Invalid: ${droppedReviews}`);
 	process.exit(0);
 };

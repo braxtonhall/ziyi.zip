@@ -1,6 +1,8 @@
-import { AppSettings, Review } from "./types";
-import reviews from "./reviews.json";
+import { AppSettings, parseReviews, Review } from "./types";
+import reviewsData from "./reviews.json";
 import { getHistory } from "./history";
+
+const reviews = parseReviews(reviewsData);
 
 export const getReview = async (settings: AppSettings): Promise<Review> => {
 	if (settings.updateFrequency === "refresh") {
