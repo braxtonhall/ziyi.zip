@@ -141,6 +141,10 @@ jobs:
   web:
     needs: release
     if: ${{ !cancelled() && needs.release.outputs.committed == 'true' }}
+
+    permissions:
+      contents: write
+
     uses: braxtonhall/ziyi.zip/.github/workflows/web.yml@main
     with:
       ref: ${{ needs.release.outputs.commit_sha }}
