@@ -1,5 +1,82 @@
 {
 	"reviews": {
+		"https://letterboxd.com/ziyiyan/film/zoolander/1/": {
+			"year": 2026,
+			"month": 7,
+			"day": 28,
+			"movie": {
+				"title": "Zoolander",
+				"year": 2001,
+				"url": "https://letterboxd.com/film/zoolander/",
+				"backdrop": "https://a.ltrbxd.com/resized/sm/upload/7r/nx/p5/1s/zoolander-1920-1920-1080-1080-crop-000000.jpg?v=a2d69e831f",
+				"poster": "https://a.ltrbxd.com/resized/film-poster/4/7/1/9/8/47198-zoolander-0-600-0-900-crop.jpg?v=b30902c672"
+			},
+			"tags": [],
+			"content": "<p>I mean it like the way black people use it, which is more meaningful i think&nbsp;🤣</p>",
+			"heart": 1,
+			"rewatch": 1
+		},
+		"https://letterboxd.com/ziyiyan/film/triangle-of-sadness/": {
+			"year": 2026,
+			"month": 7,
+			"day": 27,
+			"movie": {
+				"title": "Triangle of Sadness",
+				"year": 2022,
+				"url": "https://letterboxd.com/film/triangle-of-sadness/",
+				"backdrop": "https://a.ltrbxd.com/resized/sm/upload/1v/pd/wj/7b/triangle-1200-1200-675-675-crop-000000.jpg?v=22d2a49a2e",
+				"poster": "https://a.ltrbxd.com/resized/film-poster/4/2/7/9/7/0/427970-triangle-of-sadness-0-600-0-900-crop.jpg?v=a9210ebfee"
+			},
+			"tags": [],
+			"content": "<p>Just a sprinkle of&nbsp;communism</p>",
+			"heart": 1
+		},
+		"https://letterboxd.com/ziyiyan/film/the-odyssey-2026/": {
+			"year": 2026,
+			"month": 7,
+			"day": 22,
+			"movie": {
+				"title": "The Odyssey",
+				"year": 2026,
+				"url": "https://letterboxd.com/film/the-odyssey-2026/",
+				"backdrop": "https://a.ltrbxd.com/resized/sm/upload/vn/7k/d6/d7/odyssey-1920-1920-1080-1080-crop-000000.jpg?v=9f3eb79026",
+				"poster": "https://a.ltrbxd.com/resized/film-poster/1/2/5/5/3/9/4/1255394-the-odyssey-2026-0-600-0-900-crop.jpg?v=1eed046d0c"
+			},
+			"tags": ["park theatre", "35mm"],
+			"content": "<p>How can you go home if you lost&nbsp;yourself</p>",
+			"heart": 1
+		},
+		"https://letterboxd.com/ziyiyan/film/la-haine/1/": {
+			"year": 2026,
+			"month": 7,
+			"day": 26,
+			"movie": {
+				"title": "La Haine",
+				"year": 1995,
+				"url": "https://letterboxd.com/film/la-haine/",
+				"backdrop": "https://a.ltrbxd.com/resized/sm/upload/h5/en/ik/n2/la-haine-1920-1920-1080-1080-crop-000000.jpg?v=b0b3aed69a",
+				"poster": "https://a.ltrbxd.com/resized/film-poster/5/1/6/8/4/51684-la-haine-0-600-0-900-crop.jpg?v=b6677cc136"
+			},
+			"tags": ["viff center"],
+			"content": "<p>The dude dropping hard funny story at the&nbsp;restroom</p>",
+			"heart": 1,
+			"rewatch": 1
+		},
+		"https://letterboxd.com/ziyiyan/film/zoolander/": {
+			"year": 2026,
+			"month": 7,
+			"day": 23,
+			"movie": {
+				"title": "Zoolander",
+				"year": 2001,
+				"url": "https://letterboxd.com/film/zoolander/",
+				"backdrop": "https://a.ltrbxd.com/resized/sm/upload/7r/nx/p5/1s/zoolander-1920-1920-1080-1080-crop-000000.jpg?v=a2d69e831f",
+				"poster": "https://a.ltrbxd.com/resized/film-poster/4/7/1/9/8/47198-zoolander-0-600-0-900-crop.jpg?v=b30902c672"
+			},
+			"tags": [],
+			"content": "<p>We need Derek Zoolander Center for kids who can’t read good and who wanna learn to do other stuffs&nbsp;too!!</p>",
+			"heart": 1
+		},
 		"https://letterboxd.com/ziyiyan/film/something-wild/": {
 			"year": 2026,
 			"month": 7,
