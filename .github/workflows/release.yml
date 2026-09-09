@@ -24,7 +24,7 @@ jobs:
 
     outputs:
       committed: ${{ steps.sync.outputs.committed }}
-      commit_sha: ${{ steps.sync.outputs.commit_sha }}
+      commit_sha: ${{ steps.sync.outputs.commit_long_sha }}
       failed: ${{ steps.fail.outputs.failed }}
 
     steps:
