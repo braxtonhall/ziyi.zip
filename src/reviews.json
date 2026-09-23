@@ -1,5 +1,35 @@
 {
 	"reviews": {
+		"https://letterboxd.com/ziyiyan/film/chronicle-of-a-city/": {
+			"year": 2026,
+			"month": 9,
+			"day": 17,
+			"movie": {
+				"title": "Chronicle of a City",
+				"year": 2025,
+				"url": "https://letterboxd.com/film/chronicle-of-a-city/",
+				"backdrop": "https://a.ltrbxd.com/resized/sm/upload/ab/6e/mg/vx/vTsXqtkXyj6gD3eaqulPzPP8wKX-1920-1920-1080-1080-crop-000000.jpg?v=e2fcc4b3d9",
+				"poster": "https://a.ltrbxd.com/resized/film-poster/1/4/3/2/3/6/7/1432367-chronicle-of-a-city-0-600-0-900-crop.jpg?v=6632e3d53c"
+			},
+			"tags": ["cineworks", "vlaff26"],
+			"content": "<p>让我想起汉正街（最近才知道汉正街着火好像要拆了🥲</p>",
+			"heart": 1
+		},
+		"https://letterboxd.com/ziyiyan/film/edie-arnold-is-a-loser/": {
+			"year": 2026,
+			"month": 9,
+			"day": 16,
+			"movie": {
+				"title": "Edie Arnold Is a Loser",
+				"year": 2026,
+				"url": "https://letterboxd.com/film/edie-arnold-is-a-loser/",
+				"backdrop": null,
+				"poster": "https://a.ltrbxd.com/resized/film-poster/1/4/8/8/8/4/3/1488843-edie-arnold-is-a-loser-0-600-0-900-crop.jpg?v=3a3d3d3a8e"
+			},
+			"tags": ["viff center", "w/ fiona"],
+			"content": "<p>Love a cartoon-like live action so&nbsp;cute</p>",
+			"heart": 1
+		},
 		"https://letterboxd.com/ziyiyan/film/pulp-fiction/": {
 			"year": 2026,
 			"month": 9,
@@ -90,6 +120,36 @@
 			"content": "<p>Weak, cowardly or nasty. How you wanna&nbsp;survive?</p>",
 			"heart": 1
 		},
+		"https://letterboxd.com/ziyiyan/film/van-gogh/": {
+			"year": 2026,
+			"month": 8,
+			"day": 10,
+			"movie": {
+				"title": "Van Gogh",
+				"year": 1991,
+				"url": "https://letterboxd.com/film/van-gogh/",
+				"backdrop": "https://a.ltrbxd.com/resized/sm/upload/os/nb/x1/7d/van%20gogh-1920-1920-1080-1080-crop-000000.jpg?v=4aba469689",
+				"poster": "https://a.ltrbxd.com/resized/film-poster/4/9/1/6/1/49161-van-gogh-0-600-0-900-crop.jpg?v=7331dd1e16"
+			},
+			"tags": ["cinematheque ca", "w/ lars", "w/ saher"],
+			"content": "<p>I figured… Van Gogh is a&nbsp;whore?</p>",
+			"heart": 1
+		},
+		"https://letterboxd.com/ziyiyan/film/network/": {
+			"year": 2026,
+			"month": 8,
+			"day": 3,
+			"movie": {
+				"title": "Network",
+				"year": 1976,
+				"url": "https://letterboxd.com/film/network/",
+				"backdrop": "https://a.ltrbxd.com/resized/sm/upload/ve/ag/ff/p0/network-1920-1920-1080-1080-crop-000000.jpg?v=5c35d9eb33",
+				"poster": "https://a.ltrbxd.com/resized/sm/upload/lr/v7/b3/mr/2W1xPQldNjJmFgqLllpUi6XRRCs-0-600-0-900-crop.jpg?v=1aff06d731"
+			},
+			"tags": ["rio theatre", "w/ saher"],
+			"content": "<p>TIL&nbsp;cocksmanship</p>",
+			"heart": 1
+		},
 		"https://letterboxd.com/ziyiyan/film/the-hole/2/": {
 			"year": 2026,
 			"month": 8,
@@ -123,36 +183,6 @@
 			"heart": 1,
 			"rating": 5,
 			"rewatch": 1
-		},
-		"https://letterboxd.com/ziyiyan/film/van-gogh/": {
-			"year": 2026,
-			"month": 8,
-			"day": 10,
-			"movie": {
-				"title": "Van Gogh",
-				"year": 1991,
-				"url": "https://letterboxd.com/film/van-gogh/",
-				"backdrop": "https://a.ltrbxd.com/resized/sm/upload/os/nb/x1/7d/van%20gogh-1920-1920-1080-1080-crop-000000.jpg?v=4aba469689",
-				"poster": "https://a.ltrbxd.com/resized/film-poster/4/9/1/6/1/49161-van-gogh-0-600-0-900-crop.jpg?v=7331dd1e16"
-			},
-			"tags": ["cinematheque ca", "w/ lars", "w/ saher"],
-			"content": "<p>I figured… Van Gogh is a&nbsp;whore?</p>",
-			"heart": 1
-		},
-		"https://letterboxd.com/ziyiyan/film/network/": {
-			"year": 2026,
-			"month": 8,
-			"day": 3,
-			"movie": {
-				"title": "Network",
-				"year": 1976,
-				"url": "https://letterboxd.com/film/network/",
-				"backdrop": "https://a.ltrbxd.com/resized/sm/upload/ve/ag/ff/p0/network-1920-1920-1080-1080-crop-000000.jpg?v=5c35d9eb33",
-				"poster": "https://a.ltrbxd.com/resized/sm/upload/lr/v7/b3/mr/2W1xPQldNjJmFgqLllpUi6XRRCs-0-600-0-900-crop.jpg?v=1aff06d731"
-			},
-			"tags": ["rio theatre", "w/ saher"],
-			"content": "<p>TIL&nbsp;cocksmanship</p>",
-			"heart": 1
 		},
 		"https://letterboxd.com/ziyiyan/film/zoolander/1/": {
 			"year": 2026,
@@ -11722,6 +11752,8 @@
 		"doxa23": "https://letterboxd.com/ziyiyan/tag/doxa23/films/",
 		"canfilmday23": "https://letterboxd.com/ziyiyan/tag/canfilmday23/films/",
 		"w/ luoboni": "https://letterboxd.com/ziyiyan/tag/w-luoboni/films/",
-		"w/ jay": "https://letterboxd.com/ziyiyan/tag/w-jay/films/"
+		"w/ jay": "https://letterboxd.com/ziyiyan/tag/w-jay/films/",
+		"cineworks": "https://letterboxd.com/ziyiyan/tag/cineworks/films/",
+		"vlaff26": "https://letterboxd.com/ziyiyan/tag/vlaff26/films/"
 	}
 }
