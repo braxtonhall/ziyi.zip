@@ -1,5 +1,64 @@
 {
 	"reviews": {
+		"https://letterboxd.com/ziyiyan/film/you-can-see-everything/": {
+			"year": 2026,
+			"month": 10,
+			"day": 27,
+			"movie": {
+				"title": "You Can See Everything",
+				"year": 2026,
+				"url": "https://letterboxd.com/film/you-can-see-everything/",
+				"backdrop": "https://a.ltrbxd.com/resized/sm/upload/wr/rf/xg/hl/IMG_2387-1920-1920-1080-1080-crop-000000.jpg?v=cfa3502c10",
+				"poster": "https://a.ltrbxd.com/resized/film-poster/1/6/2/9/4/4/3/1629443-you-can-see-everything-0-600-0-900-crop.jpg?v=84f6724d74"
+			},
+			"tags": ["scotiabank theatre", "w/ alex", "w/ esther"],
+			"content": "<p>This is bat shit&nbsp;crazy</p>",
+			"heart": 1
+		},
+		"https://letterboxd.com/ziyiyan/film/begotten/": {
+			"year": 2026,
+			"month": 10,
+			"day": 25,
+			"movie": {
+				"title": "Begotten",
+				"year": 1989,
+				"url": "https://letterboxd.com/film/begotten/",
+				"backdrop": "https://a.ltrbxd.com/resized/sm/upload/4b/af/3n/ef/begotten-1920-1920-1080-1080-crop-000000.jpg?v=1909864275",
+				"poster": "https://a.ltrbxd.com/resized/film-poster/5/1/0/1/5/51015-begotten-0-600-0-900-crop.jpg?v=4d975bc238"
+			},
+			"tags": ["cinematheque ca", "w/ dylan"],
+			"content": "<p>Too much oozing and dripping&nbsp;🤢🤢</p>"
+		},
+		"https://letterboxd.com/ziyiyan/film/the-devils/": {
+			"year": 2026,
+			"month": 10,
+			"day": 18,
+			"movie": {
+				"title": "The Devils",
+				"year": 1971,
+				"url": "https://letterboxd.com/film/the-devils/",
+				"backdrop": "https://a.ltrbxd.com/resized/sm/upload/7s/38/js/nr/devils-1920-1920-1080-1080-crop-000000.jpg?v=647a960c7d",
+				"poster": "https://a.ltrbxd.com/resized/film-poster/3/0/8/9/9/30899-the-devils-0-600-0-900-crop.jpg?v=368cfcdfad"
+			},
+			"tags": ["park theatre", "w/ cam", "w/ luke", "w/ lars", "w/ miki"],
+			"content": "<p>What is this lunacy, a&nbsp;crocodile⁉️</p>",
+			"heart": 1
+		},
+		"https://letterboxd.com/ziyiyan/film/harakiri/": {
+			"year": 2026,
+			"month": 10,
+			"day": 16,
+			"movie": {
+				"title": "Harakiri",
+				"year": 1962,
+				"url": "https://letterboxd.com/film/harakiri/",
+				"backdrop": "https://a.ltrbxd.com/resized/sm/upload/7g/p5/0v/14/harakiri-1920-1920-1080-1080-crop-000000.jpg?v=9e264a0309",
+				"poster": "https://a.ltrbxd.com/resized/film-poster/4/3/0/1/5/43015-harakiri-0-600-0-900-crop.jpg?v=007080a0fb"
+			},
+			"tags": ["cinematheque ca", "w/ dylan"],
+			"content": "<p>I absolutely have lived enough days of this hypocrite&nbsp;world</p>",
+			"heart": 1
+		},
 		"https://letterboxd.com/ziyiyan/film/happiness-1965/": {
 			"year": 2026,
 			"month": 10,
