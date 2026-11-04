@@ -1,5 +1,36 @@
 {
 	"reviews": {
+		"https://letterboxd.com/ziyiyan/film/kwaidan/": {
+			"year": 2026,
+			"month": 10,
+			"day": 30,
+			"movie": {
+				"title": "Kwaidan",
+				"year": 1964,
+				"url": "https://letterboxd.com/film/kwaidan/",
+				"backdrop": "https://a.ltrbxd.com/resized/sm/upload/7z/5f/p3/5m/kwaidan-1920-1920-1080-1080-crop-000000.jpg?v=73cf6350db",
+				"poster": "https://a.ltrbxd.com/resized/sm/upload/hx/mh/nt/mz/kwaidan-0-600-0-900-crop.jpg?v=02c4c5b569"
+			},
+			"tags": ["cinematheque ca", "w/ david"],
+			"content": "<p>The sky is Van Gogh’s Starry Night’s level of&nbsp;beauty</p>",
+			"heart": 1
+		},
+		"https://letterboxd.com/ziyiyan/film/possible-love/1/": {
+			"year": 2026,
+			"month": 10,
+			"day": 28,
+			"movie": {
+				"title": "Possible Love",
+				"year": 2026,
+				"url": "https://letterboxd.com/film/possible-love/",
+				"backdrop": "https://a.ltrbxd.com/resized/sm/upload/hx/g5/zb/v0/uuQ36iMfWcNJfCHF8DB5ubN1NgC-1920-1920-1080-1080-crop-000000.jpg?v=40c1948443",
+				"poster": "https://a.ltrbxd.com/resized/film-poster/1/3/6/0/3/7/2/1360372-possible-love-0-600-0-900-crop.jpg?v=74d3cd22dc"
+			},
+			"tags": ["viff center", "w/ fel", "w/ yiwei", "w/ yuduan"],
+			"content": "<p>I feel the&nbsp;freedom</p>",
+			"heart": 1,
+			"rewatch": 1
+		},
 		"https://letterboxd.com/ziyiyan/film/you-can-see-everything/": {
 			"year": 2026,
 			"month": 10,
@@ -11892,6 +11923,7 @@
 		"viff26": "https://letterboxd.com/ziyiyan/tag/viff26/films/",
 		"w/ evie": "https://letterboxd.com/ziyiyan/tag/w-evie/films/",
 		"w/ lawrence": "https://letterboxd.com/ziyiyan/tag/w-lawrence/films/",
-		"w/ meera": "https://letterboxd.com/ziyiyan/tag/w-meera/films/"
+		"w/ meera": "https://letterboxd.com/ziyiyan/tag/w-meera/films/",
+		"w/ fel": "https://letterboxd.com/ziyiyan/tag/w-fel/films/"
 	}
 }
