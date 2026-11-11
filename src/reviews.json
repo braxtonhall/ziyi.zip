@@ -1,5 +1,20 @@
 {
 	"reviews": {
+		"https://letterboxd.com/ziyiyan/film/center-stage-1991/": {
+			"year": 2026,
+			"month": 11,
+			"day": 8,
+			"movie": {
+				"title": "Center Stage",
+				"year": 1991,
+				"url": "https://letterboxd.com/film/center-stage-1991/",
+				"backdrop": "https://a.ltrbxd.com/resized/sm/upload/7u/bm/as/8q/center%20stage-1920-1920-1080-1080-crop-000000.jpg?v=3afeb0d6f5",
+				"poster": "https://a.ltrbxd.com/resized/film-poster/5/3/1/9/2/53192-center-stage-0-600-0-900-crop.jpg?v=8acaff5684"
+			},
+			"tags": ["cinematheque ca", "w/ alex"],
+			"content": "<p>Don’t talk about them. Talk to&nbsp;them.</p>",
+			"heart": 1
+		},
 		"https://letterboxd.com/ziyiyan/film/kwaidan/": {
 			"year": 2026,
 			"month": 10,
